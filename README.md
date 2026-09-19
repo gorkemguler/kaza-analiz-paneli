@@ -58,7 +58,7 @@ Risk puanı = kaza sayısı + 3 × yaralanmalı kaza + 10 × can kaybı olan kaz
 
 - **30 günlük can kaybı:** Aylık bültenler yalnızca kaza yerinde ölenleri sayar. KGM raporu, 30 gün içinde hayatını kaybedenleri de verir. 2025'te kaza yerinde 2.541 kişi ölmüşken gerçek can kaybı **6.035**.
 - **Yol riski:** 100 milyon araç-km başına can kaybı. Trafik her yıl arttığı için ham kaza sayısı yanıltıcı olabiliyor; bu ölçü artıştan arındırıyor.
-- **Avrupa karşılaştırması:** Bir milyon kişiye düşen can kaybında Türkiye 28 ülke arasında 5. sırada (70 kişi; diğer ülkelerin ortalaması 41). Yalnızca Bulgaristan, Romanya, Letonya ve Hırvatistan'da oran daha yüksek.
+- **Avrupa karşılaştırması:** Bir milyon kişiye düşen can kaybında Türkiye 28 ülke arasında 5. sırada (70 kişi; diğer ülkelerin ortalaması 47). Yalnızca Bulgaristan, Romanya, Letonya ve Hırvatistan'da oran daha yüksek.
 - **Resmi kaza kara noktaları:** KGM'nin belirlediği, iyileştirme çalışması yürütülen yol kesimleri haritada ve listede.
 
 ## Canlı olaylar
