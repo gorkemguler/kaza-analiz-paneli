@@ -166,26 +166,5 @@
   "yerlesim_yeri_disi_maddi_hasarli_kaza": 5000,
   "yerlesim_yeri_disi_olu": 139,
   "yerlesim_yeri_disi_yarali": 8549
- },
- {
-  "donem": "2026-08",
-  "toplam_kaza": 64901,
-  "olumlu_kaza": 194,
-  "yaralanmali_kaza": 30234,
-  "maddi_hasarli_kaza": 34473,
-  "olu": 233,
-  "yarali": 44550,
-  "yerlesim_yeri_toplam_kaza": 55054,
-  "yerlesim_yeri_olumlu_kaza": 67,
-  "yerlesim_yeri_yaralanmali_kaza": 25632,
-  "yerlesim_yeri_maddi_hasarli_kaza": 29355,
-  "yerlesim_yeri_olu": 76,
-  "yerlesim_yeri_yarali": 35207,
-  "yerlesim_yeri_disi_toplam_kaza": 9847,
-  "yerlesim_yeri_disi_olumlu_kaza": 127,
-  "yerlesim_yeri_disi_yaralanmali_kaza": 4602,
-  "yerlesim_yeri_disi_maddi_hasarli_kaza": 5118,
-  "yerlesim_yeri_disi_olu": 157,
-  "yerlesim_yeri_disi_yarali": 9343
  }
 ]
