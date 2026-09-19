@@ -95,14 +95,17 @@
    ]
   },
   {
-   "kimlik": "kgm-kaza-kara-noktalari",
-   "ad": "KGM kaza kara noktaları",
-   "aciklama": "Karayolları Genel Müdürlüğü’nün belirlediği, iyileştirme çalışması yürütülen kaza kara noktaları. Koordinatlar Web Mercator’dan WGS84’e çevrilmiştir.",
+   "kimlik": "kgm-trafik-kazalari",
+   "ad": "KGM trafik kazası raporu (2025) ve kara noktalar",
+   "aciklama": "Karayolları Genel Müdürlüğü’nün yıllık kaza özet raporundan çıkarılan tablolar (10 yıllık seri, araç-km başına risk, kusur oranları, Avrupa karşılaştırması) ve resmi kaza kara noktaları.",
    "kaynak": "https://yol.kgm.gov.tr/kazakaranoktaweb/",
    "kaynakKurum": "Karayolları Genel Müdürlüğü",
    "kapsam": {
+    "raporYili": 2025,
+    "yillikSeri": "2016-2025",
     "nokta": 25,
-    "il": 17
+    "il": 17,
+    "ulke": 28
    },
    "dosyalar": [
     {
@@ -114,6 +117,46 @@
      "yol": "kgm/kara-noktalar.json",
      "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/kgm/kara-noktalar.json",
      "boyutKB": 4
+    },
+    {
+     "yol": "kgm/yillik-kaza-istatistikleri.csv",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/kgm/yillik-kaza-istatistikleri.csv",
+     "boyutKB": 1
+    },
+    {
+     "yol": "kgm/yillik-kaza-istatistikleri.json",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/kgm/yillik-kaza-istatistikleri.json",
+     "boyutKB": 3
+    },
+    {
+     "yol": "kgm/tasit-km-basina-risk.csv",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/kgm/tasit-km-basina-risk.csv",
+     "boyutKB": 1
+    },
+    {
+     "yol": "kgm/tasit-km-basina-risk.json",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/kgm/tasit-km-basina-risk.json",
+     "boyutKB": 1
+    },
+    {
+     "yol": "kgm/kusur-oranlari.csv",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/kgm/kusur-oranlari.csv",
+     "boyutKB": 1
+    },
+    {
+     "yol": "kgm/kusur-oranlari.json",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/kgm/kusur-oranlari.json",
+     "boyutKB": 2
+    },
+    {
+     "yol": "kgm/avrupa-karsilastirma.csv",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/kgm/avrupa-karsilastirma.csv",
+     "boyutKB": 1
+    },
+    {
+     "yol": "kgm/avrupa-karsilastirma.json",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/kgm/avrupa-karsilastirma.json",
+     "boyutKB": 5
     }
    ]
   },

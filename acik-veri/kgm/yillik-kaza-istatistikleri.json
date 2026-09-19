@@ -1,0 +1,112 @@
+[
+ {
+  "yil": 2016,
+  "arac": 21090424,
+  "toplamKaza": 1182491,
+  "olumluYaralanmaliKaza": 185128,
+  "maddiHasarliKaza": 997363,
+  "oluToplam": 7300,
+  "oluKazaYerinde": 3493,
+  "oluSonrasi": 3807,
+  "yarali": 300812
+ },
+ {
+  "yil": 2017,
+  "arac": 22218945,
+  "toplamKaza": 1202716,
+  "olumluYaralanmaliKaza": 182669,
+  "maddiHasarliKaza": 1020047,
+  "oluToplam": 7427,
+  "oluKazaYerinde": 3534,
+  "oluSonrasi": 3893,
+  "yarali": 300383
+ },
+ {
+  "yil": 2018,
+  "arac": 22865921,
+  "toplamKaza": 1229364,
+  "olumluYaralanmaliKaza": 186532,
+  "maddiHasarliKaza": 1042832,
+  "oluToplam": 6675,
+  "oluKazaYerinde": 3368,
+  "oluSonrasi": 3307,
+  "yarali": 307071
+ },
+ {
+  "yil": 2019,
+  "arac": 23156975,
+  "toplamKaza": 1168144,
+  "olumluYaralanmaliKaza": 174896,
+  "maddiHasarliKaza": 993248,
+  "oluToplam": 5473,
+  "oluKazaYerinde": 2524,
+  "oluSonrasi": 2949,
+  "yarali": 283234
+ },
+ {
+  "yil": 2020,
+  "arac": 24144857,
+  "toplamKaza": 983808,
+  "olumluYaralanmaliKaza": 150275,
+  "maddiHasarliKaza": 833533,
+  "oluToplam": 4866,
+  "oluKazaYerinde": 2197,
+  "oluSonrasi": 2669,
+  "yarali": 226266
+ },
+ {
+  "yil": 2021,
+  "arac": 25249119,
+  "toplamKaza": 1186353,
+  "olumluYaralanmaliKaza": 187963,
+  "maddiHasarliKaza": 998390,
+  "oluToplam": 5362,
+  "oluKazaYerinde": 2421,
+  "oluSonrasi": 2941,
+  "yarali": 274615
+ },
+ {
+  "yil": 2022,
+  "arac": 26482847,
+  "toplamKaza": 1232957,
+  "olumluYaralanmaliKaza": 197261,
+  "maddiHasarliKaza": 1035696,
+  "oluToplam": 5229,
+  "oluKazaYerinde": 2282,
+  "oluSonrasi": 2947,
+  "yarali": 288696
+ },
+ {
+  "yil": 2023,
+  "arac": 28740492,
+  "toplamKaza": 1314136,
+  "olumluYaralanmaliKaza": 235071,
+  "maddiHasarliKaza": 1079065,
+  "oluToplam": 6548,
+  "oluKazaYerinde": 2984,
+  "oluSonrasi": 3564,
+  "yarali": 350855
+ },
+ {
+  "yil": 2024,
+  "arac": 31301389,
+  "toplamKaza": 1444026,
+  "olumluYaralanmaliKaza": 266854,
+  "maddiHasarliKaza": 1177172,
+  "oluToplam": 6351,
+  "oluKazaYerinde": 2713,
+  "oluSonrasi": 3638,
+  "yarali": 385117
+ },
+ {
+  "yil": 2025,
+  "arac": 33612650,
+  "toplamKaza": 1549574,
+  "olumluYaralanmaliKaza": 288321,
+  "maddiHasarliKaza": 1261253,
+  "oluToplam": 6035,
+  "oluKazaYerinde": 2541,
+  "oluSonrasi": 3494,
+  "yarali": 403937
+ }
+]

@@ -45,9 +45,11 @@ jobs:
         if: env.EGM == 'true'
         run: node scripts/egm-guncelle.mjs
 
-      - name: KGM kara noktalarını kontrol et
+      - name: KGM kara noktalarını ve yıllık raporu kontrol et
         if: env.EGM == 'true'
-        run: node scripts/kgm-guncelle.mjs
+        run: |
+          node scripts/kgm-guncelle.mjs
+          node scripts/kgm-rapor.mjs
 
       - name: İBB verisini kontrol et
         if: env.IBB == 'true'

@@ -1,0 +1,82 @@
+[
+ {
+  "yil": 2016,
+  "surucu": 95.76,
+  "yaya": 1.83,
+  "tasit": 0.57,
+  "yol": 0.21,
+  "yolcu": 1.62
+ },
+ {
+  "yil": 2017,
+  "surucu": 97.04,
+  "yaya": 1.89,
+  "tasit": 0.57,
+  "yol": 0.16,
+  "yolcu": 0.34
+ },
+ {
+  "yil": 2018,
+  "surucu": 95.09,
+  "yaya": 1.79,
+  "tasit": 0.6,
+  "yol": 0.12,
+  "yolcu": 2.41
+ },
+ {
+  "yil": 2019,
+  "surucu": 95.65,
+  "yaya": 1.82,
+  "tasit": 1.37,
+  "yol": 0.19,
+  "yolcu": 0.96
+ },
+ {
+  "yil": 2020,
+  "surucu": 95.22,
+  "yaya": 2.19,
+  "tasit": 0.89,
+  "yol": 0.14,
+  "yolcu": 1.56
+ },
+ {
+  "yil": 2021,
+  "surucu": 95,
+  "yaya": 2.05,
+  "tasit": 0.65,
+  "yol": 0.04,
+  "yolcu": 2.26
+ },
+ {
+  "yil": 2022,
+  "surucu": 93.85,
+  "yaya": 1.75,
+  "tasit": 2.04,
+  "yol": 0.11,
+  "yolcu": 2.25
+ },
+ {
+  "yil": 2023,
+  "surucu": 95.89,
+  "yaya": 1.74,
+  "tasit": 1.88,
+  "yol": 0.03,
+  "yolcu": 0.46
+ },
+ {
+  "yil": 2024,
+  "surucu": 95.15,
+  "yaya": 1.78,
+  "tasit": 2.4,
+  "yol": 0.05,
+  "yolcu": 0.63
+ },
+ {
+  "yil": 2025,
+  "surucu": 94.27,
+  "yaya": 1.28,
+  "tasit": 3.72,
+  "yol": 0.06,
+  "yolcu": 0.67
+ }
+]

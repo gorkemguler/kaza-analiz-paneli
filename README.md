@@ -4,13 +4,16 @@
 
 **🌐 Canlı panel: https://gorkemguler.github.io/kaza-analiz-paneli/**
 
-Trafik polisi, kolluk birimleri ve yerel yönetimler için **resmi açık verilerle** çalışan bir trafik kazası analiz paneli. Kazaların nerede, ne zaman ve hangi koşullarda yoğunlaştığını gösterir. Riskli noktaları ve saatleri öne çıkararak devriye ve denetim planlamasına yardımcı olur.
+Türkiye'deki trafik kazalarını **resmi açık verilerle** herkese anlaşılır biçimde gösteren bir panel. Kazaların nerede, ne zaman ve hangi koşullarda yoğunlaştığını; hangi yolların ve saatlerin riskli olduğunu haritalar ve grafiklerle anlatır.
+
+Kurumların PDF ve tablolarda dağınık duran verilerini tek yerde toplar. Vatandaşlar kendi şehrinin ve yolunun durumunu görebilir; gazeteciler, araştırmacılar ve yerel yönetimler ise verileri doğrudan indirip kullanabilir.
 
 Panelde iki sayfa var:
 
 | Sayfa | Veri | Kapsam |
 | --- | --- | --- |
 | **Türkiye geneli** (varsayılan) | EGM Trafik Başkanlığı aylık bültenleri | 81 il, aylık ve yılbaşından beri |
+| **Karayolları (KGM)** | KGM yıllık kaza raporu + kara nokta servisi | 10 yıllık seri, 30 günlük ölümler, Avrupa karşılaştırması, 25 kara nokta |
 | **İstanbul kaza haritası** | İBB Ulaşım Yönetim Merkezi kaza duyuruları | 106 bin konumlu kayıt, 2013–2025 |
 | **İzmir kaza ve arıza** | İzmir Ulaşım Merkezi kayıtları | 24.660 olay, 2021–2026, müdahale süreleriyle |
 | **Canlı olaylar** | TomTom Traffic API | 81 ilde anlık kaza, arızalı araç ve yol kapanması |
@@ -24,7 +27,6 @@ Panelde iki sayfa var:
 - **Ülke geneli göstergeler:** Kaza, ölü ve yaralı sayıları; ölümlerin yerleşim yeri dışında olan payı.
 - **Kaza nedenleri:** Kaza oluş şekli, sürücü kusurları ve kazaya karışan araç türleri.
 - **Denetim faaliyetleri:** Alkollü sürücü, trafikten men edilen araç ve uygulanan cezalar.
-- **Resmi kaza kara noktaları:** KGM'nin belirlediği, iyileştirme çalışması yürütülen yol kesimleri haritada ve listede. Kara nokta, belirli bir kaza türünün yoğunlaştığı kesimi ifade eder.
 - **Uzun dönem eğilim:** 2012–2024 arası Türkiye ve İstanbul, 2012 = 100 olacak şekilde endeksli.
 
 ## İstanbul kaza haritası
@@ -33,7 +35,7 @@ Panelde iki sayfa var:
 
 - **Isı haritası:** Kaza yoğunluğunu gösterir. Can kaybı olan kazalar ayrıca işaretlenir.
 - **En riskli 10 nokta:** Yaklaşık 500 m'lik bölgelerde puanlanır. Her nokta için en yoğun saat aralığı verilir.
-- **Gün × saat matrisi:** Hangi gün, hangi saatte kaza yoğunlaştığını gösterir. Devriye planlaması için kullanılabilir.
+- **Gün × saat matrisi:** Hangi gün, hangi saatte kaza yoğunlaştığını gösterir. Yola çıkarken riskin arttığı saatleri görmek için.
 - **Filtreler:** Tarih aralığı, kaza sonucu (maddi hasarlı, yaralanmalı, ölümlü) ve yol (D100, TEM, Basın Ekspres…).
 
 Risk puanı = kaza sayısı + 3 × yaralanmalı kaza + 10 × can kaybı olan kaza
@@ -49,6 +51,15 @@ Risk puanı = kaza sayısı + 3 × yaralanmalı kaza + 10 × can kaybı olan kaz
 - **Olay türleri:** Ölümlü, yaralanmalı, zincirleme, maddi hasarlı kazalar ve arıza türleri (arızalı araç, patlak lastik, yakıt bitimi, araç yangını).
 
 - **Kaza yoğunluk haritası:** Kayıtlarda koordinat yok; cadde ve mevki adları ([`scripts/izmir-konum.mjs`](scripts/izmir-konum.mjs)) OpenStreetMap ile eşleştirilip noktalar caddenin üzerine oturtuluyor. Kayıtların yaklaşık **%62'si** haritalanabiliyor, cadde seçilince bu oran daha da yükseliyor. Noktalar **yaklaşıktır**: mevkinin cadde üzerindeki hizasını gösterir, kazanın tam yerini değil.
+
+## Karayolları (KGM)
+
+![KGM sayfası](docs/kgm.png)
+
+- **30 günlük can kaybı:** Aylık bültenler yalnızca kaza yerinde ölenleri sayar. KGM raporu, 30 gün içinde hayatını kaybedenleri de verir. 2025'te kaza yerinde 2.541 kişi ölmüşken gerçek can kaybı **6.035**.
+- **Yol riski:** 100 milyon araç-km başına can kaybı. Trafik her yıl arttığı için ham kaza sayısı yanıltıcı olabiliyor; bu ölçü artıştan arındırıyor.
+- **Avrupa karşılaştırması:** Bir milyon kişiye düşen can kaybında Türkiye 28 ülke arasında 5. sırada (70 kişi; diğer ülkelerin ortalaması 41). Yalnızca Bulgaristan, Romanya, Letonya ve Hırvatistan'da oran daha yüksek.
+- **Resmi kaza kara noktaları:** KGM'nin belirlediği, iyileştirme çalışması yürütülen yol kesimleri haritada ve listede.
 
 ## Canlı olaylar
 

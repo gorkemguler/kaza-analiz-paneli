@@ -5,7 +5,6 @@ import { Kpis, ChartCard, Segmented, Sources } from '../components/ui.jsx'
 import { ANIMATE, AXIS, GRID, TOOLTIP, SERIES } from '../chart-theme.js'
 import ProvinceMap from '../components/ProvinceMap.jsx'
 import ProvinceTable from '../components/ProvinceTable.jsx'
-import KaraNoktalar from '../components/KaraNoktalar.jsx'
 
 const METRICS = [
   { value: 'olu', label: 'Ölü' },
@@ -62,7 +61,6 @@ export default function TurkiyePage() {
   const seri = useApi('turkiye/seri')
   const ilSeri = useApi(selected && `turkiye/il/${selected}`)
   const yillik = useApi('turkiye/yillik')
-  const karaNoktalar = useApi('turkiye/kara-noktalar')
 
   const d = donem.data
   const rows = d?.iller[scope] ?? []
@@ -141,8 +139,6 @@ export default function TurkiyePage() {
         </div>
       </section>
 
-      {karaNoktalar.data && <KaraNoktalar data={karaNoktalar.data} />}
-
       <section className="charts">
         <ChartCard
           span={3}
@@ -196,7 +192,6 @@ export default function TurkiyePage() {
         items={[
           { name: 'EGM Trafik Başkanlığı: Aylık Trafik İstatistik Bülteni', url: 'https://trafik.gov.tr/istatistikler37', note: `${periods.data.length} bülten, ${periods.data.at(-1).label} – ${periods.data[0].label}` },
           { name: 'Bu sayfadaki verileri JSON/CSV olarak indirin (açık veri)', url: 'https://github.com/gorkemguler/kaza-analiz-paneli/tree/main/acik-veri', note: 'PDF’lerden çıkarılmış, doğrulanmış, her gün otomatik güncellenir' },
-          { name: 'KGM: Kaza Kara Nokta Haritası', url: 'https://yol.kgm.gov.tr/kazakaranoktaweb/', note: `${karaNoktalar.data?.noktalar.length ?? 0} resmi kara nokta` },
           { name: 'İBB Açık Veri: Yıllara Göre Ölümlü Yaralanmalı Trafik Kaza Sayısı', url: 'https://data.ibb.gov.tr/dataset/yillara-gore-olumlu-yaralanmali-trafik-kaza-sayisi', note: 'İBB Açık Veri Lisansı' },
         ]}
       />

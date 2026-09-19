@@ -1,0 +1,72 @@
+[
+ {
+  "yil": 2016,
+  "kaza": 43.8,
+  "oluKazaYeri": 1.85,
+  "oluToplam": 3.31,
+  "yarali": 91.78
+ },
+ {
+  "yil": 2017,
+  "kaza": 41.12,
+  "oluKazaYeri": 1.79,
+  "oluToplam": 3.2,
+  "yarali": 85.99
+ },
+ {
+  "yil": 2018,
+  "kaza": 39.1,
+  "oluKazaYeri": 1.65,
+  "oluToplam": 2.81,
+  "yarali": 83.13
+ },
+ {
+  "yil": 2019,
+  "kaza": 33.63,
+  "oluKazaYeri": 1.21,
+  "oluToplam": 2.2,
+  "yarali": 71.36
+ },
+ {
+  "yil": 2020,
+  "kaza": 30.43,
+  "oluKazaYeri": 1.07,
+  "oluToplam": 2.01,
+  "yarali": 58.02
+ },
+ {
+  "yil": 2021,
+  "kaza": 30.75,
+  "oluKazaYeri": 1.12,
+  "oluToplam": 2.02,
+  "yarali": 57.79
+ },
+ {
+  "yil": 2022,
+  "kaza": 30.47,
+  "oluKazaYeri": 1.08,
+  "oluToplam": 2,
+  "yarali": 58.45
+ },
+ {
+  "yil": 2023,
+  "kaza": 34.67,
+  "oluKazaYeri": 1.29,
+  "oluToplam": 2.33,
+  "yarali": 67.93
+ },
+ {
+  "yil": 2024,
+  "kaza": 33.19,
+  "oluKazaYeri": 1.09,
+  "oluToplam": 2.06,
+  "yarali": 62.43
+ },
+ {
+  "yil": 2025,
+  "kaza": 32.39,
+  "oluKazaYeri": 0.98,
+  "oluToplam": 1.85,
+  "yarali": 58.03
+ }
+]

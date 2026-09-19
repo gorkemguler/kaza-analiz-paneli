@@ -136,15 +136,22 @@ async function egm() {
 
 async function kgm() {
   const data = JSON.parse(await fs.readFile(path.join(DATA, 'kgm/kara-noktalar.json'), 'utf8'))
+  const rapor = JSON.parse(await fs.readFile(path.join(DATA, 'kgm/rapor.json'), 'utf8'))
   const rows = data.noktalar.map((n) => ({ kara_nokta_no: n.kkno, il: n.il, ilce: n.ilce, bolge: n.bolge, km: n.km, enlem: n.lat, boylam: n.lng }))
   return {
-    kimlik: 'kgm-kaza-kara-noktalari',
-    ad: 'KGM kaza kara noktaları',
-    aciklama: 'Karayolları Genel Müdürlüğü’nün belirlediği, iyileştirme çalışması yürütülen kaza kara noktaları. Koordinatlar Web Mercator’dan WGS84’e çevrilmiştir.',
+    kimlik: 'kgm-trafik-kazalari',
+    ad: `KGM trafik kazası raporu (${rapor.yil}) ve kara noktalar`,
+    aciklama: 'Karayolları Genel Müdürlüğü’nün yıllık kaza özet raporundan çıkarılan tablolar (10 yıllık seri, araç-km başına risk, kusur oranları, Avrupa karşılaştırması) ve resmi kaza kara noktaları.',
     kaynak: data.kaynak,
     kaynakKurum: data.kurum,
-    kapsam: { nokta: rows.length, il: new Set(rows.map((r) => r.il)).size },
-    dosyalar: await table('kgm/kara-noktalar', Object.keys(rows[0]), rows),
+    kapsam: { raporYili: rapor.yil, yillikSeri: `${rapor.yillik[0].yil}-${rapor.yillik.at(-1).yil}`, nokta: rows.length, il: new Set(rows.map((r) => r.il)).size, ulke: rapor.avrupa.length },
+    dosyalar: [
+      ...(await table('kgm/kara-noktalar', Object.keys(rows[0]), rows)),
+      ...(await table('kgm/yillik-kaza-istatistikleri', Object.keys(rapor.yillik[0]), rapor.yillik)),
+      ...(await table('kgm/tasit-km-basina-risk', Object.keys(rapor.tasitKm[0]), rapor.tasitKm)),
+      ...(await table('kgm/kusur-oranlari', Object.keys(rapor.kusur[0]), rapor.kusur)),
+      ...(await table('kgm/avrupa-karsilastirma', Object.keys(rapor.avrupa[0]), rapor.avrupa)),
+    ],
   }
 }
 

@@ -19,7 +19,7 @@
     "api": "npm start -w server",
     "veri:izmir": "node scripts/izmir-guncelle.mjs && node scripts/acik-veri.mjs",
     "veri:izmir-konum": "node scripts/izmir-konum.mjs",
-    "veri:kgm": "node scripts/kgm-guncelle.mjs && node scripts/acik-veri.mjs"
+    "veri:kgm": "node scripts/kgm-guncelle.mjs && node scripts/kgm-rapor.mjs && node scripts/acik-veri.mjs"
   },
   "license": "MIT",
   "devDependencies": {

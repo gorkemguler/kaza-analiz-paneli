@@ -3,7 +3,7 @@ import { fmt } from '../api.js'
 const DAYS = ['Pazartesi', 'Salı', 'Çarşamba', 'Perşembe', 'Cuma', 'Cumartesi', 'Pazar']
 const RAMP = ['#0d366b', '#184f95', '#256abf', '#3987e5', '#6da7ec', '#9ec5f4', '#cde2fb']
 
-// Gün × saat yoğunluk matrisi: devriye/denetim planlaması için hangi gün hangi saatte kaza yoğunlaşıyor
+// Gün × saat yoğunluk matrisi: haftanın hangi gününde, hangi saatte kaza yoğunlaşıyor
 export default function WeekHourGrid({ grid, title = 'Gün ve saate göre kaza yoğunluğu', unit = 'kaza' }) {
   const max = Math.max(1, ...grid.flat())
   const color = (v) => (v === 0 ? 'transparent' : RAMP[Math.min(RAMP.length - 1, Math.floor((v / max) * RAMP.length))])
