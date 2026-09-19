@@ -4,14 +4,9 @@ import { useLeafletContext } from '@react-leaflet/core'
 import { MapContainer, TileLayer, CircleMarker, Popup, LayersControl, LayerGroup, useMap } from 'react-leaflet'
 import { SEVERITY_COLORS } from '../api.js'
 
-const CITY_VIEWS = {
-  '': { center: [39.6, 30.5], zoom: 6 },
-  Ankara: { center: [39.925, 32.8], zoom: 12 },
-  İstanbul: { center: [41.03, 29.0], zoom: 11 },
-  İzmir: { center: [38.44, 27.14], zoom: 12 },
-}
-
-const HEAT_WEIGHT = { 'Maddi hasarlı': 0.4, Yaralanmalı: 0.7, Ölümlü: 1 }
+const ISTANBUL = { center: [41.03, 28.98], zoom: 10 }
+// Sonuç sırası sunucudaki severities dizisiyle aynı: maddi, yaralanmalı, ölümlü, belirtilmemiş
+const HEAT_WEIGHT = [0.4, 0.7, 1, 0.4]
 
 function HeatLayer({ points }) {
   // Katman menüsünden açılıp kapanabilmesi için üst LayerGroup'a eklenir
@@ -19,8 +14,8 @@ function HeatLayer({ points }) {
   useEffect(() => {
     const container = layerContainer ?? map
     const layer = L.heatLayer(
-      points.map((a) => [a.lat, a.lng, HEAT_WEIGHT[a.severity]]),
-      { radius: 18, blur: 20, maxZoom: 14, minOpacity: 0.35 },
+      points.map(([lat, lng, sev]) => [lat, lng, HEAT_WEIGHT[sev]]),
+      { radius: 14, blur: 16, maxZoom: 15, minOpacity: 0.35 },
     )
     container.addLayer(layer)
     return () => container.removeLayer(layer)
@@ -28,45 +23,39 @@ function HeatLayer({ points }) {
   return null
 }
 
-function ViewController({ city, focus }) {
+function FocusController({ focus }) {
   const map = useMap()
   useEffect(() => {
-    const v = CITY_VIEWS[city] ?? CITY_VIEWS['']
-    map.flyTo(v.center, v.zoom, { duration: 0.8 })
-  }, [map, city])
-  useEffect(() => {
-    if (focus) map.flyTo([focus.lat, focus.lng], 16, { duration: 0.8 })
+    if (focus) map.flyTo([focus.lat, focus.lng], 15, { duration: 0.8 })
   }, [map, focus])
   return null
 }
 
-const dateFmt = new Intl.DateTimeFormat('tr-TR', { dateStyle: 'medium', timeStyle: 'short', timeZone: 'UTC' })
+const dateFmt = new Intl.DateTimeFormat('tr-TR', { dateStyle: 'medium', timeStyle: 'short' })
+const parseLocal = (t) => new Date(`${t}:00`)
 
-export default function AccidentMap({ accidents, hotspots, city, focus }) {
-  const serious = accidents.filter((a) => a.severity === 'Ölümlü')
-  const v = CITY_VIEWS['']
-
+export default function AccidentMap({ points, fatal, hotspots, focus }) {
   return (
-    <MapContainer center={v.center} zoom={v.zoom} className="map" scrollWheelZoom>
+    <MapContainer center={ISTANBUL.center} zoom={ISTANBUL.zoom} className="map" scrollWheelZoom>
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> katkıcıları'
         url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      <ViewController city={city} focus={focus} />
+      <FocusController focus={focus} />
       <LayersControl position="topright">
         <LayersControl.Overlay checked name="Isı haritası">
           <LayerGroup>
-            <HeatLayer points={accidents} />
+            <HeatLayer points={points} />
           </LayerGroup>
         </LayersControl.Overlay>
-        <LayersControl.Overlay checked name="Ölümlü kazalar">
+        <LayersControl.Overlay checked name="Can kaybı olan kazalar">
           <LayerGroup>
-            {serious.map((a) => (
-              <CircleMarker key={a.id} center={[a.lat, a.lng]} radius={4} pathOptions={{ color: SEVERITY_COLORS.Ölümlü, fillOpacity: 0.9, weight: 1 }}>
+            {fatal.map((a) => (
+              <CircleMarker key={a.id} center={[a.lat, a.lng]} radius={5} pathOptions={{ color: '#0f172a', weight: 1.5, fillColor: SEVERITY_COLORS.Ölümlü, fillOpacity: 1 }}>
                 <Popup>
-                  <b>{a.location}</b>
+                  <b>{dateFmt.format(parseLocal(a.t))}</b>
                   <br />
-                  {a.type} · {dateFmt.format(new Date(a.date))}
+                  {a.title}
                 </Popup>
               </CircleMarker>
             ))}
@@ -77,9 +66,11 @@ export default function AccidentMap({ accidents, hotspots, city, focus }) {
             {hotspots.map((h, i) => (
               <CircleMarker key={h.id} center={[h.lat, h.lng]} radius={14} pathOptions={{ color: '#fbbf24', weight: 2, fillOpacity: 0.1 }}>
                 <Popup>
-                  <b>#{i + 1} {h.location}</b>
+                  <b>
+                    #{i + 1} {h.location}
+                  </b>
                   <br />
-                  {h.count} kaza · {h.injured} yaralı · {h.dead} ölü
+                  {h.count} kaza duyurusu · {h.injury} yaralanmalı · {h.fatal} can kaybı
                   <br />
                   En yoğun saat: {h.peakHour}
                 </Popup>

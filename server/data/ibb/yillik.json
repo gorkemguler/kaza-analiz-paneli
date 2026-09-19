@@ -1,0 +1,97 @@
+{
+ "source": "https://data.ibb.gov.tr/dataset/yillara-gore-olumlu-yaralanmali-trafik-kaza-sayisi",
+ "license": "İBB Açık Veri Lisansı",
+ "years": [
+  {
+   "yil": 2012,
+   "trYerlesim": 111564,
+   "istYerlesim": 13269,
+   "trDisi": 41988,
+   "istDisi": 1813
+  },
+  {
+   "yil": 2013,
+   "trYerlesim": 120095,
+   "istYerlesim": 13575,
+   "trDisi": 41211,
+   "istDisi": 1649
+  },
+  {
+   "yil": 2014,
+   "trYerlesim": 126537,
+   "istYerlesim": 13904,
+   "trDisi": 41975,
+   "istDisi": 1673
+  },
+  {
+   "yil": 2015,
+   "trYerlesim": 137311,
+   "istYerlesim": 14299,
+   "trDisi": 45700,
+   "istDisi": 1782
+  },
+  {
+   "yil": 2016,
+   "trYerlesim": 138716,
+   "istYerlesim": 14015,
+   "trDisi": 46412,
+   "istDisi": 2087
+  },
+  {
+   "yil": 2017,
+   "trYerlesim": 135853,
+   "istYerlesim": 13313,
+   "trDisi": 46816,
+   "istDisi": 2184
+  },
+  {
+   "yil": 2018,
+   "trYerlesim": 139922,
+   "istYerlesim": 14373,
+   "trDisi": 46610,
+   "istDisi": 2128
+  },
+  {
+   "yil": 2019,
+   "trYerlesim": 132683,
+   "istYerlesim": 14693,
+   "trDisi": 42213,
+   "istDisi": 2044
+  },
+  {
+   "yil": 2020,
+   "trYerlesim": 113863,
+   "istYerlesim": 13814,
+   "trDisi": 36412,
+   "istDisi": 1635
+  },
+  {
+   "yil": 2021,
+   "trYerlesim": 147733,
+   "istYerlesim": 20107,
+   "trDisi": 40230,
+   "istDisi": 2188
+  },
+  {
+   "yil": 2022,
+   "trYerlesim": 162667,
+   "istYerlesim": 20712,
+   "trDisi": 34594,
+   "istDisi": 2202
+  },
+  {
+   "yil": 2023,
+   "trYerlesim": 195321,
+   "istYerlesim": 23459,
+   "trDisi": 39750,
+   "istDisi": 2163
+  },
+  {
+   "yil": 2024,
+   "trYerlesim": 228119,
+   "istYerlesim": 31171,
+   "trDisi": 38735,
+   "istDisi": 2465
+  }
+ ]
+}

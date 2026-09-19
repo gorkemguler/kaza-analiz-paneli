@@ -1,40 +1,91 @@
 # 🚓 Trafik Kaza Analiz Paneli
 
-Trafik polisi ve kolluk birimleri için kaza verisini harita ve grafiklerle analiz eden bir web paneli. Kazaların **nerede**, **ne zaman** ve **hangi koşullarda** yoğunlaştığını gösterir. Riskli noktaları puanlayarak devriye ve denetim planlamasına yardımcı olur.
+Trafik polisi, kolluk birimleri ve yerel yönetimler için **resmi açık verilerle** çalışan bir trafik kazası analiz paneli. Kazaların nerede, ne zaman ve hangi koşullarda yoğunlaştığını gösterir. Riskli noktaları ve saatleri öne çıkararak devriye ve denetim planlamasına yardımcı olur.
 
-![Panel ekran görüntüsü](docs/ekran-goruntusu.png)
+Panelde iki sayfa var:
 
-> ⚠️ **Not:** Depodaki veriler **demo amaçlı sentetik verilerdir**. Konumlar gerçek kavşaklardır ama kaza kayıtları rastgele üretilmiştir. Gerçek kararlar için resmi kayıtlar kullanılmalıdır.
+| Sayfa | Veri | Kapsam |
+| --- | --- | --- |
+| **Türkiye geneli** (varsayılan) | EGM Trafik Başkanlığı aylık bültenleri | 81 il, aylık ve yılbaşından beri |
+| **İstanbul kaza haritası** | İBB Ulaşım Yönetim Merkezi kaza duyuruları | 106 bin konumlu kayıt, 2013–2025 |
 
-## Özellikler
+## Türkiye geneli
 
-- **Isı haritası:** Kaza yoğunluğunu ağırlıklı olarak gösterir (ölümlü > yaralanmalı > maddi hasarlı).
-- **Risk noktaları:** Kazalar ~500 m'lik hücrelerde toplanır ve puanlanır. Listeden bir noktaya tıklayınca harita oraya yakınlaşır.
-- **Filtreler:** Şehir, tarih aralığı, kaza türü, kaza sonucu ve hava durumu.
-- **Özet göstergeler:** Toplam kaza, yaralı, ölü, ölümlü kaza oranı ve gece kazası oranı.
-- **Grafikler:** Saatlik dağılım, haftanın günleri, aylık eğilim, kaza türleri, kaza sonucu ve hava durumu.
-- **Harita katmanları:** Isı haritası, ölümlü kazalar ve risk noktaları ayrı ayrı açılıp kapatılabilir.
+![Türkiye geneli sayfası](docs/turkiye.png)
 
-### Risk puanı
+- **İl haritası:** Ölü, yaralı, ölümlü-yaralanmalı kaza ya da maddi hasarlı kaza sayısına göre renklenir.
+- **İl tablosu:** Aranabilir ve sıralanabilir. Bir ile tıklayınca o ilin aylık eğilimi açılır.
+- **Ülke geneli göstergeler:** Kaza, ölü ve yaralı sayıları; ölümlerin yerleşim yeri dışında olan payı.
+- **Kaza nedenleri:** Kaza oluş şekli, sürücü kusurları ve kazaya karışan araç türleri.
+- **Denetim faaliyetleri:** Alkollü sürücü, trafikten men edilen araç ve uygulanan cezalar.
+- **Uzun dönem eğilim:** 2012–2024 arası Türkiye ve İstanbul, 2012 = 100 olacak şekilde endeksli.
 
+## İstanbul kaza haritası
+
+![İstanbul kaza haritası sayfası](docs/istanbul.png)
+
+- **Isı haritası:** Kaza yoğunluğunu gösterir. Can kaybı olan kazalar ayrıca işaretlenir.
+- **En riskli 10 nokta:** Yaklaşık 500 m'lik bölgelerde puanlanır. Her nokta için en yoğun saat aralığı verilir.
+- **Gün × saat matrisi:** Hangi gün, hangi saatte kaza yoğunlaştığını gösterir. Devriye planlaması için kullanılabilir.
+- **Filtreler:** Tarih aralığı, kaza sonucu (maddi hasarlı, yaralanmalı, ölümlü) ve yol (D100, TEM, Basın Ekspres…).
+
+Risk puanı = kaza sayısı + 3 × yaralanmalı kaza + 10 × can kaybı olan kaza
+
+## Veri kaynakları
+
+| Kaynak | Biçim | Güncelleme | Lisans |
+| --- | --- | --- | --- |
+| [EGM Trafik Başkanlığı: Aylık Trafik İstatistik Bülteni](https://trafik.gov.tr/istatistikler37) | PDF | Her ay, izleyen ayın sonuna kadar | Resmi İstatistik Programı |
+| [İBB: UYM Trafik Duyuru Verisi](https://data.ibb.gov.tr/dataset/ulasim-yonetim-merkezi-trafik-duyuru-verisi) | CSV | Düzensiz (son: Mart 2025) | İBB Açık Veri Lisansı |
+| [İBB: Yıllara Göre Ölümlü Yaralanmalı Trafik Kaza Sayısı](https://data.ibb.gov.tr/dataset/yillara-gore-olumlu-yaralanmali-trafik-kaza-sayisi) | API | Yıllık | İBB Açık Veri Lisansı |
+| [Turkey-Maps-GeoJSON](https://github.com/alpers/Turkey-Maps-GeoJSON) (il sınırları) | GeoJSON | – | [Apache-2.0](docs/LICENSE-tr-iller-geojson.txt) |
+
+### Verileri okurken dikkat
+
+- EGM bültenlerindeki **ölü sayıları yalnızca kaza yerindeki ölümleri** kapsar. 30 günlük ölümleri içeren kesin rakamları TÜİK yıllık olarak yayımlar.
+- EGM verilerinde, tarafların kendi aralarında tutanak tuttuğu maddi hasarlı kazalar yer almaz.
+- İBB verisi **kaza duyurularıdır**, tüm kazaların resmi kaydı değildir. Ağırlıkla ana arterlerdeki ve kamera görüş alanındaki kazaları kapsar.
+- İBB duyurularında kaza sonucu (hasarlı, yaralanmalı, can kaybı) duyuru metninden çıkarılır. Yaklaşık %20'sinde sonuç belirtilmemiştir.
+- İBB duyurularındaki bitiş saatleri çoğunlukla duyurunun varsayılan yayın süresidir (~29 veya ~89 dk). Bu yüzden müdahale süresi olarak kullanılmaz.
+
+## Verileri güncelleme
+
+### EGM (her ay)
+
+EGM yeni bülteni sitesine koyduğunda tek komut yeterli:
+
+```bash
+npm run veri:egm
 ```
-risk = kaza sayısı + 3 × yaralı sayısı + 10 × ölü sayısı
+
+Betik şunları yapar:
+
+1. trafik.gov.tr sayfasındaki bülten bağlantılarını bulur ve henüz işlenmemiş PDF'leri indirir.
+2. PDF'teki tabloları okur: genel toplamlar, oluş şekli, kusurlar, araç türleri, 81 il, cezalar.
+3. **Her tabloyu doğrular.** Satırların toplamı PDF'teki TOPLAM satırını tutmazsa hata verir ve dosyayı yazmaz.
+4. PDF'te boş bırakılmış tek bir hücre varsa (örneğin Ağustos 2026'da Sinop) değeri TOPLAM satırından hesaplar ve işaretler.
+5. Sonucu `server/data/egm/YYYY-AA.json` olarak kaydeder.
+
+Diğer seçenekler:
+
+```bash
+npm run veri:egm -- --hepsi          # tüm bültenleri yeniden işle
+npm run veri:egm -- ~/Downloads/bulten.pdf   # elle indirilen bir PDF'i işle
 ```
 
-Her risk noktası için ayrıca **en yoğun saat aralığı** hesaplanır. Böylece denetim ekiplerinin hangi saatlerde nerede bulunması gerektiği görülebilir.
+Güncellemeden sonra `npm test` çalıştırıp sunucuyu yeniden başlatın.
 
-## Teknolojiler
+### İBB
 
-| Katman | Teknoloji |
-| --- | --- |
-| Arayüz | React 19, Vite, Leaflet + leaflet.heat, Recharts |
-| API | Node.js, Express |
-| Harita | OpenStreetMap |
-| Test | `node:test` |
+```bash
+npm run veri:ibb
+```
+
+Betik, İBB portalından güncel CSV'yi ve yıllık seriyi indirir, kaza duyurularını ayıklar ve `server/data/ibb/` altına sıkıştırılmış olarak kaydeder.
 
 ## Kurulum
 
-Node.js 20 veya üzeri gerekir.
+Node.js 20 veya üzeri gerekir. İşlenmiş veriler depoda hazır olduğu için kurulumdan hemen sonra çalışır.
 
 ```bash
 git clone https://github.com/gorkemguler/kaza-analiz-paneli.git
@@ -50,7 +101,7 @@ npm run dev
 
 ```bash
 npm run build   # React uygulamasını derler
-npm start       # API + derlenmiş arayüz tek sunucudan: http://localhost:3001
+npm start       # API + arayüz tek sunucudan: http://localhost:3001
 ```
 
 ### Testler
@@ -59,55 +110,54 @@ npm start       # API + derlenmiş arayüz tek sunucudan: http://localhost:3001
 npm test
 ```
 
-## API
+Testler, her EGM bülteninde 81 ilin toplamının ülke toplamına eşit olduğunu ve İBB sınıflandırmalarının doğru çalıştığını kontrol eder.
 
-Tüm uç noktalar aynı filtre parametrelerini alır: `city`, `from`, `to` (YYYY-AA-GG), `type`, `severity`, `weather`. Çoklu seçim için değerler virgülle ayrılır.
+## API
 
 | Uç nokta | Açıklama |
 | --- | --- |
-| `GET /api/meta` | Şehirler, kaza türleri, sonuçlar, hava durumları ve tarih aralığı |
-| `GET /api/accidents` | Filtrelenmiş kaza noktaları (harita için) |
-| `GET /api/stats` | Toplamlar ve dağılımlar (saat, gün, ay, tür, sonuç, hava) |
-| `GET /api/hotspots?limit=10` | En riskli noktalar (en fazla 50) |
+| `GET /api/turkiye/donemler` | Mevcut bülten dönemleri |
+| `GET /api/turkiye/donem/2026-08` | Bir ayın tüm tabloları (81 il dahil) |
+| `GET /api/turkiye/seri` | Ülke geneli aylık seri |
+| `GET /api/turkiye/il/6` | Bir ilin (plaka kodu) aylık serisi |
+| `GET /api/turkiye/yillik` | 2012'den beri Türkiye ve İstanbul yıllık seri |
+| `GET /api/istanbul/meta` | Tarih aralığı, kaza sonucu ve yol listeleri |
+| `GET /api/istanbul/stats` | Toplamlar ve dağılımlar (saat, gün, gün×saat, yıl, ay, yol) |
+| `GET /api/istanbul/hotspots?limit=10` | En riskli noktalar |
+| `GET /api/istanbul/points` | Harita noktaları |
 
-Örnek:
+İstanbul uç noktaları şu filtreleri alır: `from`, `to` (YYYY-AA-GG), `severity` ve `road`. Birden fazla değer virgülle ayrılır.
 
 ```bash
-curl "http://localhost:3001/api/hotspots?city=Ankara&severity=Yaralanmalı,Ölümlü&limit=5"
+curl "http://localhost:3001/api/istanbul/hotspots?from=2024-01-01&severity=Yaralanmalı,Ölümlü&limit=5"
 ```
 
 ## Proje yapısı
 
 ```
-├── client/                 React arayüzü
+├── client/                     React arayüzü (Vite)
+│   ├── public/tr-iller.json    81 il sınırları
 │   └── src/
-│       ├── App.jsx
-│       ├── api.js
-│       └── components/     Harita, filtreler, grafikler, risk tablosu
-└── server/                 Express API
-    ├── src/
-    │   ├── data.js         Sentetik veri üretici
-    │   ├── analytics.js    Filtreleme, istatistik ve risk noktası hesaplama
-    │   └── index.js        API uç noktaları
+│       ├── pages/              TurkiyePage, IstanbulPage
+│       └── components/         İl haritası, il tablosu, kaza haritası, gün×saat matrisi…
+├── scripts/
+│   ├── egm-guncelle.mjs        EGM PDF indirici
+│   ├── ibb-guncelle.mjs        İBB CSV/API indirici
+│   └── lib/egm-parser.mjs      PDF tablo ayrıştırıcı
+└── server/
+    ├── data/                   İşlenmiş veriler (egm/*.json, ibb/*.json.gz)
+    ├── src/                    Express API
     └── test/
-```
-
-## Gerçek veriyle kullanma
-
-`server/src/data.js` içindeki `generateAccidents()` yerine kendi veri kaynağınızı (CSV, PostgreSQL vb.) okuyan bir fonksiyon yazmanız yeterli. Her kayıtta şu alanlar bulunmalı:
-
-```js
-{ id, city, location, lat, lng, date, hour, weekday, type, severity, weather, vehicles, injured, dead }
 ```
 
 ## Yol haritası
 
-- [ ] CSV dosyası yükleyerek analiz
+- [ ] İl bazında nüfusa göre oran (100 bin kişi başına ölü/yaralı)
+- [ ] Bir önceki yılın aynı ayıyla karşılaştırma
+- [ ] Canlı olay verisi (TomTom Traffic API / Waze for Cities)
 - [ ] PDF/Excel rapor çıktısı
-- [ ] Rol tabanlı kullanıcı girişi
-- [ ] Önceki dönemle karşılaştırma
-- [ ] Denetim noktası öneri modülü
+- [ ] Yeni EGM bülteni için otomatik aylık güncelleme (GitHub Actions)
 
 ## Lisans
 
-[MIT](LICENSE)
+Kod [MIT](LICENSE) lisanslıdır. Veriler ilgili kurumların lisanslarına tabidir (yukarıdaki tabloya bakın).

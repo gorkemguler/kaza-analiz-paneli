@@ -1,21 +1,45 @@
+import { useEffect, useState } from 'react'
+
 export const SEVERITY_COLORS = {
-  'Maddi hasarlı': '#60a5fa',
-  Yaralanmalı: '#f59e0b',
-  Ölümlü: '#ef4444',
+  'Maddi hasarlı': '#3987e5',
+  Yaralanmalı: '#c98500',
+  Ölümlü: '#e66767',
+  Belirtilmemiş: '#6b7280',
 }
 
-function toQuery(filters) {
-  const params = new URLSearchParams()
-  for (const [key, value] of Object.entries(filters)) {
+export const fmt = (n) => (n == null ? '–' : n.toLocaleString('tr-TR'))
+export const pct = (a, b) => (b ? `%${((a / b) * 100).toLocaleString('tr-TR', { maximumFractionDigits: 1 })}` : '–')
+
+function toQuery(params) {
+  const q = new URLSearchParams()
+  for (const [key, value] of Object.entries(params)) {
     const v = Array.isArray(value) ? value.join(',') : value
-    if (v) params.set(key, v)
+    if (v) q.set(key, v)
   }
-  return params.toString()
+  const s = q.toString()
+  return s ? `?${s}` : ''
 }
 
-export async function getJson(path, filters = {}) {
-  const qs = toQuery(filters)
-  const res = await fetch(`/api/${path}${qs ? `?${qs}` : ''}`)
+export async function getJson(path, params = {}) {
+  const res = await fetch(`/api/${path}${toQuery(params)}`)
   if (!res.ok) throw new Error(`${path} yüklenemedi (${res.status})`)
   return res.json()
+}
+
+// Parametreler değiştikçe veriyi yeniden çeker; eski isteklerin sonucunu yok sayar
+export function useApi(path, params = {}) {
+  const key = path ? path + toQuery(params) : null
+  const [state, setState] = useState({ data: null, error: null, key: null })
+  useEffect(() => {
+    if (!key) return
+    let cancelled = false
+    getJson(path, params)
+      .then((data) => !cancelled && setState({ data, error: null, key }))
+      .catch((error) => !cancelled && setState((s) => ({ ...s, error, key })))
+    return () => {
+      cancelled = true
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [key])
+  return { data: state.data, error: state.error, loading: state.key !== key }
 }
