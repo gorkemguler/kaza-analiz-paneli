@@ -37,6 +37,8 @@ export const MAGNITUDE = ['Bilinmiyor', 'Hafif', 'Orta', 'Ağır', 'Belirsiz']
 const FIELDS =
   '{incidents{type,geometry{type,coordinates},properties{id,iconCategory,magnitudeOfDelay,events{description,code,iconCategory},startTime,endTime,from,to,length,delay,roadNumbers,lastReportTime}}}'
 
+const startMs = (i) => (i.start ? Date.parse(i.start) : 0)
+
 async function request(city, language) {
   const params = new URLSearchParams({
     key: TOMTOM_KEY,
@@ -81,7 +83,7 @@ export async function fetchIncidents(city) {
         isLine: g.type !== 'Point',
       }
     })
-    .sort((a, b) => a.priority - b.priority || b.delayMin - a.delayMin)
+    .sort((a, b) => a.priority - b.priority || startMs(b) - startMs(a) || b.delayMin - a.delayMin)
 }
 
 // TomTom şartları gereği telif ibaresi Copyright API'den alınır

@@ -6,6 +6,12 @@ import { TOMTOM_KEY, CITIES, CATEGORIES, MAGNITUDE, fetchIncidents, fetchCaption
 
 const REFRESH_MS = 5 * 60 * 1000
 const DEFAULT_HIDDEN = ['Sıkışıklık', 'Yol çalışması']
+// Yol kapanmalarının bir kısmı aylar önce başlamış uzun süreli çalışmalardır; varsayılan olarak son 24 saat gösterilir
+const PERIODS = [
+  { value: 24, label: 'Son 24 saat' },
+  { value: 24 * 7, label: 'Son 7 gün' },
+  { value: 0, label: 'Tümü' },
+]
 const CATEGORY_NAMES = [...new Set(Object.values(CATEGORIES).sort((a, b) => a.priority - b.priority).map((c) => c.name))]
 const CATEGORY_COLORS = Object.fromEntries(Object.values(CATEGORIES).map((c) => [c.name, c.color]))
 
@@ -79,6 +85,7 @@ export default function CanliPage() {
   const [cityId, setCityId] = useState('istanbul')
   const [state, setState] = useState({ incidents: null, error: null, at: null, loading: false })
   const [visible, setVisible] = useState(CATEGORY_NAMES.filter((n) => !DEFAULT_HIDDEN.includes(n)))
+  const [hours, setHours] = useState(24)
   const [focus, setFocus] = useState(null)
   const [caption, setCaption] = useState('© TomTom')
   const city = CITIES.find((c) => c.id === cityId)
@@ -106,11 +113,19 @@ export default function CanliPage() {
     return () => clearInterval(timer)
   }, [load])
 
-  const shown = useMemo(() => (state.incidents ?? []).filter((i) => visible.includes(i.categoryName)), [state.incidents, visible])
+  // Zaman filtresi: başlangıcı bilinmeyen olaylar her zaman gösterilir
+  const fresh = useMemo(() => {
+    const list = state.incidents ?? []
+    if (!hours) return list
+    const limit = Date.now() - hours * 3600 * 1000
+    return list.filter((i) => !i.start || Date.parse(i.start) >= limit)
+  }, [state.incidents, hours])
+
+  const shown = useMemo(() => fresh.filter((i) => visible.includes(i.categoryName)), [fresh, visible])
 
   if (!TOMTOM_KEY) return <SetupNotice />
 
-  const all = state.incidents ?? []
+  const all = fresh
   const count = (name) => all.filter((i) => i.categoryName === name).length
 
   return (
@@ -128,6 +143,7 @@ export default function CanliPage() {
             setFocus(null)
           }}
           options={CITIES.map((c) => ({ value: c.id, label: c.name }))} />
+        <Segmented label="Başlangıç zamanı" value={hours} onChange={setHours} options={PERIODS} />
         <button type="button" className="chip" onClick={load} disabled={state.loading}>
           {state.loading ? 'Yükleniyor…' : '↻ Yenile'}
         </button>
@@ -150,7 +166,7 @@ export default function CanliPage() {
           { label: 'Arızalı araç', value: fmt(count('Arızalı araç')), tone: 'warn' },
           { label: 'Kapalı yol / şerit', value: fmt(count('Yol kapalı') + count('Şerit kapalı')) },
           { label: 'Sıkışıklık', value: fmt(count('Sıkışıklık')), note: `${fmt(all.filter((i) => i.magnitude === 3).length)} ağır gecikmeli olay` },
-          { label: 'Toplam gecikme', value: `${fmt(all.reduce((s, i) => s + i.delayMin, 0))} dk`, note: 'Tüm olayların neden olduğu' },
+          { label: 'Son 1 saatte başlayan', value: fmt(all.filter((i) => i.start && Date.now() - Date.parse(i.start) < 3600 * 1000).length) },
         ]}
       />
 
