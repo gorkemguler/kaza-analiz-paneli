@@ -8,15 +8,8 @@
 // Tarayıcıda göründüğü için TomTom panelinde alan adı kısıtlaması (domain whitelist) açık olmalıdır.
 export const TOMTOM_KEY = import.meta.env.VITE_TOMTOM_KEY
 
-// Her şehir tek bir sorgu kutusu (TomTom sınırı: 10.000 km²), kota tasarrufu için şehir merkezine odaklı
-export const CITIES = [
-  { id: 'istanbul', name: 'İstanbul', bbox: [28.2, 40.8, 29.5, 41.3] },
-  { id: 'ankara', name: 'Ankara', bbox: [32.5, 39.75, 33.1, 40.1] },
-  { id: 'izmir', name: 'İzmir', bbox: [26.9, 38.3, 27.35, 38.6] },
-  { id: 'bursa', name: 'Bursa', bbox: [28.85, 40.13, 29.25, 40.3] },
-  { id: 'antalya', name: 'Antalya', bbox: [30.5, 36.8, 30.9, 37.0] },
-  { id: 'kocaeli', name: 'Kocaeli', bbox: [29.6, 40.7, 30.1, 40.85] },
-]
+// Sorgu kutuları 81 ilin sınırlarından üretilir (scripts/statik-veri.mjs); kota için il başına tek istek
+export const QUICK = [34, 6, 35, 16, 7, 41] // İstanbul, Ankara, İzmir, Bursa, Antalya, Kocaeli
 
 // TomTom iconCategory kodları
 export const CATEGORIES = {
@@ -39,10 +32,10 @@ const FIELDS =
 
 const startMs = (i) => (i.start ? Date.parse(i.start) : 0)
 
-async function request(city, language) {
+async function request(il, language) {
   const params = new URLSearchParams({
     key: TOMTOM_KEY,
-    bbox: city.bbox.join(','),
+    bbox: il.bbox.join(','),
     fields: FIELDS,
     language,
     timeValidityFilter: 'present',
@@ -50,10 +43,10 @@ async function request(city, language) {
   return fetch(`https://api.tomtom.com/traffic/services/5/incidentDetails?${params}`)
 }
 
-export async function fetchIncidents(city) {
-  let res = await request(city, 'tr-TR')
+export async function fetchIncidents(il) {
+  let res = await request(il, 'tr-TR')
   // Türkçe desteklenmiyorsa İngilizceye düş
-  if (res.status === 400) res = await request(city, 'en-GB')
+  if (res.status === 400) res = await request(il, 'en-GB')
   if (res.status === 403) throw new Error('TomTom anahtarı bu alan adında yetkili değil ya da geçersiz (403)')
   if (res.status === 429) throw new Error('TomTom günlük/saniyelik istek sınırı aşıldı (429); biraz sonra tekrar deneyin')
   if (!res.ok) throw new Error(`TomTom yanıt vermedi (${res.status})`)

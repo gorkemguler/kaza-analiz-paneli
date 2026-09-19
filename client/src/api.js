@@ -46,6 +46,7 @@ const normalize = (params) =>
 export function getJson(path, params = {}) {
   const [area, ...rest] = path.split('/')
   if (area === 'turkiye') return fetchJson(`${path}.json`)
+  if (area === 'iller') return fetchJson('iller-bbox.json')
   if (area === 'istanbul' && ISTANBUL[rest[0]]) return ISTANBUL[rest[0]](normalize(params))
   return Promise.reject(new Error(`Bilinmeyen veri yolu: ${path}`))
 }

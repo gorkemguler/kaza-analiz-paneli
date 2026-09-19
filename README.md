@@ -12,7 +12,7 @@ Panelde iki sayfa var:
 | --- | --- | --- |
 | **Türkiye geneli** (varsayılan) | EGM Trafik Başkanlığı aylık bültenleri | 81 il, aylık ve yılbaşından beri |
 | **İstanbul kaza haritası** | İBB Ulaşım Yönetim Merkezi kaza duyuruları | 106 bin konumlu kayıt, 2013–2025 |
-| **Canlı olaylar** | TomTom Traffic API | 6 büyükşehirde anlık kaza, arızalı araç ve yol kapanması |
+| **Canlı olaylar** | TomTom Traffic API | 81 ilde anlık kaza, arızalı araç ve yol kapanması |
 
 ## Türkiye geneli
 
@@ -38,8 +38,9 @@ Risk puanı = kaza sayısı + 3 × yaralanmalı kaza + 10 × can kaybı olan kaz
 
 ## Canlı olaylar
 
-- **Anlık olaylar:** İstanbul, Ankara, İzmir, Bursa, Antalya ve Kocaeli'deki kazalar, arızalı araçlar, yol ve şerit kapanmaları, tehlikeli durumlar ve sıkışıklıklar. 5 dakikada bir yenilenir.
+- **Anlık olaylar:** 81 ilin tamamında kazalar, arızalı araçlar, yol ve şerit kapanmaları, tehlikeli durumlar ve sıkışıklıklar. 5 dakikada bir yenilenir.
 - **Olay listesi:** Önce kazalar, sonra en yeni olay üstte olacak şekilde sıralanır. Bir olaya tıklayınca harita oraya yakınlaşır.
+- **Sorgu alanı:** Her il için sınırlarından üretilmiş tek bir kutu sorgulanır (kota için il başına 1 istek). Büyük illerde kutu, TomTom'un 10.000 km² sınırı nedeniyle il merkezi çevresiyle sınırlıdır.
 - **Zaman filtresi:** Yol kapanmalarının bir kısmı aylar önce başlamış uzun süreli çalışmalardır; varsayılan görünüm son 24 saatte başlayan olayları gösterir.
 
 **Lisans kısıtı:** TomTom şartları (md. 11.4 ve 11.6), sonuçların saklanmasını, birden çok kullanıcıya sunmak için önbelleğe alınmasını ve türetilmiş veritabanı oluşturulmasını yasaklar. Bu yüzden:

@@ -26,9 +26,37 @@ await write('turkiye/yillik.json', JSON.parse(await fs.readFile(path.join(DATA, 
 for (const { period } of tr.periods()) await write(`turkiye/donem/${period}.json`, tr.get(period))
 for (let plaka = 1; plaka <= 81; plaka++) await write(`turkiye/il/${plaka}.json`, tr.provinceSeries(plaka))
 
+// Canlı olaylar sayfası için il sorgu kutuları (TomTom bbox sınırı: 10.000 km²)
+const geo = JSON.parse(await fs.readFile(path.join(ROOT, 'client/public/tr-iller.json'), 'utf8'))
+const MAX_AREA = 9500
+const iller = geo.features
+  .map((f) => {
+    const coords = f.geometry.coordinates.flat(f.geometry.type === 'MultiPolygon' ? 2 : 1)
+    const lons = coords.map((c) => c[0])
+    const lats = coords.map((c) => c[1])
+    let [w, s, e, n] = [Math.min(...lons), Math.min(...lats), Math.max(...lons), Math.max(...lats)]
+    const [cx, cy] = [(w + e) / 2, (s + n) / 2]
+    const kmPerLon = 111 * Math.cos((cy * Math.PI) / 180)
+    const area = (e - w) * kmPerLon * ((n - s) * 111)
+    // Büyük iller kutuya sığmaz: merkez çevresinde sınıra kadar küçült
+    if (area > MAX_AREA) {
+      const k = Math.sqrt(MAX_AREA / area)
+      ;[w, e] = [cx - ((e - w) * k) / 2, cx + ((e - w) * k) / 2]
+      ;[s, n] = [cy - ((n - s) * k) / 2, cy + ((n - s) * k) / 2]
+    }
+    return {
+      plaka: f.properties.plaka,
+      ad: f.properties.plaka === 3 ? 'Afyonkarahisar' : f.properties.ad,
+      bbox: [w, s, e, n].map((v) => +v.toFixed(3)),
+      kirpildi: area > MAX_AREA,
+    }
+  })
+  .sort((a, b) => a.ad.localeCompare(b.ad, 'tr'))
+await write('iller-bbox.json', iller)
+
 // İstanbul: ham satırlar; filtre ve analizler tarayıcıda shared/istanbul-analiz.js ile yapılır
 const raw = readIstanbulRaw(path.join(DATA, 'ibb/kazalar.json.gz'))
 await write('istanbul/kazalar.json', raw)
 
 const size = (await fs.stat(path.join(OUT, 'istanbul/kazalar.json'))).size / 1024 / 1024
-console.log(`✔ Statik panel verisi: ${tr.periods().length} EGM bülteni, ${raw.rows.length.toLocaleString('tr-TR')} İstanbul kaydı (${size.toFixed(1)} MB)`)
+console.log(`✔ Statik panel verisi: ${iller.length} il sorgu kutusu (${iller.filter((i) => i.kirpildi).length} kırpıldı), ${tr.periods().length} EGM bülteni, ${raw.rows.length.toLocaleString('tr-TR')} İstanbul kaydı (${size.toFixed(1)} MB)`)

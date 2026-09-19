@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { MapContainer, TileLayer, CircleMarker, Polyline, Popup, useMap } from 'react-leaflet'
-import { fmt } from '../api.js'
+import { useApi, fmt } from '../api.js'
 import { Kpis, ChipGroup, Segmented } from '../components/ui.jsx'
-import { TOMTOM_KEY, CITIES, CATEGORIES, MAGNITUDE, fetchIncidents, fetchCaption } from '../tomtom.js'
+import { TOMTOM_KEY, QUICK, CATEGORIES, MAGNITUDE, fetchIncidents, fetchCaption } from '../tomtom.js'
 
 const REFRESH_MS = 5 * 60 * 1000
 const DEFAULT_HIDDEN = ['Sıkışıklık', 'Yol çalışması']
@@ -18,21 +18,22 @@ const CATEGORY_COLORS = Object.fromEntries(Object.values(CATEGORIES).map((c) => 
 const timeFmt = new Intl.DateTimeFormat('tr-TR', { timeStyle: 'short' })
 const dateTimeFmt = new Intl.DateTimeFormat('tr-TR', { dateStyle: 'short', timeStyle: 'short' })
 
-function sinceText(iso) {
+// Referans zaman, verinin çekildiği an (state.at); böylece süreler ekranda kendiliğinden kaymaz
+function sinceText(iso, now) {
   if (!iso) return ''
-  const min = Math.round((Date.now() - Date.parse(iso)) / 60000)
+  const min = Math.round((now - Date.parse(iso)) / 60000)
   if (min < 1) return 'az önce'
   if (min < 60) return `${min} dk önce`
   if (min < 24 * 60) return `${Math.floor(min / 60)} sa önce`
   return dateTimeFmt.format(new Date(iso))
 }
 
-function FitCity({ city, focus }) {
+function FitCity({ il, focus }) {
   const map = useMap()
   useEffect(() => {
-    const [w, s, e, n] = city.bbox
+    const [w, s, e, n] = il.bbox
     map.fitBounds([[s, w], [n, e]], { animate: false })
-  }, [map, city])
+  }, [map, il])
   useEffect(() => {
     if (focus) map.flyTo(focus.coords[0], 15, { duration: 0.8 })
   }, [map, focus])
@@ -82,23 +83,25 @@ function SetupNotice() {
 }
 
 export default function CanliPage() {
-  const [cityId, setCityId] = useState('istanbul')
+  const iller = useApi('iller')
+  const [plaka, setPlaka] = useState(34)
   const [state, setState] = useState({ incidents: null, error: null, at: null, loading: false })
   const [visible, setVisible] = useState(CATEGORY_NAMES.filter((n) => !DEFAULT_HIDDEN.includes(n)))
   const [hours, setHours] = useState(24)
   const [focus, setFocus] = useState(null)
   const [caption, setCaption] = useState('© TomTom')
-  const city = CITIES.find((c) => c.id === cityId)
+  const il = iller.data?.find((c) => c.plaka === plaka)
 
   const load = useCallback(async () => {
+    if (!il) return
     setState((s) => ({ ...s, loading: true }))
     try {
-      const incidents = await fetchIncidents(city)
+      const incidents = await fetchIncidents(il)
       setState({ incidents, error: null, at: new Date(), loading: false })
     } catch (error) {
       setState((s) => ({ ...s, error, loading: false }))
     }
-  }, [city])
+  }, [il])
 
   useEffect(() => {
     if (!TOMTOM_KEY) return
@@ -114,16 +117,19 @@ export default function CanliPage() {
   }, [load])
 
   // Zaman filtresi: başlangıcı bilinmeyen olaylar her zaman gösterilir
+  const now = state.at?.getTime() ?? 0
   const fresh = useMemo(() => {
     const list = state.incidents ?? []
-    if (!hours) return list
-    const limit = Date.now() - hours * 3600 * 1000
+    if (!hours || !now) return list
+    const limit = now - hours * 3600 * 1000
     return list.filter((i) => !i.start || Date.parse(i.start) >= limit)
-  }, [state.incidents, hours])
+  }, [state.incidents, hours, now])
 
   const shown = useMemo(() => fresh.filter((i) => visible.includes(i.categoryName)), [fresh, visible])
 
   if (!TOMTOM_KEY) return <SetupNotice />
+  if (iller.error) return <div className="error">İl listesi yüklenemedi: {iller.error.message}</div>
+  if (!il) return <p className="muted loading">Yükleniyor…</p>
 
   const all = fresh
   const count = (name) => all.filter((i) => i.categoryName === name).length
@@ -135,14 +141,40 @@ export default function CanliPage() {
       </div>
 
       <section className="card toolbar">
-        <Segmented
-          label="Şehir"
-          value={cityId}
-          onChange={(id) => {
-            setCityId(id)
-            setFocus(null)
-          }}
-          options={CITIES.map((c) => ({ value: c.id, label: c.name }))} />
+        <label>
+          İl
+          <select
+            value={plaka}
+            onChange={(e) => {
+              setPlaka(Number(e.target.value))
+              setFocus(null)
+            }}
+          >
+            {iller.data.map((c) => (
+              <option key={c.plaka} value={c.plaka}>
+                {c.ad}
+              </option>
+            ))}
+          </select>
+        </label>
+        <div className="presets">
+          {QUICK.map((p) => {
+            const q = iller.data.find((c) => c.plaka === p)
+            return (
+              <button
+                key={p}
+                type="button"
+                className={`chip ${plaka === p ? 'active' : ''}`}
+                onClick={() => {
+                  setPlaka(p)
+                  setFocus(null)
+                }}
+              >
+                {q.ad}
+              </button>
+            )
+          })}
+        </div>
         <Segmented label="Başlangıç zamanı" value={hours} onChange={setHours} options={PERIODS} />
         <button type="button" className="chip" onClick={load} disabled={state.loading}>
           {state.loading ? 'Yükleniyor…' : '↻ Yenile'}
@@ -166,7 +198,7 @@ export default function CanliPage() {
           { label: 'Arızalı araç', value: fmt(count('Arızalı araç')), tone: 'warn' },
           { label: 'Kapalı yol / şerit', value: fmt(count('Yol kapalı') + count('Şerit kapalı')) },
           { label: 'Sıkışıklık', value: fmt(count('Sıkışıklık')), note: `${fmt(all.filter((i) => i.magnitude === 3).length)} ağır gecikmeli olay` },
-          { label: 'Son 1 saatte başlayan', value: fmt(all.filter((i) => i.start && Date.now() - Date.parse(i.start) < 3600 * 1000).length) },
+          { label: 'Son 1 saatte başlayan', value: fmt(all.filter((i) => i.start && now - Date.parse(i.start) < 3600 * 1000).length) },
         ]}
       />
 
@@ -176,13 +208,16 @@ export default function CanliPage() {
 
       <section className="grid-main">
         <div className="card">
-          <h2>{city.name}: anlık olay haritası</h2>
+          <div className="card-head">
+            <h2>{il.ad}: anlık olay haritası</h2>
+            {il.kirpildi && <span className="subtitle">Sorgu alanı TomTom sınırı (10.000 km²) nedeniyle il merkezi çevresiyle sınırlı</span>}
+          </div>
           <MapContainer center={[41, 29]} zoom={10} className="map" scrollWheelZoom>
             <TileLayer
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> katkıcıları'
               url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
-            <FitCity city={city} focus={focus} />
+            <FitCity il={il} focus={focus} />
             {shown.map((inc) =>
               inc.isLine ? (
                 <Polyline key={inc.id} positions={inc.coords} pathOptions={{ color: inc.color, weight: inc.category === 6 ? 3 + inc.magnitude : 5, opacity: 0.9 }}>
@@ -225,7 +260,7 @@ export default function CanliPage() {
                     <span className="hs-meta">
                       {inc.description !== inc.categoryName && `${inc.description} · `}
                       {inc.delayMin > 0 && `${inc.delayMin} dk gecikme · `}
-                      {sinceText(inc.start)}
+                      {sinceText(inc.start, now)}
                     </span>
                   </span>
                 </button>
