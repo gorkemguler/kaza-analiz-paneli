@@ -127,7 +127,8 @@ async function importAnnouncements() {
       title,
     ])
   }
-  rows.sort((a, b) => (a[1] < b[1] ? -1 : 1))
+  // Aynı dakikadaki kayıtlar için duyuru numarasıyla kesin sıra
+  rows.sort((a, b) => a[1].localeCompare(b[1]) || a[0] - b[0])
 
   const out = {
     source: `https://data.ibb.gov.tr/dataset/${DUYURU_DATASET}`,
@@ -139,7 +140,14 @@ async function importAnnouncements() {
     rows,
   }
   const file = path.join(OUT_DIR, 'kazalar.json.gz')
-  await fs.writeFile(file, zlib.gzipSync(JSON.stringify(out), { level: 9 }))
+  const content = JSON.stringify(out)
+  // gzip çıktısı Node/zlib sürümüne göre byte düzeyinde değişebilir; içerik aynıysa dosyaya dokunma
+  const previous = await fs.readFile(file).then((b) => zlib.gunzipSync(b).toString(), () => null)
+  if (previous === content) {
+    console.log(`✔ İstanbul kaza verisi değişmemiş (${rows.length.toLocaleString('tr-TR')} kayıt)`)
+    return
+  }
+  await fs.writeFile(file, zlib.gzipSync(content, { level: 9 }))
   const size = (await fs.stat(file)).size / 1024 / 1024
   console.log(`✔ ${rows.length.toLocaleString('tr-TR')} kaza kaydı (${rows[0][1].slice(0, 10)} → ${rows.at(-1)[1].slice(0, 10)}), ${size.toFixed(1)} MB; ${skipped} hatalı koordinat atlandı`)
 }
