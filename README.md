@@ -12,6 +12,7 @@ Panelde iki sayfa var:
 | --- | --- | --- |
 | **Türkiye geneli** (varsayılan) | EGM Trafik Başkanlığı aylık bültenleri | 81 il, aylık ve yılbaşından beri |
 | **İstanbul kaza haritası** | İBB Ulaşım Yönetim Merkezi kaza duyuruları | 106 bin konumlu kayıt, 2013–2025 |
+| **Canlı olaylar** | TomTom Traffic API | 6 büyükşehirde anlık kaza, arızalı araç ve yol kapanması |
 
 ## Türkiye geneli
 
@@ -34,6 +35,24 @@ Panelde iki sayfa var:
 - **Filtreler:** Tarih aralığı, kaza sonucu (maddi hasarlı, yaralanmalı, ölümlü) ve yol (D100, TEM, Basın Ekspres…).
 
 Risk puanı = kaza sayısı + 3 × yaralanmalı kaza + 10 × can kaybı olan kaza
+
+## Canlı olaylar
+
+- **Anlık olaylar:** İstanbul, Ankara, İzmir, Bursa, Antalya ve Kocaeli'deki kazalar, arızalı araçlar, yol ve şerit kapanmaları, tehlikeli durumlar ve sıkışıklıklar. 5 dakikada bir yenilenir.
+- **Olay listesi:** Önce kazalar, sonra gecikmeye göre sıralanır. Bir olaya tıklayınca harita oraya yakınlaşır.
+
+**Lisans kısıtı:** TomTom şartları (md. 11.4 ve 11.6), sonuçların saklanmasını, birden çok kullanıcıya sunmak için önbelleğe alınmasını ve türetilmiş veritabanı oluşturulmasını yasaklar. Bu yüzden:
+
+- Veri her ziyaretçinin **tarayıcısında anlık çekilir**, sunucuda, depoda ya da tarayıcı belleğinde **saklanmaz**.
+- TomTom verisi `acik-veri/` klasörüne **eklenmez**, geçmiş analizi yapılmaz.
+
+**Kurulum:**
+
+1. [developer.tomtom.com](https://developer.tomtom.com) adresinden bir API anahtarı alın. Ücretsiz planda günde 2.500 istek hakkı var; her sayfa açılışı ve her 5 dakikalık yenileme 1 istek harcar.
+2. TomTom panelinde anahtar için **Domain whitelist** özelliğini açın ve `gorkemguler.github.io` ekleyin. Anahtar sitenin JavaScript'inde göründüğü için bu adım zorunlu.
+3. Anahtarı GitHub'a Actions secret olarak ekleyin (`gh secret set TOMTOM_API_KEY`), ardından siteyi yeniden yayınlayın (`gh workflow run pages.yml`).
+
+Yerelde denemek için `client/.env.local` dosyasına `VITE_TOMTOM_KEY=...` yazın (bu dosya git'e eklenmez) ve whitelist'e `localhost` ekleyin.
 
 ## 📂 Açık veri
 
@@ -198,7 +217,7 @@ npm run api        # http://localhost:3001
 
 - [ ] İl bazında nüfusa göre oran (100 bin kişi başına ölü/yaralı)
 - [ ] Bir önceki yılın aynı ayıyla karşılaştırma
-- [ ] Canlı olay verisi (TomTom Traffic API / Waze for Cities)
+- [ ] Waze for Cities (bir kamu kurumu ortaklığıyla; saklanabilir olay verisi)
 - [ ] PDF/Excel rapor çıktısı
 
 ## Lisans

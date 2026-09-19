@@ -28,6 +28,9 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
+        env:
+          # Canlı olaylar sayfası için; tarayıcıda görünür, TomTom panelinde alan adı kısıtlaması açık olmalı
+          VITE_TOMTOM_KEY: ${{ secrets.TOMTOM_API_KEY }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: client/dist

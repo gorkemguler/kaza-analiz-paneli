@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react'
 import TurkiyePage from './pages/TurkiyePage.jsx'
 import IstanbulPage from './pages/IstanbulPage.jsx'
+import CanliPage from './pages/CanliPage.jsx'
 
 const PAGES = [
   { hash: '#/', label: 'Türkiye geneli', subtitle: 'EGM aylık bültenleri, 81 il', Component: TurkiyePage },
   { hash: '#/istanbul', label: 'İstanbul kaza haritası', subtitle: 'İBB konumlu kaza duyuruları', Component: IstanbulPage },
+  { hash: '#/canli', label: 'Canlı olaylar', subtitle: 'TomTom, anlık', Component: CanliPage },
 ]
 
 const currentPage = () => PAGES.find((p) => p.hash === window.location.hash) ?? PAGES[0]

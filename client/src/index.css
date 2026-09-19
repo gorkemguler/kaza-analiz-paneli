@@ -41,7 +41,7 @@ body {
 .brand p { margin: 2px 0 0; color: var(--muted); font-size: 0.9rem; }
 
 /* Sayfa sekmeleri */
-.tabs { display: flex; gap: 6px; background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 4px; }
+.tabs { display: flex; flex-wrap: wrap; gap: 6px; background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 4px; }
 .tabs a { display: flex; flex-direction: column; padding: 7px 14px; border-radius: 8px; color: var(--muted); text-decoration: none; }
 .tabs a span { font-weight: 600; font-size: 0.9rem; }
 .tabs a small { font-size: 0.72rem; }
@@ -183,6 +183,15 @@ select, input[type='date'] {
 
 /* Grafik açıklama metinleri seri rengini değil nötr metin rengini kullanır */
 .recharts-legend-item-text { color: #cbd5e1 !important; }
+
+/* Canlı olaylar */
+.incidents { max-height: 560px; }
+.incidents .rank { width: 12px; height: 12px; border-radius: 50%; }
+.attribution { margin: 8px 0 0; font-size: 0.75rem; color: var(--muted); }
+.attribution a { color: var(--accent); }
+.setup code, .note code { background: var(--bg); border: 1px solid var(--border); border-radius: 4px; padding: 1px 5px; font-size: 0.82rem; }
+.setup ul { color: #cbd5e1; line-height: 1.7; }
+.chip:disabled { opacity: 0.6; cursor: wait; }
 
 /* Kaynaklar */
 .sources { font-size: 0.82rem; }
