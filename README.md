@@ -39,7 +39,8 @@ Risk puanı = kaza sayısı + 3 × yaralanmalı kaza + 10 × can kaybı olan kaz
 ## Canlı olaylar
 
 - **Anlık olaylar:** İstanbul, Ankara, İzmir, Bursa, Antalya ve Kocaeli'deki kazalar, arızalı araçlar, yol ve şerit kapanmaları, tehlikeli durumlar ve sıkışıklıklar. 5 dakikada bir yenilenir.
-- **Olay listesi:** Önce kazalar, sonra gecikmeye göre sıralanır. Bir olaya tıklayınca harita oraya yakınlaşır.
+- **Olay listesi:** Önce kazalar, sonra en yeni olay üstte olacak şekilde sıralanır. Bir olaya tıklayınca harita oraya yakınlaşır.
+- **Zaman filtresi:** Yol kapanmalarının bir kısmı aylar önce başlamış uzun süreli çalışmalardır; varsayılan görünüm son 24 saatte başlayan olayları gösterir.
 
 **Lisans kısıtı:** TomTom şartları (md. 11.4 ve 11.6), sonuçların saklanmasını, birden çok kullanıcıya sunmak için önbelleğe alınmasını ve türetilmiş veritabanı oluşturulmasını yasaklar. Bu yüzden:
 
