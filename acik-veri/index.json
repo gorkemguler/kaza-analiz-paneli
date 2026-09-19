@@ -13,8 +13,8 @@
    "kaynakKurum": "Emniyet Genel Müdürlüğü Trafik Başkanlığı",
    "donemler": {
     "ilk": "2025-12",
-    "son": "2026-07",
-    "adet": 8
+    "son": "2026-08",
+    "adet": 9
    },
    "dosyalar": [
     {
@@ -58,14 +58,19 @@
      "boyutKB": 30
     },
     {
+     "yol": "egm/bultenler/2026-08.json",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/egm/bultenler/2026-08.json",
+     "boyutKB": 30
+    },
+    {
      "yol": "egm/iller-aylik.csv",
      "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/egm/iller-aylik.csv",
-     "boyutKB": 22
+     "boyutKB": 25
     },
     {
      "yol": "egm/iller-aylik.json",
      "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/egm/iller-aylik.json",
-     "boyutKB": 115
+     "boyutKB": 129
     },
     {
      "yol": "egm/ulke-aylik.csv",
@@ -75,17 +80,17 @@
     {
      "yol": "egm/ulke-aylik.json",
      "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/egm/ulke-aylik.json",
-     "boyutKB": 5
+     "boyutKB": 6
     },
     {
      "yol": "egm/tablolar-aylik.csv",
      "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/egm/tablolar-aylik.csv",
-     "boyutKB": 29
+     "boyutKB": 33
     },
     {
      "yol": "egm/tablolar-aylik.json",
      "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/egm/tablolar-aylik.json",
-     "boyutKB": 59
+     "boyutKB": 67
     }
    ]
   },
