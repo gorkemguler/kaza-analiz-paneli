@@ -2,6 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import fs from 'node:fs';
 import { loadTurkiye } from '../src/turkiye.js';
 import { loadIstanbul, filterAccidents, computeStats, computeHotspots, placeName } from '../src/istanbul.js';
 import { classifySeverity, classifyRoad, ROAD_NAMES } from '../../scripts/ibb-guncelle.mjs';
@@ -66,4 +67,12 @@ test('İBB: risk noktaları puana göre sıralı, boş veride hata yok', () => {
   for (let i = 1; i < h.length; i++) assert.ok(h[i - 1].score >= h[i].score);
   assert.deepEqual(computeHotspots([]), []);
   assert.equal(computeStats([], istanbul.meta).totals.kaza, 0);
+});
+
+test('KGM: kara noktalar Türkiye sınırlarında ve tekil', () => {
+  const kgm = JSON.parse(fs.readFileSync(path.join(DATA, 'kgm/kara-noktalar.json'), 'utf8'));
+  assert.ok(kgm.noktalar.length > 0);
+  assert.ok(kgm.noktalar.every((n) => n.lat > 35.5 && n.lat < 42.5 && n.lng > 25 && n.lng < 45));
+  assert.ok(kgm.noktalar.every((n) => n.il && n.km));
+  assert.equal(new Set(kgm.noktalar.map((n) => n.kkno + n.km)).size, kgm.noktalar.length);
 });

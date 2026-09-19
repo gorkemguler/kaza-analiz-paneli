@@ -134,6 +134,20 @@ async function egm() {
   }
 }
 
+async function kgm() {
+  const data = JSON.parse(await fs.readFile(path.join(DATA, 'kgm/kara-noktalar.json'), 'utf8'))
+  const rows = data.noktalar.map((n) => ({ kara_nokta_no: n.kkno, il: n.il, ilce: n.ilce, bolge: n.bolge, km: n.km, enlem: n.lat, boylam: n.lng }))
+  return {
+    kimlik: 'kgm-kaza-kara-noktalari',
+    ad: 'KGM kaza kara noktaları',
+    aciklama: 'Karayolları Genel Müdürlüğü’nün belirlediği, iyileştirme çalışması yürütülen kaza kara noktaları. Koordinatlar Web Mercator’dan WGS84’e çevrilmiştir.',
+    kaynak: data.kaynak,
+    kaynakKurum: data.kurum,
+    kapsam: { nokta: rows.length, il: new Set(rows.map((r) => r.il)).size },
+    dosyalar: await table('kgm/kara-noktalar', Object.keys(rows[0]), rows),
+  }
+}
+
 async function ibb() {
   const ist = loadIstanbul(path.join(DATA, 'ibb/kazalar.json.gz'))
   const yillik = JSON.parse(await fs.readFile(path.join(DATA, 'ibb/yillik.json'), 'utf8'))
@@ -210,8 +224,8 @@ async function izmir() {
 
 async function main() {
   // README.md elle yazılır; üretilen klasörleri sıfırdan oluştur
-  for (const dir of ['egm', 'ibb', 'izmir']) await fs.rm(path.join(OUT, dir), { recursive: true, force: true })
-  const veriSetleri = [await egm(), await ibb(), await izmir()]
+  for (const dir of ['egm', 'kgm', 'ibb', 'izmir']) await fs.rm(path.join(OUT, dir), { recursive: true, force: true })
+  const veriSetleri = [await egm(), await kgm(), await ibb(), await izmir()]
   await write('index.json', json({
     ad: 'Trafik Kaza Analiz Paneli: açık veri',
     aciklama: 'Kamu kurumlarının PDF ve açık veri portallarında yayımladığı trafik kazası verilerinin makinece okunabilir, doğrulanmış hâli.',

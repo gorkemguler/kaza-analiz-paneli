@@ -1,0 +1,232 @@
+{
+ "aciklama": "KGM tarafından belirlenen, iyileştirme çalışması yürütülen kaza kara noktaları",
+ "kaynak": "https://yol.kgm.gov.tr/kazakaranoktaweb/",
+ "kurum": "Karayolları Genel Müdürlüğü",
+ "noktalar": [
+  {
+   "kkno": "10-78",
+   "il": "BALIKESİR",
+   "ilce": "Gönen",
+   "bolge": 14,
+   "km": "2+240",
+   "lat": 40.1027,
+   "lng": 27.66036
+  },
+  {
+   "kkno": "230-01",
+   "il": "BALIKESİR",
+   "ilce": "Havran",
+   "bolge": 14,
+   "km": "05+300",
+   "lat": 39.55516,
+   "lng": 27.08434
+  },
+  {
+   "kkno": "565-12",
+   "il": "BALIKESİR",
+   "ilce": "Bandırma",
+   "bolge": 14,
+   "km": "0+250",
+   "lat": 40.34247,
+   "lng": 27.94322
+  },
+  {
+   "kkno": "010-08",
+   "il": "BARTIN",
+   "ilce": null,
+   "bolge": 15,
+   "km": "23+290",
+   "lat": 41.58353,
+   "lng": 32.3252
+  },
+  {
+   "kkno": "160-02",
+   "il": "BİLECİK",
+   "ilce": null,
+   "bolge": 14,
+   "km": "21+100",
+   "lat": 40.17738,
+   "lng": 29.95292
+  },
+  {
+   "kkno": "300-31",
+   "il": "BİTLİS",
+   "ilce": "Tatvan",
+   "bolge": 11,
+   "km": "27+700",
+   "lat": 38.52355,
+   "lng": 42.13765
+  },
+  {
+   "kkno": "16-57",
+   "il": "BURSA",
+   "ilce": "Mustafakemalpaşa",
+   "bolge": 14,
+   "km": "3+150",
+   "lat": 40.04176,
+   "lng": 28.39545
+  },
+  {
+   "kkno": "100-14",
+   "il": "ÇANKIRI",
+   "ilce": "Kurşunlu",
+   "bolge": 15,
+   "km": "68+300",
+   "lat": 40.84901,
+   "lng": 33.22072
+  },
+  {
+   "kkno": "595-12",
+   "il": "DENİZLİ",
+   "ilce": "Çivril",
+   "bolge": 2,
+   "km": "16+000",
+   "lat": 38.34722,
+   "lng": 29.74065
+  },
+  {
+   "kkno": "655-01",
+   "il": "Düzce",
+   "ilce": null,
+   "bolge": 4,
+   "km": "32+000",
+   "lat": 40.90629,
+   "lng": 31.14248
+  },
+  {
+   "kkno": "300-26",
+   "il": "ELAZIĞ",
+   "ilce": "Kovancılar",
+   "bolge": 8,
+   "km": "0+190",
+   "lat": 38.7185,
+   "lng": 39.86806
+  },
+  {
+   "kkno": "260-12",
+   "il": "ERZURUM",
+   "ilce": null,
+   "bolge": 12,
+   "km": "23+400",
+   "lat": 39.23842,
+   "lng": 36.13938
+  },
+  {
+   "kkno": "200-08",
+   "il": "ESKİŞEHİR",
+   "ilce": null,
+   "bolge": 4,
+   "km": "20+000",
+   "lat": 39.79853,
+   "lng": 30.44236
+  },
+  {
+   "kkno": "665-01",
+   "il": "ESKİŞEHİR",
+   "ilce": null,
+   "bolge": 4,
+   "km": "0+850",
+   "lat": 39.75603,
+   "lng": 30.48305
+  },
+  {
+   "kkno": "35-35",
+   "il": "İZMİR",
+   "ilce": "Tire",
+   "bolge": 2,
+   "km": "0+500",
+   "lat": 38.09348,
+   "lng": 27.74323
+  },
+  {
+   "kkno": "550-10",
+   "il": "İZMİR",
+   "ilce": "Ayrancılar",
+   "bolge": 2,
+   "km": "6+400",
+   "lat": 38.24737,
+   "lng": 27.26814
+  },
+  {
+   "kkno": "200-14",
+   "il": "KIRIKKALE",
+   "ilce": "Irmak",
+   "bolge": 4,
+   "km": "04+500",
+   "lat": 39.93435,
+   "lng": 33.40119
+  },
+  {
+   "kkno": "260-07",
+   "il": "KIRIKKALE",
+   "ilce": "Karakeçili",
+   "bolge": 4,
+   "km": "10+000",
+   "lat": 39.58002,
+   "lng": 33.37254
+  },
+  {
+   "kkno": "715-08",
+   "il": "MERSİN",
+   "ilce": "Silifke",
+   "bolge": 5,
+   "km": "43+225",
+   "lat": 36.39683,
+   "lng": 33.85492
+  },
+  {
+   "kkno": "400-03",
+   "il": "MUĞLA",
+   "ilce": "Ortaca",
+   "bolge": 2,
+   "km": "49+583",
+   "lat": 36.93376,
+   "lng": 28.73976
+  },
+  {
+   "kkno": "550-14",
+   "il": "MUĞLA",
+   "ilce": null,
+   "bolge": 2,
+   "km": "46+000",
+   "lat": 37.22251,
+   "lng": 28.32699
+  },
+  {
+   "kkno": "54-26",
+   "il": "SAKARYA",
+   "ilce": null,
+   "bolge": 1,
+   "km": "02+410",
+   "lat": 40.72648,
+   "lng": 30.447
+  },
+  {
+   "kkno": "650-01",
+   "il": "SAKARYA",
+   "ilce": "Karasu",
+   "bolge": 1,
+   "km": "01+185",
+   "lat": 41.10398,
+   "lng": 30.65819
+  },
+  {
+   "kkno": "100-21",
+   "il": "TOKAT",
+   "ilce": null,
+   "bolge": 7,
+   "km": "14+000",
+   "lat": 40.4766,
+   "lng": 36.99785
+  },
+  {
+   "kkno": "190-05",
+   "il": "TOKAT",
+   "ilce": "Turhal",
+   "bolge": 7,
+   "km": "61+200",
+   "lat": 40.31302,
+   "lng": 35.96008
+  }
+ ]
+}

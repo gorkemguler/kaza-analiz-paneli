@@ -24,6 +24,7 @@ Panelde iki sayfa var:
 - **Ülke geneli göstergeler:** Kaza, ölü ve yaralı sayıları; ölümlerin yerleşim yeri dışında olan payı.
 - **Kaza nedenleri:** Kaza oluş şekli, sürücü kusurları ve kazaya karışan araç türleri.
 - **Denetim faaliyetleri:** Alkollü sürücü, trafikten men edilen araç ve uygulanan cezalar.
+- **Resmi kaza kara noktaları:** KGM'nin belirlediği, iyileştirme çalışması yürütülen yol kesimleri haritada ve listede. Kara nokta, belirli bir kaza türünün yoğunlaştığı kesimi ifade eder.
 - **Uzun dönem eğilim:** 2012–2024 arası Türkiye ve İstanbul, 2012 = 100 olacak şekilde endeksli.
 
 ## İstanbul kaza haritası
@@ -82,6 +83,7 @@ EGM'nin PDF bültenlerinden çıkarılan ve doğrulanan tüm tablolar [`acik-ver
 | [`ibb/istanbul-kaza-duyurulari.csv`](acik-veri/ibb/istanbul-kaza-duyurulari.csv) | İstanbul'da 106 bin konumlu kaza kaydı |
 | [`izmir/izmir-kaza-ariza-olaylari.csv`](acik-veri/izmir/izmir-kaza-ariza-olaylari.csv) | İzmir'de 24 bin kaza/arıza olayı, müdahale süreleriyle |
 | [`izmir/mevki-konumlari.csv`](acik-veri/izmir/mevki-konumlari.csv) | İzmir mevki adlarının koordinatları (OSM eşleştirmesi, ODbL) |
+| [`kgm/kara-noktalar.csv`](acik-veri/kgm/kara-noktalar.csv) | KGM'nin resmi kaza kara noktaları, koordinatlarıyla |
 
 ```python
 import pandas as pd
@@ -95,6 +97,7 @@ Alan açıklamaları, kod örnekleri ve lisans bilgisi için [`acik-veri/README.
 | Kaynak | Biçim | Güncelleme | Lisans |
 | --- | --- | --- | --- |
 | [EGM Trafik Başkanlığı: Aylık Trafik İstatistik Bülteni](https://trafik.gov.tr/istatistikler37) | PDF | Her ay, izleyen ayın sonuna kadar | Resmi İstatistik Programı |
+| [KGM: Kaza Kara Nokta Haritası](https://yol.kgm.gov.tr/kazakaranoktaweb/) | JSON servisi | Düzensiz | Kamu kurumu verisi |
 | [İzmir: Arızalı, Kazalı Araç Verileri](https://acikveri.bizizmir.com/dataset/izmir-ili-arizali-kazali-arac-verileri) | XLSX | Düzenli (son: Eylül 2026) | İzmir Açık Veri Lisansı |
 | [İBB: UYM Trafik Duyuru Verisi](https://data.ibb.gov.tr/dataset/ulasim-yonetim-merkezi-trafik-duyuru-verisi) | CSV | Düzensiz (son: Mart 2025) | İBB Açık Veri Lisansı |
 | [İBB: Yıllara Göre Ölümlü Yaralanmalı Trafik Kaza Sayısı](https://data.ibb.gov.tr/dataset/yillara-gore-olumlu-yaralanmali-trafik-kaza-sayisi) | API | Yıllık | İBB Açık Veri Lisansı |
@@ -115,7 +118,7 @@ Alan açıklamaları, kod örnekleri ve lisans bilgisi için [`acik-veri/README.
 
 [`veri-guncelle.yml`](.github/workflows/veri-guncelle.yml) iş akışı elle bir şey yapmaya gerek bırakmaz:
 
-- **EGM:** Her gün 08:00'de (TSİ) trafik.gov.tr'yi kontrol eder. Yeni bülten varsa indirir, doğrular ve testler geçerse `server/data` ile `acik-veri` klasörlerine commit atar ve siteyi yeniden yayınlar.
+- **EGM ve KGM:** Her gün 08:00'de (TSİ) trafik.gov.tr ile KGM kara nokta servisini kontrol eder. Yeni bülten varsa indirir, doğrular ve testler geçerse `server/data` ile `acik-veri` klasörlerine commit atar ve siteyi yeniden yayınlar.
 - **İBB ve İzmir:** Her pazartesi aynı işi yapar.
 - **Hata olursa:** PDF biçimi değişip toplamlar tutmazsa hiçbir şey yayımlanmaz ve depoda otomatik bir issue açılır.
 - **Elle çalıştırma:** GitHub'da **Actions → Veri güncelle → Run workflow** yolunu izleyin.
@@ -230,6 +233,7 @@ npm run api        # http://localhost:3001
 │   ├── egm-guncelle.mjs        EGM PDF indirici
 │   ├── izmir-guncelle.mjs      İzmir XLSX indirici
 │   ├── izmir-konum.mjs         Cadde/mevki adlarını OSM ile koordinatlama
+│   ├── kgm-guncelle.mjs        KGM kara noktaları
 │   ├── lib/xlsx.mjs            Küçük XLSX okuyucu
 │   ├── ibb-guncelle.mjs        İBB CSV/API indirici
 │   └── lib/egm-parser.mjs      PDF tablo ayrıştırıcı

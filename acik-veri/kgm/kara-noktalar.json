@@ -1,0 +1,227 @@
+[
+ {
+  "kara_nokta_no": "10-78",
+  "il": "BALIKESİR",
+  "ilce": "Gönen",
+  "bolge": 14,
+  "km": "2+240",
+  "enlem": 40.1027,
+  "boylam": 27.66036
+ },
+ {
+  "kara_nokta_no": "230-01",
+  "il": "BALIKESİR",
+  "ilce": "Havran",
+  "bolge": 14,
+  "km": "05+300",
+  "enlem": 39.55516,
+  "boylam": 27.08434
+ },
+ {
+  "kara_nokta_no": "565-12",
+  "il": "BALIKESİR",
+  "ilce": "Bandırma",
+  "bolge": 14,
+  "km": "0+250",
+  "enlem": 40.34247,
+  "boylam": 27.94322
+ },
+ {
+  "kara_nokta_no": "010-08",
+  "il": "BARTIN",
+  "ilce": null,
+  "bolge": 15,
+  "km": "23+290",
+  "enlem": 41.58353,
+  "boylam": 32.3252
+ },
+ {
+  "kara_nokta_no": "160-02",
+  "il": "BİLECİK",
+  "ilce": null,
+  "bolge": 14,
+  "km": "21+100",
+  "enlem": 40.17738,
+  "boylam": 29.95292
+ },
+ {
+  "kara_nokta_no": "300-31",
+  "il": "BİTLİS",
+  "ilce": "Tatvan",
+  "bolge": 11,
+  "km": "27+700",
+  "enlem": 38.52355,
+  "boylam": 42.13765
+ },
+ {
+  "kara_nokta_no": "16-57",
+  "il": "BURSA",
+  "ilce": "Mustafakemalpaşa",
+  "bolge": 14,
+  "km": "3+150",
+  "enlem": 40.04176,
+  "boylam": 28.39545
+ },
+ {
+  "kara_nokta_no": "100-14",
+  "il": "ÇANKIRI",
+  "ilce": "Kurşunlu",
+  "bolge": 15,
+  "km": "68+300",
+  "enlem": 40.84901,
+  "boylam": 33.22072
+ },
+ {
+  "kara_nokta_no": "595-12",
+  "il": "DENİZLİ",
+  "ilce": "Çivril",
+  "bolge": 2,
+  "km": "16+000",
+  "enlem": 38.34722,
+  "boylam": 29.74065
+ },
+ {
+  "kara_nokta_no": "655-01",
+  "il": "Düzce",
+  "ilce": null,
+  "bolge": 4,
+  "km": "32+000",
+  "enlem": 40.90629,
+  "boylam": 31.14248
+ },
+ {
+  "kara_nokta_no": "300-26",
+  "il": "ELAZIĞ",
+  "ilce": "Kovancılar",
+  "bolge": 8,
+  "km": "0+190",
+  "enlem": 38.7185,
+  "boylam": 39.86806
+ },
+ {
+  "kara_nokta_no": "260-12",
+  "il": "ERZURUM",
+  "ilce": null,
+  "bolge": 12,
+  "km": "23+400",
+  "enlem": 39.23842,
+  "boylam": 36.13938
+ },
+ {
+  "kara_nokta_no": "200-08",
+  "il": "ESKİŞEHİR",
+  "ilce": null,
+  "bolge": 4,
+  "km": "20+000",
+  "enlem": 39.79853,
+  "boylam": 30.44236
+ },
+ {
+  "kara_nokta_no": "665-01",
+  "il": "ESKİŞEHİR",
+  "ilce": null,
+  "bolge": 4,
+  "km": "0+850",
+  "enlem": 39.75603,
+  "boylam": 30.48305
+ },
+ {
+  "kara_nokta_no": "35-35",
+  "il": "İZMİR",
+  "ilce": "Tire",
+  "bolge": 2,
+  "km": "0+500",
+  "enlem": 38.09348,
+  "boylam": 27.74323
+ },
+ {
+  "kara_nokta_no": "550-10",
+  "il": "İZMİR",
+  "ilce": "Ayrancılar",
+  "bolge": 2,
+  "km": "6+400",
+  "enlem": 38.24737,
+  "boylam": 27.26814
+ },
+ {
+  "kara_nokta_no": "200-14",
+  "il": "KIRIKKALE",
+  "ilce": "Irmak",
+  "bolge": 4,
+  "km": "04+500",
+  "enlem": 39.93435,
+  "boylam": 33.40119
+ },
+ {
+  "kara_nokta_no": "260-07",
+  "il": "KIRIKKALE",
+  "ilce": "Karakeçili",
+  "bolge": 4,
+  "km": "10+000",
+  "enlem": 39.58002,
+  "boylam": 33.37254
+ },
+ {
+  "kara_nokta_no": "715-08",
+  "il": "MERSİN",
+  "ilce": "Silifke",
+  "bolge": 5,
+  "km": "43+225",
+  "enlem": 36.39683,
+  "boylam": 33.85492
+ },
+ {
+  "kara_nokta_no": "400-03",
+  "il": "MUĞLA",
+  "ilce": "Ortaca",
+  "bolge": 2,
+  "km": "49+583",
+  "enlem": 36.93376,
+  "boylam": 28.73976
+ },
+ {
+  "kara_nokta_no": "550-14",
+  "il": "MUĞLA",
+  "ilce": null,
+  "bolge": 2,
+  "km": "46+000",
+  "enlem": 37.22251,
+  "boylam": 28.32699
+ },
+ {
+  "kara_nokta_no": "54-26",
+  "il": "SAKARYA",
+  "ilce": null,
+  "bolge": 1,
+  "km": "02+410",
+  "enlem": 40.72648,
+  "boylam": 30.447
+ },
+ {
+  "kara_nokta_no": "650-01",
+  "il": "SAKARYA",
+  "ilce": "Karasu",
+  "bolge": 1,
+  "km": "01+185",
+  "enlem": 41.10398,
+  "boylam": 30.65819
+ },
+ {
+  "kara_nokta_no": "100-21",
+  "il": "TOKAT",
+  "ilce": null,
+  "bolge": 7,
+  "km": "14+000",
+  "enlem": 40.4766,
+  "boylam": 36.99785
+ },
+ {
+  "kara_nokta_no": "190-05",
+  "il": "TOKAT",
+  "ilce": "Turhal",
+  "bolge": 7,
+  "km": "61+200",
+  "enlem": 40.31302,
+  "boylam": 35.96008
+ }
+]

@@ -95,6 +95,29 @@
    ]
   },
   {
+   "kimlik": "kgm-kaza-kara-noktalari",
+   "ad": "KGM kaza kara noktaları",
+   "aciklama": "Karayolları Genel Müdürlüğü’nün belirlediği, iyileştirme çalışması yürütülen kaza kara noktaları. Koordinatlar Web Mercator’dan WGS84’e çevrilmiştir.",
+   "kaynak": "https://yol.kgm.gov.tr/kazakaranoktaweb/",
+   "kaynakKurum": "Karayolları Genel Müdürlüğü",
+   "kapsam": {
+    "nokta": 25,
+    "il": 17
+   },
+   "dosyalar": [
+    {
+     "yol": "kgm/kara-noktalar.csv",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/kgm/kara-noktalar.csv",
+     "boyutKB": 2
+    },
+    {
+     "yol": "kgm/kara-noktalar.json",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/kgm/kara-noktalar.json",
+     "boyutKB": 4
+    }
+   ]
+  },
+  {
    "kimlik": "ibb-istanbul-kaza-duyurulari",
    "ad": "İstanbul konumlu kaza duyuruları (işlenmiş)",
    "aciklama": "İBB Ulaşım Yönetim Merkezi trafik duyurularından ayıklanmış “Kaza Bildirimi” kayıtları. Kaza sonucu ve yol adı duyuru metninden çıkarılmıştır; hatalı koordinatlar atılmıştır.",

@@ -102,6 +102,20 @@ Kaynak: [EGM Trafik Başkanlığı: Aylık Trafik İstatistik Bülteni](https://
 - `trafik_cezalari`: yaya, yolcu, sürücü ve plakaya uygulanan cezalar
 - `diger_ekip_faaliyetleri`: alkollü sürücü, trafikten men edilen araç, hız ihlali…
 
+### KGM kaza kara noktaları (`kgm/`)
+
+Kaynak: [KGM Kaza Kara Nokta Haritası](https://yol.kgm.gov.tr/kazakaranoktaweb/)
+
+`kgm/kara-noktalar.csv` / `.json` — Karayolları Genel Müdürlüğü'nün belirlediği, iyileştirme çalışması yürütülen kaza kara noktaları.
+
+| Alan | Açıklama |
+| --- | --- |
+| `kara_nokta_no` | KGM kara nokta numarası (yol no - sıra) |
+| `il`, `ilce` | Konumun idari yeri |
+| `bolge` | KGM bölge müdürlüğü numarası |
+| `km` | Yol üzerindeki kilometre değeri |
+| `enlem`, `boylam` | WGS84 koordinat (kaynaktaki Web Mercator değerinden çevrildi) |
+
 ### İstanbul (`ibb/`)
 
 Kaynak: [İBB Açık Veri Portalı](https://data.ibb.gov.tr), İBB Açık Veri Lisansı
@@ -168,7 +182,7 @@ Değişikliklerin geçmişi için bu klasörün [commit geçmişine](https://git
 
 ## Lisans ve atıf
 
-Veriler kaynak kurumlara aittir: EGM Trafik Başkanlığı, İstanbul Büyükşehir Belediyesi ve İzmir Büyükşehir Belediyesi. Bu klasördeki derleme ve dönüştürme [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.tr) ile paylaşılır. Kullanırken hem kaynak kurumu hem bu depoyu belirtin. Örnek:
+Veriler kaynak kurumlara aittir: EGM Trafik Başkanlığı, Karayolları Genel Müdürlüğü, İstanbul Büyükşehir Belediyesi ve İzmir Büyükşehir Belediyesi. Bu klasördeki derleme ve dönüştürme [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.tr) ile paylaşılır. Kullanırken hem kaynak kurumu hem bu depoyu belirtin. Örnek:
 
 > Kaynak: EGM Trafik Başkanlığı Aylık Trafik İstatistik Bülteni; kaza-analiz-paneli (github.com/gorkemguler/kaza-analiz-paneli) tarafından derlenmiştir.
 
