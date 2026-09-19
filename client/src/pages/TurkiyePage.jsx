@@ -191,6 +191,7 @@ export default function TurkiyePage() {
       <Sources
         items={[
           { name: 'EGM Trafik Başkanlığı: Aylık Trafik İstatistik Bülteni', url: 'https://trafik.gov.tr/istatistikler37', note: `${periods.data.length} bülten, ${periods.data.at(-1).label} – ${periods.data[0].label}` },
+          { name: 'Bu sayfadaki verileri JSON/CSV olarak indirin (açık veri)', url: 'https://github.com/gorkemguler/kaza-analiz-paneli/tree/main/acik-veri', note: 'PDF’lerden çıkarılmış, doğrulanmış, her gün otomatik güncellenir' },
           { name: 'İBB Açık Veri: Yıllara Göre Ölümlü Yaralanmalı Trafik Kaza Sayısı', url: 'https://data.ibb.gov.tr/dataset/yillara-gore-olumlu-yaralanmali-trafik-kaza-sayisi', note: 'İBB Açık Veri Lisansı' },
         ]}
       />

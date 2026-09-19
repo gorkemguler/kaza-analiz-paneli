@@ -1,0 +1,604 @@
+﻿donem,tablo,kalem,sayi
+2025-12,kaza_olus_sekli,Karşılıklı Çarpışma,1144
+2025-12,kaza_olus_sekli,Arkadan Çarpma,2556
+2025-12,kaza_olus_sekli,Yandan Çarpma,7632
+2025-12,kaza_olus_sekli,Yan Yana Çarpışma,406
+2025-12,kaza_olus_sekli,Duran Araca Çarpma,302
+2025-12,kaza_olus_sekli,Zincirleme Çarpışma,138
+2025-12,kaza_olus_sekli,Çoklu Çarpışma,144
+2025-12,kaza_olus_sekli,Engel/Cisim ile Çarpışma,1048
+2025-12,kaza_olus_sekli,Yayaya Çarpma,3333
+2025-12,kaza_olus_sekli,Hayvana Çarpma,69
+2025-12,kaza_olus_sekli,Devrilme/Savrulma/Takla,3017
+2025-12,kaza_olus_sekli,Yoldan Çıkma,1881
+2025-12,kaza_olus_sekli,Araçtan Insan Düşmesi,133
+2025-12,kaza_olus_sekli,Araçtan Cisim Düşmesi,9
+2025-12,kaza_olus_sekli,Park etmis araca çarpma,249
+2025-12,karisan_arac_sayisi,Tek Araçlı,8825
+2025-12,karisan_arac_sayisi,İki Araçlı,11714
+2025-12,karisan_arac_sayisi,Çok Araçlı,1522
+2025-12,kusur_unsurlari,SÜRÜCÜ,23991
+2025-12,kusur_unsurlari,YAYA,2132
+2025-12,kusur_unsurlari,YOLCU,125
+2025-12,kusur_unsurlari,ARAÇ,210
+2025-12,kusur_unsurlari,YOL,124
+2025-12,surucu_kusurlari,"Araç hızını yol, hava ve trafiğin gerektirdiği şartlara uydurmamak",8946
+2025-12,surucu_kusurlari,"Kavşak,geçit ve kaplamanın dar old.yerlerde geçiş önc.uymamak",4021
+2025-12,surucu_kusurlari,Şerit izleme ve değiştirme kural.uymamak,1724
+2025-12,surucu_kusurlari,Arkadan Çarpma,2128
+2025-12,surucu_kusurlari,Doğrultu Değiştirme (dönüş) kurallarına uymamak,1985
+2025-12,surucu_kusurlari,Manevraları düzenleyen genel şartlara uymamak,1015
+2025-12,surucu_kusurlari,Kırmızı ışık veya görevlinin dur işaretinde durmamak,618
+2025-12,surucu_kusurlari,Taşıt giremez trafik işareti bulunan yerlere girmek,854
+2025-12,surucu_kusurlari,Trafik güvenliği ile ilgili diğer kurallara uymamak,562
+2025-12,surucu_kusurlari,"Yaya ve okul geçitlerinde yavaşlamamak, yayalara geçiş hakkı vermemek",401
+2025-12,surucu_kusurlari,Alkollü olarak araç kullanmak,131
+2025-12,surucu_kusurlari,Aşırı hızla araç kullanmak,136
+2025-12,surucu_kusurlari,Geçme yasağı olan yerlerden geçmek,260
+2025-12,surucu_kusurlari,Hatalı şekilde veya yasak olan yerlere park etmek,117
+2025-12,surucu_kusurlari,DİĞER,1093
+2025-12,karisan_arac_cinsi,Bisiklet,486
+2025-12,karisan_arac_cinsi,At Arabası,3
+2025-12,karisan_arac_cinsi,Motorlu Bisiklet,2805
+2025-12,karisan_arac_cinsi,Motosiklet,8077
+2025-12,karisan_arac_cinsi,Otomobil,17427
+2025-12,karisan_arac_cinsi,Minibüs,858
+2025-12,karisan_arac_cinsi,Kamyonet,4859
+2025-12,karisan_arac_cinsi,Kamyon,587
+2025-12,karisan_arac_cinsi,Çekici,793
+2025-12,karisan_arac_cinsi,Otobüs,594
+2025-12,karisan_arac_cinsi,Traktör,142
+2025-12,karisan_arac_cinsi,Arazi Taşıtı,5
+2025-12,karisan_arac_cinsi,Özel Amaçlı,54
+2025-12,karisan_arac_cinsi,İş Makinesi,43
+2025-12,karisan_arac_cinsi,Ambulans,26
+2025-12,karisan_arac_cinsi,Tanker,12
+2025-12,karisan_arac_cinsi,Tren,5
+2025-12,karisan_arac_cinsi,Tramvay,12
+2025-12,karisan_arac_cinsi,Diğer,472
+2025-12,trafik_cezalari,Yayalara Uygulanan,365
+2025-12,trafik_cezalari,Yolculara Uygulanan,8358
+2025-12,trafik_cezalari,Sürücülere Uygulanan,463781
+2025-12,trafik_cezalari,Araç Plakasına Uygulanan,2288888
+2025-12,diger_ekip_faaliyetleri,Alkollü Olarak Araç Kullanan,21057
+2025-12,diger_ekip_faaliyetleri,100 Ceza Puanını Dolduran,1508
+2025-12,diger_ekip_faaliyetleri,5 Kez Hız Limitini Aşan,66
+2025-12,diger_ekip_faaliyetleri,Diğer İşlemler,5755
+2025-12,diger_ekip_faaliyetleri,Mülki Amire Sevk Edilen Sür. Sayısı,73
+2025-12,diger_ekip_faaliyetleri,Trafikten Men Edilen Araç Sayısı,201995
+2026-01,kaza_olus_sekli,Karşılıklı Çarpışma,925
+2026-01,kaza_olus_sekli,Arkadan Çarpma,1987
+2026-01,kaza_olus_sekli,Yandan Çarpma,5635
+2026-01,kaza_olus_sekli,Yan Yana Çarpışma,298
+2026-01,kaza_olus_sekli,Duran Araca Çarpma,240
+2026-01,kaza_olus_sekli,Zincirleme Çarpışma,112
+2026-01,kaza_olus_sekli,Çoklu Çarpışma,153
+2026-01,kaza_olus_sekli,Engel/Cisim ile Çarpışma,955
+2026-01,kaza_olus_sekli,Yayaya Çarpma,2529
+2026-01,kaza_olus_sekli,Hayvana Çarpma,38
+2026-01,kaza_olus_sekli,Devrilme/Savrulma/Takla,2418
+2026-01,kaza_olus_sekli,Yoldan Çıkma,1707
+2026-01,kaza_olus_sekli,Araçtan Insan Düşmesi,110
+2026-01,kaza_olus_sekli,Araçtan Cisim Düşmesi,7
+2026-01,kaza_olus_sekli,Park etmis araca çarpma,210
+2026-01,karisan_arac_sayisi,Tek Araçlı,7239
+2026-01,karisan_arac_sayisi,İki Araçlı,8885
+2026-01,karisan_arac_sayisi,Çok Araçlı,1200
+2026-01,kusur_unsurlari,SÜRÜCÜ,18777
+2026-01,kusur_unsurlari,YAYA,1590
+2026-01,kusur_unsurlari,YOLCU,116
+2026-01,kusur_unsurlari,ARAÇ,164
+2026-01,kusur_unsurlari,YOL,111
+2026-01,surucu_kusurlari,"Araç hızını yol, hava ve trafiğin gerektirdiği şartlara uydurmamak",7533
+2026-01,surucu_kusurlari,"Kavşak,geçit ve kaplamanın dar old.yerlerde geçiş önc.uymamak",3024
+2026-01,surucu_kusurlari,Şerit izleme ve değiştirme kural.uymamak,1514
+2026-01,surucu_kusurlari,Arkadan Çarpma,1745
+2026-01,surucu_kusurlari,Doğrultu Değiştirme (dönüş) kurallarına uymamak,1442
+2026-01,surucu_kusurlari,Manevraları düzenleyen genel şartlara uymamak,771
+2026-01,surucu_kusurlari,Kırmızı ışık veya görevlinin dur işaretinde durmamak,492
+2026-01,surucu_kusurlari,Taşıt giremez trafik işareti bulunan yerlere girmek,608
+2026-01,surucu_kusurlari,Trafik güvenliği ile ilgili diğer kurallara uymamak,377
+2026-01,surucu_kusurlari,"Yaya ve okul geçitlerinde yavaşlamamak, yayalara geçiş hakkı vermemek",322
+2026-01,surucu_kusurlari,Alkollü olarak araç kullanmak,96
+2026-01,surucu_kusurlari,Aşırı hızla araç kullanmak,118
+2026-01,surucu_kusurlari,Geçme yasağı olan yerlerden geçmek,219
+2026-01,surucu_kusurlari,Hatalı şekilde veya yasak olan yerlere park etmek,89
+2026-01,surucu_kusurlari,DİĞER,427
+2026-01,karisan_arac_cinsi,Bisiklet,255
+2026-01,karisan_arac_cinsi,At Arabası,2
+2026-01,karisan_arac_cinsi,Motorlu Bisiklet,1789
+2026-01,karisan_arac_cinsi,Motosiklet,5745
+2026-01,karisan_arac_cinsi,Otomobil,14215
+2026-01,karisan_arac_cinsi,Minibüs,607
+2026-01,karisan_arac_cinsi,Kamyonet,4128
+2026-01,karisan_arac_cinsi,Kamyon,482
+2026-01,karisan_arac_cinsi,Çekici,657
+2026-01,karisan_arac_cinsi,Otobüs,564
+2026-01,karisan_arac_cinsi,Traktör,78
+2026-01,karisan_arac_cinsi,Arazi Taşıtı,5
+2026-01,karisan_arac_cinsi,Özel Amaçlı,67
+2026-01,karisan_arac_cinsi,İş Makinesi,37
+2026-01,karisan_arac_cinsi,Ambulans,23
+2026-01,karisan_arac_cinsi,Tanker,11
+2026-01,karisan_arac_cinsi,Tren,4
+2026-01,karisan_arac_cinsi,Tramvay,3
+2026-01,karisan_arac_cinsi,Diğer,368
+2026-01,trafik_cezalari,Yayalara Uygulanan,249
+2026-01,trafik_cezalari,Yolculara Uygulanan,6144
+2026-01,trafik_cezalari,Sürücülere Uygulanan,378179
+2026-01,trafik_cezalari,Araç Plakasına Uygulanan,2091860
+2026-01,diger_ekip_faaliyetleri,Alkollü Olarak Araç Kullanan,17651
+2026-01,diger_ekip_faaliyetleri,100 Ceza Puanını Dolduran,1315
+2026-01,diger_ekip_faaliyetleri,5 Kez Hız Limitini Aşan,48
+2026-01,diger_ekip_faaliyetleri,Diğer İşlemler,3574
+2026-01,diger_ekip_faaliyetleri,Mülki Amire Sevk Edilen Sür. Sayısı,14
+2026-01,diger_ekip_faaliyetleri,Trafikten Men Edilen Araç Sayısı,166739
+2026-02,kaza_olus_sekli,Karşılıklı Çarpışma,868
+2026-02,kaza_olus_sekli,Arkadan Çarpma,1916
+2026-02,kaza_olus_sekli,Yandan Çarpma,5695
+2026-02,kaza_olus_sekli,Yan Yana Çarpışma,311
+2026-02,kaza_olus_sekli,Duran Araca Çarpma,212
+2026-02,kaza_olus_sekli,Zincirleme Çarpışma,98
+2026-02,kaza_olus_sekli,Çoklu Çarpışma,117
+2026-02,kaza_olus_sekli,Engel/Cisim ile Çarpışma,794
+2026-02,kaza_olus_sekli,Yayaya Çarpma,2768
+2026-02,kaza_olus_sekli,Hayvana Çarpma,44
+2026-02,kaza_olus_sekli,Devrilme/Savrulma/Takla,2182
+2026-02,kaza_olus_sekli,Yoldan Çıkma,1498
+2026-02,kaza_olus_sekli,Araçtan Insan Düşmesi,114
+2026-02,kaza_olus_sekli,Araçtan Cisim Düşmesi,6
+2026-02,kaza_olus_sekli,Park etmis araca çarpma,203
+2026-02,karisan_arac_sayisi,Tek Araçlı,6870
+2026-02,karisan_arac_sayisi,İki Araçlı,8833
+2026-02,karisan_arac_sayisi,Çok Araçlı,1123
+2026-02,kusur_unsurlari,SÜRÜCÜ,18009
+2026-02,kusur_unsurlari,YAYA,1801
+2026-02,kusur_unsurlari,YOLCU,105
+2026-02,kusur_unsurlari,ARAÇ,183
+2026-02,kusur_unsurlari,YOL,140
+2026-02,surucu_kusurlari,"Araç hızını yol, hava ve trafiğin gerektirdiği şartlara uydurmamak",6745
+2026-02,surucu_kusurlari,"Kavşak,geçit ve kaplamanın dar old.yerlerde geçiş önc.uymamak",3183
+2026-02,surucu_kusurlari,Şerit izleme ve değiştirme kural.uymamak,1511
+2026-02,surucu_kusurlari,Arkadan Çarpma,1683
+2026-02,surucu_kusurlari,Doğrultu Değiştirme (dönüş) kurallarına uymamak,1343
+2026-02,surucu_kusurlari,Manevraları düzenleyen genel şartlara uymamak,799
+2026-02,surucu_kusurlari,Kırmızı ışık veya görevlinin dur işaretinde durmamak,461
+2026-02,surucu_kusurlari,Taşıt giremez trafik işareti bulunan yerlere girmek,628
+2026-02,surucu_kusurlari,Trafik güvenliği ile ilgili diğer kurallara uymamak,414
+2026-02,surucu_kusurlari,"Yaya ve okul geçitlerinde yavaşlamamak, yayalara geçiş hakkı vermemek",315
+2026-02,surucu_kusurlari,Alkollü olarak araç kullanmak,85
+2026-02,surucu_kusurlari,Aşırı hızla araç kullanmak,120
+2026-02,surucu_kusurlari,Geçme yasağı olan yerlerden geçmek,223
+2026-02,surucu_kusurlari,Hatalı şekilde veya yasak olan yerlere park etmek,74
+2026-02,surucu_kusurlari,DİĞER,425
+2026-02,karisan_arac_cinsi,Bisiklet,291
+2026-02,karisan_arac_cinsi,At Arabası,1
+2026-02,karisan_arac_cinsi,Motorlu Bisiklet,1960
+2026-02,karisan_arac_cinsi,Motosiklet,6002
+2026-02,karisan_arac_cinsi,Otomobil,13359
+2026-02,karisan_arac_cinsi,Minibüs,653
+2026-02,karisan_arac_cinsi,Kamyonet,3777
+2026-02,karisan_arac_cinsi,Kamyon,484
+2026-02,karisan_arac_cinsi,Çekici,586
+2026-02,karisan_arac_cinsi,Otobüs,534
+2026-02,karisan_arac_cinsi,Traktör,62
+2026-02,karisan_arac_cinsi,Arazi Taşıtı,2
+2026-02,karisan_arac_cinsi,Özel Amaçlı,63
+2026-02,karisan_arac_cinsi,İş Makinesi,32
+2026-02,karisan_arac_cinsi,Ambulans,25
+2026-02,karisan_arac_cinsi,Tanker,6
+2026-02,karisan_arac_cinsi,Tren,7
+2026-02,karisan_arac_cinsi,Tramvay,3
+2026-02,karisan_arac_cinsi,Diğer,424
+2026-02,trafik_cezalari,Yayalara Uygulanan,389
+2026-02,trafik_cezalari,Yolculara Uygulanan,7166
+2026-02,trafik_cezalari,Sürücülere Uygulanan,398745
+2026-02,trafik_cezalari,Araç Plakasına Uygulanan,2103590
+2026-02,diger_ekip_faaliyetleri,Alkollü Olarak Araç Kullanan,12475
+2026-02,diger_ekip_faaliyetleri,100 Ceza Puanını Dolduran,1316
+2026-02,diger_ekip_faaliyetleri,5 Kez Hız Limitini Aşan,50
+2026-02,diger_ekip_faaliyetleri,Diğer İşlemler,7913
+2026-02,diger_ekip_faaliyetleri,Mülki Amire Sevk Edilen Sür. Sayısı,18
+2026-02,diger_ekip_faaliyetleri,Trafikten Men Edilen Araç Sayısı,178633
+2026-03,kaza_olus_sekli,Karşılıklı Çarpışma,1141
+2026-03,kaza_olus_sekli,Arkadan Çarpma,2469
+2026-03,kaza_olus_sekli,Yandan Çarpma,7457
+2026-03,kaza_olus_sekli,Yan Yana Çarpışma,428
+2026-03,kaza_olus_sekli,Duran Araca Çarpma,268
+2026-03,kaza_olus_sekli,Zincirleme Çarpışma,138
+2026-03,kaza_olus_sekli,Çoklu Çarpışma,145
+2026-03,kaza_olus_sekli,Engel/Cisim ile Çarpışma,978
+2026-03,kaza_olus_sekli,Yayaya Çarpma,3005
+2026-03,kaza_olus_sekli,Hayvana Çarpma,43
+2026-03,kaza_olus_sekli,Devrilme/Savrulma/Takla,2828
+2026-03,kaza_olus_sekli,Yoldan Çıkma,2031
+2026-03,kaza_olus_sekli,Araçtan Insan Düşmesi,159
+2026-03,kaza_olus_sekli,Araçtan Cisim Düşmesi,5
+2026-03,kaza_olus_sekli,Park etmis araca çarpma,201
+2026-03,karisan_arac_sayisi,Tek Araçlı,8398
+2026-03,karisan_arac_sayisi,İki Araçlı,11414
+2026-03,karisan_arac_sayisi,Çok Araçlı,1484
+2026-03,kusur_unsurlari,SÜRÜCÜ,22951
+2026-03,kusur_unsurlari,YAYA,2030
+2026-03,kusur_unsurlari,YOLCU,127
+2026-03,kusur_unsurlari,ARAÇ,226
+2026-03,kusur_unsurlari,YOL,120
+2026-03,surucu_kusurlari,"Araç hızını yol, hava ve trafiğin gerektirdiği şartlara uydurmamak",8608
+2026-03,surucu_kusurlari,"Kavşak,geçit ve kaplamanın dar old.yerlerde geçiş önc.uymamak",4166
+2026-03,surucu_kusurlari,Şerit izleme ve değiştirme kural.uymamak,2024
+2026-03,surucu_kusurlari,Arkadan Çarpma,2270
+2026-03,surucu_kusurlari,Doğrultu Değiştirme (dönüş) kurallarına uymamak,1746
+2026-03,surucu_kusurlari,Manevraları düzenleyen genel şartlara uymamak,1025
+2026-03,surucu_kusurlari,Kırmızı ışık veya görevlinin dur işaretinde durmamak,458
+2026-03,surucu_kusurlari,Taşıt giremez trafik işareti bulunan yerlere girmek,794
+2026-03,surucu_kusurlari,Trafik güvenliği ile ilgili diğer kurallara uymamak,464
+2026-03,surucu_kusurlari,"Yaya ve okul geçitlerinde yavaşlamamak, yayalara geçiş hakkı vermemek",296
+2026-03,surucu_kusurlari,Alkollü olarak araç kullanmak,92
+2026-03,surucu_kusurlari,Aşırı hızla araç kullanmak,122
+2026-03,surucu_kusurlari,Geçme yasağı olan yerlerden geçmek,296
+2026-03,surucu_kusurlari,Hatalı şekilde veya yasak olan yerlere park etmek,116
+2026-03,surucu_kusurlari,DİĞER,474
+2026-03,karisan_arac_cinsi,Bisiklet,430
+2026-03,karisan_arac_cinsi,At Arabası,4
+2026-03,karisan_arac_cinsi,Motorlu Bisiklet,2653
+2026-03,karisan_arac_cinsi,Motosiklet,7782
+2026-03,karisan_arac_cinsi,Otomobil,17714
+2026-03,karisan_arac_cinsi,Minibüs,667
+2026-03,karisan_arac_cinsi,Kamyonet,4560
+2026-03,karisan_arac_cinsi,Kamyon,486
+2026-03,karisan_arac_cinsi,Çekici,633
+2026-03,karisan_arac_cinsi,Otobüs,524
+2026-03,karisan_arac_cinsi,Traktör,114
+2026-03,karisan_arac_cinsi,Arazi Taşıtı,6
+2026-03,karisan_arac_cinsi,Özel Amaçlı,62
+2026-03,karisan_arac_cinsi,İş Makinesi,23
+2026-03,karisan_arac_cinsi,Ambulans,19
+2026-03,karisan_arac_cinsi,Tanker,9
+2026-03,karisan_arac_cinsi,Tren,2
+2026-03,karisan_arac_cinsi,Tramvay,12
+2026-03,karisan_arac_cinsi,Diğer,436
+2026-03,trafik_cezalari,Yayalara Uygulanan,351
+2026-03,trafik_cezalari,Yolculara Uygulanan,7346
+2026-03,trafik_cezalari,Sürücülere Uygulanan,400544
+2026-03,trafik_cezalari,Araç Plakasına Uygulanan,1809097
+2026-03,diger_ekip_faaliyetleri,Alkollü Olarak Araç Kullanan,9939
+2026-03,diger_ekip_faaliyetleri,100 Ceza Puanını Dolduran,919
+2026-03,diger_ekip_faaliyetleri,51. Madde (Hız İhlali),584
+2026-03,diger_ekip_faaliyetleri,Diğer İşlemler,9317
+2026-03,diger_ekip_faaliyetleri,Mülki Amire Sevk Edilen Sür. Sayısı,4
+2026-03,diger_ekip_faaliyetleri,Trafikten Men Edilen Araç Sayısı,186816
+2026-04,kaza_olus_sekli,Karşılıklı Çarpışma,1072
+2026-04,kaza_olus_sekli,Arkadan Çarpma,2512
+2026-04,kaza_olus_sekli,Yandan Çarpma,7815
+2026-04,kaza_olus_sekli,Yan Yana Çarpışma,437
+2026-04,kaza_olus_sekli,Duran Araca Çarpma,257
+2026-04,kaza_olus_sekli,Zincirleme Çarpışma,86
+2026-04,kaza_olus_sekli,Çoklu Çarpışma,133
+2026-04,kaza_olus_sekli,Engel/Cisim ile Çarpışma,862
+2026-04,kaza_olus_sekli,Yayaya Çarpma,3235
+2026-04,kaza_olus_sekli,Hayvana Çarpma,63
+2026-04,kaza_olus_sekli,Devrilme/Savrulma/Takla,3089
+2026-04,kaza_olus_sekli,Yoldan Çıkma,1695
+2026-04,kaza_olus_sekli,Araçtan Insan Düşmesi,188
+2026-04,kaza_olus_sekli,Araçtan Cisim Düşmesi,11
+2026-04,kaza_olus_sekli,Park etmis araca çarpma,229
+2026-04,karisan_arac_sayisi,Tek Araçlı,8463
+2026-04,karisan_arac_sayisi,İki Araçlı,11920
+2026-04,karisan_arac_sayisi,Çok Araçlı,1301
+2026-04,kusur_unsurlari,SÜRÜCÜ,23074
+2026-04,kusur_unsurlari,YAYA,2087
+2026-04,kusur_unsurlari,YOLCU,118
+2026-04,kusur_unsurlari,ARAÇ,221
+2026-04,kusur_unsurlari,YOL,103
+2026-04,surucu_kusurlari,"Araç hızını yol, hava ve trafiğin gerektirdiği şartlara uydurmamak",8085
+2026-04,surucu_kusurlari,"Kavşak,geçit ve kaplamanın dar old.yerlerde geçiş önc.uymamak",4404
+2026-04,surucu_kusurlari,Şerit izleme ve değiştirme kural.uymamak,1999
+2026-04,surucu_kusurlari,Arkadan Çarpma,2162
+2026-04,surucu_kusurlari,Doğrultu Değiştirme (dönüş) kurallarına uymamak,1892
+2026-04,surucu_kusurlari,Manevraları düzenleyen genel şartlara uymamak,1077
+2026-04,surucu_kusurlari,Kırmızı ışık veya görevlinin dur işaretinde durmamak,489
+2026-04,surucu_kusurlari,Taşıt giremez trafik işareti bulunan yerlere girmek,839
+2026-04,surucu_kusurlari,Trafik güvenliği ile ilgili diğer kurallara uymamak,528
+2026-04,surucu_kusurlari,"Yaya ve okul geçitlerinde yavaşlamamak, yayalara geçiş hakkı vermemek",393
+2026-04,surucu_kusurlari,Alkollü olarak araç kullanmak,95
+2026-04,surucu_kusurlari,Aşırı hızla araç kullanmak,106
+2026-04,surucu_kusurlari,Geçme yasağı olan yerlerden geçmek,370
+2026-04,surucu_kusurlari,Hatalı şekilde veya yasak olan yerlere park etmek,95
+2026-04,surucu_kusurlari,DİĞER,540
+2026-04,karisan_arac_cinsi,Bisiklet,606
+2026-04,karisan_arac_cinsi,At Arabası,5
+2026-04,karisan_arac_cinsi,Motorlu Bisiklet,3328
+2026-04,karisan_arac_cinsi,Motosiklet,8678
+2026-04,karisan_arac_cinsi,Otomobil,16390
+2026-04,karisan_arac_cinsi,Minibüs,694
+2026-04,karisan_arac_cinsi,Kamyonet,4310
+2026-04,karisan_arac_cinsi,Kamyon,463
+2026-04,karisan_arac_cinsi,Çekici,656
+2026-04,karisan_arac_cinsi,Otobüs,541
+2026-04,karisan_arac_cinsi,Traktör,170
+2026-04,karisan_arac_cinsi,Arazi Taşıtı,3
+2026-04,karisan_arac_cinsi,Özel Amaçlı,66
+2026-04,karisan_arac_cinsi,İş Makinesi,42
+2026-04,karisan_arac_cinsi,Ambulans,21
+2026-04,karisan_arac_cinsi,Tanker,4
+2026-04,karisan_arac_cinsi,Tren,1
+2026-04,karisan_arac_cinsi,Tramvay,7
+2026-04,karisan_arac_cinsi,Diğer,545
+2026-04,trafik_cezalari,Yayalara Uygulanan,309
+2026-04,trafik_cezalari,Yolculara Uygulanan,8708
+2026-04,trafik_cezalari,Sürücülere Uygulanan,410622
+2026-04,trafik_cezalari,Araç Plakasına Uygulanan,1713972
+2026-04,diger_ekip_faaliyetleri,Alkollü Olarak Araç Kullanan,19541
+2026-04,diger_ekip_faaliyetleri,100 Ceza Puanını Dolduran,856
+2026-04,diger_ekip_faaliyetleri,51. Madde (Hız İhlali),625
+2026-04,diger_ekip_faaliyetleri,Diğer İşlemler,1193
+2026-04,diger_ekip_faaliyetleri,Mülki Amire Sevk Edilen Sür. Sayısı,6
+2026-04,diger_ekip_faaliyetleri,Trafikten Men Edilen Araç Sayısı,197793
+2026-05,kaza_olus_sekli,Karşılıklı Çarpışma,1352
+2026-05,kaza_olus_sekli,Arkadan Çarpma,2865
+2026-05,kaza_olus_sekli,Yandan Çarpma,8637
+2026-05,kaza_olus_sekli,Yan Yana Çarpışma,484
+2026-05,kaza_olus_sekli,Duran Araca Çarpma,297
+2026-05,kaza_olus_sekli,Zincirleme Çarpışma,134
+2026-05,kaza_olus_sekli,Çoklu Çarpışma,140
+2026-05,kaza_olus_sekli,Engel/Cisim ile Çarpışma,1067
+2026-05,kaza_olus_sekli,Yayaya Çarpma,3389
+2026-05,kaza_olus_sekli,Hayvana Çarpma,88
+2026-05,kaza_olus_sekli,Devrilme/Savrulma/Takla,3596
+2026-05,kaza_olus_sekli,Yoldan Çıkma,2243
+2026-05,kaza_olus_sekli,Araçtan Insan Düşmesi,187
+2026-05,kaza_olus_sekli,Araçtan Cisim Düşmesi,6
+2026-05,kaza_olus_sekli,Park etmis araca çarpma,254
+2026-05,karisan_arac_sayisi,Tek Araçlı,9776
+2026-05,karisan_arac_sayisi,İki Araçlı,13390
+2026-05,karisan_arac_sayisi,Çok Araçlı,1573
+2026-05,kusur_unsurlari,SÜRÜCÜ,26588
+2026-05,kusur_unsurlari,YAYA,2287
+2026-05,kusur_unsurlari,YOLCU,173
+2026-05,kusur_unsurlari,ARAÇ,311
+2026-05,kusur_unsurlari,YOL,108
+2026-05,surucu_kusurlari,"Araç hızını yol, hava ve trafiğin gerektirdiği şartlara uydurmamak",9806
+2026-05,surucu_kusurlari,"Kavşak,geçit ve kaplamanın dar old.yerlerde geçiş önc.uymamak",4623
+2026-05,surucu_kusurlari,Şerit izleme ve değiştirme kural.uymamak,2195
+2026-05,surucu_kusurlari,Arkadan Çarpma,2387
+2026-05,surucu_kusurlari,Doğrultu Değiştirme (dönüş) kurallarına uymamak,2042
+2026-05,surucu_kusurlari,Manevraları düzenleyen genel şartlara uymamak,1125
+2026-05,surucu_kusurlari,Kırmızı ışık veya görevlinin dur işaretinde durmamak,535
+2026-05,surucu_kusurlari,Taşıt giremez trafik işareti bulunan yerlere girmek,879
+2026-05,surucu_kusurlari,Trafik güvenliği ile ilgili diğer kurallara uymamak,487
+2026-05,surucu_kusurlari,"Yaya ve okul geçitlerinde yavaşlamamak, yayalara geçiş hakkı vermemek",338
+2026-05,surucu_kusurlari,Alkollü olarak araç kullanmak,158
+2026-05,surucu_kusurlari,Aşırı hızla araç kullanmak,151
+2026-05,surucu_kusurlari,Geçme yasağı olan yerlerden geçmek,370
+2026-05,surucu_kusurlari,Hatalı şekilde veya yasak olan yerlere park etmek,107
+2026-05,surucu_kusurlari,DİĞER,1385
+2026-05,karisan_arac_cinsi,Bisiklet,763
+2026-05,karisan_arac_cinsi,At Arabası,1
+2026-05,karisan_arac_cinsi,Motorlu Bisiklet,3728
+2026-05,karisan_arac_cinsi,Motosiklet,9443
+2026-05,karisan_arac_cinsi,Otomobil,19437
+2026-05,karisan_arac_cinsi,Minibüs,711
+2026-05,karisan_arac_cinsi,Kamyonet,4899
+2026-05,karisan_arac_cinsi,Kamyon,517
+2026-05,karisan_arac_cinsi,Çekici,624
+2026-05,karisan_arac_cinsi,Otobüs,572
+2026-05,karisan_arac_cinsi,Traktör,221
+2026-05,karisan_arac_cinsi,Arazi Taşıtı,7
+2026-05,karisan_arac_cinsi,Özel Amaçlı,63
+2026-05,karisan_arac_cinsi,İş Makinesi,39
+2026-05,karisan_arac_cinsi,Ambulans,31
+2026-05,karisan_arac_cinsi,Tanker,5
+2026-05,karisan_arac_cinsi,Tren,4
+2026-05,karisan_arac_cinsi,Tramvay,7
+2026-05,karisan_arac_cinsi,Diğer,625
+2026-05,trafik_cezalari,Yayalara Uygulanan,384
+2026-05,trafik_cezalari,Yolculara Uygulanan,8206
+2026-05,trafik_cezalari,Sürücülere Uygulanan,387563
+2026-05,trafik_cezalari,Araç Plakasına Uygulanan,1715496
+2026-05,diger_ekip_faaliyetleri,Alkollü Olarak Araç Kullanan,21485
+2026-05,diger_ekip_faaliyetleri,100 Ceza Puanını Dolduran,706
+2026-05,diger_ekip_faaliyetleri,51. Madde (Hız İhlali),724
+2026-05,diger_ekip_faaliyetleri,Diğer İşlemler,8559
+2026-05,diger_ekip_faaliyetleri,Mülki Amire Sevk Edilen Sür. Sayısı,9
+2026-05,diger_ekip_faaliyetleri,Trafikten Men Edilen Araç Sayısı,192004
+2026-06,kaza_olus_sekli,Karşılıklı Çarpışma,1502
+2026-06,kaza_olus_sekli,Arkadan Çarpma,3194
+2026-06,kaza_olus_sekli,Yandan Çarpma,10333
+2026-06,kaza_olus_sekli,Yan Yana Çarpışma,629
+2026-06,kaza_olus_sekli,Duran Araca Çarpma,325
+2026-06,kaza_olus_sekli,Zincirleme Çarpışma,146
+2026-06,kaza_olus_sekli,Çoklu Çarpışma,148
+2026-06,kaza_olus_sekli,Engel/Cisim ile Çarpışma,1136
+2026-06,kaza_olus_sekli,Yayaya Çarpma,3740
+2026-06,kaza_olus_sekli,Hayvana Çarpma,90
+2026-06,kaza_olus_sekli,Devrilme/Savrulma/Takla,4578
+2026-06,kaza_olus_sekli,Yoldan Çıkma,2276
+2026-06,kaza_olus_sekli,Araçtan Insan Düşmesi,238
+2026-06,kaza_olus_sekli,Araçtan Cisim Düşmesi,13
+2026-06,kaza_olus_sekli,Park etmis araca çarpma,327
+2026-06,karisan_arac_sayisi,Tek Araçlı,11071
+2026-06,karisan_arac_sayisi,İki Araçlı,15946
+2026-06,karisan_arac_sayisi,Çok Araçlı,1658
+2026-06,kusur_unsurlari,SÜRÜCÜ,30682
+2026-06,kusur_unsurlari,YAYA,2597
+2026-06,kusur_unsurlari,YOLCU,188
+2026-06,kusur_unsurlari,ARAÇ,318
+2026-06,kusur_unsurlari,YOL,128
+2026-06,surucu_kusurlari,"Araç hızını yol, hava ve trafiğin gerektirdiği şartlara uydurmamak",10907
+2026-06,surucu_kusurlari,"Kavşak,geçit ve kaplamanın dar old.yerlerde geçiş önc.uymamak",5510
+2026-06,surucu_kusurlari,Şerit izleme ve değiştirme kural.uymamak,2642
+2026-06,surucu_kusurlari,Arkadan Çarpma,2771
+2026-06,surucu_kusurlari,Doğrultu Değiştirme (dönüş) kurallarına uymamak,2568
+2026-06,surucu_kusurlari,Manevraları düzenleyen genel şartlara uymamak,1336
+2026-06,surucu_kusurlari,Kırmızı ışık veya görevlinin dur işaretinde durmamak,519
+2026-06,surucu_kusurlari,Taşıt giremez trafik işareti bulunan yerlere girmek,1012
+2026-06,surucu_kusurlari,Trafik güvenliği ile ilgili diğer kurallara uymamak,666
+2026-06,surucu_kusurlari,"Yaya ve okul geçitlerinde yavaşlamamak, yayalara geçiş hakkı vermemek",340
+2026-06,surucu_kusurlari,Alkollü olarak araç kullanmak,159
+2026-06,surucu_kusurlari,Aşırı hızla araç kullanmak,129
+2026-06,surucu_kusurlari,Geçme yasağı olan yerlerden geçmek,458
+2026-06,surucu_kusurlari,Hatalı şekilde veya yasak olan yerlere park etmek,119
+2026-06,surucu_kusurlari,DİĞER,1546
+2026-06,karisan_arac_cinsi,Bisiklet,1129
+2026-06,karisan_arac_cinsi,At Arabası,5
+2026-06,karisan_arac_cinsi,Motorlu Bisiklet,4821
+2026-06,karisan_arac_cinsi,Motosiklet,11770
+2026-06,karisan_arac_cinsi,Otomobil,20811
+2026-06,karisan_arac_cinsi,Minibüs,844
+2026-06,karisan_arac_cinsi,Kamyonet,5551
+2026-06,karisan_arac_cinsi,Kamyon,645
+2026-06,karisan_arac_cinsi,Çekici,769
+2026-06,karisan_arac_cinsi,Otobüs,621
+2026-06,karisan_arac_cinsi,Traktör,294
+2026-06,karisan_arac_cinsi,Arazi Taşıtı,17
+2026-06,karisan_arac_cinsi,Özel Amaçlı,106
+2026-06,karisan_arac_cinsi,İş Makinesi,47
+2026-06,karisan_arac_cinsi,Ambulans,26
+2026-06,karisan_arac_cinsi,Tanker,11
+2026-06,karisan_arac_cinsi,Tren,6
+2026-06,karisan_arac_cinsi,Tramvay,12
+2026-06,karisan_arac_cinsi,Diğer,894
+2026-06,trafik_cezalari,Yayalara Uygulanan,511
+2026-06,trafik_cezalari,Yolculara Uygulanan,11920
+2026-06,trafik_cezalari,Sürücülere Uygulanan,439378
+2026-06,trafik_cezalari,Araç Plakasına Uygulanan,1864175
+2026-06,diger_ekip_faaliyetleri,Alkollü Olarak Araç Kullanan,23058
+2026-06,diger_ekip_faaliyetleri,100 Ceza Puanını Dolduran,844
+2026-06,diger_ekip_faaliyetleri,51. Madde (Hız İhlali),757
+2026-06,diger_ekip_faaliyetleri,Diğer İşlemler,10830
+2026-06,diger_ekip_faaliyetleri,Mülki Amire Sevk Edilen Sür. Sayısı,16
+2026-06,diger_ekip_faaliyetleri,Trafikten Men Edilen Araç Sayısı,200857
+2026-07,kaza_olus_sekli,Karşılıklı Çarpışma,1711
+2026-07,kaza_olus_sekli,Arkadan Çarpma,3531
+2026-07,kaza_olus_sekli,Yandan Çarpma,10596
+2026-07,kaza_olus_sekli,Yan Yana Çarpışma,635
+2026-07,kaza_olus_sekli,Duran Araca Çarpma,336
+2026-07,kaza_olus_sekli,Zincirleme Çarpışma,183
+2026-07,kaza_olus_sekli,Çoklu Çarpışma,180
+2026-07,kaza_olus_sekli,Engel/Cisim ile Çarpışma,1195
+2026-07,kaza_olus_sekli,Yayaya Çarpma,3353
+2026-07,kaza_olus_sekli,Hayvana Çarpma,96
+2026-07,kaza_olus_sekli,Devrilme/Savrulma/Takla,5107
+2026-07,kaza_olus_sekli,Yoldan Çıkma,2666
+2026-07,kaza_olus_sekli,Araçtan Insan Düşmesi,226
+2026-07,kaza_olus_sekli,Araçtan Cisim Düşmesi,12
+2026-07,kaza_olus_sekli,Park etmis araca çarpma,357
+2026-07,karisan_arac_sayisi,Tek Araçlı,11609
+2026-07,karisan_arac_sayisi,İki Araçlı,16785
+2026-07,karisan_arac_sayisi,Çok Araçlı,1790
+2026-07,kusur_unsurlari,SÜRÜCÜ,32586
+2026-07,kusur_unsurlari,YAYA,2308
+2026-07,kusur_unsurlari,YOLCU,248
+2026-07,kusur_unsurlari,ARAÇ,380
+2026-07,kusur_unsurlari,YOL,158
+2026-07,surucu_kusurlari,"Araç hızını yol, hava ve trafiğin gerektirdiği şartlara uydurmamak",11906
+2026-07,surucu_kusurlari,"Kavşak,geçit ve kaplamanın dar old.yerlerde geçiş önc.uymamak",5669
+2026-07,surucu_kusurlari,Şerit izleme ve değiştirme kural.uymamak,3241
+2026-07,surucu_kusurlari,Arkadan Çarpma,3185
+2026-07,surucu_kusurlari,Doğrultu Değiştirme (dönüş) kurallarına uymamak,2809
+2026-07,surucu_kusurlari,Manevraları düzenleyen genel şartlara uymamak,1447
+2026-07,surucu_kusurlari,Kırmızı ışık veya görevlinin dur işaretinde durmamak,593
+2026-07,surucu_kusurlari,Taşıt giremez trafik işareti bulunan yerlere girmek,1073
+2026-07,surucu_kusurlari,Trafik güvenliği ile ilgili diğer kurallara uymamak,668
+2026-07,surucu_kusurlari,"Yaya ve okul geçitlerinde yavaşlamamak, yayalara geçiş hakkı vermemek",293
+2026-07,surucu_kusurlari,Alkollü olarak araç kullanmak,167
+2026-07,surucu_kusurlari,Aşırı hızla araç kullanmak,165
+2026-07,surucu_kusurlari,Geçme yasağı olan yerlerden geçmek,488
+2026-07,surucu_kusurlari,Hatalı şekilde veya yasak olan yerlere park etmek,155
+2026-07,surucu_kusurlari,DİĞER,727
+2026-07,karisan_arac_cinsi,Bisiklet,1208
+2026-07,karisan_arac_cinsi,At Arabası,5
+2026-07,karisan_arac_cinsi,Motorlu Bisiklet,5201
+2026-07,karisan_arac_cinsi,Motosiklet,11852
+2026-07,karisan_arac_cinsi,Otomobil,22393
+2026-07,karisan_arac_cinsi,Minibüs,807
+2026-07,karisan_arac_cinsi,Kamyonet,5851
+2026-07,karisan_arac_cinsi,Kamyon,748
+2026-07,karisan_arac_cinsi,Çekici,859
+2026-07,karisan_arac_cinsi,Otobüs,602
+2026-07,karisan_arac_cinsi,Traktör,392
+2026-07,karisan_arac_cinsi,Arazi Taşıtı,15
+2026-07,karisan_arac_cinsi,Özel Amaçlı,93
+2026-07,karisan_arac_cinsi,İş Makinesi,65
+2026-07,karisan_arac_cinsi,Ambulans,27
+2026-07,karisan_arac_cinsi,Tanker,7
+2026-07,karisan_arac_cinsi,Tren,2
+2026-07,karisan_arac_cinsi,Tramvay,10
+2026-07,karisan_arac_cinsi,Diğer,867
+2026-07,trafik_cezalari,Yayalara Uygulanan,344
+2026-07,trafik_cezalari,Yolculara Uygulanan,11017
+2026-07,trafik_cezalari,Sürücülere Uygulanan,413899
+2026-07,trafik_cezalari,Araç Plakasına Uygulanan,1991120
+2026-07,diger_ekip_faaliyetleri,Alkollü Olarak Araç Kullanan,21324
+2026-07,diger_ekip_faaliyetleri,100 Ceza Puanını Dolduran,766
+2026-07,diger_ekip_faaliyetleri,51. Madde (Hız İhlali),611
+2026-07,diger_ekip_faaliyetleri,Diğer İşlemler,10314
+2026-07,diger_ekip_faaliyetleri,Mülki Amire Sevk Edilen Sür. Sayısı,11
+2026-07,diger_ekip_faaliyetleri,Trafikten Men Edilen Araç Sayısı,210598
+2026-08,kaza_olus_sekli,Karşılıklı Çarpışma,1723
+2026-08,kaza_olus_sekli,Arkadan Çarpma,3853
+2026-08,kaza_olus_sekli,Yandan Çarpma,10415
+2026-08,kaza_olus_sekli,Yan Yana Çarpışma,653
+2026-08,kaza_olus_sekli,Duran Araca Çarpma,332
+2026-08,kaza_olus_sekli,Zincirleme Çarpışma,199
+2026-08,kaza_olus_sekli,Çoklu Çarpışma,188
+2026-08,kaza_olus_sekli,Engel/Cisim ile Çarpışma,1231
+2026-08,kaza_olus_sekli,Yayaya Çarpma,3207
+2026-08,kaza_olus_sekli,Hayvana Çarpma,133
+2026-08,kaza_olus_sekli,Devrilme/Savrulma/Takla,5198
+2026-08,kaza_olus_sekli,Yoldan Çıkma,2740
+2026-08,kaza_olus_sekli,Araçtan Insan Düşmesi,237
+2026-08,kaza_olus_sekli,Araçtan Cisim Düşmesi,11
+2026-08,kaza_olus_sekli,Park etmis araca çarpma,308
+2026-08,karisan_arac_sayisi,Tek Araçlı,11703
+2026-08,karisan_arac_sayisi,İki Araçlı,16882
+2026-08,karisan_arac_sayisi,Çok Araçlı,1843
+2026-08,kusur_unsurlari,SÜRÜCÜ,32708
+2026-08,kusur_unsurlari,YAYA,2199
+2026-08,kusur_unsurlari,YOLCU,262
+2026-08,kusur_unsurlari,ARAÇ,465
+2026-08,kusur_unsurlari,YOL,184
+2026-08,surucu_kusurlari,"Araç hızını yol, hava ve trafiğin gerektirdiği şartlara uydurmamak",11948
+2026-08,surucu_kusurlari,"Kavşak,geçit ve kaplamanın dar old.yerlerde geçiş önc.uymamak",5361
+2026-08,surucu_kusurlari,Şerit izleme ve değiştirme kural.uymamak,2896
+2026-08,surucu_kusurlari,Arkadan Çarpma,3368
+2026-08,surucu_kusurlari,Doğrultu Değiştirme (dönüş) kurallarına uymamak,2651
+2026-08,surucu_kusurlari,Manevraları düzenleyen genel şartlara uymamak,1267
+2026-08,surucu_kusurlari,Kırmızı ışık veya görevlinin dur işaretinde durmamak,550
+2026-08,surucu_kusurlari,Taşıt giremez trafik işareti bulunan yerlere girmek,1095
+2026-08,surucu_kusurlari,Trafik güvenliği ile ilgili diğer kurallara uymamak,594
+2026-08,surucu_kusurlari,"Yaya ve okul geçitlerinde yavaşlamamak, yayalara geçiş hakkı vermemek",350
+2026-08,surucu_kusurlari,Alkollü olarak araç kullanmak,147
+2026-08,surucu_kusurlari,Aşırı hızla araç kullanmak,167
+2026-08,surucu_kusurlari,Geçme yasağı olan yerlerden geçmek,478
+2026-08,surucu_kusurlari,Hatalı şekilde veya yasak olan yerlere park etmek,124
+2026-08,surucu_kusurlari,DİĞER,1712
+2026-08,karisan_arac_cinsi,Bisiklet,1164
+2026-08,karisan_arac_cinsi,At Arabası,8
+2026-08,karisan_arac_cinsi,Motorlu Bisiklet,5252
+2026-08,karisan_arac_cinsi,Motosiklet,11924
+2026-08,karisan_arac_cinsi,Otomobil,22791
+2026-08,karisan_arac_cinsi,Minibüs,806
+2026-08,karisan_arac_cinsi,Kamyonet,5791
+2026-08,karisan_arac_cinsi,Kamyon,726
+2026-08,karisan_arac_cinsi,Çekici,889
+2026-08,karisan_arac_cinsi,Otobüs,605
+2026-08,karisan_arac_cinsi,Traktör,415
+2026-08,karisan_arac_cinsi,Arazi Taşıtı,16
+2026-08,karisan_arac_cinsi,Özel Amaçlı,93
+2026-08,karisan_arac_cinsi,İş Makinesi,52
+2026-08,karisan_arac_cinsi,Ambulans,24
+2026-08,karisan_arac_cinsi,Tanker,10
+2026-08,karisan_arac_cinsi,Tren,1
+2026-08,karisan_arac_cinsi,Tramvay,10
+2026-08,karisan_arac_cinsi,Diğer,931
+2026-08,trafik_cezalari,Yayalara Uygulanan,388
+2026-08,trafik_cezalari,Yolculara Uygulanan,10991
+2026-08,trafik_cezalari,Sürücülere Uygulanan,414191
+2026-08,trafik_cezalari,Araç Plakasına Uygulanan,2009865
+2026-08,diger_ekip_faaliyetleri,Alkollü Olarak Araç Kullanan,22058
+2026-08,diger_ekip_faaliyetleri,100 Ceza Puanını Dolduran,710
+2026-08,diger_ekip_faaliyetleri,51. Madde (Hız İhlali),574
+2026-08,diger_ekip_faaliyetleri,Diğer İşlemler,11034
+2026-08,diger_ekip_faaliyetleri,Mülki Amire Sevk Edilen Sür. Sayısı,19
+2026-08,diger_ekip_faaliyetleri,Trafikten Men Edilen Araç Sayısı,206036

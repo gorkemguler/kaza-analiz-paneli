@@ -1,0 +1,7292 @@
+[
+ {
+  "donem": "2025-12",
+  "plaka": 1,
+  "il": "Adana",
+  "olumlu_yaralanmali_kaza": 523,
+  "maddi_hasarli_kaza": 621,
+  "olu": 8,
+  "yarali": 721,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 2,
+  "il": "Adıyaman",
+  "olumlu_yaralanmali_kaza": 156,
+  "maddi_hasarli_kaza": 167,
+  "olu": 1,
+  "yarali": 250,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 3,
+  "il": "Afyonkarahisar",
+  "olumlu_yaralanmali_kaza": 203,
+  "maddi_hasarli_kaza": 290,
+  "olu": 1,
+  "yarali": 369,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 4,
+  "il": "Ağrı",
+  "olumlu_yaralanmali_kaza": 67,
+  "maddi_hasarli_kaza": 107,
+  "olu": 0,
+  "yarali": 113,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 5,
+  "il": "Amasya",
+  "olumlu_yaralanmali_kaza": 128,
+  "maddi_hasarli_kaza": 117,
+  "olu": 4,
+  "yarali": 234,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 6,
+  "il": "Ankara",
+  "olumlu_yaralanmali_kaza": 1375,
+  "maddi_hasarli_kaza": 7485,
+  "olu": 11,
+  "yarali": 1812,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 7,
+  "il": "Antalya",
+  "olumlu_yaralanmali_kaza": 1055,
+  "maddi_hasarli_kaza": 1028,
+  "olu": 7,
+  "yarali": 1315,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 8,
+  "il": "Artvin",
+  "olumlu_yaralanmali_kaza": 25,
+  "maddi_hasarli_kaza": 59,
+  "olu": 3,
+  "yarali": 40,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 9,
+  "il": "Aydın",
+  "olumlu_yaralanmali_kaza": 390,
+  "maddi_hasarli_kaza": 357,
+  "olu": 2,
+  "yarali": 507,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 10,
+  "il": "Balıkesir",
+  "olumlu_yaralanmali_kaza": 411,
+  "maddi_hasarli_kaza": 411,
+  "olu": 2,
+  "yarali": 571,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 11,
+  "il": "Bilecik",
+  "olumlu_yaralanmali_kaza": 64,
+  "maddi_hasarli_kaza": 68,
+  "olu": 1,
+  "yarali": 107,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 12,
+  "il": "Bingöl",
+  "olumlu_yaralanmali_kaza": 60,
+  "maddi_hasarli_kaza": 82,
+  "olu": 0,
+  "yarali": 98,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 13,
+  "il": "Bitlis",
+  "olumlu_yaralanmali_kaza": 55,
+  "maddi_hasarli_kaza": 88,
+  "olu": 0,
+  "yarali": 97,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 14,
+  "il": "Bolu",
+  "olumlu_yaralanmali_kaza": 95,
+  "maddi_hasarli_kaza": 131,
+  "olu": 1,
+  "yarali": 165,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 15,
+  "il": "Burdur",
+  "olumlu_yaralanmali_kaza": 131,
+  "maddi_hasarli_kaza": 68,
+  "olu": 0,
+  "yarali": 199,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 16,
+  "il": "Bursa",
+  "olumlu_yaralanmali_kaza": 738,
+  "maddi_hasarli_kaza": 1749,
+  "olu": 3,
+  "yarali": 972,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 17,
+  "il": "Çanakkale",
+  "olumlu_yaralanmali_kaza": 176,
+  "maddi_hasarli_kaza": 152,
+  "olu": 7,
+  "yarali": 234,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 18,
+  "il": "Çankırı",
+  "olumlu_yaralanmali_kaza": 62,
+  "maddi_hasarli_kaza": 76,
+  "olu": 0,
+  "yarali": 106,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 19,
+  "il": "Çorum",
+  "olumlu_yaralanmali_kaza": 175,
+  "maddi_hasarli_kaza": 308,
+  "olu": 1,
+  "yarali": 262,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 20,
+  "il": "Denizli",
+  "olumlu_yaralanmali_kaza": 352,
+  "maddi_hasarli_kaza": 511,
+  "olu": 7,
+  "yarali": 470,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 21,
+  "il": "Diyarbakır",
+  "olumlu_yaralanmali_kaza": 299,
+  "maddi_hasarli_kaza": 472,
+  "olu": 2,
+  "yarali": 482,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 22,
+  "il": "Edirne",
+  "olumlu_yaralanmali_kaza": 107,
+  "maddi_hasarli_kaza": 118,
+  "olu": 0,
+  "yarali": 139,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 23,
+  "il": "Elazığ",
+  "olumlu_yaralanmali_kaza": 116,
+  "maddi_hasarli_kaza": 172,
+  "olu": 1,
+  "yarali": 159,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 24,
+  "il": "Erzincan",
+  "olumlu_yaralanmali_kaza": 74,
+  "maddi_hasarli_kaza": 123,
+  "olu": 0,
+  "yarali": 109,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 25,
+  "il": "Erzurum",
+  "olumlu_yaralanmali_kaza": 109,
+  "maddi_hasarli_kaza": 287,
+  "olu": 0,
+  "yarali": 198,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 26,
+  "il": "Eskişehir",
+  "olumlu_yaralanmali_kaza": 218,
+  "maddi_hasarli_kaza": 296,
+  "olu": 2,
+  "yarali": 311,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 27,
+  "il": "Gaziantep",
+  "olumlu_yaralanmali_kaza": 488,
+  "maddi_hasarli_kaza": 497,
+  "olu": 6,
+  "yarali": 684,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 28,
+  "il": "Giresun",
+  "olumlu_yaralanmali_kaza": 114,
+  "maddi_hasarli_kaza": 115,
+  "olu": 6,
+  "yarali": 183,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 29,
+  "il": "Gümüşhane",
+  "olumlu_yaralanmali_kaza": 25,
+  "maddi_hasarli_kaza": 59,
+  "olu": 0,
+  "yarali": 47,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 30,
+  "il": "Hakkari",
+  "olumlu_yaralanmali_kaza": 22,
+  "maddi_hasarli_kaza": 23,
+  "olu": 0,
+  "yarali": 33,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 31,
+  "il": "Hatay",
+  "olumlu_yaralanmali_kaza": 632,
+  "maddi_hasarli_kaza": 446,
+  "olu": 5,
+  "yarali": 873,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 32,
+  "il": "Isparta",
+  "olumlu_yaralanmali_kaza": 145,
+  "maddi_hasarli_kaza": 92,
+  "olu": 2,
+  "yarali": 198,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 33,
+  "il": "Mersin",
+  "olumlu_yaralanmali_kaza": 691,
+  "maddi_hasarli_kaza": 442,
+  "olu": 6,
+  "yarali": 862,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 34,
+  "il": "İstanbul",
+  "olumlu_yaralanmali_kaza": 3501,
+  "maddi_hasarli_kaza": 6229,
+  "olu": 14,
+  "yarali": 4215,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 35,
+  "il": "İzmir",
+  "olumlu_yaralanmali_kaza": 1271,
+  "maddi_hasarli_kaza": 2400,
+  "olu": 13,
+  "yarali": 1556,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 36,
+  "il": "Kars",
+  "olumlu_yaralanmali_kaza": 53,
+  "maddi_hasarli_kaza": 62,
+  "olu": 1,
+  "yarali": 73,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 37,
+  "il": "Kastamonu",
+  "olumlu_yaralanmali_kaza": 90,
+  "maddi_hasarli_kaza": 102,
+  "olu": 2,
+  "yarali": 144,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 38,
+  "il": "Kayseri",
+  "olumlu_yaralanmali_kaza": 382,
+  "maddi_hasarli_kaza": 433,
+  "olu": 2,
+  "yarali": 581,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 39,
+  "il": "Kırklareli",
+  "olumlu_yaralanmali_kaza": 73,
+  "maddi_hasarli_kaza": 115,
+  "olu": 0,
+  "yarali": 124,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 40,
+  "il": "Kırşehir",
+  "olumlu_yaralanmali_kaza": 72,
+  "maddi_hasarli_kaza": 90,
+  "olu": 0,
+  "yarali": 104,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 41,
+  "il": "Kocaeli",
+  "olumlu_yaralanmali_kaza": 617,
+  "maddi_hasarli_kaza": 1025,
+  "olu": 2,
+  "yarali": 793,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 42,
+  "il": "Konya",
+  "olumlu_yaralanmali_kaza": 609,
+  "maddi_hasarli_kaza": 833,
+  "olu": 4,
+  "yarali": 886,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 43,
+  "il": "Kütahya",
+  "olumlu_yaralanmali_kaza": 163,
+  "maddi_hasarli_kaza": 165,
+  "olu": 4,
+  "yarali": 232,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 44,
+  "il": "Malatya",
+  "olumlu_yaralanmali_kaza": 185,
+  "maddi_hasarli_kaza": 209,
+  "olu": 4,
+  "yarali": 282,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 45,
+  "il": "Manisa",
+  "olumlu_yaralanmali_kaza": 480,
+  "maddi_hasarli_kaza": 523,
+  "olu": 6,
+  "yarali": 640,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 46,
+  "il": "Kahramanmaraş",
+  "olumlu_yaralanmali_kaza": 299,
+  "maddi_hasarli_kaza": 331,
+  "olu": 3,
+  "yarali": 453,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 47,
+  "il": "Mardin",
+  "olumlu_yaralanmali_kaza": 143,
+  "maddi_hasarli_kaza": 159,
+  "olu": 6,
+  "yarali": 224,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 48,
+  "il": "Muğla",
+  "olumlu_yaralanmali_kaza": 489,
+  "maddi_hasarli_kaza": 400,
+  "olu": 7,
+  "yarali": 659,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 49,
+  "il": "Muş",
+  "olumlu_yaralanmali_kaza": 35,
+  "maddi_hasarli_kaza": 59,
+  "olu": 2,
+  "yarali": 79,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 50,
+  "il": "Nevşehir",
+  "olumlu_yaralanmali_kaza": 109,
+  "maddi_hasarli_kaza": 165,
+  "olu": 1,
+  "yarali": 171,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 51,
+  "il": "Niğde",
+  "olumlu_yaralanmali_kaza": 101,
+  "maddi_hasarli_kaza": 165,
+  "olu": 4,
+  "yarali": 156,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 52,
+  "il": "Ordu",
+  "olumlu_yaralanmali_kaza": 225,
+  "maddi_hasarli_kaza": 374,
+  "olu": 3,
+  "yarali": 320,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 53,
+  "il": "Rize",
+  "olumlu_yaralanmali_kaza": 123,
+  "maddi_hasarli_kaza": 120,
+  "olu": 1,
+  "yarali": 160,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 54,
+  "il": "Sakarya",
+  "olumlu_yaralanmali_kaza": 363,
+  "maddi_hasarli_kaza": 355,
+  "olu": 7,
+  "yarali": 497,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 55,
+  "il": "Samsun",
+  "olumlu_yaralanmali_kaza": 447,
+  "maddi_hasarli_kaza": 722,
+  "olu": 2,
+  "yarali": 590,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 56,
+  "il": "Siirt",
+  "olumlu_yaralanmali_kaza": 54,
+  "maddi_hasarli_kaza": 97,
+  "olu": 0,
+  "yarali": 75,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 57,
+  "il": "Sinop",
+  "olumlu_yaralanmali_kaza": 81,
+  "maddi_hasarli_kaza": 60,
+  "olu": 0,
+  "yarali": 121,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 58,
+  "il": "Sivas",
+  "olumlu_yaralanmali_kaza": 126,
+  "maddi_hasarli_kaza": 157,
+  "olu": 1,
+  "yarali": 226,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 59,
+  "il": "Tekirdağ",
+  "olumlu_yaralanmali_kaza": 306,
+  "maddi_hasarli_kaza": 540,
+  "olu": 2,
+  "yarali": 380,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 60,
+  "il": "Tokat",
+  "olumlu_yaralanmali_kaza": 169,
+  "maddi_hasarli_kaza": 150,
+  "olu": 2,
+  "yarali": 255,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 61,
+  "il": "Trabzon",
+  "olumlu_yaralanmali_kaza": 186,
+  "maddi_hasarli_kaza": 290,
+  "olu": 3,
+  "yarali": 238,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 62,
+  "il": "Tunceli",
+  "olumlu_yaralanmali_kaza": 17,
+  "maddi_hasarli_kaza": 22,
+  "olu": 0,
+  "yarali": 24,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 63,
+  "il": "Şanlıurfa",
+  "olumlu_yaralanmali_kaza": 370,
+  "maddi_hasarli_kaza": 451,
+  "olu": 4,
+  "yarali": 578,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 64,
+  "il": "Uşak",
+  "olumlu_yaralanmali_kaza": 111,
+  "maddi_hasarli_kaza": 146,
+  "olu": 5,
+  "yarali": 168,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 65,
+  "il": "Van",
+  "olumlu_yaralanmali_kaza": 127,
+  "maddi_hasarli_kaza": 199,
+  "olu": 0,
+  "yarali": 216,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 66,
+  "il": "Yozgat",
+  "olumlu_yaralanmali_kaza": 79,
+  "maddi_hasarli_kaza": 122,
+  "olu": 1,
+  "yarali": 118,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 67,
+  "il": "Zonguldak",
+  "olumlu_yaralanmali_kaza": 149,
+  "maddi_hasarli_kaza": 163,
+  "olu": 1,
+  "yarali": 213,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 68,
+  "il": "Aksaray",
+  "olumlu_yaralanmali_kaza": 106,
+  "maddi_hasarli_kaza": 225,
+  "olu": 1,
+  "yarali": 158,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 69,
+  "il": "Bayburt",
+  "olumlu_yaralanmali_kaza": 9,
+  "maddi_hasarli_kaza": 11,
+  "olu": 0,
+  "yarali": 12,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 70,
+  "il": "Karaman",
+  "olumlu_yaralanmali_kaza": 66,
+  "maddi_hasarli_kaza": 83,
+  "olu": 0,
+  "yarali": 94,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 71,
+  "il": "Kırıkkale",
+  "olumlu_yaralanmali_kaza": 87,
+  "maddi_hasarli_kaza": 123,
+  "olu": 1,
+  "yarali": 132,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 72,
+  "il": "Batman",
+  "olumlu_yaralanmali_kaza": 101,
+  "maddi_hasarli_kaza": 207,
+  "olu": 0,
+  "yarali": 149,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 73,
+  "il": "Şırnak",
+  "olumlu_yaralanmali_kaza": 80,
+  "maddi_hasarli_kaza": 103,
+  "olu": 0,
+  "yarali": 120,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 74,
+  "il": "Bartın",
+  "olumlu_yaralanmali_kaza": 44,
+  "maddi_hasarli_kaza": 48,
+  "olu": 0,
+  "yarali": 58,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 75,
+  "il": "Ardahan",
+  "olumlu_yaralanmali_kaza": 6,
+  "maddi_hasarli_kaza": 29,
+  "olu": 0,
+  "yarali": 11,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 76,
+  "il": "Iğdır",
+  "olumlu_yaralanmali_kaza": 35,
+  "maddi_hasarli_kaza": 57,
+  "olu": 0,
+  "yarali": 62,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 77,
+  "il": "Yalova",
+  "olumlu_yaralanmali_kaza": 104,
+  "maddi_hasarli_kaza": 100,
+  "olu": 1,
+  "yarali": 160,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 78,
+  "il": "Karabük",
+  "olumlu_yaralanmali_kaza": 92,
+  "maddi_hasarli_kaza": 82,
+  "olu": 2,
+  "yarali": 113,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 79,
+  "il": "Kilis",
+  "olumlu_yaralanmali_kaza": 60,
+  "maddi_hasarli_kaza": 13,
+  "olu": 0,
+  "yarali": 94,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 80,
+  "il": "Osmaniye",
+  "olumlu_yaralanmali_kaza": 275,
+  "maddi_hasarli_kaza": 123,
+  "olu": 11,
+  "yarali": 409,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2025-12",
+  "plaka": 81,
+  "il": "Düzce",
+  "olumlu_yaralanmali_kaza": 110,
+  "maddi_hasarli_kaza": 107,
+  "olu": 1,
+  "yarali": 157,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 1,
+  "il": "Adana",
+  "olumlu_yaralanmali_kaza": 475,
+  "maddi_hasarli_kaza": 685,
+  "olu": 4,
+  "yarali": 640,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 2,
+  "il": "Adıyaman",
+  "olumlu_yaralanmali_kaza": 92,
+  "maddi_hasarli_kaza": 163,
+  "olu": 3,
+  "yarali": 142,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 3,
+  "il": "Afyonkarahisar",
+  "olumlu_yaralanmali_kaza": 163,
+  "maddi_hasarli_kaza": 294,
+  "olu": 0,
+  "yarali": 266,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 4,
+  "il": "Ağrı",
+  "olumlu_yaralanmali_kaza": 39,
+  "maddi_hasarli_kaza": 108,
+  "olu": 1,
+  "yarali": 66,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 5,
+  "il": "Amasya",
+  "olumlu_yaralanmali_kaza": 75,
+  "maddi_hasarli_kaza": 155,
+  "olu": 1,
+  "yarali": 110,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 6,
+  "il": "Ankara",
+  "olumlu_yaralanmali_kaza": 1202,
+  "maddi_hasarli_kaza": 7415,
+  "olu": 11,
+  "yarali": 1595,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 7,
+  "il": "Antalya",
+  "olumlu_yaralanmali_kaza": 822,
+  "maddi_hasarli_kaza": 959,
+  "olu": 5,
+  "yarali": 1061,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 8,
+  "il": "Artvin",
+  "olumlu_yaralanmali_kaza": 11,
+  "maddi_hasarli_kaza": 50,
+  "olu": 0,
+  "yarali": 13,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 9,
+  "il": "Aydın",
+  "olumlu_yaralanmali_kaza": 372,
+  "maddi_hasarli_kaza": 364,
+  "olu": 1,
+  "yarali": 537,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 10,
+  "il": "Balıkesir",
+  "olumlu_yaralanmali_kaza": 328,
+  "maddi_hasarli_kaza": 382,
+  "olu": 5,
+  "yarali": 489,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 11,
+  "il": "Bilecik",
+  "olumlu_yaralanmali_kaza": 59,
+  "maddi_hasarli_kaza": 55,
+  "olu": 0,
+  "yarali": 79,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 12,
+  "il": "Bingöl",
+  "olumlu_yaralanmali_kaza": 35,
+  "maddi_hasarli_kaza": 120,
+  "olu": 0,
+  "yarali": 68,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 13,
+  "il": "Bitlis",
+  "olumlu_yaralanmali_kaza": 41,
+  "maddi_hasarli_kaza": 95,
+  "olu": 1,
+  "yarali": 74,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 14,
+  "il": "Bolu",
+  "olumlu_yaralanmali_kaza": 52,
+  "maddi_hasarli_kaza": 129,
+  "olu": 1,
+  "yarali": 84,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 15,
+  "il": "Burdur",
+  "olumlu_yaralanmali_kaza": 94,
+  "maddi_hasarli_kaza": 78,
+  "olu": 1,
+  "yarali": 165,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 16,
+  "il": "Bursa",
+  "olumlu_yaralanmali_kaza": 692,
+  "maddi_hasarli_kaza": 1878,
+  "olu": 4,
+  "yarali": 897,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 17,
+  "il": "Çanakkale",
+  "olumlu_yaralanmali_kaza": 146,
+  "maddi_hasarli_kaza": 154,
+  "olu": 0,
+  "yarali": 205,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 18,
+  "il": "Çankırı",
+  "olumlu_yaralanmali_kaza": 42,
+  "maddi_hasarli_kaza": 79,
+  "olu": 0,
+  "yarali": 66,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 19,
+  "il": "Çorum",
+  "olumlu_yaralanmali_kaza": 126,
+  "maddi_hasarli_kaza": 329,
+  "olu": 0,
+  "yarali": 197,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 20,
+  "il": "Denizli",
+  "olumlu_yaralanmali_kaza": 254,
+  "maddi_hasarli_kaza": 504,
+  "olu": 6,
+  "yarali": 366,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 21,
+  "il": "Diyarbakır",
+  "olumlu_yaralanmali_kaza": 210,
+  "maddi_hasarli_kaza": 562,
+  "olu": 2,
+  "yarali": 351,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 22,
+  "il": "Edirne",
+  "olumlu_yaralanmali_kaza": 90,
+  "maddi_hasarli_kaza": 124,
+  "olu": 3,
+  "yarali": 115,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 23,
+  "il": "Elazığ",
+  "olumlu_yaralanmali_kaza": 70,
+  "maddi_hasarli_kaza": 186,
+  "olu": 2,
+  "yarali": 117,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 24,
+  "il": "Erzincan",
+  "olumlu_yaralanmali_kaza": 41,
+  "maddi_hasarli_kaza": 123,
+  "olu": 0,
+  "yarali": 69,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 25,
+  "il": "Erzurum",
+  "olumlu_yaralanmali_kaza": 91,
+  "maddi_hasarli_kaza": 337,
+  "olu": 0,
+  "yarali": 147,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 26,
+  "il": "Eskişehir",
+  "olumlu_yaralanmali_kaza": 184,
+  "maddi_hasarli_kaza": 290,
+  "olu": 4,
+  "yarali": 255,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 27,
+  "il": "Gaziantep",
+  "olumlu_yaralanmali_kaza": 313,
+  "maddi_hasarli_kaza": 546,
+  "olu": 7,
+  "yarali": 460,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 28,
+  "il": "Giresun",
+  "olumlu_yaralanmali_kaza": 79,
+  "maddi_hasarli_kaza": 125,
+  "olu": 1,
+  "yarali": 100,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 29,
+  "il": "Gümüşhane",
+  "olumlu_yaralanmali_kaza": 13,
+  "maddi_hasarli_kaza": 46,
+  "olu": 0,
+  "yarali": 23,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 30,
+  "il": "Hakkari",
+  "olumlu_yaralanmali_kaza": 11,
+  "maddi_hasarli_kaza": 38,
+  "olu": 0,
+  "yarali": 12,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 31,
+  "il": "Hatay",
+  "olumlu_yaralanmali_kaza": 468,
+  "maddi_hasarli_kaza": 423,
+  "olu": 2,
+  "yarali": 695,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 32,
+  "il": "Isparta",
+  "olumlu_yaralanmali_kaza": 140,
+  "maddi_hasarli_kaza": 86,
+  "olu": 1,
+  "yarali": 229,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 33,
+  "il": "Mersin",
+  "olumlu_yaralanmali_kaza": 586,
+  "maddi_hasarli_kaza": 465,
+  "olu": 4,
+  "yarali": 778,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 34,
+  "il": "İstanbul",
+  "olumlu_yaralanmali_kaza": 2731,
+  "maddi_hasarli_kaza": 6163,
+  "olu": 15,
+  "yarali": 3384,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 35,
+  "il": "İzmir",
+  "olumlu_yaralanmali_kaza": 1028,
+  "maddi_hasarli_kaza": 2260,
+  "olu": 5,
+  "yarali": 1293,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 36,
+  "il": "Kars",
+  "olumlu_yaralanmali_kaza": 24,
+  "maddi_hasarli_kaza": 85,
+  "olu": 0,
+  "yarali": 69,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 37,
+  "il": "Kastamonu",
+  "olumlu_yaralanmali_kaza": 57,
+  "maddi_hasarli_kaza": 118,
+  "olu": 3,
+  "yarali": 95,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 38,
+  "il": "Kayseri",
+  "olumlu_yaralanmali_kaza": 280,
+  "maddi_hasarli_kaza": 464,
+  "olu": 0,
+  "yarali": 474,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 39,
+  "il": "Kırklareli",
+  "olumlu_yaralanmali_kaza": 90,
+  "maddi_hasarli_kaza": 111,
+  "olu": 1,
+  "yarali": 153,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 40,
+  "il": "Kırşehir",
+  "olumlu_yaralanmali_kaza": 48,
+  "maddi_hasarli_kaza": 74,
+  "olu": 0,
+  "yarali": 64,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 41,
+  "il": "Kocaeli",
+  "olumlu_yaralanmali_kaza": 547,
+  "maddi_hasarli_kaza": 1015,
+  "olu": 1,
+  "yarali": 771,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 42,
+  "il": "Konya",
+  "olumlu_yaralanmali_kaza": 491,
+  "maddi_hasarli_kaza": 919,
+  "olu": 3,
+  "yarali": 757,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 43,
+  "il": "Kütahya",
+  "olumlu_yaralanmali_kaza": 135,
+  "maddi_hasarli_kaza": 168,
+  "olu": 1,
+  "yarali": 228,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 44,
+  "il": "Malatya",
+  "olumlu_yaralanmali_kaza": 102,
+  "maddi_hasarli_kaza": 189,
+  "olu": 1,
+  "yarali": 137,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 45,
+  "il": "Manisa",
+  "olumlu_yaralanmali_kaza": 391,
+  "maddi_hasarli_kaza": 519,
+  "olu": 4,
+  "yarali": 541,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 46,
+  "il": "Kahramanmaraş",
+  "olumlu_yaralanmali_kaza": 198,
+  "maddi_hasarli_kaza": 375,
+  "olu": 2,
+  "yarali": 312,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 47,
+  "il": "Mardin",
+  "olumlu_yaralanmali_kaza": 94,
+  "maddi_hasarli_kaza": 176,
+  "olu": 3,
+  "yarali": 157,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 48,
+  "il": "Muğla",
+  "olumlu_yaralanmali_kaza": 396,
+  "maddi_hasarli_kaza": 426,
+  "olu": 2,
+  "yarali": 526,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 49,
+  "il": "Muş",
+  "olumlu_yaralanmali_kaza": 21,
+  "maddi_hasarli_kaza": 75,
+  "olu": 0,
+  "yarali": 33,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 50,
+  "il": "Nevşehir",
+  "olumlu_yaralanmali_kaza": 72,
+  "maddi_hasarli_kaza": 184,
+  "olu": 1,
+  "yarali": 127,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 51,
+  "il": "Niğde",
+  "olumlu_yaralanmali_kaza": 83,
+  "maddi_hasarli_kaza": 182,
+  "olu": 2,
+  "yarali": 137,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 52,
+  "il": "Ordu",
+  "olumlu_yaralanmali_kaza": 187,
+  "maddi_hasarli_kaza": 369,
+  "olu": 0,
+  "yarali": 236,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 53,
+  "il": "Rize",
+  "olumlu_yaralanmali_kaza": 89,
+  "maddi_hasarli_kaza": 116,
+  "olu": 0,
+  "yarali": 117,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 54,
+  "il": "Sakarya",
+  "olumlu_yaralanmali_kaza": 258,
+  "maddi_hasarli_kaza": 378,
+  "olu": 3,
+  "yarali": 394,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 55,
+  "il": "Samsun",
+  "olumlu_yaralanmali_kaza": 389,
+  "maddi_hasarli_kaza": 715,
+  "olu": 5,
+  "yarali": 546,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 56,
+  "il": "Siirt",
+  "olumlu_yaralanmali_kaza": 32,
+  "maddi_hasarli_kaza": 92,
+  "olu": 0,
+  "yarali": 40,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 57,
+  "il": "Sinop",
+  "olumlu_yaralanmali_kaza": 50,
+  "maddi_hasarli_kaza": 52,
+  "olu": 2,
+  "yarali": 77,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 58,
+  "il": "Sivas",
+  "olumlu_yaralanmali_kaza": 92,
+  "maddi_hasarli_kaza": 200,
+  "olu": 1,
+  "yarali": 162,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 59,
+  "il": "Tekirdağ",
+  "olumlu_yaralanmali_kaza": 257,
+  "maddi_hasarli_kaza": 527,
+  "olu": 2,
+  "yarali": 369,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 60,
+  "il": "Tokat",
+  "olumlu_yaralanmali_kaza": 114,
+  "maddi_hasarli_kaza": 176,
+  "olu": 1,
+  "yarali": 183,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 61,
+  "il": "Trabzon",
+  "olumlu_yaralanmali_kaza": 186,
+  "maddi_hasarli_kaza": 278,
+  "olu": 0,
+  "yarali": 251,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 62,
+  "il": "Tunceli",
+  "olumlu_yaralanmali_kaza": 5,
+  "maddi_hasarli_kaza": 36,
+  "olu": 0,
+  "yarali": 7,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 63,
+  "il": "Şanlıurfa",
+  "olumlu_yaralanmali_kaza": 261,
+  "maddi_hasarli_kaza": 443,
+  "olu": 1,
+  "yarali": 429,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 64,
+  "il": "Uşak",
+  "olumlu_yaralanmali_kaza": 79,
+  "maddi_hasarli_kaza": 158,
+  "olu": 0,
+  "yarali": 112,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 65,
+  "il": "Van",
+  "olumlu_yaralanmali_kaza": 69,
+  "maddi_hasarli_kaza": 248,
+  "olu": 1,
+  "yarali": 111,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 66,
+  "il": "Yozgat",
+  "olumlu_yaralanmali_kaza": 65,
+  "maddi_hasarli_kaza": 125,
+  "olu": 0,
+  "yarali": 108,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 67,
+  "il": "Zonguldak",
+  "olumlu_yaralanmali_kaza": 120,
+  "maddi_hasarli_kaza": 195,
+  "olu": 2,
+  "yarali": 181,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 68,
+  "il": "Aksaray",
+  "olumlu_yaralanmali_kaza": 91,
+  "maddi_hasarli_kaza": 231,
+  "olu": 1,
+  "yarali": 166,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 69,
+  "il": "Bayburt",
+  "olumlu_yaralanmali_kaza": 8,
+  "maddi_hasarli_kaza": 13,
+  "olu": 0,
+  "yarali": 22,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 70,
+  "il": "Karaman",
+  "olumlu_yaralanmali_kaza": 58,
+  "maddi_hasarli_kaza": 74,
+  "olu": 0,
+  "yarali": 77,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 71,
+  "il": "Kırıkkale",
+  "olumlu_yaralanmali_kaza": 64,
+  "maddi_hasarli_kaza": 143,
+  "olu": 0,
+  "yarali": 94,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 72,
+  "il": "Batman",
+  "olumlu_yaralanmali_kaza": 65,
+  "maddi_hasarli_kaza": 203,
+  "olu": 4,
+  "yarali": 113,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 73,
+  "il": "Şırnak",
+  "olumlu_yaralanmali_kaza": 59,
+  "maddi_hasarli_kaza": 86,
+  "olu": 1,
+  "yarali": 112,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 74,
+  "il": "Bartın",
+  "olumlu_yaralanmali_kaza": 42,
+  "maddi_hasarli_kaza": 59,
+  "olu": 0,
+  "yarali": 87,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 75,
+  "il": "Ardahan",
+  "olumlu_yaralanmali_kaza": 8,
+  "maddi_hasarli_kaza": 31,
+  "olu": 0,
+  "yarali": 11,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 76,
+  "il": "Iğdır",
+  "olumlu_yaralanmali_kaza": 30,
+  "maddi_hasarli_kaza": 52,
+  "olu": 0,
+  "yarali": 38,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 77,
+  "il": "Yalova",
+  "olumlu_yaralanmali_kaza": 75,
+  "maddi_hasarli_kaza": 101,
+  "olu": 0,
+  "yarali": 106,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 78,
+  "il": "Karabük",
+  "olumlu_yaralanmali_kaza": 50,
+  "maddi_hasarli_kaza": 57,
+  "olu": 1,
+  "yarali": 87,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 79,
+  "il": "Kilis",
+  "olumlu_yaralanmali_kaza": 21,
+  "maddi_hasarli_kaza": 14,
+  "olu": 0,
+  "yarali": 29,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 80,
+  "il": "Osmaniye",
+  "olumlu_yaralanmali_kaza": 201,
+  "maddi_hasarli_kaza": 142,
+  "olu": 0,
+  "yarali": 268,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-01",
+  "plaka": 81,
+  "il": "Düzce",
+  "olumlu_yaralanmali_kaza": 95,
+  "maddi_hasarli_kaza": 115,
+  "olu": 2,
+  "yarali": 135,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 1,
+  "il": "Adana",
+  "olumlu_yaralanmali_kaza": 402,
+  "maddi_hasarli_kaza": 630,
+  "olu": 3,
+  "yarali": 540,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 2,
+  "il": "Adıyaman",
+  "olumlu_yaralanmali_kaza": 98,
+  "maddi_hasarli_kaza": 167,
+  "olu": 1,
+  "yarali": 167,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 3,
+  "il": "Afyonkarahisar",
+  "olumlu_yaralanmali_kaza": 142,
+  "maddi_hasarli_kaza": 212,
+  "olu": 0,
+  "yarali": 222,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 4,
+  "il": "Ağrı",
+  "olumlu_yaralanmali_kaza": 66,
+  "maddi_hasarli_kaza": 128,
+  "olu": 0,
+  "yarali": 127,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 5,
+  "il": "Amasya",
+  "olumlu_yaralanmali_kaza": 100,
+  "maddi_hasarli_kaza": 111,
+  "olu": 2,
+  "yarali": 152,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 6,
+  "il": "Ankara",
+  "olumlu_yaralanmali_kaza": 1068,
+  "maddi_hasarli_kaza": 6286,
+  "olu": 10,
+  "yarali": 1401,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 7,
+  "il": "Antalya",
+  "olumlu_yaralanmali_kaza": 828,
+  "maddi_hasarli_kaza": 896,
+  "olu": 9,
+  "yarali": 1078,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 8,
+  "il": "Artvin",
+  "olumlu_yaralanmali_kaza": 20,
+  "maddi_hasarli_kaza": 30,
+  "olu": 3,
+  "yarali": 37,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 9,
+  "il": "Aydın",
+  "olumlu_yaralanmali_kaza": 332,
+  "maddi_hasarli_kaza": 320,
+  "olu": 3,
+  "yarali": 417,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 10,
+  "il": "Balıkesir",
+  "olumlu_yaralanmali_kaza": 293,
+  "maddi_hasarli_kaza": 379,
+  "olu": 2,
+  "yarali": 399,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 11,
+  "il": "Bilecik",
+  "olumlu_yaralanmali_kaza": 53,
+  "maddi_hasarli_kaza": 49,
+  "olu": 1,
+  "yarali": 78,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 12,
+  "il": "Bingöl",
+  "olumlu_yaralanmali_kaza": 53,
+  "maddi_hasarli_kaza": 70,
+  "olu": 2,
+  "yarali": 90,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 13,
+  "il": "Bitlis",
+  "olumlu_yaralanmali_kaza": 55,
+  "maddi_hasarli_kaza": 99,
+  "olu": 3,
+  "yarali": 96,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 14,
+  "il": "Bolu",
+  "olumlu_yaralanmali_kaza": 68,
+  "maddi_hasarli_kaza": 99,
+  "olu": 2,
+  "yarali": 122,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 15,
+  "il": "Burdur",
+  "olumlu_yaralanmali_kaza": 68,
+  "maddi_hasarli_kaza": 64,
+  "olu": 9,
+  "yarali": 108,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 16,
+  "il": "Bursa",
+  "olumlu_yaralanmali_kaza": 639,
+  "maddi_hasarli_kaza": 1556,
+  "olu": 4,
+  "yarali": 821,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 17,
+  "il": "Çanakkale",
+  "olumlu_yaralanmali_kaza": 124,
+  "maddi_hasarli_kaza": 118,
+  "olu": 0,
+  "yarali": 185,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 18,
+  "il": "Çankırı",
+  "olumlu_yaralanmali_kaza": 51,
+  "maddi_hasarli_kaza": 76,
+  "olu": 2,
+  "yarali": 80,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 19,
+  "il": "Çorum",
+  "olumlu_yaralanmali_kaza": 114,
+  "maddi_hasarli_kaza": 242,
+  "olu": 0,
+  "yarali": 165,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 20,
+  "il": "Denizli",
+  "olumlu_yaralanmali_kaza": 280,
+  "maddi_hasarli_kaza": 439,
+  "olu": 2,
+  "yarali": 367,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 21,
+  "il": "Diyarbakır",
+  "olumlu_yaralanmali_kaza": 215,
+  "maddi_hasarli_kaza": 446,
+  "olu": 0,
+  "yarali": 348,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 22,
+  "il": "Edirne",
+  "olumlu_yaralanmali_kaza": 57,
+  "maddi_hasarli_kaza": 99,
+  "olu": 2,
+  "yarali": 79,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 23,
+  "il": "Elazığ",
+  "olumlu_yaralanmali_kaza": 102,
+  "maddi_hasarli_kaza": 133,
+  "olu": 1,
+  "yarali": 160,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 24,
+  "il": "Erzincan",
+  "olumlu_yaralanmali_kaza": 48,
+  "maddi_hasarli_kaza": 96,
+  "olu": 0,
+  "yarali": 74,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 25,
+  "il": "Erzurum",
+  "olumlu_yaralanmali_kaza": 107,
+  "maddi_hasarli_kaza": 316,
+  "olu": 5,
+  "yarali": 198,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 26,
+  "il": "Eskişehir",
+  "olumlu_yaralanmali_kaza": 176,
+  "maddi_hasarli_kaza": 228,
+  "olu": 3,
+  "yarali": 228,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 27,
+  "il": "Gaziantep",
+  "olumlu_yaralanmali_kaza": 348,
+  "maddi_hasarli_kaza": 406,
+  "olu": 2,
+  "yarali": 526,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 28,
+  "il": "Giresun",
+  "olumlu_yaralanmali_kaza": 62,
+  "maddi_hasarli_kaza": 113,
+  "olu": 1,
+  "yarali": 84,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 29,
+  "il": "Gümüşhane",
+  "olumlu_yaralanmali_kaza": 15,
+  "maddi_hasarli_kaza": 31,
+  "olu": 1,
+  "yarali": 20,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 30,
+  "il": "Hakkari",
+  "olumlu_yaralanmali_kaza": 15,
+  "maddi_hasarli_kaza": 18,
+  "olu": 0,
+  "yarali": 45,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 31,
+  "il": "Hatay",
+  "olumlu_yaralanmali_kaza": 432,
+  "maddi_hasarli_kaza": 379,
+  "olu": 3,
+  "yarali": 570,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 32,
+  "il": "Isparta",
+  "olumlu_yaralanmali_kaza": 96,
+  "maddi_hasarli_kaza": 69,
+  "olu": 0,
+  "yarali": 164,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 33,
+  "il": "Mersin",
+  "olumlu_yaralanmali_kaza": 517,
+  "maddi_hasarli_kaza": 349,
+  "olu": 6,
+  "yarali": 669,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 34,
+  "il": "İstanbul",
+  "olumlu_yaralanmali_kaza": 2723,
+  "maddi_hasarli_kaza": 5588,
+  "olu": 9,
+  "yarali": 3270,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 35,
+  "il": "İzmir",
+  "olumlu_yaralanmali_kaza": 874,
+  "maddi_hasarli_kaza": 2317,
+  "olu": 6,
+  "yarali": 1134,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 36,
+  "il": "Kars",
+  "olumlu_yaralanmali_kaza": 30,
+  "maddi_hasarli_kaza": 76,
+  "olu": 0,
+  "yarali": 60,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 37,
+  "il": "Kastamonu",
+  "olumlu_yaralanmali_kaza": 61,
+  "maddi_hasarli_kaza": 86,
+  "olu": 1,
+  "yarali": 107,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 38,
+  "il": "Kayseri",
+  "olumlu_yaralanmali_kaza": 322,
+  "maddi_hasarli_kaza": 344,
+  "olu": 2,
+  "yarali": 492,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 39,
+  "il": "Kırklareli",
+  "olumlu_yaralanmali_kaza": 61,
+  "maddi_hasarli_kaza": 108,
+  "olu": 0,
+  "yarali": 92,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 40,
+  "il": "Kırşehir",
+  "olumlu_yaralanmali_kaza": 40,
+  "maddi_hasarli_kaza": 64,
+  "olu": 0,
+  "yarali": 62,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 41,
+  "il": "Kocaeli",
+  "olumlu_yaralanmali_kaza": 477,
+  "maddi_hasarli_kaza": 908,
+  "olu": 1,
+  "yarali": 599,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 42,
+  "il": "Konya",
+  "olumlu_yaralanmali_kaza": 517,
+  "maddi_hasarli_kaza": 690,
+  "olu": 0,
+  "yarali": 739,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 43,
+  "il": "Kütahya",
+  "olumlu_yaralanmali_kaza": 91,
+  "maddi_hasarli_kaza": 130,
+  "olu": 0,
+  "yarali": 114,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 44,
+  "il": "Malatya",
+  "olumlu_yaralanmali_kaza": 129,
+  "maddi_hasarli_kaza": 167,
+  "olu": 0,
+  "yarali": 189,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 45,
+  "il": "Manisa",
+  "olumlu_yaralanmali_kaza": 378,
+  "maddi_hasarli_kaza": 519,
+  "olu": 3,
+  "yarali": 514,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 46,
+  "il": "Kahramanmaraş",
+  "olumlu_yaralanmali_kaza": 202,
+  "maddi_hasarli_kaza": 357,
+  "olu": 3,
+  "yarali": 320,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 47,
+  "il": "Mardin",
+  "olumlu_yaralanmali_kaza": 121,
+  "maddi_hasarli_kaza": 117,
+  "olu": 1,
+  "yarali": 210,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 48,
+  "il": "Muğla",
+  "olumlu_yaralanmali_kaza": 373,
+  "maddi_hasarli_kaza": 365,
+  "olu": 3,
+  "yarali": 489,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 49,
+  "il": "Muş",
+  "olumlu_yaralanmali_kaza": 28,
+  "maddi_hasarli_kaza": 54,
+  "olu": 0,
+  "yarali": 40,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 50,
+  "il": "Nevşehir",
+  "olumlu_yaralanmali_kaza": 74,
+  "maddi_hasarli_kaza": 175,
+  "olu": 1,
+  "yarali": 105,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 51,
+  "il": "Niğde",
+  "olumlu_yaralanmali_kaza": 88,
+  "maddi_hasarli_kaza": 130,
+  "olu": 3,
+  "yarali": 137,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 52,
+  "il": "Ordu",
+  "olumlu_yaralanmali_kaza": 163,
+  "maddi_hasarli_kaza": 281,
+  "olu": 0,
+  "yarali": 240,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 53,
+  "il": "Rize",
+  "olumlu_yaralanmali_kaza": 66,
+  "maddi_hasarli_kaza": 86,
+  "olu": 2,
+  "yarali": 88,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 54,
+  "il": "Sakarya",
+  "olumlu_yaralanmali_kaza": 228,
+  "maddi_hasarli_kaza": 289,
+  "olu": 2,
+  "yarali": 325,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 55,
+  "il": "Samsun",
+  "olumlu_yaralanmali_kaza": 355,
+  "maddi_hasarli_kaza": 527,
+  "olu": 4,
+  "yarali": 485,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 56,
+  "il": "Siirt",
+  "olumlu_yaralanmali_kaza": 46,
+  "maddi_hasarli_kaza": 54,
+  "olu": 0,
+  "yarali": 67,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 57,
+  "il": "Sinop",
+  "olumlu_yaralanmali_kaza": 55,
+  "maddi_hasarli_kaza": 51,
+  "olu": 0,
+  "yarali": 83,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 58,
+  "il": "Sivas",
+  "olumlu_yaralanmali_kaza": 107,
+  "maddi_hasarli_kaza": 148,
+  "olu": 2,
+  "yarali": 196,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 59,
+  "il": "Tekirdağ",
+  "olumlu_yaralanmali_kaza": 257,
+  "maddi_hasarli_kaza": 548,
+  "olu": 0,
+  "yarali": 321,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 60,
+  "il": "Tokat",
+  "olumlu_yaralanmali_kaza": 135,
+  "maddi_hasarli_kaza": 136,
+  "olu": 0,
+  "yarali": 227,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 61,
+  "il": "Trabzon",
+  "olumlu_yaralanmali_kaza": 167,
+  "maddi_hasarli_kaza": 235,
+  "olu": 0,
+  "yarali": 246,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 62,
+  "il": "Tunceli",
+  "olumlu_yaralanmali_kaza": 16,
+  "maddi_hasarli_kaza": 29,
+  "olu": 0,
+  "yarali": 19,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 63,
+  "il": "Şanlıurfa",
+  "olumlu_yaralanmali_kaza": 264,
+  "maddi_hasarli_kaza": 328,
+  "olu": 4,
+  "yarali": 444,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 64,
+  "il": "Uşak",
+  "olumlu_yaralanmali_kaza": 75,
+  "maddi_hasarli_kaza": 113,
+  "olu": 0,
+  "yarali": 133,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 65,
+  "il": "Van",
+  "olumlu_yaralanmali_kaza": 110,
+  "maddi_hasarli_kaza": 191,
+  "olu": 2,
+  "yarali": 156,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 66,
+  "il": "Yozgat",
+  "olumlu_yaralanmali_kaza": 77,
+  "maddi_hasarli_kaza": 117,
+  "olu": 0,
+  "yarali": 130,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 67,
+  "il": "Zonguldak",
+  "olumlu_yaralanmali_kaza": 135,
+  "maddi_hasarli_kaza": 124,
+  "olu": 0,
+  "yarali": 180,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 68,
+  "il": "Aksaray",
+  "olumlu_yaralanmali_kaza": 84,
+  "maddi_hasarli_kaza": 172,
+  "olu": 0,
+  "yarali": 152,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 69,
+  "il": "Bayburt",
+  "olumlu_yaralanmali_kaza": 8,
+  "maddi_hasarli_kaza": 15,
+  "olu": 0,
+  "yarali": 8,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 70,
+  "il": "Karaman",
+  "olumlu_yaralanmali_kaza": 67,
+  "maddi_hasarli_kaza": 69,
+  "olu": 2,
+  "yarali": 108,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 71,
+  "il": "Kırıkkale",
+  "olumlu_yaralanmali_kaza": 78,
+  "maddi_hasarli_kaza": 114,
+  "olu": 0,
+  "yarali": 110,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 72,
+  "il": "Batman",
+  "olumlu_yaralanmali_kaza": 83,
+  "maddi_hasarli_kaza": 161,
+  "olu": 0,
+  "yarali": 115,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 73,
+  "il": "Şırnak",
+  "olumlu_yaralanmali_kaza": 86,
+  "maddi_hasarli_kaza": 63,
+  "olu": 2,
+  "yarali": 121,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 74,
+  "il": "Bartın",
+  "olumlu_yaralanmali_kaza": 37,
+  "maddi_hasarli_kaza": 43,
+  "olu": 0,
+  "yarali": 59,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 75,
+  "il": "Ardahan",
+  "olumlu_yaralanmali_kaza": 4,
+  "maddi_hasarli_kaza": 22,
+  "olu": 0,
+  "yarali": 8,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 76,
+  "il": "Iğdır",
+  "olumlu_yaralanmali_kaza": 24,
+  "maddi_hasarli_kaza": 52,
+  "olu": 0,
+  "yarali": 31,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 77,
+  "il": "Yalova",
+  "olumlu_yaralanmali_kaza": 91,
+  "maddi_hasarli_kaza": 79,
+  "olu": 0,
+  "yarali": 109,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 78,
+  "il": "Karabük",
+  "olumlu_yaralanmali_kaza": 46,
+  "maddi_hasarli_kaza": 48,
+  "olu": 1,
+  "yarali": 69,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 79,
+  "il": "Kilis",
+  "olumlu_yaralanmali_kaza": 40,
+  "maddi_hasarli_kaza": 12,
+  "olu": 0,
+  "yarali": 60,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 80,
+  "il": "Osmaniye",
+  "olumlu_yaralanmali_kaza": 186,
+  "maddi_hasarli_kaza": 143,
+  "olu": 0,
+  "yarali": 270,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-02",
+  "plaka": 81,
+  "il": "Düzce",
+  "olumlu_yaralanmali_kaza": 103,
+  "maddi_hasarli_kaza": 83,
+  "olu": 3,
+  "yarali": 150,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 1,
+  "il": "Adana",
+  "olumlu_yaralanmali_kaza": 561,
+  "maddi_hasarli_kaza": 682,
+  "olu": 5,
+  "yarali": 780,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 2,
+  "il": "Adıyaman",
+  "olumlu_yaralanmali_kaza": 131,
+  "maddi_hasarli_kaza": 142,
+  "olu": 0,
+  "yarali": 216,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 3,
+  "il": "Afyonkarahisar",
+  "olumlu_yaralanmali_kaza": 213,
+  "maddi_hasarli_kaza": 289,
+  "olu": 1,
+  "yarali": 383,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 4,
+  "il": "Ağrı",
+  "olumlu_yaralanmali_kaza": 65,
+  "maddi_hasarli_kaza": 119,
+  "olu": 0,
+  "yarali": 123,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 5,
+  "il": "Amasya",
+  "olumlu_yaralanmali_kaza": 120,
+  "maddi_hasarli_kaza": 119,
+  "olu": 0,
+  "yarali": 197,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 6,
+  "il": "Ankara",
+  "olumlu_yaralanmali_kaza": 1415,
+  "maddi_hasarli_kaza": 6935,
+  "olu": 8,
+  "yarali": 2037,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 7,
+  "il": "Antalya",
+  "olumlu_yaralanmali_kaza": 1035,
+  "maddi_hasarli_kaza": 971,
+  "olu": 4,
+  "yarali": 1437,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 8,
+  "il": "Artvin",
+  "olumlu_yaralanmali_kaza": 20,
+  "maddi_hasarli_kaza": 38,
+  "olu": 0,
+  "yarali": 25,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 9,
+  "il": "Aydın",
+  "olumlu_yaralanmali_kaza": 471,
+  "maddi_hasarli_kaza": 323,
+  "olu": 2,
+  "yarali": 652,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 10,
+  "il": "Balıkesir",
+  "olumlu_yaralanmali_kaza": 414,
+  "maddi_hasarli_kaza": 372,
+  "olu": 8,
+  "yarali": 626,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 11,
+  "il": "Bilecik",
+  "olumlu_yaralanmali_kaza": 56,
+  "maddi_hasarli_kaza": 75,
+  "olu": 0,
+  "yarali": 84,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 12,
+  "il": "Bingöl",
+  "olumlu_yaralanmali_kaza": 59,
+  "maddi_hasarli_kaza": 79,
+  "olu": 0,
+  "yarali": 111,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 13,
+  "il": "Bitlis",
+  "olumlu_yaralanmali_kaza": 48,
+  "maddi_hasarli_kaza": 95,
+  "olu": 2,
+  "yarali": 103,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 14,
+  "il": "Bolu",
+  "olumlu_yaralanmali_kaza": 88,
+  "maddi_hasarli_kaza": 112,
+  "olu": 0,
+  "yarali": 144,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 15,
+  "il": "Burdur",
+  "olumlu_yaralanmali_kaza": 103,
+  "maddi_hasarli_kaza": 64,
+  "olu": 0,
+  "yarali": 142,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 16,
+  "il": "Bursa",
+  "olumlu_yaralanmali_kaza": 808,
+  "maddi_hasarli_kaza": 1740,
+  "olu": 4,
+  "yarali": 1142,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 17,
+  "il": "Çanakkale",
+  "olumlu_yaralanmali_kaza": 162,
+  "maddi_hasarli_kaza": 123,
+  "olu": 1,
+  "yarali": 216,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 18,
+  "il": "Çankırı",
+  "olumlu_yaralanmali_kaza": 72,
+  "maddi_hasarli_kaza": 93,
+  "olu": 0,
+  "yarali": 139,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 19,
+  "il": "Çorum",
+  "olumlu_yaralanmali_kaza": 185,
+  "maddi_hasarli_kaza": 272,
+  "olu": 0,
+  "yarali": 316,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 20,
+  "il": "Denizli",
+  "olumlu_yaralanmali_kaza": 332,
+  "maddi_hasarli_kaza": 452,
+  "olu": 4,
+  "yarali": 459,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 21,
+  "il": "Diyarbakır",
+  "olumlu_yaralanmali_kaza": 270,
+  "maddi_hasarli_kaza": 536,
+  "olu": 0,
+  "yarali": 472,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 22,
+  "il": "Edirne",
+  "olumlu_yaralanmali_kaza": 103,
+  "maddi_hasarli_kaza": 111,
+  "olu": 0,
+  "yarali": 153,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 23,
+  "il": "Elazığ",
+  "olumlu_yaralanmali_kaza": 129,
+  "maddi_hasarli_kaza": 164,
+  "olu": 0,
+  "yarali": 229,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 24,
+  "il": "Erzincan",
+  "olumlu_yaralanmali_kaza": 52,
+  "maddi_hasarli_kaza": 94,
+  "olu": 0,
+  "yarali": 71,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 25,
+  "il": "Erzurum",
+  "olumlu_yaralanmali_kaza": 106,
+  "maddi_hasarli_kaza": 241,
+  "olu": 0,
+  "yarali": 185,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 26,
+  "il": "Eskişehir",
+  "olumlu_yaralanmali_kaza": 251,
+  "maddi_hasarli_kaza": 298,
+  "olu": 3,
+  "yarali": 384,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 27,
+  "il": "Gaziantep",
+  "olumlu_yaralanmali_kaza": 479,
+  "maddi_hasarli_kaza": 490,
+  "olu": 5,
+  "yarali": 718,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 28,
+  "il": "Giresun",
+  "olumlu_yaralanmali_kaza": 88,
+  "maddi_hasarli_kaza": 118,
+  "olu": 4,
+  "yarali": 139,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 29,
+  "il": "Gümüşhane",
+  "olumlu_yaralanmali_kaza": 23,
+  "maddi_hasarli_kaza": 33,
+  "olu": 0,
+  "yarali": 39,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 30,
+  "il": "Hakkari",
+  "olumlu_yaralanmali_kaza": 23,
+  "maddi_hasarli_kaza": 35,
+  "olu": 1,
+  "yarali": 54,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 31,
+  "il": "Hatay",
+  "olumlu_yaralanmali_kaza": 557,
+  "maddi_hasarli_kaza": 387,
+  "olu": 1,
+  "yarali": 755,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 32,
+  "il": "Isparta",
+  "olumlu_yaralanmali_kaza": 167,
+  "maddi_hasarli_kaza": 104,
+  "olu": 3,
+  "yarali": 261,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 33,
+  "il": "Mersin",
+  "olumlu_yaralanmali_kaza": 638,
+  "maddi_hasarli_kaza": 439,
+  "olu": 10,
+  "yarali": 866,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 34,
+  "il": "İstanbul",
+  "olumlu_yaralanmali_kaza": 3262,
+  "maddi_hasarli_kaza": 6086,
+  "olu": 18,
+  "yarali": 4022,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 35,
+  "il": "İzmir",
+  "olumlu_yaralanmali_kaza": 1160,
+  "maddi_hasarli_kaza": 2256,
+  "olu": 2,
+  "yarali": 1447,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 36,
+  "il": "Kars",
+  "olumlu_yaralanmali_kaza": 32,
+  "maddi_hasarli_kaza": 45,
+  "olu": 0,
+  "yarali": 76,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 37,
+  "il": "Kastamonu",
+  "olumlu_yaralanmali_kaza": 73,
+  "maddi_hasarli_kaza": 106,
+  "olu": 1,
+  "yarali": 129,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 38,
+  "il": "Kayseri",
+  "olumlu_yaralanmali_kaza": 373,
+  "maddi_hasarli_kaza": 371,
+  "olu": 1,
+  "yarali": 565,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 39,
+  "il": "Kırklareli",
+  "olumlu_yaralanmali_kaza": 76,
+  "maddi_hasarli_kaza": 101,
+  "olu": 0,
+  "yarali": 107,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 40,
+  "il": "Kırşehir",
+  "olumlu_yaralanmali_kaza": 50,
+  "maddi_hasarli_kaza": 64,
+  "olu": 0,
+  "yarali": 80,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 41,
+  "il": "Kocaeli",
+  "olumlu_yaralanmali_kaza": 634,
+  "maddi_hasarli_kaza": 921,
+  "olu": 2,
+  "yarali": 858,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 42,
+  "il": "Konya",
+  "olumlu_yaralanmali_kaza": 667,
+  "maddi_hasarli_kaza": 831,
+  "olu": 3,
+  "yarali": 1082,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 43,
+  "il": "Kütahya",
+  "olumlu_yaralanmali_kaza": 169,
+  "maddi_hasarli_kaza": 139,
+  "olu": 3,
+  "yarali": 251,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 44,
+  "il": "Malatya",
+  "olumlu_yaralanmali_kaza": 165,
+  "maddi_hasarli_kaza": 176,
+  "olu": 3,
+  "yarali": 256,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 45,
+  "il": "Manisa",
+  "olumlu_yaralanmali_kaza": 446,
+  "maddi_hasarli_kaza": 462,
+  "olu": 2,
+  "yarali": 606,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 46,
+  "il": "Kahramanmaraş",
+  "olumlu_yaralanmali_kaza": 255,
+  "maddi_hasarli_kaza": 281,
+  "olu": 1,
+  "yarali": 432,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 47,
+  "il": "Mardin",
+  "olumlu_yaralanmali_kaza": 121,
+  "maddi_hasarli_kaza": 170,
+  "olu": 1,
+  "yarali": 242,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 48,
+  "il": "Muğla",
+  "olumlu_yaralanmali_kaza": 496,
+  "maddi_hasarli_kaza": 375,
+  "olu": 2,
+  "yarali": 643,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 49,
+  "il": "Muş",
+  "olumlu_yaralanmali_kaza": 36,
+  "maddi_hasarli_kaza": 58,
+  "olu": 0,
+  "yarali": 55,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 50,
+  "il": "Nevşehir",
+  "olumlu_yaralanmali_kaza": 86,
+  "maddi_hasarli_kaza": 149,
+  "olu": 3,
+  "yarali": 140,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 51,
+  "il": "Niğde",
+  "olumlu_yaralanmali_kaza": 104,
+  "maddi_hasarli_kaza": 149,
+  "olu": 4,
+  "yarali": 146,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 52,
+  "il": "Ordu",
+  "olumlu_yaralanmali_kaza": 204,
+  "maddi_hasarli_kaza": 311,
+  "olu": 1,
+  "yarali": 299,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 53,
+  "il": "Rize",
+  "olumlu_yaralanmali_kaza": 82,
+  "maddi_hasarli_kaza": 82,
+  "olu": 0,
+  "yarali": 106,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 54,
+  "il": "Sakarya",
+  "olumlu_yaralanmali_kaza": 313,
+  "maddi_hasarli_kaza": 368,
+  "olu": 3,
+  "yarali": 423,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 55,
+  "il": "Samsun",
+  "olumlu_yaralanmali_kaza": 413,
+  "maddi_hasarli_kaza": 550,
+  "olu": 3,
+  "yarali": 605,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 56,
+  "il": "Siirt",
+  "olumlu_yaralanmali_kaza": 49,
+  "maddi_hasarli_kaza": 69,
+  "olu": 0,
+  "yarali": 77,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 57,
+  "il": "Sinop",
+  "olumlu_yaralanmali_kaza": 66,
+  "maddi_hasarli_kaza": 46,
+  "olu": 0,
+  "yarali": 102,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 58,
+  "il": "Sivas",
+  "olumlu_yaralanmali_kaza": 115,
+  "maddi_hasarli_kaza": 130,
+  "olu": 0,
+  "yarali": 179,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 59,
+  "il": "Tekirdağ",
+  "olumlu_yaralanmali_kaza": 285,
+  "maddi_hasarli_kaza": 562,
+  "olu": 3,
+  "yarali": 386,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 60,
+  "il": "Tokat",
+  "olumlu_yaralanmali_kaza": 192,
+  "maddi_hasarli_kaza": 161,
+  "olu": 2,
+  "yarali": 302,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 61,
+  "il": "Trabzon",
+  "olumlu_yaralanmali_kaza": 180,
+  "maddi_hasarli_kaza": 287,
+  "olu": 3,
+  "yarali": 255,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 62,
+  "il": "Tunceli",
+  "olumlu_yaralanmali_kaza": 11,
+  "maddi_hasarli_kaza": 23,
+  "olu": 0,
+  "yarali": 19,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 63,
+  "il": "Şanlıurfa",
+  "olumlu_yaralanmali_kaza": 336,
+  "maddi_hasarli_kaza": 427,
+  "olu": 6,
+  "yarali": 571,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 64,
+  "il": "Uşak",
+  "olumlu_yaralanmali_kaza": 136,
+  "maddi_hasarli_kaza": 114,
+  "olu": 1,
+  "yarali": 193,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 65,
+  "il": "Van",
+  "olumlu_yaralanmali_kaza": 120,
+  "maddi_hasarli_kaza": 205,
+  "olu": 0,
+  "yarali": 180,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 66,
+  "il": "Yozgat",
+  "olumlu_yaralanmali_kaza": 89,
+  "maddi_hasarli_kaza": 111,
+  "olu": 1,
+  "yarali": 153,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 67,
+  "il": "Zonguldak",
+  "olumlu_yaralanmali_kaza": 138,
+  "maddi_hasarli_kaza": 144,
+  "olu": 0,
+  "yarali": 229,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 68,
+  "il": "Aksaray",
+  "olumlu_yaralanmali_kaza": 119,
+  "maddi_hasarli_kaza": 225,
+  "olu": 1,
+  "yarali": 174,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 69,
+  "il": "Bayburt",
+  "olumlu_yaralanmali_kaza": 12,
+  "maddi_hasarli_kaza": 11,
+  "olu": 0,
+  "yarali": 32,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 70,
+  "il": "Karaman",
+  "olumlu_yaralanmali_kaza": 60,
+  "maddi_hasarli_kaza": 65,
+  "olu": 0,
+  "yarali": 80,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 71,
+  "il": "Kırıkkale",
+  "olumlu_yaralanmali_kaza": 106,
+  "maddi_hasarli_kaza": 130,
+  "olu": 0,
+  "yarali": 146,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 72,
+  "il": "Batman",
+  "olumlu_yaralanmali_kaza": 115,
+  "maddi_hasarli_kaza": 202,
+  "olu": 1,
+  "yarali": 162,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 73,
+  "il": "Şırnak",
+  "olumlu_yaralanmali_kaza": 69,
+  "maddi_hasarli_kaza": 84,
+  "olu": 0,
+  "yarali": 105,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 74,
+  "il": "Bartın",
+  "olumlu_yaralanmali_kaza": 63,
+  "maddi_hasarli_kaza": 35,
+  "olu": 0,
+  "yarali": 94,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 75,
+  "il": "Ardahan",
+  "olumlu_yaralanmali_kaza": 8,
+  "maddi_hasarli_kaza": 23,
+  "olu": 0,
+  "yarali": 9,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 76,
+  "il": "Iğdır",
+  "olumlu_yaralanmali_kaza": 30,
+  "maddi_hasarli_kaza": 47,
+  "olu": 0,
+  "yarali": 46,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 77,
+  "il": "Yalova",
+  "olumlu_yaralanmali_kaza": 105,
+  "maddi_hasarli_kaza": 104,
+  "olu": 2,
+  "yarali": 149,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 78,
+  "il": "Karabük",
+  "olumlu_yaralanmali_kaza": 78,
+  "maddi_hasarli_kaza": 58,
+  "olu": 0,
+  "yarali": 129,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 79,
+  "il": "Kilis",
+  "olumlu_yaralanmali_kaza": 27,
+  "maddi_hasarli_kaza": 4,
+  "olu": 0,
+  "yarali": 35,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 80,
+  "il": "Osmaniye",
+  "olumlu_yaralanmali_kaza": 241,
+  "maddi_hasarli_kaza": 170,
+  "olu": 1,
+  "yarali": 353,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-03",
+  "plaka": 81,
+  "il": "Düzce",
+  "olumlu_yaralanmali_kaza": 85,
+  "maddi_hasarli_kaza": 112,
+  "olu": 0,
+  "yarali": 129,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 1,
+  "il": "Adana",
+  "olumlu_yaralanmali_kaza": 536,
+  "maddi_hasarli_kaza": 562,
+  "olu": 3,
+  "yarali": 739,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 2,
+  "il": "Adıyaman",
+  "olumlu_yaralanmali_kaza": 132,
+  "maddi_hasarli_kaza": 152,
+  "olu": 0,
+  "yarali": 179,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 3,
+  "il": "Afyonkarahisar",
+  "olumlu_yaralanmali_kaza": 211,
+  "maddi_hasarli_kaza": 237,
+  "olu": 2,
+  "yarali": 310,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 4,
+  "il": "Ağrı",
+  "olumlu_yaralanmali_kaza": 65,
+  "maddi_hasarli_kaza": 86,
+  "olu": 0,
+  "yarali": 143,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 5,
+  "il": "Amasya",
+  "olumlu_yaralanmali_kaza": 109,
+  "maddi_hasarli_kaza": 92,
+  "olu": 2,
+  "yarali": 167,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 6,
+  "il": "Ankara",
+  "olumlu_yaralanmali_kaza": 1361,
+  "maddi_hasarli_kaza": 6541,
+  "olu": 15,
+  "yarali": 1818,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 7,
+  "il": "Antalya",
+  "olumlu_yaralanmali_kaza": 1076,
+  "maddi_hasarli_kaza": 929,
+  "olu": 12,
+  "yarali": 1402,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 8,
+  "il": "Artvin",
+  "olumlu_yaralanmali_kaza": 28,
+  "maddi_hasarli_kaza": 27,
+  "olu": 2,
+  "yarali": 50,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 9,
+  "il": "Aydın",
+  "olumlu_yaralanmali_kaza": 443,
+  "maddi_hasarli_kaza": 327,
+  "olu": 2,
+  "yarali": 600,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 10,
+  "il": "Balıkesir",
+  "olumlu_yaralanmali_kaza": 443,
+  "maddi_hasarli_kaza": 341,
+  "olu": 5,
+  "yarali": 598,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 11,
+  "il": "Bilecik",
+  "olumlu_yaralanmali_kaza": 80,
+  "maddi_hasarli_kaza": 57,
+  "olu": 0,
+  "yarali": 108,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 12,
+  "il": "Bingöl",
+  "olumlu_yaralanmali_kaza": 56,
+  "maddi_hasarli_kaza": 54,
+  "olu": 0,
+  "yarali": 77,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 13,
+  "il": "Bitlis",
+  "olumlu_yaralanmali_kaza": 59,
+  "maddi_hasarli_kaza": 67,
+  "olu": 3,
+  "yarali": 106,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 14,
+  "il": "Bolu",
+  "olumlu_yaralanmali_kaza": 91,
+  "maddi_hasarli_kaza": 119,
+  "olu": 0,
+  "yarali": 131,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 15,
+  "il": "Burdur",
+  "olumlu_yaralanmali_kaza": 110,
+  "maddi_hasarli_kaza": 67,
+  "olu": 8,
+  "yarali": 168,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 16,
+  "il": "Bursa",
+  "olumlu_yaralanmali_kaza": 822,
+  "maddi_hasarli_kaza": 1462,
+  "olu": 2,
+  "yarali": 1088,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 17,
+  "il": "Çanakkale",
+  "olumlu_yaralanmali_kaza": 193,
+  "maddi_hasarli_kaza": 142,
+  "olu": 0,
+  "yarali": 269,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 18,
+  "il": "Çankırı",
+  "olumlu_yaralanmali_kaza": 69,
+  "maddi_hasarli_kaza": 67,
+  "olu": 0,
+  "yarali": 119,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 19,
+  "il": "Çorum",
+  "olumlu_yaralanmali_kaza": 170,
+  "maddi_hasarli_kaza": 252,
+  "olu": 1,
+  "yarali": 248,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 20,
+  "il": "Denizli",
+  "olumlu_yaralanmali_kaza": 343,
+  "maddi_hasarli_kaza": 431,
+  "olu": 2,
+  "yarali": 459,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 21,
+  "il": "Diyarbakır",
+  "olumlu_yaralanmali_kaza": 264,
+  "maddi_hasarli_kaza": 400,
+  "olu": 1,
+  "yarali": 413,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 22,
+  "il": "Edirne",
+  "olumlu_yaralanmali_kaza": 113,
+  "maddi_hasarli_kaza": 106,
+  "olu": 0,
+  "yarali": 142,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 23,
+  "il": "Elazığ",
+  "olumlu_yaralanmali_kaza": 84,
+  "maddi_hasarli_kaza": 142,
+  "olu": 0,
+  "yarali": 134,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 24,
+  "il": "Erzincan",
+  "olumlu_yaralanmali_kaza": 67,
+  "maddi_hasarli_kaza": 93,
+  "olu": 3,
+  "yarali": 104,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 25,
+  "il": "Erzurum",
+  "olumlu_yaralanmali_kaza": 112,
+  "maddi_hasarli_kaza": 210,
+  "olu": 2,
+  "yarali": 187,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 26,
+  "il": "Eskişehir",
+  "olumlu_yaralanmali_kaza": 220,
+  "maddi_hasarli_kaza": 223,
+  "olu": 5,
+  "yarali": 310,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 27,
+  "il": "Gaziantep",
+  "olumlu_yaralanmali_kaza": 444,
+  "maddi_hasarli_kaza": 458,
+  "olu": 3,
+  "yarali": 642,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 28,
+  "il": "Giresun",
+  "olumlu_yaralanmali_kaza": 83,
+  "maddi_hasarli_kaza": 79,
+  "olu": 2,
+  "yarali": 122,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 29,
+  "il": "Gümüşhane",
+  "olumlu_yaralanmali_kaza": 28,
+  "maddi_hasarli_kaza": 40,
+  "olu": 1,
+  "yarali": 53,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 30,
+  "il": "Hakkari",
+  "olumlu_yaralanmali_kaza": 23,
+  "maddi_hasarli_kaza": 15,
+  "olu": 0,
+  "yarali": 36,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 31,
+  "il": "Hatay",
+  "olumlu_yaralanmali_kaza": 592,
+  "maddi_hasarli_kaza": 324,
+  "olu": 2,
+  "yarali": 810,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 32,
+  "il": "Isparta",
+  "olumlu_yaralanmali_kaza": 132,
+  "maddi_hasarli_kaza": 79,
+  "olu": 1,
+  "yarali": 175,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 33,
+  "il": "Mersin",
+  "olumlu_yaralanmali_kaza": 654,
+  "maddi_hasarli_kaza": 390,
+  "olu": 7,
+  "yarali": 887,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 34,
+  "il": "İstanbul",
+  "olumlu_yaralanmali_kaza": 3342,
+  "maddi_hasarli_kaza": 5577,
+  "olu": 7,
+  "yarali": 3979,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 35,
+  "il": "İzmir",
+  "olumlu_yaralanmali_kaza": 1167,
+  "maddi_hasarli_kaza": 2216,
+  "olu": 6,
+  "yarali": 1463,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 36,
+  "il": "Kars",
+  "olumlu_yaralanmali_kaza": 28,
+  "maddi_hasarli_kaza": 43,
+  "olu": 0,
+  "yarali": 51,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 37,
+  "il": "Kastamonu",
+  "olumlu_yaralanmali_kaza": 101,
+  "maddi_hasarli_kaza": 81,
+  "olu": 1,
+  "yarali": 175,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 38,
+  "il": "Kayseri",
+  "olumlu_yaralanmali_kaza": 432,
+  "maddi_hasarli_kaza": 330,
+  "olu": 0,
+  "yarali": 637,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 39,
+  "il": "Kırklareli",
+  "olumlu_yaralanmali_kaza": 81,
+  "maddi_hasarli_kaza": 77,
+  "olu": 1,
+  "yarali": 123,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 40,
+  "il": "Kırşehir",
+  "olumlu_yaralanmali_kaza": 57,
+  "maddi_hasarli_kaza": 63,
+  "olu": 0,
+  "yarali": 102,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 41,
+  "il": "Kocaeli",
+  "olumlu_yaralanmali_kaza": 653,
+  "maddi_hasarli_kaza": 854,
+  "olu": 2,
+  "yarali": 812,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 42,
+  "il": "Konya",
+  "olumlu_yaralanmali_kaza": 712,
+  "maddi_hasarli_kaza": 775,
+  "olu": 3,
+  "yarali": 1015,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 43,
+  "il": "Kütahya",
+  "olumlu_yaralanmali_kaza": 147,
+  "maddi_hasarli_kaza": 144,
+  "olu": 0,
+  "yarali": 200,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 44,
+  "il": "Malatya",
+  "olumlu_yaralanmali_kaza": 181,
+  "maddi_hasarli_kaza": 147,
+  "olu": 4,
+  "yarali": 298,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 45,
+  "il": "Manisa",
+  "olumlu_yaralanmali_kaza": 487,
+  "maddi_hasarli_kaza": 466,
+  "olu": 2,
+  "yarali": 670,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 46,
+  "il": "Kahramanmaraş",
+  "olumlu_yaralanmali_kaza": 284,
+  "maddi_hasarli_kaza": 282,
+  "olu": 1,
+  "yarali": 426,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 47,
+  "il": "Mardin",
+  "olumlu_yaralanmali_kaza": 132,
+  "maddi_hasarli_kaza": 122,
+  "olu": 1,
+  "yarali": 214,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 48,
+  "il": "Muğla",
+  "olumlu_yaralanmali_kaza": 533,
+  "maddi_hasarli_kaza": 404,
+  "olu": 5,
+  "yarali": 674,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 49,
+  "il": "Muş",
+  "olumlu_yaralanmali_kaza": 37,
+  "maddi_hasarli_kaza": 55,
+  "olu": 0,
+  "yarali": 58,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 50,
+  "il": "Nevşehir",
+  "olumlu_yaralanmali_kaza": 110,
+  "maddi_hasarli_kaza": 155,
+  "olu": 2,
+  "yarali": 161,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 51,
+  "il": "Niğde",
+  "olumlu_yaralanmali_kaza": 101,
+  "maddi_hasarli_kaza": 136,
+  "olu": 0,
+  "yarali": 139,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 52,
+  "il": "Ordu",
+  "olumlu_yaralanmali_kaza": 208,
+  "maddi_hasarli_kaza": 279,
+  "olu": 2,
+  "yarali": 271,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 53,
+  "il": "Rize",
+  "olumlu_yaralanmali_kaza": 77,
+  "maddi_hasarli_kaza": 99,
+  "olu": 0,
+  "yarali": 91,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 54,
+  "il": "Sakarya",
+  "olumlu_yaralanmali_kaza": 304,
+  "maddi_hasarli_kaza": 313,
+  "olu": 0,
+  "yarali": 402,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 55,
+  "il": "Samsun",
+  "olumlu_yaralanmali_kaza": 408,
+  "maddi_hasarli_kaza": 561,
+  "olu": 1,
+  "yarali": 533,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 56,
+  "il": "Siirt",
+  "olumlu_yaralanmali_kaza": 49,
+  "maddi_hasarli_kaza": 52,
+  "olu": 1,
+  "yarali": 62,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 57,
+  "il": "Sinop",
+  "olumlu_yaralanmali_kaza": 72,
+  "maddi_hasarli_kaza": 41,
+  "olu": 0,
+  "yarali": 113,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 58,
+  "il": "Sivas",
+  "olumlu_yaralanmali_kaza": 135,
+  "maddi_hasarli_kaza": 140,
+  "olu": 3,
+  "yarali": 218,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 59,
+  "il": "Tekirdağ",
+  "olumlu_yaralanmali_kaza": 296,
+  "maddi_hasarli_kaza": 490,
+  "olu": 2,
+  "yarali": 404,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 60,
+  "il": "Tokat",
+  "olumlu_yaralanmali_kaza": 163,
+  "maddi_hasarli_kaza": 151,
+  "olu": 1,
+  "yarali": 236,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 61,
+  "il": "Trabzon",
+  "olumlu_yaralanmali_kaza": 192,
+  "maddi_hasarli_kaza": 225,
+  "olu": 2,
+  "yarali": 255,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 62,
+  "il": "Tunceli",
+  "olumlu_yaralanmali_kaza": 17,
+  "maddi_hasarli_kaza": 19,
+  "olu": 0,
+  "yarali": 22,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 63,
+  "il": "Şanlıurfa",
+  "olumlu_yaralanmali_kaza": 305,
+  "maddi_hasarli_kaza": 313,
+  "olu": 4,
+  "yarali": 499,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 64,
+  "il": "Uşak",
+  "olumlu_yaralanmali_kaza": 110,
+  "maddi_hasarli_kaza": 111,
+  "olu": 2,
+  "yarali": 150,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 65,
+  "il": "Van",
+  "olumlu_yaralanmali_kaza": 144,
+  "maddi_hasarli_kaza": 178,
+  "olu": 0,
+  "yarali": 224,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 66,
+  "il": "Yozgat",
+  "olumlu_yaralanmali_kaza": 82,
+  "maddi_hasarli_kaza": 101,
+  "olu": 4,
+  "yarali": 128,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 67,
+  "il": "Zonguldak",
+  "olumlu_yaralanmali_kaza": 150,
+  "maddi_hasarli_kaza": 99,
+  "olu": 0,
+  "yarali": 207,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 68,
+  "il": "Aksaray",
+  "olumlu_yaralanmali_kaza": 119,
+  "maddi_hasarli_kaza": 207,
+  "olu": 0,
+  "yarali": 188,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 69,
+  "il": "Bayburt",
+  "olumlu_yaralanmali_kaza": 11,
+  "maddi_hasarli_kaza": 13,
+  "olu": 0,
+  "yarali": 17,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 70,
+  "il": "Karaman",
+  "olumlu_yaralanmali_kaza": 94,
+  "maddi_hasarli_kaza": 55,
+  "olu": 0,
+  "yarali": 150,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 71,
+  "il": "Kırıkkale",
+  "olumlu_yaralanmali_kaza": 101,
+  "maddi_hasarli_kaza": 115,
+  "olu": 1,
+  "yarali": 152,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 72,
+  "il": "Batman",
+  "olumlu_yaralanmali_kaza": 109,
+  "maddi_hasarli_kaza": 156,
+  "olu": 0,
+  "yarali": 145,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 73,
+  "il": "Şırnak",
+  "olumlu_yaralanmali_kaza": 95,
+  "maddi_hasarli_kaza": 80,
+  "olu": 1,
+  "yarali": 156,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 74,
+  "il": "Bartın",
+  "olumlu_yaralanmali_kaza": 58,
+  "maddi_hasarli_kaza": 43,
+  "olu": 0,
+  "yarali": 108,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 75,
+  "il": "Ardahan",
+  "olumlu_yaralanmali_kaza": 12,
+  "maddi_hasarli_kaza": 27,
+  "olu": 0,
+  "yarali": 18,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 76,
+  "il": "Iğdır",
+  "olumlu_yaralanmali_kaza": 34,
+  "maddi_hasarli_kaza": 33,
+  "olu": 1,
+  "yarali": 46,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 77,
+  "il": "Yalova",
+  "olumlu_yaralanmali_kaza": 93,
+  "maddi_hasarli_kaza": 81,
+  "olu": 0,
+  "yarali": 120,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 78,
+  "il": "Karabük",
+  "olumlu_yaralanmali_kaza": 59,
+  "maddi_hasarli_kaza": 68,
+  "olu": 1,
+  "yarali": 71,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 79,
+  "il": "Kilis",
+  "olumlu_yaralanmali_kaza": 49,
+  "maddi_hasarli_kaza": 18,
+  "olu": 0,
+  "yarali": 67,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 80,
+  "il": "Osmaniye",
+  "olumlu_yaralanmali_kaza": 223,
+  "maddi_hasarli_kaza": 107,
+  "olu": 0,
+  "yarali": 297,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-04",
+  "plaka": 81,
+  "il": "Düzce",
+  "olumlu_yaralanmali_kaza": 117,
+  "maddi_hasarli_kaza": 85,
+  "olu": 0,
+  "yarali": 162,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 1,
+  "il": "Adana",
+  "olumlu_yaralanmali_kaza": 545,
+  "maddi_hasarli_kaza": 601,
+  "olu": 5,
+  "yarali": 768,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 2,
+  "il": "Adıyaman",
+  "olumlu_yaralanmali_kaza": 182,
+  "maddi_hasarli_kaza": 153,
+  "olu": 1,
+  "yarali": 261,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 3,
+  "il": "Afyonkarahisar",
+  "olumlu_yaralanmali_kaza": 266,
+  "maddi_hasarli_kaza": 286,
+  "olu": 3,
+  "yarali": 459,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 4,
+  "il": "Ağrı",
+  "olumlu_yaralanmali_kaza": 84,
+  "maddi_hasarli_kaza": 102,
+  "olu": 0,
+  "yarali": 144,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 5,
+  "il": "Amasya",
+  "olumlu_yaralanmali_kaza": 130,
+  "maddi_hasarli_kaza": 158,
+  "olu": 3,
+  "yarali": 204,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 6,
+  "il": "Ankara",
+  "olumlu_yaralanmali_kaza": 1440,
+  "maddi_hasarli_kaza": 6215,
+  "olu": 7,
+  "yarali": 1973,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 7,
+  "il": "Antalya",
+  "olumlu_yaralanmali_kaza": 1271,
+  "maddi_hasarli_kaza": 994,
+  "olu": 19,
+  "yarali": 1720,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 8,
+  "il": "Artvin",
+  "olumlu_yaralanmali_kaza": 27,
+  "maddi_hasarli_kaza": 36,
+  "olu": 0,
+  "yarali": 34,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 9,
+  "il": "Aydın",
+  "olumlu_yaralanmali_kaza": 578,
+  "maddi_hasarli_kaza": 364,
+  "olu": 2,
+  "yarali": 801,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 10,
+  "il": "Balıkesir",
+  "olumlu_yaralanmali_kaza": 502,
+  "maddi_hasarli_kaza": 393,
+  "olu": 9,
+  "yarali": 784,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 11,
+  "il": "Bilecik",
+  "olumlu_yaralanmali_kaza": 71,
+  "maddi_hasarli_kaza": 63,
+  "olu": 0,
+  "yarali": 99,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 12,
+  "il": "Bingöl",
+  "olumlu_yaralanmali_kaza": 82,
+  "maddi_hasarli_kaza": 70,
+  "olu": 0,
+  "yarali": 156,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 13,
+  "il": "Bitlis",
+  "olumlu_yaralanmali_kaza": 86,
+  "maddi_hasarli_kaza": 72,
+  "olu": 2,
+  "yarali": 178,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 14,
+  "il": "Bolu",
+  "olumlu_yaralanmali_kaza": 95,
+  "maddi_hasarli_kaza": 137,
+  "olu": 3,
+  "yarali": 160,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 15,
+  "il": "Burdur",
+  "olumlu_yaralanmali_kaza": 132,
+  "maddi_hasarli_kaza": 89,
+  "olu": 4,
+  "yarali": 207,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 16,
+  "il": "Bursa",
+  "olumlu_yaralanmali_kaza": 951,
+  "maddi_hasarli_kaza": 1502,
+  "olu": 6,
+  "yarali": 1270,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 17,
+  "il": "Çanakkale",
+  "olumlu_yaralanmali_kaza": 236,
+  "maddi_hasarli_kaza": 175,
+  "olu": 4,
+  "yarali": 402,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 18,
+  "il": "Çankırı",
+  "olumlu_yaralanmali_kaza": 105,
+  "maddi_hasarli_kaza": 127,
+  "olu": 2,
+  "yarali": 206,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 19,
+  "il": "Çorum",
+  "olumlu_yaralanmali_kaza": 213,
+  "maddi_hasarli_kaza": 296,
+  "olu": 0,
+  "yarali": 379,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 20,
+  "il": "Denizli",
+  "olumlu_yaralanmali_kaza": 386,
+  "maddi_hasarli_kaza": 457,
+  "olu": 9,
+  "yarali": 579,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 21,
+  "il": "Diyarbakır",
+  "olumlu_yaralanmali_kaza": 331,
+  "maddi_hasarli_kaza": 411,
+  "olu": 1,
+  "yarali": 602,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 22,
+  "il": "Edirne",
+  "olumlu_yaralanmali_kaza": 121,
+  "maddi_hasarli_kaza": 109,
+  "olu": 0,
+  "yarali": 182,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 23,
+  "il": "Elazığ",
+  "olumlu_yaralanmali_kaza": 150,
+  "maddi_hasarli_kaza": 166,
+  "olu": 1,
+  "yarali": 258,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 24,
+  "il": "Erzincan",
+  "olumlu_yaralanmali_kaza": 89,
+  "maddi_hasarli_kaza": 93,
+  "olu": 2,
+  "yarali": 151,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 25,
+  "il": "Erzurum",
+  "olumlu_yaralanmali_kaza": 146,
+  "maddi_hasarli_kaza": 222,
+  "olu": 0,
+  "yarali": 270,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 26,
+  "il": "Eskişehir",
+  "olumlu_yaralanmali_kaza": 244,
+  "maddi_hasarli_kaza": 274,
+  "olu": 1,
+  "yarali": 350,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 27,
+  "il": "Gaziantep",
+  "olumlu_yaralanmali_kaza": 492,
+  "maddi_hasarli_kaza": 429,
+  "olu": 5,
+  "yarali": 804,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 28,
+  "il": "Giresun",
+  "olumlu_yaralanmali_kaza": 96,
+  "maddi_hasarli_kaza": 135,
+  "olu": 6,
+  "yarali": 163,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 29,
+  "il": "Gümüşhane",
+  "olumlu_yaralanmali_kaza": 38,
+  "maddi_hasarli_kaza": 58,
+  "olu": 2,
+  "yarali": 59,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 30,
+  "il": "Hakkari",
+  "olumlu_yaralanmali_kaza": 25,
+  "maddi_hasarli_kaza": 18,
+  "olu": 1,
+  "yarali": 55,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 31,
+  "il": "Hatay",
+  "olumlu_yaralanmali_kaza": 626,
+  "maddi_hasarli_kaza": 367,
+  "olu": 4,
+  "yarali": 895,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 32,
+  "il": "Isparta",
+  "olumlu_yaralanmali_kaza": 184,
+  "maddi_hasarli_kaza": 80,
+  "olu": 1,
+  "yarali": 271,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 33,
+  "il": "Mersin",
+  "olumlu_yaralanmali_kaza": 740,
+  "maddi_hasarli_kaza": 397,
+  "olu": 8,
+  "yarali": 988,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 34,
+  "il": "İstanbul",
+  "olumlu_yaralanmali_kaza": 3566,
+  "maddi_hasarli_kaza": 5138,
+  "olu": 8,
+  "yarali": 4300,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 35,
+  "il": "İzmir",
+  "olumlu_yaralanmali_kaza": 1278,
+  "maddi_hasarli_kaza": 2095,
+  "olu": 11,
+  "yarali": 1592,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 36,
+  "il": "Kars",
+  "olumlu_yaralanmali_kaza": 60,
+  "maddi_hasarli_kaza": 56,
+  "olu": 3,
+  "yarali": 99,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 37,
+  "il": "Kastamonu",
+  "olumlu_yaralanmali_kaza": 120,
+  "maddi_hasarli_kaza": 128,
+  "olu": 4,
+  "yarali": 228,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 38,
+  "il": "Kayseri",
+  "olumlu_yaralanmali_kaza": 459,
+  "maddi_hasarli_kaza": 395,
+  "olu": 1,
+  "yarali": 747,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 39,
+  "il": "Kırklareli",
+  "olumlu_yaralanmali_kaza": 92,
+  "maddi_hasarli_kaza": 99,
+  "olu": 1,
+  "yarali": 146,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 40,
+  "il": "Kırşehir",
+  "olumlu_yaralanmali_kaza": 84,
+  "maddi_hasarli_kaza": 70,
+  "olu": 1,
+  "yarali": 163,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 41,
+  "il": "Kocaeli",
+  "olumlu_yaralanmali_kaza": 680,
+  "maddi_hasarli_kaza": 865,
+  "olu": 1,
+  "yarali": 891,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 42,
+  "il": "Konya",
+  "olumlu_yaralanmali_kaza": 744,
+  "maddi_hasarli_kaza": 812,
+  "olu": 3,
+  "yarali": 1143,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 43,
+  "il": "Kütahya",
+  "olumlu_yaralanmali_kaza": 179,
+  "maddi_hasarli_kaza": 154,
+  "olu": 1,
+  "yarali": 303,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 44,
+  "il": "Malatya",
+  "olumlu_yaralanmali_kaza": 187,
+  "maddi_hasarli_kaza": 169,
+  "olu": 3,
+  "yarali": 357,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 45,
+  "il": "Manisa",
+  "olumlu_yaralanmali_kaza": 525,
+  "maddi_hasarli_kaza": 508,
+  "olu": 2,
+  "yarali": 773,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 46,
+  "il": "Kahramanmaraş",
+  "olumlu_yaralanmali_kaza": 352,
+  "maddi_hasarli_kaza": 275,
+  "olu": 1,
+  "yarali": 600,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 47,
+  "il": "Mardin",
+  "olumlu_yaralanmali_kaza": 177,
+  "maddi_hasarli_kaza": 136,
+  "olu": 1,
+  "yarali": 295,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 48,
+  "il": "Muğla",
+  "olumlu_yaralanmali_kaza": 648,
+  "maddi_hasarli_kaza": 501,
+  "olu": 8,
+  "yarali": 882,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 49,
+  "il": "Muş",
+  "olumlu_yaralanmali_kaza": 53,
+  "maddi_hasarli_kaza": 42,
+  "olu": 1,
+  "yarali": 78,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 50,
+  "il": "Nevşehir",
+  "olumlu_yaralanmali_kaza": 127,
+  "maddi_hasarli_kaza": 162,
+  "olu": 3,
+  "yarali": 220,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 51,
+  "il": "Niğde",
+  "olumlu_yaralanmali_kaza": 139,
+  "maddi_hasarli_kaza": 162,
+  "olu": 7,
+  "yarali": 240,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 52,
+  "il": "Ordu",
+  "olumlu_yaralanmali_kaza": 238,
+  "maddi_hasarli_kaza": 329,
+  "olu": 1,
+  "yarali": 329,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 53,
+  "il": "Rize",
+  "olumlu_yaralanmali_kaza": 89,
+  "maddi_hasarli_kaza": 131,
+  "olu": 1,
+  "yarali": 125,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 54,
+  "il": "Sakarya",
+  "olumlu_yaralanmali_kaza": 354,
+  "maddi_hasarli_kaza": 280,
+  "olu": 1,
+  "yarali": 532,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 55,
+  "il": "Samsun",
+  "olumlu_yaralanmali_kaza": 468,
+  "maddi_hasarli_kaza": 598,
+  "olu": 1,
+  "yarali": 658,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 56,
+  "il": "Siirt",
+  "olumlu_yaralanmali_kaza": 72,
+  "maddi_hasarli_kaza": 62,
+  "olu": 2,
+  "yarali": 100,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 57,
+  "il": "Sinop",
+  "olumlu_yaralanmali_kaza": 86,
+  "maddi_hasarli_kaza": 61,
+  "olu": 0,
+  "yarali": 150,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 58,
+  "il": "Sivas",
+  "olumlu_yaralanmali_kaza": 175,
+  "maddi_hasarli_kaza": 172,
+  "olu": 5,
+  "yarali": 369,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 59,
+  "il": "Tekirdağ",
+  "olumlu_yaralanmali_kaza": 332,
+  "maddi_hasarli_kaza": 481,
+  "olu": 3,
+  "yarali": 460,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 60,
+  "il": "Tokat",
+  "olumlu_yaralanmali_kaza": 203,
+  "maddi_hasarli_kaza": 191,
+  "olu": 0,
+  "yarali": 343,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 61,
+  "il": "Trabzon",
+  "olumlu_yaralanmali_kaza": 188,
+  "maddi_hasarli_kaza": 276,
+  "olu": 2,
+  "yarali": 263,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 62,
+  "il": "Tunceli",
+  "olumlu_yaralanmali_kaza": 17,
+  "maddi_hasarli_kaza": 17,
+  "olu": 0,
+  "yarali": 26,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 63,
+  "il": "Şanlıurfa",
+  "olumlu_yaralanmali_kaza": 381,
+  "maddi_hasarli_kaza": 320,
+  "olu": 2,
+  "yarali": 571,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 64,
+  "il": "Uşak",
+  "olumlu_yaralanmali_kaza": 121,
+  "maddi_hasarli_kaza": 144,
+  "olu": 5,
+  "yarali": 213,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 65,
+  "il": "Van",
+  "olumlu_yaralanmali_kaza": 182,
+  "maddi_hasarli_kaza": 206,
+  "olu": 1,
+  "yarali": 336,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 66,
+  "il": "Yozgat",
+  "olumlu_yaralanmali_kaza": 110,
+  "maddi_hasarli_kaza": 133,
+  "olu": 5,
+  "yarali": 219,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 67,
+  "il": "Zonguldak",
+  "olumlu_yaralanmali_kaza": 159,
+  "maddi_hasarli_kaza": 153,
+  "olu": 0,
+  "yarali": 249,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 68,
+  "il": "Aksaray",
+  "olumlu_yaralanmali_kaza": 149,
+  "maddi_hasarli_kaza": 231,
+  "olu": 0,
+  "yarali": 248,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 69,
+  "il": "Bayburt",
+  "olumlu_yaralanmali_kaza": 23,
+  "maddi_hasarli_kaza": 15,
+  "olu": 0,
+  "yarali": 40,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 70,
+  "il": "Karaman",
+  "olumlu_yaralanmali_kaza": 106,
+  "maddi_hasarli_kaza": 50,
+  "olu": 1,
+  "yarali": 146,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 71,
+  "il": "Kırıkkale",
+  "olumlu_yaralanmali_kaza": 95,
+  "maddi_hasarli_kaza": 162,
+  "olu": 2,
+  "yarali": 169,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 72,
+  "il": "Batman",
+  "olumlu_yaralanmali_kaza": 142,
+  "maddi_hasarli_kaza": 144,
+  "olu": 1,
+  "yarali": 226,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 73,
+  "il": "Şırnak",
+  "olumlu_yaralanmali_kaza": 101,
+  "maddi_hasarli_kaza": 61,
+  "olu": 2,
+  "yarali": 142,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 74,
+  "il": "Bartın",
+  "olumlu_yaralanmali_kaza": 65,
+  "maddi_hasarli_kaza": 53,
+  "olu": 0,
+  "yarali": 93,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 75,
+  "il": "Ardahan",
+  "olumlu_yaralanmali_kaza": 9,
+  "maddi_hasarli_kaza": 26,
+  "olu": 0,
+  "yarali": 16,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 76,
+  "il": "Iğdır",
+  "olumlu_yaralanmali_kaza": 41,
+  "maddi_hasarli_kaza": 37,
+  "olu": 1,
+  "yarali": 50,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 77,
+  "il": "Yalova",
+  "olumlu_yaralanmali_kaza": 123,
+  "maddi_hasarli_kaza": 76,
+  "olu": 0,
+  "yarali": 174,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 78,
+  "il": "Karabük",
+  "olumlu_yaralanmali_kaza": 71,
+  "maddi_hasarli_kaza": 49,
+  "olu": 1,
+  "yarali": 112,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 79,
+  "il": "Kilis",
+  "olumlu_yaralanmali_kaza": 68,
+  "maddi_hasarli_kaza": 18,
+  "olu": 0,
+  "yarali": 133,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 80,
+  "il": "Osmaniye",
+  "olumlu_yaralanmali_kaza": 291,
+  "maddi_hasarli_kaza": 142,
+  "olu": 1,
+  "yarali": 439,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-05",
+  "plaka": 81,
+  "il": "Düzce",
+  "olumlu_yaralanmali_kaza": 146,
+  "maddi_hasarli_kaza": 116,
+  "olu": 1,
+  "yarali": 202,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 1,
+  "il": "Adana",
+  "olumlu_yaralanmali_kaza": 606,
+  "maddi_hasarli_kaza": 529,
+  "olu": 6,
+  "yarali": 829,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 2,
+  "il": "Adıyaman",
+  "olumlu_yaralanmali_kaza": 179,
+  "maddi_hasarli_kaza": 161,
+  "olu": 1,
+  "yarali": 258,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 3,
+  "il": "Afyonkarahisar",
+  "olumlu_yaralanmali_kaza": 298,
+  "maddi_hasarli_kaza": 276,
+  "olu": 0,
+  "yarali": 471,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 4,
+  "il": "Ağrı",
+  "olumlu_yaralanmali_kaza": 92,
+  "maddi_hasarli_kaza": 92,
+  "olu": 2,
+  "yarali": 176,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 5,
+  "il": "Amasya",
+  "olumlu_yaralanmali_kaza": 167,
+  "maddi_hasarli_kaza": 123,
+  "olu": 2,
+  "yarali": 235,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 6,
+  "il": "Ankara",
+  "olumlu_yaralanmali_kaza": 1765,
+  "maddi_hasarli_kaza": 6714,
+  "olu": 8,
+  "yarali": 2329,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 7,
+  "il": "Antalya",
+  "olumlu_yaralanmali_kaza": 1471,
+  "maddi_hasarli_kaza": 1026,
+  "olu": 9,
+  "yarali": 1969,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 8,
+  "il": "Artvin",
+  "olumlu_yaralanmali_kaza": 36,
+  "maddi_hasarli_kaza": 32,
+  "olu": 1,
+  "yarali": 49,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 9,
+  "il": "Aydın",
+  "olumlu_yaralanmali_kaza": 572,
+  "maddi_hasarli_kaza": 408,
+  "olu": 1,
+  "yarali": 793,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 10,
+  "il": "Balıkesir",
+  "olumlu_yaralanmali_kaza": 630,
+  "maddi_hasarli_kaza": 396,
+  "olu": 5,
+  "yarali": 896,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 11,
+  "il": "Bilecik",
+  "olumlu_yaralanmali_kaza": 132,
+  "maddi_hasarli_kaza": 69,
+  "olu": 1,
+  "yarali": 191,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 12,
+  "il": "Bingöl",
+  "olumlu_yaralanmali_kaza": 66,
+  "maddi_hasarli_kaza": 89,
+  "olu": 1,
+  "yarali": 100,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 13,
+  "il": "Bitlis",
+  "olumlu_yaralanmali_kaza": 67,
+  "maddi_hasarli_kaza": 59,
+  "olu": 0,
+  "yarali": 131,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 14,
+  "il": "Bolu",
+  "olumlu_yaralanmali_kaza": 139,
+  "maddi_hasarli_kaza": 121,
+  "olu": 3,
+  "yarali": 196,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 15,
+  "il": "Burdur",
+  "olumlu_yaralanmali_kaza": 112,
+  "maddi_hasarli_kaza": 88,
+  "olu": 1,
+  "yarali": 179,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 16,
+  "il": "Bursa",
+  "olumlu_yaralanmali_kaza": 1110,
+  "maddi_hasarli_kaza": 1588,
+  "olu": 5,
+  "yarali": 1509,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 17,
+  "il": "Çanakkale",
+  "olumlu_yaralanmali_kaza": 256,
+  "maddi_hasarli_kaza": 171,
+  "olu": 3,
+  "yarali": 347,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 18,
+  "il": "Çankırı",
+  "olumlu_yaralanmali_kaza": 74,
+  "maddi_hasarli_kaza": 97,
+  "olu": 0,
+  "yarali": 119,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 19,
+  "il": "Çorum",
+  "olumlu_yaralanmali_kaza": 239,
+  "maddi_hasarli_kaza": 252,
+  "olu": 3,
+  "yarali": 365,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 20,
+  "il": "Denizli",
+  "olumlu_yaralanmali_kaza": 451,
+  "maddi_hasarli_kaza": 460,
+  "olu": 5,
+  "yarali": 604,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 21,
+  "il": "Diyarbakır",
+  "olumlu_yaralanmali_kaza": 337,
+  "maddi_hasarli_kaza": 390,
+  "olu": 1,
+  "yarali": 539,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 22,
+  "il": "Edirne",
+  "olumlu_yaralanmali_kaza": 139,
+  "maddi_hasarli_kaza": 132,
+  "olu": 3,
+  "yarali": 203,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 23,
+  "il": "Elazığ",
+  "olumlu_yaralanmali_kaza": 196,
+  "maddi_hasarli_kaza": 155,
+  "olu": 0,
+  "yarali": 332,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 24,
+  "il": "Erzincan",
+  "olumlu_yaralanmali_kaza": 105,
+  "maddi_hasarli_kaza": 107,
+  "olu": 0,
+  "yarali": 184,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 25,
+  "il": "Erzurum",
+  "olumlu_yaralanmali_kaza": 182,
+  "maddi_hasarli_kaza": 204,
+  "olu": 6,
+  "yarali": 299,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 26,
+  "il": "Eskişehir",
+  "olumlu_yaralanmali_kaza": 290,
+  "maddi_hasarli_kaza": 305,
+  "olu": 1,
+  "yarali": 416,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 27,
+  "il": "Gaziantep",
+  "olumlu_yaralanmali_kaza": 591,
+  "maddi_hasarli_kaza": 406,
+  "olu": 4,
+  "yarali": 836,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 28,
+  "il": "Giresun",
+  "olumlu_yaralanmali_kaza": 114,
+  "maddi_hasarli_kaza": 117,
+  "olu": 0,
+  "yarali": 179,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 29,
+  "il": "Gümüşhane",
+  "olumlu_yaralanmali_kaza": 40,
+  "maddi_hasarli_kaza": 44,
+  "olu": 0,
+  "yarali": 80,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 30,
+  "il": "Hakkari",
+  "olumlu_yaralanmali_kaza": 30,
+  "maddi_hasarli_kaza": 17,
+  "olu": 0,
+  "yarali": 48,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 31,
+  "il": "Hatay",
+  "olumlu_yaralanmali_kaza": 730,
+  "maddi_hasarli_kaza": 331,
+  "olu": 2,
+  "yarali": 991,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 32,
+  "il": "Isparta",
+  "olumlu_yaralanmali_kaza": 205,
+  "maddi_hasarli_kaza": 78,
+  "olu": 6,
+  "yarali": 319,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 33,
+  "il": "Mersin",
+  "olumlu_yaralanmali_kaza": 759,
+  "maddi_hasarli_kaza": 404,
+  "olu": 13,
+  "yarali": 1009,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 34,
+  "il": "İstanbul",
+  "olumlu_yaralanmali_kaza": 4261,
+  "maddi_hasarli_kaza": 5506,
+  "olu": 19,
+  "yarali": 5194,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 35,
+  "il": "İzmir",
+  "olumlu_yaralanmali_kaza": 1458,
+  "maddi_hasarli_kaza": 2322,
+  "olu": 7,
+  "yarali": 1880,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 36,
+  "il": "Kars",
+  "olumlu_yaralanmali_kaza": 53,
+  "maddi_hasarli_kaza": 48,
+  "olu": 1,
+  "yarali": 100,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 37,
+  "il": "Kastamonu",
+  "olumlu_yaralanmali_kaza": 111,
+  "maddi_hasarli_kaza": 100,
+  "olu": 0,
+  "yarali": 172,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 38,
+  "il": "Kayseri",
+  "olumlu_yaralanmali_kaza": 586,
+  "maddi_hasarli_kaza": 360,
+  "olu": 6,
+  "yarali": 872,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 39,
+  "il": "Kırklareli",
+  "olumlu_yaralanmali_kaza": 97,
+  "maddi_hasarli_kaza": 87,
+  "olu": 3,
+  "yarali": 150,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 40,
+  "il": "Kırşehir",
+  "olumlu_yaralanmali_kaza": 85,
+  "maddi_hasarli_kaza": 71,
+  "olu": 1,
+  "yarali": 149,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 41,
+  "il": "Kocaeli",
+  "olumlu_yaralanmali_kaza": 867,
+  "maddi_hasarli_kaza": 973,
+  "olu": 1,
+  "yarali": 1094,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 42,
+  "il": "Konya",
+  "olumlu_yaralanmali_kaza": 879,
+  "maddi_hasarli_kaza": 902,
+  "olu": 7,
+  "yarali": 1263,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 43,
+  "il": "Kütahya",
+  "olumlu_yaralanmali_kaza": 262,
+  "maddi_hasarli_kaza": 145,
+  "olu": 2,
+  "yarali": 401,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 44,
+  "il": "Malatya",
+  "olumlu_yaralanmali_kaza": 246,
+  "maddi_hasarli_kaza": 198,
+  "olu": 2,
+  "yarali": 349,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 45,
+  "il": "Manisa",
+  "olumlu_yaralanmali_kaza": 587,
+  "maddi_hasarli_kaza": 497,
+  "olu": 2,
+  "yarali": 829,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 46,
+  "il": "Kahramanmaraş",
+  "olumlu_yaralanmali_kaza": 390,
+  "maddi_hasarli_kaza": 262,
+  "olu": 0,
+  "yarali": 556,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 47,
+  "il": "Mardin",
+  "olumlu_yaralanmali_kaza": 150,
+  "maddi_hasarli_kaza": 169,
+  "olu": 2,
+  "yarali": 256,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 48,
+  "il": "Muğla",
+  "olumlu_yaralanmali_kaza": 707,
+  "maddi_hasarli_kaza": 518,
+  "olu": 3,
+  "yarali": 932,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 49,
+  "il": "Muş",
+  "olumlu_yaralanmali_kaza": 51,
+  "maddi_hasarli_kaza": 65,
+  "olu": 0,
+  "yarali": 76,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 50,
+  "il": "Nevşehir",
+  "olumlu_yaralanmali_kaza": 174,
+  "maddi_hasarli_kaza": 139,
+  "olu": 2,
+  "yarali": 261,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 51,
+  "il": "Niğde",
+  "olumlu_yaralanmali_kaza": 183,
+  "maddi_hasarli_kaza": 150,
+  "olu": 0,
+  "yarali": 285,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 52,
+  "il": "Ordu",
+  "olumlu_yaralanmali_kaza": 311,
+  "maddi_hasarli_kaza": 304,
+  "olu": 0,
+  "yarali": 444,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 53,
+  "il": "Rize",
+  "olumlu_yaralanmali_kaza": 121,
+  "maddi_hasarli_kaza": 112,
+  "olu": 7,
+  "yarali": 163,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 54,
+  "il": "Sakarya",
+  "olumlu_yaralanmali_kaza": 406,
+  "maddi_hasarli_kaza": 325,
+  "olu": 0,
+  "yarali": 527,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 55,
+  "il": "Samsun",
+  "olumlu_yaralanmali_kaza": 560,
+  "maddi_hasarli_kaza": 572,
+  "olu": 3,
+  "yarali": 749,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 56,
+  "il": "Siirt",
+  "olumlu_yaralanmali_kaza": 65,
+  "maddi_hasarli_kaza": 63,
+  "olu": 0,
+  "yarali": 92,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 57,
+  "il": "Sinop",
+  "olumlu_yaralanmali_kaza": 107,
+  "maddi_hasarli_kaza": 47,
+  "olu": 0,
+  "yarali": 157,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 58,
+  "il": "Sivas",
+  "olumlu_yaralanmali_kaza": 206,
+  "maddi_hasarli_kaza": 161,
+  "olu": 5,
+  "yarali": 337,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 59,
+  "il": "Tekirdağ",
+  "olumlu_yaralanmali_kaza": 440,
+  "maddi_hasarli_kaza": 558,
+  "olu": 5,
+  "yarali": 602,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 60,
+  "il": "Tokat",
+  "olumlu_yaralanmali_kaza": 255,
+  "maddi_hasarli_kaza": 163,
+  "olu": 2,
+  "yarali": 372,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 61,
+  "il": "Trabzon",
+  "olumlu_yaralanmali_kaza": 255,
+  "maddi_hasarli_kaza": 268,
+  "olu": 1,
+  "yarali": 348,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 62,
+  "il": "Tunceli",
+  "olumlu_yaralanmali_kaza": 32,
+  "maddi_hasarli_kaza": 23,
+  "olu": 0,
+  "yarali": 66,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 63,
+  "il": "Şanlıurfa",
+  "olumlu_yaralanmali_kaza": 388,
+  "maddi_hasarli_kaza": 324,
+  "olu": 9,
+  "yarali": 625,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 64,
+  "il": "Uşak",
+  "olumlu_yaralanmali_kaza": 142,
+  "maddi_hasarli_kaza": 138,
+  "olu": 1,
+  "yarali": 201,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 65,
+  "il": "Van",
+  "olumlu_yaralanmali_kaza": 204,
+  "maddi_hasarli_kaza": 190,
+  "olu": 4,
+  "yarali": 343,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 66,
+  "il": "Yozgat",
+  "olumlu_yaralanmali_kaza": 133,
+  "maddi_hasarli_kaza": 99,
+  "olu": 1,
+  "yarali": 185,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 67,
+  "il": "Zonguldak",
+  "olumlu_yaralanmali_kaza": 194,
+  "maddi_hasarli_kaza": 128,
+  "olu": 0,
+  "yarali": 253,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 68,
+  "il": "Aksaray",
+  "olumlu_yaralanmali_kaza": 142,
+  "maddi_hasarli_kaza": 220,
+  "olu": 0,
+  "yarali": 216,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 69,
+  "il": "Bayburt",
+  "olumlu_yaralanmali_kaza": 37,
+  "maddi_hasarli_kaza": 17,
+  "olu": 0,
+  "yarali": 64,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 70,
+  "il": "Karaman",
+  "olumlu_yaralanmali_kaza": 125,
+  "maddi_hasarli_kaza": 67,
+  "olu": 1,
+  "yarali": 167,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 71,
+  "il": "Kırıkkale",
+  "olumlu_yaralanmali_kaza": 110,
+  "maddi_hasarli_kaza": 143,
+  "olu": 1,
+  "yarali": 158,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 72,
+  "il": "Batman",
+  "olumlu_yaralanmali_kaza": 136,
+  "maddi_hasarli_kaza": 190,
+  "olu": 0,
+  "yarali": 208,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 73,
+  "il": "Şırnak",
+  "olumlu_yaralanmali_kaza": 88,
+  "maddi_hasarli_kaza": 56,
+  "olu": 0,
+  "yarali": 139,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 74,
+  "il": "Bartın",
+  "olumlu_yaralanmali_kaza": 83,
+  "maddi_hasarli_kaza": 38,
+  "olu": 1,
+  "yarali": 109,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 75,
+  "il": "Ardahan",
+  "olumlu_yaralanmali_kaza": 22,
+  "maddi_hasarli_kaza": 25,
+  "olu": 0,
+  "yarali": 33,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 76,
+  "il": "Iğdır",
+  "olumlu_yaralanmali_kaza": 43,
+  "maddi_hasarli_kaza": 36,
+  "olu": 0,
+  "yarali": 69,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 77,
+  "il": "Yalova",
+  "olumlu_yaralanmali_kaza": 160,
+  "maddi_hasarli_kaza": 94,
+  "olu": 0,
+  "yarali": 226,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 78,
+  "il": "Karabük",
+  "olumlu_yaralanmali_kaza": 78,
+  "maddi_hasarli_kaza": 63,
+  "olu": 2,
+  "yarali": 105,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 79,
+  "il": "Kilis",
+  "olumlu_yaralanmali_kaza": 46,
+  "maddi_hasarli_kaza": 8,
+  "olu": 0,
+  "yarali": 67,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 80,
+  "il": "Osmaniye",
+  "olumlu_yaralanmali_kaza": 299,
+  "maddi_hasarli_kaza": 126,
+  "olu": 1,
+  "yarali": 405,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-06",
+  "plaka": 81,
+  "il": "Düzce",
+  "olumlu_yaralanmali_kaza": 160,
+  "maddi_hasarli_kaza": 91,
+  "olu": 1,
+  "yarali": 228,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 1,
+  "il": "Adana",
+  "olumlu_yaralanmali_kaza": 536,
+  "maddi_hasarli_kaza": 520,
+  "olu": 9,
+  "yarali": 736,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 2,
+  "il": "Adıyaman",
+  "olumlu_yaralanmali_kaza": 240,
+  "maddi_hasarli_kaza": 190,
+  "olu": 0,
+  "yarali": 380,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 3,
+  "il": "Afyonkarahisar",
+  "olumlu_yaralanmali_kaza": 365,
+  "maddi_hasarli_kaza": 395,
+  "olu": 7,
+  "yarali": 580,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 4,
+  "il": "Ağrı",
+  "olumlu_yaralanmali_kaza": 83,
+  "maddi_hasarli_kaza": 91,
+  "olu": 0,
+  "yarali": 141,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 5,
+  "il": "Amasya",
+  "olumlu_yaralanmali_kaza": 168,
+  "maddi_hasarli_kaza": 168,
+  "olu": 2,
+  "yarali": 355,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 6,
+  "il": "Ankara",
+  "olumlu_yaralanmali_kaza": 1602,
+  "maddi_hasarli_kaza": 5947,
+  "olu": 11,
+  "yarali": 2208,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 7,
+  "il": "Antalya",
+  "olumlu_yaralanmali_kaza": 1538,
+  "maddi_hasarli_kaza": 1090,
+  "olu": 17,
+  "yarali": 2074,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 8,
+  "il": "Artvin",
+  "olumlu_yaralanmali_kaza": 30,
+  "maddi_hasarli_kaza": 27,
+  "olu": 1,
+  "yarali": 60,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 9,
+  "il": "Aydın",
+  "olumlu_yaralanmali_kaza": 676,
+  "maddi_hasarli_kaza": 492,
+  "olu": 4,
+  "yarali": 909,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 10,
+  "il": "Balıkesir",
+  "olumlu_yaralanmali_kaza": 675,
+  "maddi_hasarli_kaza": 485,
+  "olu": 9,
+  "yarali": 926,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 11,
+  "il": "Bilecik",
+  "olumlu_yaralanmali_kaza": 109,
+  "maddi_hasarli_kaza": 62,
+  "olu": 1,
+  "yarali": 161,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 12,
+  "il": "Bingöl",
+  "olumlu_yaralanmali_kaza": 88,
+  "maddi_hasarli_kaza": 86,
+  "olu": 5,
+  "yarali": 174,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 13,
+  "il": "Bitlis",
+  "olumlu_yaralanmali_kaza": 106,
+  "maddi_hasarli_kaza": 98,
+  "olu": 1,
+  "yarali": 198,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 14,
+  "il": "Bolu",
+  "olumlu_yaralanmali_kaza": 148,
+  "maddi_hasarli_kaza": 140,
+  "olu": 1,
+  "yarali": 242,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 15,
+  "il": "Burdur",
+  "olumlu_yaralanmali_kaza": 143,
+  "maddi_hasarli_kaza": 108,
+  "olu": 1,
+  "yarali": 224,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 16,
+  "il": "Bursa",
+  "olumlu_yaralanmali_kaza": 1099,
+  "maddi_hasarli_kaza": 1566,
+  "olu": 8,
+  "yarali": 1458,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 17,
+  "il": "Çanakkale",
+  "olumlu_yaralanmali_kaza": 282,
+  "maddi_hasarli_kaza": 219,
+  "olu": 3,
+  "yarali": 398,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 18,
+  "il": "Çankırı",
+  "olumlu_yaralanmali_kaza": 85,
+  "maddi_hasarli_kaza": 90,
+  "olu": 5,
+  "yarali": 168,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 19,
+  "il": "Çorum",
+  "olumlu_yaralanmali_kaza": 235,
+  "maddi_hasarli_kaza": 321,
+  "olu": 0,
+  "yarali": 350,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 20,
+  "il": "Denizli",
+  "olumlu_yaralanmali_kaza": 516,
+  "maddi_hasarli_kaza": 521,
+  "olu": 2,
+  "yarali": 696,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 21,
+  "il": "Diyarbakır",
+  "olumlu_yaralanmali_kaza": 380,
+  "maddi_hasarli_kaza": 402,
+  "olu": 0,
+  "yarali": 647,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 22,
+  "il": "Edirne",
+  "olumlu_yaralanmali_kaza": 130,
+  "maddi_hasarli_kaza": 139,
+  "olu": 0,
+  "yarali": 177,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 23,
+  "il": "Elazığ",
+  "olumlu_yaralanmali_kaza": 206,
+  "maddi_hasarli_kaza": 196,
+  "olu": 1,
+  "yarali": 345,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 24,
+  "il": "Erzincan",
+  "olumlu_yaralanmali_kaza": 146,
+  "maddi_hasarli_kaza": 121,
+  "olu": 1,
+  "yarali": 245,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 25,
+  "il": "Erzurum",
+  "olumlu_yaralanmali_kaza": 218,
+  "maddi_hasarli_kaza": 266,
+  "olu": 3,
+  "yarali": 360,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 26,
+  "il": "Eskişehir",
+  "olumlu_yaralanmali_kaza": 346,
+  "maddi_hasarli_kaza": 283,
+  "olu": 0,
+  "yarali": 527,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 27,
+  "il": "Gaziantep",
+  "olumlu_yaralanmali_kaza": 649,
+  "maddi_hasarli_kaza": 429,
+  "olu": 4,
+  "yarali": 925,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 28,
+  "il": "Giresun",
+  "olumlu_yaralanmali_kaza": 138,
+  "maddi_hasarli_kaza": 141,
+  "olu": 5,
+  "yarali": 227,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 29,
+  "il": "Gümüşhane",
+  "olumlu_yaralanmali_kaza": 37,
+  "maddi_hasarli_kaza": 69,
+  "olu": 0,
+  "yarali": 68,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 30,
+  "il": "Hakkari",
+  "olumlu_yaralanmali_kaza": 38,
+  "maddi_hasarli_kaza": 11,
+  "olu": 2,
+  "yarali": 76,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 31,
+  "il": "Hatay",
+  "olumlu_yaralanmali_kaza": 744,
+  "maddi_hasarli_kaza": 342,
+  "olu": 2,
+  "yarali": 1066,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 32,
+  "il": "Isparta",
+  "olumlu_yaralanmali_kaza": 246,
+  "maddi_hasarli_kaza": 99,
+  "olu": 0,
+  "yarali": 352,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 33,
+  "il": "Mersin",
+  "olumlu_yaralanmali_kaza": 758,
+  "maddi_hasarli_kaza": 427,
+  "olu": 5,
+  "yarali": 1019,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 34,
+  "il": "İstanbul",
+  "olumlu_yaralanmali_kaza": 4097,
+  "maddi_hasarli_kaza": 5441,
+  "olu": 9,
+  "yarali": 5053,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 35,
+  "il": "İzmir",
+  "olumlu_yaralanmali_kaza": 1479,
+  "maddi_hasarli_kaza": 2283,
+  "olu": 2,
+  "yarali": 1935,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 36,
+  "il": "Kars",
+  "olumlu_yaralanmali_kaza": 59,
+  "maddi_hasarli_kaza": 51,
+  "olu": 1,
+  "yarali": 119,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 37,
+  "il": "Kastamonu",
+  "olumlu_yaralanmali_kaza": 155,
+  "maddi_hasarli_kaza": 134,
+  "olu": 2,
+  "yarali": 282,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 38,
+  "il": "Kayseri",
+  "olumlu_yaralanmali_kaza": 688,
+  "maddi_hasarli_kaza": 417,
+  "olu": 8,
+  "yarali": 1038,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 39,
+  "il": "Kırklareli",
+  "olumlu_yaralanmali_kaza": 115,
+  "maddi_hasarli_kaza": 107,
+  "olu": 1,
+  "yarali": 156,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 40,
+  "il": "Kırşehir",
+  "olumlu_yaralanmali_kaza": 99,
+  "maddi_hasarli_kaza": 99,
+  "olu": 1,
+  "yarali": 155,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 41,
+  "il": "Kocaeli",
+  "olumlu_yaralanmali_kaza": 816,
+  "maddi_hasarli_kaza": 949,
+  "olu": 4,
+  "yarali": 1028,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 42,
+  "il": "Konya",
+  "olumlu_yaralanmali_kaza": 1004,
+  "maddi_hasarli_kaza": 960,
+  "olu": 11,
+  "yarali": 1521,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 43,
+  "il": "Kütahya",
+  "olumlu_yaralanmali_kaza": 272,
+  "maddi_hasarli_kaza": 161,
+  "olu": 1,
+  "yarali": 438,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 44,
+  "il": "Malatya",
+  "olumlu_yaralanmali_kaza": 323,
+  "maddi_hasarli_kaza": 227,
+  "olu": 4,
+  "yarali": 529,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 45,
+  "il": "Manisa",
+  "olumlu_yaralanmali_kaza": 692,
+  "maddi_hasarli_kaza": 550,
+  "olu": 6,
+  "yarali": 957,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 46,
+  "il": "Kahramanmaraş",
+  "olumlu_yaralanmali_kaza": 437,
+  "maddi_hasarli_kaza": 327,
+  "olu": 2,
+  "yarali": 724,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 47,
+  "il": "Mardin",
+  "olumlu_yaralanmali_kaza": 195,
+  "maddi_hasarli_kaza": 152,
+  "olu": 3,
+  "yarali": 319,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 48,
+  "il": "Muğla",
+  "olumlu_yaralanmali_kaza": 904,
+  "maddi_hasarli_kaza": 690,
+  "olu": 6,
+  "yarali": 1251,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 49,
+  "il": "Muş",
+  "olumlu_yaralanmali_kaza": 70,
+  "maddi_hasarli_kaza": 71,
+  "olu": 2,
+  "yarali": 118,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 50,
+  "il": "Nevşehir",
+  "olumlu_yaralanmali_kaza": 186,
+  "maddi_hasarli_kaza": 160,
+  "olu": 5,
+  "yarali": 262,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 51,
+  "il": "Niğde",
+  "olumlu_yaralanmali_kaza": 176,
+  "maddi_hasarli_kaza": 163,
+  "olu": 0,
+  "yarali": 246,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 52,
+  "il": "Ordu",
+  "olumlu_yaralanmali_kaza": 295,
+  "maddi_hasarli_kaza": 354,
+  "olu": 0,
+  "yarali": 427,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 53,
+  "il": "Rize",
+  "olumlu_yaralanmali_kaza": 122,
+  "maddi_hasarli_kaza": 172,
+  "olu": 1,
+  "yarali": 183,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 54,
+  "il": "Sakarya",
+  "olumlu_yaralanmali_kaza": 414,
+  "maddi_hasarli_kaza": 347,
+  "olu": 0,
+  "yarali": 641,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 55,
+  "il": "Samsun",
+  "olumlu_yaralanmali_kaza": 607,
+  "maddi_hasarli_kaza": 645,
+  "olu": 1,
+  "yarali": 856,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 56,
+  "il": "Siirt",
+  "olumlu_yaralanmali_kaza": 66,
+  "maddi_hasarli_kaza": 67,
+  "olu": 0,
+  "yarali": 96,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 57,
+  "il": "Sinop",
+  "olumlu_yaralanmali_kaza": 105,
+  "maddi_hasarli_kaza": 94,
+  "olu": 0,
+  "yarali": 171,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 58,
+  "il": "Sivas",
+  "olumlu_yaralanmali_kaza": 235,
+  "maddi_hasarli_kaza": 197,
+  "olu": 3,
+  "yarali": 422,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 59,
+  "il": "Tekirdağ",
+  "olumlu_yaralanmali_kaza": 451,
+  "maddi_hasarli_kaza": 575,
+  "olu": 4,
+  "yarali": 619,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 60,
+  "il": "Tokat",
+  "olumlu_yaralanmali_kaza": 294,
+  "maddi_hasarli_kaza": 226,
+  "olu": 2,
+  "yarali": 466,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 61,
+  "il": "Trabzon",
+  "olumlu_yaralanmali_kaza": 261,
+  "maddi_hasarli_kaza": 453,
+  "olu": 2,
+  "yarali": 377,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 62,
+  "il": "Tunceli",
+  "olumlu_yaralanmali_kaza": 30,
+  "maddi_hasarli_kaza": 34,
+  "olu": 0,
+  "yarali": 49,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 63,
+  "il": "Şanlıurfa",
+  "olumlu_yaralanmali_kaza": 395,
+  "maddi_hasarli_kaza": 362,
+  "olu": 10,
+  "yarali": 654,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 64,
+  "il": "Uşak",
+  "olumlu_yaralanmali_kaza": 184,
+  "maddi_hasarli_kaza": 139,
+  "olu": 1,
+  "yarali": 293,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 65,
+  "il": "Van",
+  "olumlu_yaralanmali_kaza": 209,
+  "maddi_hasarli_kaza": 263,
+  "olu": 2,
+  "yarali": 354,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 66,
+  "il": "Yozgat",
+  "olumlu_yaralanmali_kaza": 144,
+  "maddi_hasarli_kaza": 130,
+  "olu": 1,
+  "yarali": 239,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 67,
+  "il": "Zonguldak",
+  "olumlu_yaralanmali_kaza": 202,
+  "maddi_hasarli_kaza": 148,
+  "olu": 2,
+  "yarali": 299,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 68,
+  "il": "Aksaray",
+  "olumlu_yaralanmali_kaza": 183,
+  "maddi_hasarli_kaza": 285,
+  "olu": 2,
+  "yarali": 323,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 69,
+  "il": "Bayburt",
+  "olumlu_yaralanmali_kaza": 35,
+  "maddi_hasarli_kaza": 27,
+  "olu": 0,
+  "yarali": 91,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 70,
+  "il": "Karaman",
+  "olumlu_yaralanmali_kaza": 143,
+  "maddi_hasarli_kaza": 68,
+  "olu": 3,
+  "yarali": 210,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 71,
+  "il": "Kırıkkale",
+  "olumlu_yaralanmali_kaza": 148,
+  "maddi_hasarli_kaza": 149,
+  "olu": 1,
+  "yarali": 307,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 72,
+  "il": "Batman",
+  "olumlu_yaralanmali_kaza": 141,
+  "maddi_hasarli_kaza": 174,
+  "olu": 0,
+  "yarali": 198,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 73,
+  "il": "Şırnak",
+  "olumlu_yaralanmali_kaza": 85,
+  "maddi_hasarli_kaza": 74,
+  "olu": 1,
+  "yarali": 168,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 74,
+  "il": "Bartın",
+  "olumlu_yaralanmali_kaza": 90,
+  "maddi_hasarli_kaza": 55,
+  "olu": 1,
+  "yarali": 122,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 75,
+  "il": "Ardahan",
+  "olumlu_yaralanmali_kaza": 29,
+  "maddi_hasarli_kaza": 37,
+  "olu": 3,
+  "yarali": 58,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 76,
+  "il": "Iğdır",
+  "olumlu_yaralanmali_kaza": 54,
+  "maddi_hasarli_kaza": 57,
+  "olu": 0,
+  "yarali": 79,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 77,
+  "il": "Yalova",
+  "olumlu_yaralanmali_kaza": 186,
+  "maddi_hasarli_kaza": 115,
+  "olu": 1,
+  "yarali": 263,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 78,
+  "il": "Karabük",
+  "olumlu_yaralanmali_kaza": 81,
+  "maddi_hasarli_kaza": 64,
+  "olu": 1,
+  "yarali": 131,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 79,
+  "il": "Kilis",
+  "olumlu_yaralanmali_kaza": 36,
+  "maddi_hasarli_kaza": 13,
+  "olu": 0,
+  "yarali": 55,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 80,
+  "il": "Osmaniye",
+  "olumlu_yaralanmali_kaza": 269,
+  "maddi_hasarli_kaza": 134,
+  "olu": 1,
+  "yarali": 384,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-07",
+  "plaka": 81,
+  "il": "Düzce",
+  "olumlu_yaralanmali_kaza": 163,
+  "maddi_hasarli_kaza": 130,
+  "olu": 4,
+  "yarali": 223,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 1,
+  "il": "Adana",
+  "olumlu_yaralanmali_kaza": 632,
+  "maddi_hasarli_kaza": 492,
+  "olu": 6,
+  "yarali": 872,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 2,
+  "il": "Adıyaman",
+  "olumlu_yaralanmali_kaza": 218,
+  "maddi_hasarli_kaza": 169,
+  "olu": 1,
+  "yarali": 309,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 3,
+  "il": "Afyonkarahisar",
+  "olumlu_yaralanmali_kaza": 359,
+  "maddi_hasarli_kaza": 395,
+  "olu": 7,
+  "yarali": 717,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 4,
+  "il": "Ağrı",
+  "olumlu_yaralanmali_kaza": 113,
+  "maddi_hasarli_kaza": 99,
+  "olu": 2,
+  "yarali": 249,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 5,
+  "il": "Amasya",
+  "olumlu_yaralanmali_kaza": 186,
+  "maddi_hasarli_kaza": 186,
+  "olu": 0,
+  "yarali": 318,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 6,
+  "il": "Ankara",
+  "olumlu_yaralanmali_kaza": 1693,
+  "maddi_hasarli_kaza": 6203,
+  "olu": 8,
+  "yarali": 2330,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 7,
+  "il": "Antalya",
+  "olumlu_yaralanmali_kaza": 1462,
+  "maddi_hasarli_kaza": 1110,
+  "olu": 12,
+  "yarali": 2080,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 8,
+  "il": "Artvin",
+  "olumlu_yaralanmali_kaza": 32,
+  "maddi_hasarli_kaza": 47,
+  "olu": 0,
+  "yarali": 48,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 9,
+  "il": "Aydın",
+  "olumlu_yaralanmali_kaza": 675,
+  "maddi_hasarli_kaza": 490,
+  "olu": 5,
+  "yarali": 907,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 10,
+  "il": "Balıkesir",
+  "olumlu_yaralanmali_kaza": 646,
+  "maddi_hasarli_kaza": 471,
+  "olu": 7,
+  "yarali": 905,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 11,
+  "il": "Bilecik",
+  "olumlu_yaralanmali_kaza": 101,
+  "maddi_hasarli_kaza": 71,
+  "olu": 1,
+  "yarali": 170,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 12,
+  "il": "Bingöl",
+  "olumlu_yaralanmali_kaza": 97,
+  "maddi_hasarli_kaza": 98,
+  "olu": 4,
+  "yarali": 175,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 13,
+  "il": "Bitlis",
+  "olumlu_yaralanmali_kaza": 97,
+  "maddi_hasarli_kaza": 94,
+  "olu": 1,
+  "yarali": 175,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 14,
+  "il": "Bolu",
+  "olumlu_yaralanmali_kaza": 149,
+  "maddi_hasarli_kaza": 167,
+  "olu": 4,
+  "yarali": 239,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 15,
+  "il": "Burdur",
+  "olumlu_yaralanmali_kaza": 157,
+  "maddi_hasarli_kaza": 99,
+  "olu": 0,
+  "yarali": 243,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 16,
+  "il": "Bursa",
+  "olumlu_yaralanmali_kaza": 1101,
+  "maddi_hasarli_kaza": 1514,
+  "olu": 7,
+  "yarali": 1504,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 17,
+  "il": "Çanakkale",
+  "olumlu_yaralanmali_kaza": 297,
+  "maddi_hasarli_kaza": 265,
+  "olu": 4,
+  "yarali": 429,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 18,
+  "il": "Çankırı",
+  "olumlu_yaralanmali_kaza": 102,
+  "maddi_hasarli_kaza": 118,
+  "olu": 1,
+  "yarali": 192,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 19,
+  "il": "Çorum",
+  "olumlu_yaralanmali_kaza": 288,
+  "maddi_hasarli_kaza": 367,
+  "olu": 1,
+  "yarali": 475,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 20,
+  "il": "Denizli",
+  "olumlu_yaralanmali_kaza": 524,
+  "maddi_hasarli_kaza": 533,
+  "olu": 3,
+  "yarali": 739,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 21,
+  "il": "Diyarbakır",
+  "olumlu_yaralanmali_kaza": 316,
+  "maddi_hasarli_kaza": 443,
+  "olu": 8,
+  "yarali": 522,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 22,
+  "il": "Edirne",
+  "olumlu_yaralanmali_kaza": 156,
+  "maddi_hasarli_kaza": 131,
+  "olu": 0,
+  "yarali": 228,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 23,
+  "il": "Elazığ",
+  "olumlu_yaralanmali_kaza": 172,
+  "maddi_hasarli_kaza": 205,
+  "olu": 0,
+  "yarali": 298,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 24,
+  "il": "Erzincan",
+  "olumlu_yaralanmali_kaza": 122,
+  "maddi_hasarli_kaza": 128,
+  "olu": 0,
+  "yarali": 218,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 25,
+  "il": "Erzurum",
+  "olumlu_yaralanmali_kaza": 213,
+  "maddi_hasarli_kaza": 262,
+  "olu": 4,
+  "yarali": 384,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 26,
+  "il": "Eskişehir",
+  "olumlu_yaralanmali_kaza": 309,
+  "maddi_hasarli_kaza": 291,
+  "olu": 2,
+  "yarali": 445,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 27,
+  "il": "Gaziantep",
+  "olumlu_yaralanmali_kaza": 608,
+  "maddi_hasarli_kaza": 441,
+  "olu": 11,
+  "yarali": 922,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 28,
+  "il": "Giresun",
+  "olumlu_yaralanmali_kaza": 136,
+  "maddi_hasarli_kaza": 153,
+  "olu": 2,
+  "yarali": 263,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 29,
+  "il": "Gümüşhane",
+  "olumlu_yaralanmali_kaza": 54,
+  "maddi_hasarli_kaza": 64,
+  "olu": 1,
+  "yarali": 103,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 30,
+  "il": "Hakkari",
+  "olumlu_yaralanmali_kaza": 38,
+  "maddi_hasarli_kaza": 18,
+  "olu": 0,
+  "yarali": 93,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 31,
+  "il": "Hatay",
+  "olumlu_yaralanmali_kaza": 742,
+  "maddi_hasarli_kaza": 334,
+  "olu": 1,
+  "yarali": 1146,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 32,
+  "il": "Isparta",
+  "olumlu_yaralanmali_kaza": 227,
+  "maddi_hasarli_kaza": 111,
+  "olu": 3,
+  "yarali": 346,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 33,
+  "il": "Mersin",
+  "olumlu_yaralanmali_kaza": 823,
+  "maddi_hasarli_kaza": 412,
+  "olu": 6,
+  "yarali": 1198,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 34,
+  "il": "İstanbul",
+  "olumlu_yaralanmali_kaza": 4231,
+  "maddi_hasarli_kaza": 5103,
+  "olu": 11,
+  "yarali": 5284,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 35,
+  "il": "İzmir",
+  "olumlu_yaralanmali_kaza": 1437,
+  "maddi_hasarli_kaza": 2245,
+  "olu": 10,
+  "yarali": 1828,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 36,
+  "il": "Kars",
+  "olumlu_yaralanmali_kaza": 53,
+  "maddi_hasarli_kaza": 65,
+  "olu": 0,
+  "yarali": 78,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 37,
+  "il": "Kastamonu",
+  "olumlu_yaralanmali_kaza": 135,
+  "maddi_hasarli_kaza": 164,
+  "olu": 5,
+  "yarali": 228,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 38,
+  "il": "Kayseri",
+  "olumlu_yaralanmali_kaza": 635,
+  "maddi_hasarli_kaza": 417,
+  "olu": 8,
+  "yarali": 1023,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 39,
+  "il": "Kırklareli",
+  "olumlu_yaralanmali_kaza": 117,
+  "maddi_hasarli_kaza": 120,
+  "olu": 1,
+  "yarali": 178,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 40,
+  "il": "Kırşehir",
+  "olumlu_yaralanmali_kaza": 101,
+  "maddi_hasarli_kaza": 81,
+  "olu": 0,
+  "yarali": 168,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 41,
+  "il": "Kocaeli",
+  "olumlu_yaralanmali_kaza": 809,
+  "maddi_hasarli_kaza": 933,
+  "olu": 6,
+  "yarali": 1056,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 42,
+  "il": "Konya",
+  "olumlu_yaralanmali_kaza": 1039,
+  "maddi_hasarli_kaza": 1051,
+  "olu": 6,
+  "yarali": 1674,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 43,
+  "il": "Kütahya",
+  "olumlu_yaralanmali_kaza": 258,
+  "maddi_hasarli_kaza": 200,
+  "olu": 2,
+  "yarali": 385,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 44,
+  "il": "Malatya",
+  "olumlu_yaralanmali_kaza": 321,
+  "maddi_hasarli_kaza": 233,
+  "olu": 1,
+  "yarali": 531,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 45,
+  "il": "Manisa",
+  "olumlu_yaralanmali_kaza": 744,
+  "maddi_hasarli_kaza": 496,
+  "olu": 6,
+  "yarali": 1032,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 46,
+  "il": "Kahramanmaraş",
+  "olumlu_yaralanmali_kaza": 416,
+  "maddi_hasarli_kaza": 338,
+  "olu": 3,
+  "yarali": 625,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 47,
+  "il": "Mardin",
+  "olumlu_yaralanmali_kaza": 174,
+  "maddi_hasarli_kaza": 143,
+  "olu": 2,
+  "yarali": 276,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 48,
+  "il": "Muğla",
+  "olumlu_yaralanmali_kaza": 831,
+  "maddi_hasarli_kaza": 718,
+  "olu": 6,
+  "yarali": 1139,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 49,
+  "il": "Muş",
+  "olumlu_yaralanmali_kaza": 54,
+  "maddi_hasarli_kaza": 80,
+  "olu": 0,
+  "yarali": 78,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 50,
+  "il": "Nevşehir",
+  "olumlu_yaralanmali_kaza": 179,
+  "maddi_hasarli_kaza": 205,
+  "olu": 5,
+  "yarali": 275,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 51,
+  "il": "Niğde",
+  "olumlu_yaralanmali_kaza": 173,
+  "maddi_hasarli_kaza": 194,
+  "olu": 0,
+  "yarali": 270,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 52,
+  "il": "Ordu",
+  "olumlu_yaralanmali_kaza": 341,
+  "maddi_hasarli_kaza": 364,
+  "olu": 4,
+  "yarali": 536,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 53,
+  "il": "Rize",
+  "olumlu_yaralanmali_kaza": 132,
+  "maddi_hasarli_kaza": 165,
+  "olu": 0,
+  "yarali": 198,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 54,
+  "il": "Sakarya",
+  "olumlu_yaralanmali_kaza": 447,
+  "maddi_hasarli_kaza": 343,
+  "olu": 3,
+  "yarali": 655,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 55,
+  "il": "Samsun",
+  "olumlu_yaralanmali_kaza": 583,
+  "maddi_hasarli_kaza": 657,
+  "olu": 3,
+  "yarali": 865,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 56,
+  "il": "Siirt",
+  "olumlu_yaralanmali_kaza": 68,
+  "maddi_hasarli_kaza": 60,
+  "olu": 2,
+  "yarali": 97,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 57,
+  "il": "Sinop",
+  "olumlu_yaralanmali_kaza": 128,
+  "maddi_hasarli_kaza": 81,
+  "olu": 0,
+  "yarali": 197,
+  "hesaplanan_alan": "olumlu_yaralanmali_kaza"
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 58,
+  "il": "Sivas",
+  "olumlu_yaralanmali_kaza": 280,
+  "maddi_hasarli_kaza": 253,
+  "olu": 7,
+  "yarali": 531,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 59,
+  "il": "Tekirdağ",
+  "olumlu_yaralanmali_kaza": 419,
+  "maddi_hasarli_kaza": 567,
+  "olu": 3,
+  "yarali": 592,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 60,
+  "il": "Tokat",
+  "olumlu_yaralanmali_kaza": 298,
+  "maddi_hasarli_kaza": 185,
+  "olu": 2,
+  "yarali": 446,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 61,
+  "il": "Trabzon",
+  "olumlu_yaralanmali_kaza": 302,
+  "maddi_hasarli_kaza": 431,
+  "olu": 3,
+  "yarali": 473,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 62,
+  "il": "Tunceli",
+  "olumlu_yaralanmali_kaza": 32,
+  "maddi_hasarli_kaza": 31,
+  "olu": 0,
+  "yarali": 52,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 63,
+  "il": "Şanlıurfa",
+  "olumlu_yaralanmali_kaza": 412,
+  "maddi_hasarli_kaza": 350,
+  "olu": 4,
+  "yarali": 686,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 64,
+  "il": "Uşak",
+  "olumlu_yaralanmali_kaza": 161,
+  "maddi_hasarli_kaza": 151,
+  "olu": 3,
+  "yarali": 264,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 65,
+  "il": "Van",
+  "olumlu_yaralanmali_kaza": 226,
+  "maddi_hasarli_kaza": 274,
+  "olu": 2,
+  "yarali": 402,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 66,
+  "il": "Yozgat",
+  "olumlu_yaralanmali_kaza": 174,
+  "maddi_hasarli_kaza": 171,
+  "olu": 4,
+  "yarali": 296,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 67,
+  "il": "Zonguldak",
+  "olumlu_yaralanmali_kaza": 185,
+  "maddi_hasarli_kaza": 169,
+  "olu": 0,
+  "yarali": 268,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 68,
+  "il": "Aksaray",
+  "olumlu_yaralanmali_kaza": 181,
+  "maddi_hasarli_kaza": 335,
+  "olu": 0,
+  "yarali": 317,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 69,
+  "il": "Bayburt",
+  "olumlu_yaralanmali_kaza": 31,
+  "maddi_hasarli_kaza": 23,
+  "olu": 0,
+  "yarali": 66,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 70,
+  "il": "Karaman",
+  "olumlu_yaralanmali_kaza": 123,
+  "maddi_hasarli_kaza": 85,
+  "olu": 1,
+  "yarali": 181,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 71,
+  "il": "Kırıkkale",
+  "olumlu_yaralanmali_kaza": 134,
+  "maddi_hasarli_kaza": 163,
+  "olu": 2,
+  "yarali": 192,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 72,
+  "il": "Batman",
+  "olumlu_yaralanmali_kaza": 159,
+  "maddi_hasarli_kaza": 157,
+  "olu": 0,
+  "yarali": 279,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 73,
+  "il": "Şırnak",
+  "olumlu_yaralanmali_kaza": 92,
+  "maddi_hasarli_kaza": 61,
+  "olu": 0,
+  "yarali": 155,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 74,
+  "il": "Bartın",
+  "olumlu_yaralanmali_kaza": 69,
+  "maddi_hasarli_kaza": 42,
+  "olu": 1,
+  "yarali": 102,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 75,
+  "il": "Ardahan",
+  "olumlu_yaralanmali_kaza": 27,
+  "maddi_hasarli_kaza": 28,
+  "olu": 0,
+  "yarali": 50,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 76,
+  "il": "Iğdır",
+  "olumlu_yaralanmali_kaza": 54,
+  "maddi_hasarli_kaza": 51,
+  "olu": 0,
+  "yarali": 75,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 77,
+  "il": "Yalova",
+  "olumlu_yaralanmali_kaza": 164,
+  "maddi_hasarli_kaza": 108,
+  "olu": 0,
+  "yarali": 234,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 78,
+  "il": "Karabük",
+  "olumlu_yaralanmali_kaza": 107,
+  "maddi_hasarli_kaza": 103,
+  "olu": 2,
+  "yarali": 168,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 79,
+  "il": "Kilis",
+  "olumlu_yaralanmali_kaza": 51,
+  "maddi_hasarli_kaza": 7,
+  "olu": 0,
+  "yarali": 70,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 80,
+  "il": "Osmaniye",
+  "olumlu_yaralanmali_kaza": 297,
+  "maddi_hasarli_kaza": 171,
+  "olu": 2,
+  "yarali": 433,
+  "hesaplanan_alan": null
+ },
+ {
+  "donem": "2026-08",
+  "plaka": 81,
+  "il": "Düzce",
+  "olumlu_yaralanmali_kaza": 199,
+  "maddi_hasarli_kaza": 120,
+  "olu": 1,
+  "yarali": 300,
+  "hesaplanan_alan": null
+ }
+]

@@ -24,7 +24,7 @@ async function fetchBuffer(url) {
 async function processPdf(data, source) {
   const result = await parseEgmPdf(data)
   const file = path.join(OUT_DIR, `${result.period}.json`)
-  await fs.writeFile(file, JSON.stringify({ ...result, source, processedAt: new Date().toISOString() }, null, 1))
+  await fs.writeFile(file, JSON.stringify({ ...result, source }, null, 1))
   const t = result.totals.month.toplam
   const fixed = result.iller.month.concat(result.iller.ytd).filter((r) => r.hesaplanan)
   console.log(`✔ ${result.period}: ${t.toplamKaza.toLocaleString('tr-TR')} kaza, ${t.olu} ölü, ${t.yarali.toLocaleString('tr-TR')} yaralı`)

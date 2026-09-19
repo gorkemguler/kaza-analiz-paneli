@@ -1,0 +1,1710 @@
+{
+ "donem": "2026-04",
+ "etiket": "Nisan 2026",
+ "kaynak": "https://trafik.gov.tr/kurumlar/trafik.gov.tr/04-Istatistik/Aylik/202604/Nisan_2026.pdf",
+ "genelToplamlar": {
+  "month": {
+   "toplam": {
+    "toplamKaza": 52442,
+    "olumluKaza": 121,
+    "yaralanmaliKaza": 21563,
+    "maddiHasarliKaza": 30758,
+    "olu": 147,
+    "yarali": 29503
+   },
+   "yerlesimYeri": {
+    "toplamKaza": 46414,
+    "olumluKaza": 55,
+    "yaralanmaliKaza": 19116,
+    "maddiHasarliKaza": 27243,
+    "olu": 56,
+    "yarali": 25050
+   },
+   "yerlesimYeriDisi": {
+    "toplamKaza": 6028,
+    "olumluKaza": 66,
+    "yaralanmaliKaza": 2447,
+    "maddiHasarliKaza": 3515,
+    "olu": 91,
+    "yarali": 4453
+   }
+  },
+  "ytd": {
+   "toplam": {
+    "toplamKaza": 209898,
+    "olumluKaza": 476,
+    "yaralanmaliKaza": 76867,
+    "maddiHasarliKaza": 132555,
+    "olu": 567,
+    "yarali": 107907
+   },
+   "yerlesimYeri": {
+    "toplamKaza": 183134,
+    "olumluKaza": 218,
+    "yaralanmaliKaza": 67009,
+    "maddiHasarliKaza": 115907,
+    "olu": 237,
+    "yarali": 88800
+   },
+   "yerlesimYeriDisi": {
+    "toplamKaza": 26764,
+    "olumluKaza": 258,
+    "yaralanmaliKaza": 9858,
+    "maddiHasarliKaza": 16648,
+    "olu": 330,
+    "yarali": 19107
+   }
+  }
+ },
+ "olusTuru": [
+  {
+   "name": "Karşılıklı Çarpışma",
+   "month": 1072,
+   "ytd": 4013
+  },
+  {
+   "name": "Arkadan Çarpma",
+   "month": 2512,
+   "ytd": 8910
+  },
+  {
+   "name": "Yandan Çarpma",
+   "month": 7815,
+   "ytd": 26670
+  },
+  {
+   "name": "Yan Yana Çarpışma",
+   "month": 437,
+   "ytd": 1478
+  },
+  {
+   "name": "Duran Araca Çarpma",
+   "month": 257,
+   "ytd": 980
+  },
+  {
+   "name": "Zincirleme Çarpışma",
+   "month": 86,
+   "ytd": 437
+  },
+  {
+   "name": "Çoklu Çarpışma",
+   "month": 133,
+   "ytd": 550
+  },
+  {
+   "name": "Engel/Cisim ile Çarpışma",
+   "month": 862,
+   "ytd": 3601
+  },
+  {
+   "name": "Yayaya Çarpma",
+   "month": 3235,
+   "ytd": 11578
+  },
+  {
+   "name": "Hayvana Çarpma",
+   "month": 63,
+   "ytd": 188
+  },
+  {
+   "name": "Devrilme/Savrulma/Takla",
+   "month": 3089,
+   "ytd": 10541
+  },
+  {
+   "name": "Yoldan Çıkma",
+   "month": 1695,
+   "ytd": 6949
+  },
+  {
+   "name": "Araçtan Insan Düşmesi",
+   "month": 188,
+   "ytd": 574
+  },
+  {
+   "name": "Araçtan Cisim Düşmesi",
+   "month": 11,
+   "ytd": 29
+  },
+  {
+   "name": "Park etmis araca çarpma",
+   "month": 229,
+   "ytd": 845
+  }
+ ],
+ "aracSayisi": [
+  {
+   "name": "Tek Araçlı",
+   "month": 8463,
+   "ytd": 31065
+  },
+  {
+   "name": "İki Araçlı",
+   "month": 11920,
+   "ytd": 41150
+  },
+  {
+   "name": "Çok Araçlı",
+   "month": 1301,
+   "ytd": 5128
+  }
+ ],
+ "kusurUnsurlari": [
+  {
+   "name": "SÜRÜCÜ",
+   "month": 23074,
+   "ytd": 83048
+  },
+  {
+   "name": "YAYA",
+   "month": 2087,
+   "ytd": 7540
+  },
+  {
+   "name": "YOLCU",
+   "month": 118,
+   "ytd": 467
+  },
+  {
+   "name": "ARAÇ",
+   "month": 221,
+   "ytd": 799
+  },
+  {
+   "name": "YOL",
+   "month": 103,
+   "ytd": 480
+  }
+ ],
+ "surucuKusurlari": [
+  {
+   "name": "Araç hızını yol, hava ve trafiğin gerektirdiği şartlara uydurmamak",
+   "month": 8085,
+   "ytd": 31062
+  },
+  {
+   "name": "Kavşak,geçit ve kaplamanın dar old.yerlerde geçiş önc.uymamak",
+   "month": 4404,
+   "ytd": 14812
+  },
+  {
+   "name": "Şerit izleme ve değiştirme kural.uymamak",
+   "month": 1999,
+   "ytd": 7073
+  },
+  {
+   "name": "Arkadan Çarpma",
+   "month": 2162,
+   "ytd": 7878
+  },
+  {
+   "name": "Doğrultu Değiştirme (dönüş) kurallarına uymamak",
+   "month": 1892,
+   "ytd": 6440
+  },
+  {
+   "name": "Manevraları düzenleyen genel şartlara uymamak",
+   "month": 1077,
+   "ytd": 3682
+  },
+  {
+   "name": "Kırmızı ışık veya görevlinin dur işaretinde durmamak",
+   "month": 489,
+   "ytd": 1908
+  },
+  {
+   "name": "Taşıt giremez trafik işareti bulunan yerlere girmek",
+   "month": 839,
+   "ytd": 2879
+  },
+  {
+   "name": "Trafik güvenliği ile ilgili diğer kurallara uymamak",
+   "month": 528,
+   "ytd": 1791
+  },
+  {
+   "name": "Yaya ve okul geçitlerinde yavaşlamamak, yayalara geçiş hakkı vermemek",
+   "month": 393,
+   "ytd": 1328
+  },
+  {
+   "name": "Alkollü olarak araç kullanmak",
+   "month": 95,
+   "ytd": 373
+  },
+  {
+   "name": "Aşırı hızla araç kullanmak",
+   "month": 106,
+   "ytd": 462
+  },
+  {
+   "name": "Geçme yasağı olan yerlerden geçmek",
+   "month": 370,
+   "ytd": 1114
+  },
+  {
+   "name": "Hatalı şekilde veya yasak olan yerlere park etmek",
+   "month": 95,
+   "ytd": 377
+  },
+  {
+   "name": "DİĞER",
+   "month": 540,
+   "ytd": 1869
+  }
+ ],
+ "aracCinsleri": [
+  {
+   "name": "Bisiklet",
+   "month": 606,
+   "ytd": 1586
+  },
+  {
+   "name": "At Arabası",
+   "month": 5,
+   "ytd": 12
+  },
+  {
+   "name": "Motorlu Bisiklet",
+   "month": 3328,
+   "ytd": 9757
+  },
+  {
+   "name": "Motosiklet",
+   "month": 8678,
+   "ytd": 28275
+  },
+  {
+   "name": "Otomobil",
+   "month": 16390,
+   "ytd": 61874
+  },
+  {
+   "name": "Minibüs",
+   "month": 694,
+   "ytd": 2628
+  },
+  {
+   "name": "Kamyonet",
+   "month": 4310,
+   "ytd": 16810
+  },
+  {
+   "name": "Kamyon",
+   "month": 463,
+   "ytd": 1922
+  },
+  {
+   "name": "Çekici",
+   "month": 656,
+   "ytd": 2534
+  },
+  {
+   "name": "Otobüs",
+   "month": 541,
+   "ytd": 2173
+  },
+  {
+   "name": "Traktör",
+   "month": 170,
+   "ytd": 426
+  },
+  {
+   "name": "Arazi Taşıtı",
+   "month": 3,
+   "ytd": 16
+  },
+  {
+   "name": "Özel Amaçlı",
+   "month": 66,
+   "ytd": 258
+  },
+  {
+   "name": "İş Makinesi",
+   "month": 42,
+   "ytd": 134
+  },
+  {
+   "name": "Ambulans",
+   "month": 21,
+   "ytd": 90
+  },
+  {
+   "name": "Tanker",
+   "month": 4,
+   "ytd": 31
+  },
+  {
+   "name": "Tren",
+   "month": 1,
+   "ytd": 14
+  },
+  {
+   "name": "Tramvay",
+   "month": 7,
+   "ytd": 26
+  },
+  {
+   "name": "Diğer",
+   "month": 545,
+   "ytd": 1778
+  }
+ ],
+ "cezalar": [
+  {
+   "name": "Yayalara Uygulanan",
+   "month": 309,
+   "ytd": 1318
+  },
+  {
+   "name": "Yolculara Uygulanan",
+   "month": 8708,
+   "ytd": 29426
+  },
+  {
+   "name": "Sürücülere Uygulanan",
+   "month": 410622,
+   "ytd": 1590530
+  },
+  {
+   "name": "Araç Plakasına Uygulanan",
+   "month": 1713972,
+   "ytd": 7981172
+  }
+ ],
+ "digerIslemler": [
+  {
+   "name": "Alkollü Olarak Araç Kullanan",
+   "month": 19541,
+   "ytd": 58900
+  },
+  {
+   "name": "100 Ceza Puanını Dolduran",
+   "month": 856,
+   "ytd": 4388
+  },
+  {
+   "name": "51. Madde (Hız İhlali)",
+   "month": 625,
+   "ytd": 1264
+  },
+  {
+   "name": "Diğer İşlemler",
+   "month": 1193,
+   "ytd": 26668
+  },
+  {
+   "name": "Mülki Amire Sevk Edilen Sür. Sayısı",
+   "month": 6,
+   "ytd": 44
+  },
+  {
+   "name": "Trafikten Men Edilen Araç Sayısı",
+   "month": 197793,
+   "ytd": 729382
+  }
+ ],
+ "iller": {
+  "ay": [
+   {
+    "olumluYaralanmaliKaza": 536,
+    "maddiHasarliKaza": 562,
+    "olu": 3,
+    "yarali": 739,
+    "plaka": 1,
+    "ad": "Adana"
+   },
+   {
+    "olumluYaralanmaliKaza": 712,
+    "maddiHasarliKaza": 775,
+    "olu": 3,
+    "yarali": 1015,
+    "plaka": 42,
+    "ad": "Konya"
+   },
+   {
+    "olumluYaralanmaliKaza": 132,
+    "maddiHasarliKaza": 152,
+    "olu": 0,
+    "yarali": 179,
+    "plaka": 2,
+    "ad": "Adıyaman"
+   },
+   {
+    "olumluYaralanmaliKaza": 147,
+    "maddiHasarliKaza": 144,
+    "olu": 0,
+    "yarali": 200,
+    "plaka": 43,
+    "ad": "Kütahya"
+   },
+   {
+    "olumluYaralanmaliKaza": 211,
+    "maddiHasarliKaza": 237,
+    "olu": 2,
+    "yarali": 310,
+    "plaka": 3,
+    "ad": "Afyonkarahisar"
+   },
+   {
+    "olumluYaralanmaliKaza": 181,
+    "maddiHasarliKaza": 147,
+    "olu": 4,
+    "yarali": 298,
+    "plaka": 44,
+    "ad": "Malatya"
+   },
+   {
+    "olumluYaralanmaliKaza": 65,
+    "maddiHasarliKaza": 86,
+    "olu": 0,
+    "yarali": 143,
+    "plaka": 4,
+    "ad": "Ağrı"
+   },
+   {
+    "olumluYaralanmaliKaza": 487,
+    "maddiHasarliKaza": 466,
+    "olu": 2,
+    "yarali": 670,
+    "plaka": 45,
+    "ad": "Manisa"
+   },
+   {
+    "olumluYaralanmaliKaza": 109,
+    "maddiHasarliKaza": 92,
+    "olu": 2,
+    "yarali": 167,
+    "plaka": 5,
+    "ad": "Amasya"
+   },
+   {
+    "olumluYaralanmaliKaza": 284,
+    "maddiHasarliKaza": 282,
+    "olu": 1,
+    "yarali": 426,
+    "plaka": 46,
+    "ad": "Kahramanmaraş"
+   },
+   {
+    "olumluYaralanmaliKaza": 1361,
+    "maddiHasarliKaza": 6541,
+    "olu": 15,
+    "yarali": 1818,
+    "plaka": 6,
+    "ad": "Ankara"
+   },
+   {
+    "olumluYaralanmaliKaza": 132,
+    "maddiHasarliKaza": 122,
+    "olu": 1,
+    "yarali": 214,
+    "plaka": 47,
+    "ad": "Mardin"
+   },
+   {
+    "olumluYaralanmaliKaza": 1076,
+    "maddiHasarliKaza": 929,
+    "olu": 12,
+    "yarali": 1402,
+    "plaka": 7,
+    "ad": "Antalya"
+   },
+   {
+    "olumluYaralanmaliKaza": 533,
+    "maddiHasarliKaza": 404,
+    "olu": 5,
+    "yarali": 674,
+    "plaka": 48,
+    "ad": "Muğla"
+   },
+   {
+    "olumluYaralanmaliKaza": 28,
+    "maddiHasarliKaza": 27,
+    "olu": 2,
+    "yarali": 50,
+    "plaka": 8,
+    "ad": "Artvin"
+   },
+   {
+    "olumluYaralanmaliKaza": 37,
+    "maddiHasarliKaza": 55,
+    "olu": 0,
+    "yarali": 58,
+    "plaka": 49,
+    "ad": "Muş"
+   },
+   {
+    "olumluYaralanmaliKaza": 443,
+    "maddiHasarliKaza": 327,
+    "olu": 2,
+    "yarali": 600,
+    "plaka": 9,
+    "ad": "Aydın"
+   },
+   {
+    "olumluYaralanmaliKaza": 110,
+    "maddiHasarliKaza": 155,
+    "olu": 2,
+    "yarali": 161,
+    "plaka": 50,
+    "ad": "Nevşehir"
+   },
+   {
+    "olumluYaralanmaliKaza": 443,
+    "maddiHasarliKaza": 341,
+    "olu": 5,
+    "yarali": 598,
+    "plaka": 10,
+    "ad": "Balıkesir"
+   },
+   {
+    "olumluYaralanmaliKaza": 101,
+    "maddiHasarliKaza": 136,
+    "olu": 0,
+    "yarali": 139,
+    "plaka": 51,
+    "ad": "Niğde"
+   },
+   {
+    "olumluYaralanmaliKaza": 80,
+    "maddiHasarliKaza": 57,
+    "olu": 0,
+    "yarali": 108,
+    "plaka": 11,
+    "ad": "Bilecik"
+   },
+   {
+    "olumluYaralanmaliKaza": 208,
+    "maddiHasarliKaza": 279,
+    "olu": 2,
+    "yarali": 271,
+    "plaka": 52,
+    "ad": "Ordu"
+   },
+   {
+    "olumluYaralanmaliKaza": 56,
+    "maddiHasarliKaza": 54,
+    "olu": 0,
+    "yarali": 77,
+    "plaka": 12,
+    "ad": "Bingöl"
+   },
+   {
+    "olumluYaralanmaliKaza": 77,
+    "maddiHasarliKaza": 99,
+    "olu": 0,
+    "yarali": 91,
+    "plaka": 53,
+    "ad": "Rize"
+   },
+   {
+    "olumluYaralanmaliKaza": 59,
+    "maddiHasarliKaza": 67,
+    "olu": 3,
+    "yarali": 106,
+    "plaka": 13,
+    "ad": "Bitlis"
+   },
+   {
+    "olumluYaralanmaliKaza": 304,
+    "maddiHasarliKaza": 313,
+    "olu": 0,
+    "yarali": 402,
+    "plaka": 54,
+    "ad": "Sakarya"
+   },
+   {
+    "olumluYaralanmaliKaza": 91,
+    "maddiHasarliKaza": 119,
+    "olu": 0,
+    "yarali": 131,
+    "plaka": 14,
+    "ad": "Bolu"
+   },
+   {
+    "olumluYaralanmaliKaza": 408,
+    "maddiHasarliKaza": 561,
+    "olu": 1,
+    "yarali": 533,
+    "plaka": 55,
+    "ad": "Samsun"
+   },
+   {
+    "olumluYaralanmaliKaza": 110,
+    "maddiHasarliKaza": 67,
+    "olu": 8,
+    "yarali": 168,
+    "plaka": 15,
+    "ad": "Burdur"
+   },
+   {
+    "olumluYaralanmaliKaza": 49,
+    "maddiHasarliKaza": 52,
+    "olu": 1,
+    "yarali": 62,
+    "plaka": 56,
+    "ad": "Siirt"
+   },
+   {
+    "olumluYaralanmaliKaza": 822,
+    "maddiHasarliKaza": 1462,
+    "olu": 2,
+    "yarali": 1088,
+    "plaka": 16,
+    "ad": "Bursa"
+   },
+   {
+    "olumluYaralanmaliKaza": 72,
+    "maddiHasarliKaza": 41,
+    "olu": 0,
+    "yarali": 113,
+    "plaka": 57,
+    "ad": "Sinop"
+   },
+   {
+    "olumluYaralanmaliKaza": 193,
+    "maddiHasarliKaza": 142,
+    "olu": 0,
+    "yarali": 269,
+    "plaka": 17,
+    "ad": "Çanakkale"
+   },
+   {
+    "olumluYaralanmaliKaza": 135,
+    "maddiHasarliKaza": 140,
+    "olu": 3,
+    "yarali": 218,
+    "plaka": 58,
+    "ad": "Sivas"
+   },
+   {
+    "olumluYaralanmaliKaza": 69,
+    "maddiHasarliKaza": 67,
+    "olu": 0,
+    "yarali": 119,
+    "plaka": 18,
+    "ad": "Çankırı"
+   },
+   {
+    "olumluYaralanmaliKaza": 296,
+    "maddiHasarliKaza": 490,
+    "olu": 2,
+    "yarali": 404,
+    "plaka": 59,
+    "ad": "Tekirdağ"
+   },
+   {
+    "olumluYaralanmaliKaza": 170,
+    "maddiHasarliKaza": 252,
+    "olu": 1,
+    "yarali": 248,
+    "plaka": 19,
+    "ad": "Çorum"
+   },
+   {
+    "olumluYaralanmaliKaza": 163,
+    "maddiHasarliKaza": 151,
+    "olu": 1,
+    "yarali": 236,
+    "plaka": 60,
+    "ad": "Tokat"
+   },
+   {
+    "olumluYaralanmaliKaza": 343,
+    "maddiHasarliKaza": 431,
+    "olu": 2,
+    "yarali": 459,
+    "plaka": 20,
+    "ad": "Denizli"
+   },
+   {
+    "olumluYaralanmaliKaza": 192,
+    "maddiHasarliKaza": 225,
+    "olu": 2,
+    "yarali": 255,
+    "plaka": 61,
+    "ad": "Trabzon"
+   },
+   {
+    "olumluYaralanmaliKaza": 264,
+    "maddiHasarliKaza": 400,
+    "olu": 1,
+    "yarali": 413,
+    "plaka": 21,
+    "ad": "Diyarbakır"
+   },
+   {
+    "olumluYaralanmaliKaza": 17,
+    "maddiHasarliKaza": 19,
+    "olu": 0,
+    "yarali": 22,
+    "plaka": 62,
+    "ad": "Tunceli"
+   },
+   {
+    "olumluYaralanmaliKaza": 113,
+    "maddiHasarliKaza": 106,
+    "olu": 0,
+    "yarali": 142,
+    "plaka": 22,
+    "ad": "Edirne"
+   },
+   {
+    "olumluYaralanmaliKaza": 305,
+    "maddiHasarliKaza": 313,
+    "olu": 4,
+    "yarali": 499,
+    "plaka": 63,
+    "ad": "Şanlıurfa"
+   },
+   {
+    "olumluYaralanmaliKaza": 84,
+    "maddiHasarliKaza": 142,
+    "olu": 0,
+    "yarali": 134,
+    "plaka": 23,
+    "ad": "Elazığ"
+   },
+   {
+    "olumluYaralanmaliKaza": 110,
+    "maddiHasarliKaza": 111,
+    "olu": 2,
+    "yarali": 150,
+    "plaka": 64,
+    "ad": "Uşak"
+   },
+   {
+    "olumluYaralanmaliKaza": 67,
+    "maddiHasarliKaza": 93,
+    "olu": 3,
+    "yarali": 104,
+    "plaka": 24,
+    "ad": "Erzincan"
+   },
+   {
+    "olumluYaralanmaliKaza": 144,
+    "maddiHasarliKaza": 178,
+    "olu": 0,
+    "yarali": 224,
+    "plaka": 65,
+    "ad": "Van"
+   },
+   {
+    "olumluYaralanmaliKaza": 112,
+    "maddiHasarliKaza": 210,
+    "olu": 2,
+    "yarali": 187,
+    "plaka": 25,
+    "ad": "Erzurum"
+   },
+   {
+    "olumluYaralanmaliKaza": 82,
+    "maddiHasarliKaza": 101,
+    "olu": 4,
+    "yarali": 128,
+    "plaka": 66,
+    "ad": "Yozgat"
+   },
+   {
+    "olumluYaralanmaliKaza": 220,
+    "maddiHasarliKaza": 223,
+    "olu": 5,
+    "yarali": 310,
+    "plaka": 26,
+    "ad": "Eskişehir"
+   },
+   {
+    "olumluYaralanmaliKaza": 150,
+    "maddiHasarliKaza": 99,
+    "olu": 0,
+    "yarali": 207,
+    "plaka": 67,
+    "ad": "Zonguldak"
+   },
+   {
+    "olumluYaralanmaliKaza": 444,
+    "maddiHasarliKaza": 458,
+    "olu": 3,
+    "yarali": 642,
+    "plaka": 27,
+    "ad": "Gaziantep"
+   },
+   {
+    "olumluYaralanmaliKaza": 119,
+    "maddiHasarliKaza": 207,
+    "olu": 0,
+    "yarali": 188,
+    "plaka": 68,
+    "ad": "Aksaray"
+   },
+   {
+    "olumluYaralanmaliKaza": 83,
+    "maddiHasarliKaza": 79,
+    "olu": 2,
+    "yarali": 122,
+    "plaka": 28,
+    "ad": "Giresun"
+   },
+   {
+    "olumluYaralanmaliKaza": 11,
+    "maddiHasarliKaza": 13,
+    "olu": 0,
+    "yarali": 17,
+    "plaka": 69,
+    "ad": "Bayburt"
+   },
+   {
+    "olumluYaralanmaliKaza": 28,
+    "maddiHasarliKaza": 40,
+    "olu": 1,
+    "yarali": 53,
+    "plaka": 29,
+    "ad": "Gümüşhane"
+   },
+   {
+    "olumluYaralanmaliKaza": 94,
+    "maddiHasarliKaza": 55,
+    "olu": 0,
+    "yarali": 150,
+    "plaka": 70,
+    "ad": "Karaman"
+   },
+   {
+    "olumluYaralanmaliKaza": 23,
+    "maddiHasarliKaza": 15,
+    "olu": 0,
+    "yarali": 36,
+    "plaka": 30,
+    "ad": "Hakkari"
+   },
+   {
+    "olumluYaralanmaliKaza": 101,
+    "maddiHasarliKaza": 115,
+    "olu": 1,
+    "yarali": 152,
+    "plaka": 71,
+    "ad": "Kırıkkale"
+   },
+   {
+    "olumluYaralanmaliKaza": 592,
+    "maddiHasarliKaza": 324,
+    "olu": 2,
+    "yarali": 810,
+    "plaka": 31,
+    "ad": "Hatay"
+   },
+   {
+    "olumluYaralanmaliKaza": 109,
+    "maddiHasarliKaza": 156,
+    "olu": 0,
+    "yarali": 145,
+    "plaka": 72,
+    "ad": "Batman"
+   },
+   {
+    "olumluYaralanmaliKaza": 132,
+    "maddiHasarliKaza": 79,
+    "olu": 1,
+    "yarali": 175,
+    "plaka": 32,
+    "ad": "Isparta"
+   },
+   {
+    "olumluYaralanmaliKaza": 95,
+    "maddiHasarliKaza": 80,
+    "olu": 1,
+    "yarali": 156,
+    "plaka": 73,
+    "ad": "Şırnak"
+   },
+   {
+    "olumluYaralanmaliKaza": 654,
+    "maddiHasarliKaza": 390,
+    "olu": 7,
+    "yarali": 887,
+    "plaka": 33,
+    "ad": "Mersin"
+   },
+   {
+    "olumluYaralanmaliKaza": 58,
+    "maddiHasarliKaza": 43,
+    "olu": 0,
+    "yarali": 108,
+    "plaka": 74,
+    "ad": "Bartın"
+   },
+   {
+    "olumluYaralanmaliKaza": 3342,
+    "maddiHasarliKaza": 5577,
+    "olu": 7,
+    "yarali": 3979,
+    "plaka": 34,
+    "ad": "İstanbul"
+   },
+   {
+    "olumluYaralanmaliKaza": 12,
+    "maddiHasarliKaza": 27,
+    "olu": 0,
+    "yarali": 18,
+    "plaka": 75,
+    "ad": "Ardahan"
+   },
+   {
+    "olumluYaralanmaliKaza": 1167,
+    "maddiHasarliKaza": 2216,
+    "olu": 6,
+    "yarali": 1463,
+    "plaka": 35,
+    "ad": "İzmir"
+   },
+   {
+    "olumluYaralanmaliKaza": 34,
+    "maddiHasarliKaza": 33,
+    "olu": 1,
+    "yarali": 46,
+    "plaka": 76,
+    "ad": "Iğdır"
+   },
+   {
+    "olumluYaralanmaliKaza": 28,
+    "maddiHasarliKaza": 43,
+    "olu": 0,
+    "yarali": 51,
+    "plaka": 36,
+    "ad": "Kars"
+   },
+   {
+    "olumluYaralanmaliKaza": 93,
+    "maddiHasarliKaza": 81,
+    "olu": 0,
+    "yarali": 120,
+    "plaka": 77,
+    "ad": "Yalova"
+   },
+   {
+    "olumluYaralanmaliKaza": 101,
+    "maddiHasarliKaza": 81,
+    "olu": 1,
+    "yarali": 175,
+    "plaka": 37,
+    "ad": "Kastamonu"
+   },
+   {
+    "olumluYaralanmaliKaza": 59,
+    "maddiHasarliKaza": 68,
+    "olu": 1,
+    "yarali": 71,
+    "plaka": 78,
+    "ad": "Karabük"
+   },
+   {
+    "olumluYaralanmaliKaza": 432,
+    "maddiHasarliKaza": 330,
+    "olu": 0,
+    "yarali": 637,
+    "plaka": 38,
+    "ad": "Kayseri"
+   },
+   {
+    "olumluYaralanmaliKaza": 49,
+    "maddiHasarliKaza": 18,
+    "olu": 0,
+    "yarali": 67,
+    "plaka": 79,
+    "ad": "Kilis"
+   },
+   {
+    "olumluYaralanmaliKaza": 81,
+    "maddiHasarliKaza": 77,
+    "olu": 1,
+    "yarali": 123,
+    "plaka": 39,
+    "ad": "Kırklareli"
+   },
+   {
+    "olumluYaralanmaliKaza": 223,
+    "maddiHasarliKaza": 107,
+    "olu": 0,
+    "yarali": 297,
+    "plaka": 80,
+    "ad": "Osmaniye"
+   },
+   {
+    "olumluYaralanmaliKaza": 57,
+    "maddiHasarliKaza": 63,
+    "olu": 0,
+    "yarali": 102,
+    "plaka": 40,
+    "ad": "Kırşehir"
+   },
+   {
+    "olumluYaralanmaliKaza": 117,
+    "maddiHasarliKaza": 85,
+    "olu": 0,
+    "yarali": 162,
+    "plaka": 81,
+    "ad": "Düzce"
+   },
+   {
+    "olumluYaralanmaliKaza": 653,
+    "maddiHasarliKaza": 854,
+    "olu": 2,
+    "yarali": 812,
+    "plaka": 41,
+    "ad": "Kocaeli"
+   }
+  ],
+  "yilbasindanBeri": [
+   {
+    "olumluYaralanmaliKaza": 1978,
+    "maddiHasarliKaza": 2566,
+    "olu": 15,
+    "yarali": 2708,
+    "plaka": 1,
+    "ad": "Adana"
+   },
+   {
+    "olumluYaralanmaliKaza": 2387,
+    "maddiHasarliKaza": 3217,
+    "olu": 9,
+    "yarali": 3593,
+    "plaka": 42,
+    "ad": "Konya"
+   },
+   {
+    "olumluYaralanmaliKaza": 453,
+    "maddiHasarliKaza": 623,
+    "olu": 4,
+    "yarali": 704,
+    "plaka": 2,
+    "ad": "Adıyaman"
+   },
+   {
+    "olumluYaralanmaliKaza": 543,
+    "maddiHasarliKaza": 580,
+    "olu": 4,
+    "yarali": 796,
+    "plaka": 43,
+    "ad": "Kütahya"
+   },
+   {
+    "olumluYaralanmaliKaza": 733,
+    "maddiHasarliKaza": 1037,
+    "olu": 3,
+    "yarali": 1186,
+    "plaka": 3,
+    "ad": "Afyonkarahisar"
+   },
+   {
+    "olumluYaralanmaliKaza": 577,
+    "maddiHasarliKaza": 679,
+    "olu": 8,
+    "yarali": 880,
+    "plaka": 44,
+    "ad": "Malatya"
+   },
+   {
+    "olumluYaralanmaliKaza": 234,
+    "maddiHasarliKaza": 441,
+    "olu": 1,
+    "yarali": 458,
+    "plaka": 4,
+    "ad": "Ağrı"
+   },
+   {
+    "olumluYaralanmaliKaza": 1711,
+    "maddiHasarliKaza": 1972,
+    "olu": 11,
+    "yarali": 2340,
+    "plaka": 45,
+    "ad": "Manisa"
+   },
+   {
+    "olumluYaralanmaliKaza": 405,
+    "maddiHasarliKaza": 478,
+    "olu": 5,
+    "yarali": 627,
+    "plaka": 5,
+    "ad": "Amasya"
+   },
+   {
+    "olumluYaralanmaliKaza": 940,
+    "maddiHasarliKaza": 1299,
+    "olu": 7,
+    "yarali": 1490,
+    "plaka": 46,
+    "ad": "Kahramanmaraş"
+   },
+   {
+    "olumluYaralanmaliKaza": 5076,
+    "maddiHasarliKaza": 27267,
+    "olu": 44,
+    "yarali": 6891,
+    "plaka": 6,
+    "ad": "Ankara"
+   },
+   {
+    "olumluYaralanmaliKaza": 472,
+    "maddiHasarliKaza": 587,
+    "olu": 6,
+    "yarali": 839,
+    "plaka": 47,
+    "ad": "Mardin"
+   },
+   {
+    "olumluYaralanmaliKaza": 3771,
+    "maddiHasarliKaza": 3768,
+    "olu": 30,
+    "yarali": 4990,
+    "plaka": 7,
+    "ad": "Antalya"
+   },
+   {
+    "olumluYaralanmaliKaza": 1802,
+    "maddiHasarliKaza": 1582,
+    "olu": 12,
+    "yarali": 2340,
+    "plaka": 48,
+    "ad": "Muğla"
+   },
+   {
+    "olumluYaralanmaliKaza": 80,
+    "maddiHasarliKaza": 148,
+    "olu": 5,
+    "yarali": 126,
+    "plaka": 8,
+    "ad": "Artvin"
+   },
+   {
+    "olumluYaralanmaliKaza": 123,
+    "maddiHasarliKaza": 242,
+    "olu": 0,
+    "yarali": 189,
+    "plaka": 49,
+    "ad": "Muş"
+   },
+   {
+    "olumluYaralanmaliKaza": 1622,
+    "maddiHasarliKaza": 1336,
+    "olu": 8,
+    "yarali": 2210,
+    "plaka": 9,
+    "ad": "Aydın"
+   },
+   {
+    "olumluYaralanmaliKaza": 344,
+    "maddiHasarliKaza": 669,
+    "olu": 7,
+    "yarali": 535,
+    "plaka": 50,
+    "ad": "Nevşehir"
+   },
+   {
+    "olumluYaralanmaliKaza": 1481,
+    "maddiHasarliKaza": 1482,
+    "olu": 20,
+    "yarali": 2115,
+    "plaka": 10,
+    "ad": "Balıkesir"
+   },
+   {
+    "olumluYaralanmaliKaza": 376,
+    "maddiHasarliKaza": 601,
+    "olu": 9,
+    "yarali": 560,
+    "plaka": 51,
+    "ad": "Niğde"
+   },
+   {
+    "olumluYaralanmaliKaza": 250,
+    "maddiHasarliKaza": 236,
+    "olu": 1,
+    "yarali": 357,
+    "plaka": 11,
+    "ad": "Bilecik"
+   },
+   {
+    "olumluYaralanmaliKaza": 762,
+    "maddiHasarliKaza": 1247,
+    "olu": 3,
+    "yarali": 1046,
+    "plaka": 52,
+    "ad": "Ordu"
+   },
+   {
+    "olumluYaralanmaliKaza": 202,
+    "maddiHasarliKaza": 324,
+    "olu": 2,
+    "yarali": 341,
+    "plaka": 12,
+    "ad": "Bingöl"
+   },
+   {
+    "olumluYaralanmaliKaza": 315,
+    "maddiHasarliKaza": 384,
+    "olu": 2,
+    "yarali": 403,
+    "plaka": 53,
+    "ad": "Rize"
+   },
+   {
+    "olumluYaralanmaliKaza": 203,
+    "maddiHasarliKaza": 357,
+    "olu": 9,
+    "yarali": 379,
+    "plaka": 13,
+    "ad": "Bitlis"
+   },
+   {
+    "olumluYaralanmaliKaza": 1106,
+    "maddiHasarliKaza": 1362,
+    "olu": 8,
+    "yarali": 1547,
+    "plaka": 54,
+    "ad": "Sakarya"
+   },
+   {
+    "olumluYaralanmaliKaza": 300,
+    "maddiHasarliKaza": 461,
+    "olu": 3,
+    "yarali": 482,
+    "plaka": 14,
+    "ad": "Bolu"
+   },
+   {
+    "olumluYaralanmaliKaza": 1569,
+    "maddiHasarliKaza": 2359,
+    "olu": 13,
+    "yarali": 2176,
+    "plaka": 55,
+    "ad": "Samsun"
+   },
+   {
+    "olumluYaralanmaliKaza": 375,
+    "maddiHasarliKaza": 275,
+    "olu": 18,
+    "yarali": 583,
+    "plaka": 15,
+    "ad": "Burdur"
+   },
+   {
+    "olumluYaralanmaliKaza": 177,
+    "maddiHasarliKaza": 270,
+    "olu": 1,
+    "yarali": 247,
+    "plaka": 56,
+    "ad": "Siirt"
+   },
+   {
+    "olumluYaralanmaliKaza": 2972,
+    "maddiHasarliKaza": 6686,
+    "olu": 14,
+    "yarali": 3965,
+    "plaka": 16,
+    "ad": "Bursa"
+   },
+   {
+    "olumluYaralanmaliKaza": 245,
+    "maddiHasarliKaza": 189,
+    "olu": 2,
+    "yarali": 378,
+    "plaka": 57,
+    "ad": "Sinop"
+   },
+   {
+    "olumluYaralanmaliKaza": 626,
+    "maddiHasarliKaza": 537,
+    "olu": 1,
+    "yarali": 876,
+    "plaka": 17,
+    "ad": "Çanakkale"
+   },
+   {
+    "olumluYaralanmaliKaza": 449,
+    "maddiHasarliKaza": 622,
+    "olu": 6,
+    "yarali": 752,
+    "plaka": 58,
+    "ad": "Sivas"
+   },
+   {
+    "olumluYaralanmaliKaza": 237,
+    "maddiHasarliKaza": 317,
+    "olu": 2,
+    "yarali": 409,
+    "plaka": 18,
+    "ad": "Çankırı"
+   },
+   {
+    "olumluYaralanmaliKaza": 1099,
+    "maddiHasarliKaza": 2130,
+    "olu": 7,
+    "yarali": 1484,
+    "plaka": 59,
+    "ad": "Tekirdağ"
+   },
+   {
+    "olumluYaralanmaliKaza": 596,
+    "maddiHasarliKaza": 1096,
+    "olu": 1,
+    "yarali": 927,
+    "plaka": 19,
+    "ad": "Çorum"
+   },
+   {
+    "olumluYaralanmaliKaza": 607,
+    "maddiHasarliKaza": 626,
+    "olu": 4,
+    "yarali": 951,
+    "plaka": 60,
+    "ad": "Tokat"
+   },
+   {
+    "olumluYaralanmaliKaza": 1210,
+    "maddiHasarliKaza": 1830,
+    "olu": 14,
+    "yarali": 1652,
+    "plaka": 20,
+    "ad": "Denizli"
+   },
+   {
+    "olumluYaralanmaliKaza": 725,
+    "maddiHasarliKaza": 1027,
+    "olu": 5,
+    "yarali": 1007,
+    "plaka": 61,
+    "ad": "Trabzon"
+   },
+   {
+    "olumluYaralanmaliKaza": 957,
+    "maddiHasarliKaza": 1948,
+    "olu": 3,
+    "yarali": 1579,
+    "plaka": 21,
+    "ad": "Diyarbakır"
+   },
+   {
+    "olumluYaralanmaliKaza": 48,
+    "maddiHasarliKaza": 107,
+    "olu": 0,
+    "yarali": 66,
+    "plaka": 62,
+    "ad": "Tunceli"
+   },
+   {
+    "olumluYaralanmaliKaza": 363,
+    "maddiHasarliKaza": 444,
+    "olu": 5,
+    "yarali": 489,
+    "plaka": 22,
+    "ad": "Edirne"
+   },
+   {
+    "olumluYaralanmaliKaza": 1167,
+    "maddiHasarliKaza": 1513,
+    "olu": 15,
+    "yarali": 1946,
+    "plaka": 63,
+    "ad": "Şanlıurfa"
+   },
+   {
+    "olumluYaralanmaliKaza": 385,
+    "maddiHasarliKaza": 626,
+    "olu": 3,
+    "yarali": 640,
+    "plaka": 23,
+    "ad": "Elazığ"
+   },
+   {
+    "olumluYaralanmaliKaza": 401,
+    "maddiHasarliKaza": 496,
+    "olu": 3,
+    "yarali": 589,
+    "plaka": 64,
+    "ad": "Uşak"
+   },
+   {
+    "olumluYaralanmaliKaza": 210,
+    "maddiHasarliKaza": 411,
+    "olu": 3,
+    "yarali": 320,
+    "plaka": 24,
+    "ad": "Erzincan"
+   },
+   {
+    "olumluYaralanmaliKaza": 444,
+    "maddiHasarliKaza": 826,
+    "olu": 3,
+    "yarali": 672,
+    "plaka": 65,
+    "ad": "Van"
+   },
+   {
+    "olumluYaralanmaliKaza": 417,
+    "maddiHasarliKaza": 1107,
+    "olu": 7,
+    "yarali": 718,
+    "plaka": 25,
+    "ad": "Erzurum"
+   },
+   {
+    "olumluYaralanmaliKaza": 313,
+    "maddiHasarliKaza": 457,
+    "olu": 5,
+    "yarali": 519,
+    "plaka": 66,
+    "ad": "Yozgat"
+   },
+   {
+    "olumluYaralanmaliKaza": 831,
+    "maddiHasarliKaza": 1042,
+    "olu": 15,
+    "yarali": 1177,
+    "plaka": 26,
+    "ad": "Eskişehir"
+   },
+   {
+    "olumluYaralanmaliKaza": 548,
+    "maddiHasarliKaza": 568,
+    "olu": 2,
+    "yarali": 808,
+    "plaka": 67,
+    "ad": "Zonguldak"
+   },
+   {
+    "olumluYaralanmaliKaza": 1597,
+    "maddiHasarliKaza": 1920,
+    "olu": 17,
+    "yarali": 2361,
+    "plaka": 27,
+    "ad": "Gaziantep"
+   },
+   {
+    "olumluYaralanmaliKaza": 412,
+    "maddiHasarliKaza": 836,
+    "olu": 2,
+    "yarali": 679,
+    "plaka": 68,
+    "ad": "Aksaray"
+   },
+   {
+    "olumluYaralanmaliKaza": 314,
+    "maddiHasarliKaza": 435,
+    "olu": 8,
+    "yarali": 446,
+    "plaka": 28,
+    "ad": "Giresun"
+   },
+   {
+    "olumluYaralanmaliKaza": 39,
+    "maddiHasarliKaza": 52,
+    "olu": 0,
+    "yarali": 79,
+    "plaka": 69,
+    "ad": "Bayburt"
+   },
+   {
+    "olumluYaralanmaliKaza": 81,
+    "maddiHasarliKaza": 152,
+    "olu": 2,
+    "yarali": 140,
+    "plaka": 29,
+    "ad": "Gümüşhane"
+   },
+   {
+    "olumluYaralanmaliKaza": 279,
+    "maddiHasarliKaza": 264,
+    "olu": 2,
+    "yarali": 415,
+    "plaka": 70,
+    "ad": "Karaman"
+   },
+   {
+    "olumluYaralanmaliKaza": 72,
+    "maddiHasarliKaza": 107,
+    "olu": 1,
+    "yarali": 147,
+    "plaka": 30,
+    "ad": "Hakkari"
+   },
+   {
+    "olumluYaralanmaliKaza": 352,
+    "maddiHasarliKaza": 506,
+    "olu": 1,
+    "yarali": 505,
+    "plaka": 71,
+    "ad": "Kırıkkale"
+   },
+   {
+    "olumluYaralanmaliKaza": 2054,
+    "maddiHasarliKaza": 1520,
+    "olu": 8,
+    "yarali": 2838,
+    "plaka": 31,
+    "ad": "Hatay"
+   },
+   {
+    "olumluYaralanmaliKaza": 372,
+    "maddiHasarliKaza": 722,
+    "olu": 5,
+    "yarali": 535,
+    "plaka": 72,
+    "ad": "Batman"
+   },
+   {
+    "olumluYaralanmaliKaza": 537,
+    "maddiHasarliKaza": 338,
+    "olu": 5,
+    "yarali": 831,
+    "plaka": 32,
+    "ad": "Isparta"
+   },
+   {
+    "olumluYaralanmaliKaza": 309,
+    "maddiHasarliKaza": 317,
+    "olu": 4,
+    "yarali": 494,
+    "plaka": 73,
+    "ad": "Şırnak"
+   },
+   {
+    "olumluYaralanmaliKaza": 2394,
+    "maddiHasarliKaza": 1645,
+    "olu": 27,
+    "yarali": 3200,
+    "plaka": 33,
+    "ad": "Mersin"
+   },
+   {
+    "olumluYaralanmaliKaza": 201,
+    "maddiHasarliKaza": 181,
+    "olu": 0,
+    "yarali": 350,
+    "plaka": 74,
+    "ad": "Bartın"
+   },
+   {
+    "olumluYaralanmaliKaza": 12093,
+    "maddiHasarliKaza": 23546,
+    "olu": 49,
+    "yarali": 14695,
+    "plaka": 34,
+    "ad": "İstanbul"
+   },
+   {
+    "olumluYaralanmaliKaza": 32,
+    "maddiHasarliKaza": 104,
+    "olu": 0,
+    "yarali": 46,
+    "plaka": 75,
+    "ad": "Ardahan"
+   },
+   {
+    "olumluYaralanmaliKaza": 4232,
+    "maddiHasarliKaza": 9121,
+    "olu": 19,
+    "yarali": 5342,
+    "plaka": 35,
+    "ad": "İzmir"
+   },
+   {
+    "olumluYaralanmaliKaza": 118,
+    "maddiHasarliKaza": 184,
+    "olu": 1,
+    "yarali": 161,
+    "plaka": 76,
+    "ad": "Iğdır"
+   },
+   {
+    "olumluYaralanmaliKaza": 114,
+    "maddiHasarliKaza": 250,
+    "olu": 0,
+    "yarali": 256,
+    "plaka": 36,
+    "ad": "Kars"
+   },
+   {
+    "olumluYaralanmaliKaza": 367,
+    "maddiHasarliKaza": 367,
+    "olu": 2,
+    "yarali": 487,
+    "plaka": 77,
+    "ad": "Yalova"
+   },
+   {
+    "olumluYaralanmaliKaza": 296,
+    "maddiHasarliKaza": 393,
+    "olu": 6,
+    "yarali": 511,
+    "plaka": 37,
+    "ad": "Kastamonu"
+   },
+   {
+    "olumluYaralanmaliKaza": 231,
+    "maddiHasarliKaza": 233,
+    "olu": 3,
+    "yarali": 353,
+    "plaka": 78,
+    "ad": "Karabük"
+   },
+   {
+    "olumluYaralanmaliKaza": 1411,
+    "maddiHasarliKaza": 1516,
+    "olu": 3,
+    "yarali": 2174,
+    "plaka": 38,
+    "ad": "Kayseri"
+   },
+   {
+    "olumluYaralanmaliKaza": 138,
+    "maddiHasarliKaza": 48,
+    "olu": 0,
+    "yarali": 192,
+    "plaka": 79,
+    "ad": "Kilis"
+   },
+   {
+    "olumluYaralanmaliKaza": 309,
+    "maddiHasarliKaza": 400,
+    "olu": 2,
+    "yarali": 476,
+    "plaka": 39,
+    "ad": "Kırklareli"
+   },
+   {
+    "olumluYaralanmaliKaza": 853,
+    "maddiHasarliKaza": 567,
+    "olu": 1,
+    "yarali": 1190,
+    "plaka": 80,
+    "ad": "Osmaniye"
+   },
+   {
+    "olumluYaralanmaliKaza": 195,
+    "maddiHasarliKaza": 265,
+    "olu": 0,
+    "yarali": 308,
+    "plaka": 40,
+    "ad": "Kırşehir"
+   },
+   {
+    "olumluYaralanmaliKaza": 401,
+    "maddiHasarliKaza": 396,
+    "olu": 5,
+    "yarali": 577,
+    "plaka": 81,
+    "ad": "Düzce"
+   },
+   {
+    "olumluYaralanmaliKaza": 2323,
+    "maddiHasarliKaza": 3716,
+    "olu": 6,
+    "yarali": 3057,
+    "plaka": 41,
+    "ad": "Kocaeli"
+   }
+  ]
+ }
+}

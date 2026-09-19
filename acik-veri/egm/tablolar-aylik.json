@@ -1,0 +1,3620 @@
+[
+ {
+  "donem": "2025-12",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Karşılıklı Çarpışma",
+  "sayi": 1144
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Arkadan Çarpma",
+  "sayi": 2556
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yandan Çarpma",
+  "sayi": 7632
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yan Yana Çarpışma",
+  "sayi": 406
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Duran Araca Çarpma",
+  "sayi": 302
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Zincirleme Çarpışma",
+  "sayi": 138
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Çoklu Çarpışma",
+  "sayi": 144
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Engel/Cisim ile Çarpışma",
+  "sayi": 1048
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yayaya Çarpma",
+  "sayi": 3333
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Hayvana Çarpma",
+  "sayi": 69
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Devrilme/Savrulma/Takla",
+  "sayi": 3017
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yoldan Çıkma",
+  "sayi": 1881
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Araçtan Insan Düşmesi",
+  "sayi": 133
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Araçtan Cisim Düşmesi",
+  "sayi": 9
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Park etmis araca çarpma",
+  "sayi": 249
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "karisan_arac_sayisi",
+  "kalem": "Tek Araçlı",
+  "sayi": 8825
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "karisan_arac_sayisi",
+  "kalem": "İki Araçlı",
+  "sayi": 11714
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "karisan_arac_sayisi",
+  "kalem": "Çok Araçlı",
+  "sayi": 1522
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "kusur_unsurlari",
+  "kalem": "SÜRÜCÜ",
+  "sayi": 23991
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "kusur_unsurlari",
+  "kalem": "YAYA",
+  "sayi": 2132
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "kusur_unsurlari",
+  "kalem": "YOLCU",
+  "sayi": 125
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "kusur_unsurlari",
+  "kalem": "ARAÇ",
+  "sayi": 210
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "kusur_unsurlari",
+  "kalem": "YOL",
+  "sayi": 124
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Araç hızını yol, hava ve trafiğin gerektirdiği şartlara uydurmamak",
+  "sayi": 8946
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Kavşak,geçit ve kaplamanın dar old.yerlerde geçiş önc.uymamak",
+  "sayi": 4021
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Şerit izleme ve değiştirme kural.uymamak",
+  "sayi": 1724
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Arkadan Çarpma",
+  "sayi": 2128
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Doğrultu Değiştirme (dönüş) kurallarına uymamak",
+  "sayi": 1985
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Manevraları düzenleyen genel şartlara uymamak",
+  "sayi": 1015
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Kırmızı ışık veya görevlinin dur işaretinde durmamak",
+  "sayi": 618
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Taşıt giremez trafik işareti bulunan yerlere girmek",
+  "sayi": 854
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Trafik güvenliği ile ilgili diğer kurallara uymamak",
+  "sayi": 562
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Yaya ve okul geçitlerinde yavaşlamamak, yayalara geçiş hakkı vermemek",
+  "sayi": 401
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Alkollü olarak araç kullanmak",
+  "sayi": 131
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Aşırı hızla araç kullanmak",
+  "sayi": 136
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Geçme yasağı olan yerlerden geçmek",
+  "sayi": 260
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Hatalı şekilde veya yasak olan yerlere park etmek",
+  "sayi": 117
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "surucu_kusurlari",
+  "kalem": "DİĞER",
+  "sayi": 1093
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Bisiklet",
+  "sayi": 486
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "At Arabası",
+  "sayi": 3
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Motorlu Bisiklet",
+  "sayi": 2805
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Motosiklet",
+  "sayi": 8077
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Otomobil",
+  "sayi": 17427
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Minibüs",
+  "sayi": 858
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Kamyonet",
+  "sayi": 4859
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Kamyon",
+  "sayi": 587
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Çekici",
+  "sayi": 793
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Otobüs",
+  "sayi": 594
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Traktör",
+  "sayi": 142
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Arazi Taşıtı",
+  "sayi": 5
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Özel Amaçlı",
+  "sayi": 54
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "İş Makinesi",
+  "sayi": 43
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Ambulans",
+  "sayi": 26
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Tanker",
+  "sayi": 12
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Tren",
+  "sayi": 5
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Tramvay",
+  "sayi": 12
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Diğer",
+  "sayi": 472
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "trafik_cezalari",
+  "kalem": "Yayalara Uygulanan",
+  "sayi": 365
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "trafik_cezalari",
+  "kalem": "Yolculara Uygulanan",
+  "sayi": 8358
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "trafik_cezalari",
+  "kalem": "Sürücülere Uygulanan",
+  "sayi": 463781
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "trafik_cezalari",
+  "kalem": "Araç Plakasına Uygulanan",
+  "sayi": 2288888
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Alkollü Olarak Araç Kullanan",
+  "sayi": 21057
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "100 Ceza Puanını Dolduran",
+  "sayi": 1508
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "5 Kez Hız Limitini Aşan",
+  "sayi": 66
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Diğer İşlemler",
+  "sayi": 5755
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Mülki Amire Sevk Edilen Sür. Sayısı",
+  "sayi": 73
+ },
+ {
+  "donem": "2025-12",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Trafikten Men Edilen Araç Sayısı",
+  "sayi": 201995
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Karşılıklı Çarpışma",
+  "sayi": 925
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Arkadan Çarpma",
+  "sayi": 1987
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yandan Çarpma",
+  "sayi": 5635
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yan Yana Çarpışma",
+  "sayi": 298
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Duran Araca Çarpma",
+  "sayi": 240
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Zincirleme Çarpışma",
+  "sayi": 112
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Çoklu Çarpışma",
+  "sayi": 153
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Engel/Cisim ile Çarpışma",
+  "sayi": 955
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yayaya Çarpma",
+  "sayi": 2529
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Hayvana Çarpma",
+  "sayi": 38
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Devrilme/Savrulma/Takla",
+  "sayi": 2418
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yoldan Çıkma",
+  "sayi": 1707
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Araçtan Insan Düşmesi",
+  "sayi": 110
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Araçtan Cisim Düşmesi",
+  "sayi": 7
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Park etmis araca çarpma",
+  "sayi": 210
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "karisan_arac_sayisi",
+  "kalem": "Tek Araçlı",
+  "sayi": 7239
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "karisan_arac_sayisi",
+  "kalem": "İki Araçlı",
+  "sayi": 8885
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "karisan_arac_sayisi",
+  "kalem": "Çok Araçlı",
+  "sayi": 1200
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "kusur_unsurlari",
+  "kalem": "SÜRÜCÜ",
+  "sayi": 18777
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "kusur_unsurlari",
+  "kalem": "YAYA",
+  "sayi": 1590
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "kusur_unsurlari",
+  "kalem": "YOLCU",
+  "sayi": 116
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "kusur_unsurlari",
+  "kalem": "ARAÇ",
+  "sayi": 164
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "kusur_unsurlari",
+  "kalem": "YOL",
+  "sayi": 111
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Araç hızını yol, hava ve trafiğin gerektirdiği şartlara uydurmamak",
+  "sayi": 7533
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Kavşak,geçit ve kaplamanın dar old.yerlerde geçiş önc.uymamak",
+  "sayi": 3024
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Şerit izleme ve değiştirme kural.uymamak",
+  "sayi": 1514
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Arkadan Çarpma",
+  "sayi": 1745
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Doğrultu Değiştirme (dönüş) kurallarına uymamak",
+  "sayi": 1442
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Manevraları düzenleyen genel şartlara uymamak",
+  "sayi": 771
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Kırmızı ışık veya görevlinin dur işaretinde durmamak",
+  "sayi": 492
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Taşıt giremez trafik işareti bulunan yerlere girmek",
+  "sayi": 608
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Trafik güvenliği ile ilgili diğer kurallara uymamak",
+  "sayi": 377
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Yaya ve okul geçitlerinde yavaşlamamak, yayalara geçiş hakkı vermemek",
+  "sayi": 322
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Alkollü olarak araç kullanmak",
+  "sayi": 96
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Aşırı hızla araç kullanmak",
+  "sayi": 118
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Geçme yasağı olan yerlerden geçmek",
+  "sayi": 219
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Hatalı şekilde veya yasak olan yerlere park etmek",
+  "sayi": 89
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "surucu_kusurlari",
+  "kalem": "DİĞER",
+  "sayi": 427
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Bisiklet",
+  "sayi": 255
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "At Arabası",
+  "sayi": 2
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Motorlu Bisiklet",
+  "sayi": 1789
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Motosiklet",
+  "sayi": 5745
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Otomobil",
+  "sayi": 14215
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Minibüs",
+  "sayi": 607
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Kamyonet",
+  "sayi": 4128
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Kamyon",
+  "sayi": 482
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Çekici",
+  "sayi": 657
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Otobüs",
+  "sayi": 564
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Traktör",
+  "sayi": 78
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Arazi Taşıtı",
+  "sayi": 5
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Özel Amaçlı",
+  "sayi": 67
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "İş Makinesi",
+  "sayi": 37
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Ambulans",
+  "sayi": 23
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Tanker",
+  "sayi": 11
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Tren",
+  "sayi": 4
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Tramvay",
+  "sayi": 3
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Diğer",
+  "sayi": 368
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "trafik_cezalari",
+  "kalem": "Yayalara Uygulanan",
+  "sayi": 249
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "trafik_cezalari",
+  "kalem": "Yolculara Uygulanan",
+  "sayi": 6144
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "trafik_cezalari",
+  "kalem": "Sürücülere Uygulanan",
+  "sayi": 378179
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "trafik_cezalari",
+  "kalem": "Araç Plakasına Uygulanan",
+  "sayi": 2091860
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Alkollü Olarak Araç Kullanan",
+  "sayi": 17651
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "100 Ceza Puanını Dolduran",
+  "sayi": 1315
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "5 Kez Hız Limitini Aşan",
+  "sayi": 48
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Diğer İşlemler",
+  "sayi": 3574
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Mülki Amire Sevk Edilen Sür. Sayısı",
+  "sayi": 14
+ },
+ {
+  "donem": "2026-01",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Trafikten Men Edilen Araç Sayısı",
+  "sayi": 166739
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Karşılıklı Çarpışma",
+  "sayi": 868
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Arkadan Çarpma",
+  "sayi": 1916
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yandan Çarpma",
+  "sayi": 5695
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yan Yana Çarpışma",
+  "sayi": 311
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Duran Araca Çarpma",
+  "sayi": 212
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Zincirleme Çarpışma",
+  "sayi": 98
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Çoklu Çarpışma",
+  "sayi": 117
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Engel/Cisim ile Çarpışma",
+  "sayi": 794
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yayaya Çarpma",
+  "sayi": 2768
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Hayvana Çarpma",
+  "sayi": 44
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Devrilme/Savrulma/Takla",
+  "sayi": 2182
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yoldan Çıkma",
+  "sayi": 1498
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Araçtan Insan Düşmesi",
+  "sayi": 114
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Araçtan Cisim Düşmesi",
+  "sayi": 6
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Park etmis araca çarpma",
+  "sayi": 203
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "karisan_arac_sayisi",
+  "kalem": "Tek Araçlı",
+  "sayi": 6870
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "karisan_arac_sayisi",
+  "kalem": "İki Araçlı",
+  "sayi": 8833
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "karisan_arac_sayisi",
+  "kalem": "Çok Araçlı",
+  "sayi": 1123
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "kusur_unsurlari",
+  "kalem": "SÜRÜCÜ",
+  "sayi": 18009
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "kusur_unsurlari",
+  "kalem": "YAYA",
+  "sayi": 1801
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "kusur_unsurlari",
+  "kalem": "YOLCU",
+  "sayi": 105
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "kusur_unsurlari",
+  "kalem": "ARAÇ",
+  "sayi": 183
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "kusur_unsurlari",
+  "kalem": "YOL",
+  "sayi": 140
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Araç hızını yol, hava ve trafiğin gerektirdiği şartlara uydurmamak",
+  "sayi": 6745
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Kavşak,geçit ve kaplamanın dar old.yerlerde geçiş önc.uymamak",
+  "sayi": 3183
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Şerit izleme ve değiştirme kural.uymamak",
+  "sayi": 1511
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Arkadan Çarpma",
+  "sayi": 1683
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Doğrultu Değiştirme (dönüş) kurallarına uymamak",
+  "sayi": 1343
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Manevraları düzenleyen genel şartlara uymamak",
+  "sayi": 799
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Kırmızı ışık veya görevlinin dur işaretinde durmamak",
+  "sayi": 461
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Taşıt giremez trafik işareti bulunan yerlere girmek",
+  "sayi": 628
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Trafik güvenliği ile ilgili diğer kurallara uymamak",
+  "sayi": 414
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Yaya ve okul geçitlerinde yavaşlamamak, yayalara geçiş hakkı vermemek",
+  "sayi": 315
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Alkollü olarak araç kullanmak",
+  "sayi": 85
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Aşırı hızla araç kullanmak",
+  "sayi": 120
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Geçme yasağı olan yerlerden geçmek",
+  "sayi": 223
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Hatalı şekilde veya yasak olan yerlere park etmek",
+  "sayi": 74
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "surucu_kusurlari",
+  "kalem": "DİĞER",
+  "sayi": 425
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Bisiklet",
+  "sayi": 291
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "At Arabası",
+  "sayi": 1
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Motorlu Bisiklet",
+  "sayi": 1960
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Motosiklet",
+  "sayi": 6002
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Otomobil",
+  "sayi": 13359
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Minibüs",
+  "sayi": 653
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Kamyonet",
+  "sayi": 3777
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Kamyon",
+  "sayi": 484
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Çekici",
+  "sayi": 586
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Otobüs",
+  "sayi": 534
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Traktör",
+  "sayi": 62
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Arazi Taşıtı",
+  "sayi": 2
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Özel Amaçlı",
+  "sayi": 63
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "İş Makinesi",
+  "sayi": 32
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Ambulans",
+  "sayi": 25
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Tanker",
+  "sayi": 6
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Tren",
+  "sayi": 7
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Tramvay",
+  "sayi": 3
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Diğer",
+  "sayi": 424
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "trafik_cezalari",
+  "kalem": "Yayalara Uygulanan",
+  "sayi": 389
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "trafik_cezalari",
+  "kalem": "Yolculara Uygulanan",
+  "sayi": 7166
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "trafik_cezalari",
+  "kalem": "Sürücülere Uygulanan",
+  "sayi": 398745
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "trafik_cezalari",
+  "kalem": "Araç Plakasına Uygulanan",
+  "sayi": 2103590
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Alkollü Olarak Araç Kullanan",
+  "sayi": 12475
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "100 Ceza Puanını Dolduran",
+  "sayi": 1316
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "5 Kez Hız Limitini Aşan",
+  "sayi": 50
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Diğer İşlemler",
+  "sayi": 7913
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Mülki Amire Sevk Edilen Sür. Sayısı",
+  "sayi": 18
+ },
+ {
+  "donem": "2026-02",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Trafikten Men Edilen Araç Sayısı",
+  "sayi": 178633
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Karşılıklı Çarpışma",
+  "sayi": 1141
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Arkadan Çarpma",
+  "sayi": 2469
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yandan Çarpma",
+  "sayi": 7457
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yan Yana Çarpışma",
+  "sayi": 428
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Duran Araca Çarpma",
+  "sayi": 268
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Zincirleme Çarpışma",
+  "sayi": 138
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Çoklu Çarpışma",
+  "sayi": 145
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Engel/Cisim ile Çarpışma",
+  "sayi": 978
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yayaya Çarpma",
+  "sayi": 3005
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Hayvana Çarpma",
+  "sayi": 43
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Devrilme/Savrulma/Takla",
+  "sayi": 2828
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yoldan Çıkma",
+  "sayi": 2031
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Araçtan Insan Düşmesi",
+  "sayi": 159
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Araçtan Cisim Düşmesi",
+  "sayi": 5
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Park etmis araca çarpma",
+  "sayi": 201
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "karisan_arac_sayisi",
+  "kalem": "Tek Araçlı",
+  "sayi": 8398
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "karisan_arac_sayisi",
+  "kalem": "İki Araçlı",
+  "sayi": 11414
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "karisan_arac_sayisi",
+  "kalem": "Çok Araçlı",
+  "sayi": 1484
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "kusur_unsurlari",
+  "kalem": "SÜRÜCÜ",
+  "sayi": 22951
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "kusur_unsurlari",
+  "kalem": "YAYA",
+  "sayi": 2030
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "kusur_unsurlari",
+  "kalem": "YOLCU",
+  "sayi": 127
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "kusur_unsurlari",
+  "kalem": "ARAÇ",
+  "sayi": 226
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "kusur_unsurlari",
+  "kalem": "YOL",
+  "sayi": 120
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Araç hızını yol, hava ve trafiğin gerektirdiği şartlara uydurmamak",
+  "sayi": 8608
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Kavşak,geçit ve kaplamanın dar old.yerlerde geçiş önc.uymamak",
+  "sayi": 4166
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Şerit izleme ve değiştirme kural.uymamak",
+  "sayi": 2024
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Arkadan Çarpma",
+  "sayi": 2270
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Doğrultu Değiştirme (dönüş) kurallarına uymamak",
+  "sayi": 1746
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Manevraları düzenleyen genel şartlara uymamak",
+  "sayi": 1025
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Kırmızı ışık veya görevlinin dur işaretinde durmamak",
+  "sayi": 458
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Taşıt giremez trafik işareti bulunan yerlere girmek",
+  "sayi": 794
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Trafik güvenliği ile ilgili diğer kurallara uymamak",
+  "sayi": 464
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Yaya ve okul geçitlerinde yavaşlamamak, yayalara geçiş hakkı vermemek",
+  "sayi": 296
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Alkollü olarak araç kullanmak",
+  "sayi": 92
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Aşırı hızla araç kullanmak",
+  "sayi": 122
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Geçme yasağı olan yerlerden geçmek",
+  "sayi": 296
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Hatalı şekilde veya yasak olan yerlere park etmek",
+  "sayi": 116
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "surucu_kusurlari",
+  "kalem": "DİĞER",
+  "sayi": 474
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Bisiklet",
+  "sayi": 430
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "At Arabası",
+  "sayi": 4
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Motorlu Bisiklet",
+  "sayi": 2653
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Motosiklet",
+  "sayi": 7782
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Otomobil",
+  "sayi": 17714
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Minibüs",
+  "sayi": 667
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Kamyonet",
+  "sayi": 4560
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Kamyon",
+  "sayi": 486
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Çekici",
+  "sayi": 633
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Otobüs",
+  "sayi": 524
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Traktör",
+  "sayi": 114
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Arazi Taşıtı",
+  "sayi": 6
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Özel Amaçlı",
+  "sayi": 62
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "İş Makinesi",
+  "sayi": 23
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Ambulans",
+  "sayi": 19
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Tanker",
+  "sayi": 9
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Tren",
+  "sayi": 2
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Tramvay",
+  "sayi": 12
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Diğer",
+  "sayi": 436
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "trafik_cezalari",
+  "kalem": "Yayalara Uygulanan",
+  "sayi": 351
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "trafik_cezalari",
+  "kalem": "Yolculara Uygulanan",
+  "sayi": 7346
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "trafik_cezalari",
+  "kalem": "Sürücülere Uygulanan",
+  "sayi": 400544
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "trafik_cezalari",
+  "kalem": "Araç Plakasına Uygulanan",
+  "sayi": 1809097
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Alkollü Olarak Araç Kullanan",
+  "sayi": 9939
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "100 Ceza Puanını Dolduran",
+  "sayi": 919
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "51. Madde (Hız İhlali)",
+  "sayi": 584
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Diğer İşlemler",
+  "sayi": 9317
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Mülki Amire Sevk Edilen Sür. Sayısı",
+  "sayi": 4
+ },
+ {
+  "donem": "2026-03",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Trafikten Men Edilen Araç Sayısı",
+  "sayi": 186816
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Karşılıklı Çarpışma",
+  "sayi": 1072
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Arkadan Çarpma",
+  "sayi": 2512
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yandan Çarpma",
+  "sayi": 7815
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yan Yana Çarpışma",
+  "sayi": 437
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Duran Araca Çarpma",
+  "sayi": 257
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Zincirleme Çarpışma",
+  "sayi": 86
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Çoklu Çarpışma",
+  "sayi": 133
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Engel/Cisim ile Çarpışma",
+  "sayi": 862
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yayaya Çarpma",
+  "sayi": 3235
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Hayvana Çarpma",
+  "sayi": 63
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Devrilme/Savrulma/Takla",
+  "sayi": 3089
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yoldan Çıkma",
+  "sayi": 1695
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Araçtan Insan Düşmesi",
+  "sayi": 188
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Araçtan Cisim Düşmesi",
+  "sayi": 11
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Park etmis araca çarpma",
+  "sayi": 229
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "karisan_arac_sayisi",
+  "kalem": "Tek Araçlı",
+  "sayi": 8463
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "karisan_arac_sayisi",
+  "kalem": "İki Araçlı",
+  "sayi": 11920
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "karisan_arac_sayisi",
+  "kalem": "Çok Araçlı",
+  "sayi": 1301
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "kusur_unsurlari",
+  "kalem": "SÜRÜCÜ",
+  "sayi": 23074
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "kusur_unsurlari",
+  "kalem": "YAYA",
+  "sayi": 2087
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "kusur_unsurlari",
+  "kalem": "YOLCU",
+  "sayi": 118
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "kusur_unsurlari",
+  "kalem": "ARAÇ",
+  "sayi": 221
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "kusur_unsurlari",
+  "kalem": "YOL",
+  "sayi": 103
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Araç hızını yol, hava ve trafiğin gerektirdiği şartlara uydurmamak",
+  "sayi": 8085
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Kavşak,geçit ve kaplamanın dar old.yerlerde geçiş önc.uymamak",
+  "sayi": 4404
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Şerit izleme ve değiştirme kural.uymamak",
+  "sayi": 1999
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Arkadan Çarpma",
+  "sayi": 2162
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Doğrultu Değiştirme (dönüş) kurallarına uymamak",
+  "sayi": 1892
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Manevraları düzenleyen genel şartlara uymamak",
+  "sayi": 1077
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Kırmızı ışık veya görevlinin dur işaretinde durmamak",
+  "sayi": 489
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Taşıt giremez trafik işareti bulunan yerlere girmek",
+  "sayi": 839
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Trafik güvenliği ile ilgili diğer kurallara uymamak",
+  "sayi": 528
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Yaya ve okul geçitlerinde yavaşlamamak, yayalara geçiş hakkı vermemek",
+  "sayi": 393
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Alkollü olarak araç kullanmak",
+  "sayi": 95
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Aşırı hızla araç kullanmak",
+  "sayi": 106
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Geçme yasağı olan yerlerden geçmek",
+  "sayi": 370
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Hatalı şekilde veya yasak olan yerlere park etmek",
+  "sayi": 95
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "surucu_kusurlari",
+  "kalem": "DİĞER",
+  "sayi": 540
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Bisiklet",
+  "sayi": 606
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "At Arabası",
+  "sayi": 5
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Motorlu Bisiklet",
+  "sayi": 3328
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Motosiklet",
+  "sayi": 8678
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Otomobil",
+  "sayi": 16390
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Minibüs",
+  "sayi": 694
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Kamyonet",
+  "sayi": 4310
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Kamyon",
+  "sayi": 463
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Çekici",
+  "sayi": 656
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Otobüs",
+  "sayi": 541
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Traktör",
+  "sayi": 170
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Arazi Taşıtı",
+  "sayi": 3
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Özel Amaçlı",
+  "sayi": 66
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "İş Makinesi",
+  "sayi": 42
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Ambulans",
+  "sayi": 21
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Tanker",
+  "sayi": 4
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Tren",
+  "sayi": 1
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Tramvay",
+  "sayi": 7
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Diğer",
+  "sayi": 545
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "trafik_cezalari",
+  "kalem": "Yayalara Uygulanan",
+  "sayi": 309
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "trafik_cezalari",
+  "kalem": "Yolculara Uygulanan",
+  "sayi": 8708
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "trafik_cezalari",
+  "kalem": "Sürücülere Uygulanan",
+  "sayi": 410622
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "trafik_cezalari",
+  "kalem": "Araç Plakasına Uygulanan",
+  "sayi": 1713972
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Alkollü Olarak Araç Kullanan",
+  "sayi": 19541
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "100 Ceza Puanını Dolduran",
+  "sayi": 856
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "51. Madde (Hız İhlali)",
+  "sayi": 625
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Diğer İşlemler",
+  "sayi": 1193
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Mülki Amire Sevk Edilen Sür. Sayısı",
+  "sayi": 6
+ },
+ {
+  "donem": "2026-04",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Trafikten Men Edilen Araç Sayısı",
+  "sayi": 197793
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Karşılıklı Çarpışma",
+  "sayi": 1352
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Arkadan Çarpma",
+  "sayi": 2865
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yandan Çarpma",
+  "sayi": 8637
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yan Yana Çarpışma",
+  "sayi": 484
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Duran Araca Çarpma",
+  "sayi": 297
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Zincirleme Çarpışma",
+  "sayi": 134
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Çoklu Çarpışma",
+  "sayi": 140
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Engel/Cisim ile Çarpışma",
+  "sayi": 1067
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yayaya Çarpma",
+  "sayi": 3389
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Hayvana Çarpma",
+  "sayi": 88
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Devrilme/Savrulma/Takla",
+  "sayi": 3596
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yoldan Çıkma",
+  "sayi": 2243
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Araçtan Insan Düşmesi",
+  "sayi": 187
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Araçtan Cisim Düşmesi",
+  "sayi": 6
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Park etmis araca çarpma",
+  "sayi": 254
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "karisan_arac_sayisi",
+  "kalem": "Tek Araçlı",
+  "sayi": 9776
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "karisan_arac_sayisi",
+  "kalem": "İki Araçlı",
+  "sayi": 13390
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "karisan_arac_sayisi",
+  "kalem": "Çok Araçlı",
+  "sayi": 1573
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "kusur_unsurlari",
+  "kalem": "SÜRÜCÜ",
+  "sayi": 26588
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "kusur_unsurlari",
+  "kalem": "YAYA",
+  "sayi": 2287
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "kusur_unsurlari",
+  "kalem": "YOLCU",
+  "sayi": 173
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "kusur_unsurlari",
+  "kalem": "ARAÇ",
+  "sayi": 311
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "kusur_unsurlari",
+  "kalem": "YOL",
+  "sayi": 108
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Araç hızını yol, hava ve trafiğin gerektirdiği şartlara uydurmamak",
+  "sayi": 9806
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Kavşak,geçit ve kaplamanın dar old.yerlerde geçiş önc.uymamak",
+  "sayi": 4623
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Şerit izleme ve değiştirme kural.uymamak",
+  "sayi": 2195
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Arkadan Çarpma",
+  "sayi": 2387
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Doğrultu Değiştirme (dönüş) kurallarına uymamak",
+  "sayi": 2042
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Manevraları düzenleyen genel şartlara uymamak",
+  "sayi": 1125
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Kırmızı ışık veya görevlinin dur işaretinde durmamak",
+  "sayi": 535
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Taşıt giremez trafik işareti bulunan yerlere girmek",
+  "sayi": 879
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Trafik güvenliği ile ilgili diğer kurallara uymamak",
+  "sayi": 487
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Yaya ve okul geçitlerinde yavaşlamamak, yayalara geçiş hakkı vermemek",
+  "sayi": 338
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Alkollü olarak araç kullanmak",
+  "sayi": 158
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Aşırı hızla araç kullanmak",
+  "sayi": 151
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Geçme yasağı olan yerlerden geçmek",
+  "sayi": 370
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Hatalı şekilde veya yasak olan yerlere park etmek",
+  "sayi": 107
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "surucu_kusurlari",
+  "kalem": "DİĞER",
+  "sayi": 1385
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Bisiklet",
+  "sayi": 763
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "At Arabası",
+  "sayi": 1
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Motorlu Bisiklet",
+  "sayi": 3728
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Motosiklet",
+  "sayi": 9443
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Otomobil",
+  "sayi": 19437
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Minibüs",
+  "sayi": 711
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Kamyonet",
+  "sayi": 4899
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Kamyon",
+  "sayi": 517
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Çekici",
+  "sayi": 624
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Otobüs",
+  "sayi": 572
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Traktör",
+  "sayi": 221
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Arazi Taşıtı",
+  "sayi": 7
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Özel Amaçlı",
+  "sayi": 63
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "İş Makinesi",
+  "sayi": 39
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Ambulans",
+  "sayi": 31
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Tanker",
+  "sayi": 5
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Tren",
+  "sayi": 4
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Tramvay",
+  "sayi": 7
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Diğer",
+  "sayi": 625
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "trafik_cezalari",
+  "kalem": "Yayalara Uygulanan",
+  "sayi": 384
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "trafik_cezalari",
+  "kalem": "Yolculara Uygulanan",
+  "sayi": 8206
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "trafik_cezalari",
+  "kalem": "Sürücülere Uygulanan",
+  "sayi": 387563
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "trafik_cezalari",
+  "kalem": "Araç Plakasına Uygulanan",
+  "sayi": 1715496
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Alkollü Olarak Araç Kullanan",
+  "sayi": 21485
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "100 Ceza Puanını Dolduran",
+  "sayi": 706
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "51. Madde (Hız İhlali)",
+  "sayi": 724
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Diğer İşlemler",
+  "sayi": 8559
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Mülki Amire Sevk Edilen Sür. Sayısı",
+  "sayi": 9
+ },
+ {
+  "donem": "2026-05",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Trafikten Men Edilen Araç Sayısı",
+  "sayi": 192004
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Karşılıklı Çarpışma",
+  "sayi": 1502
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Arkadan Çarpma",
+  "sayi": 3194
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yandan Çarpma",
+  "sayi": 10333
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yan Yana Çarpışma",
+  "sayi": 629
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Duran Araca Çarpma",
+  "sayi": 325
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Zincirleme Çarpışma",
+  "sayi": 146
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Çoklu Çarpışma",
+  "sayi": 148
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Engel/Cisim ile Çarpışma",
+  "sayi": 1136
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yayaya Çarpma",
+  "sayi": 3740
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Hayvana Çarpma",
+  "sayi": 90
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Devrilme/Savrulma/Takla",
+  "sayi": 4578
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yoldan Çıkma",
+  "sayi": 2276
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Araçtan Insan Düşmesi",
+  "sayi": 238
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Araçtan Cisim Düşmesi",
+  "sayi": 13
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Park etmis araca çarpma",
+  "sayi": 327
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "karisan_arac_sayisi",
+  "kalem": "Tek Araçlı",
+  "sayi": 11071
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "karisan_arac_sayisi",
+  "kalem": "İki Araçlı",
+  "sayi": 15946
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "karisan_arac_sayisi",
+  "kalem": "Çok Araçlı",
+  "sayi": 1658
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "kusur_unsurlari",
+  "kalem": "SÜRÜCÜ",
+  "sayi": 30682
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "kusur_unsurlari",
+  "kalem": "YAYA",
+  "sayi": 2597
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "kusur_unsurlari",
+  "kalem": "YOLCU",
+  "sayi": 188
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "kusur_unsurlari",
+  "kalem": "ARAÇ",
+  "sayi": 318
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "kusur_unsurlari",
+  "kalem": "YOL",
+  "sayi": 128
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Araç hızını yol, hava ve trafiğin gerektirdiği şartlara uydurmamak",
+  "sayi": 10907
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Kavşak,geçit ve kaplamanın dar old.yerlerde geçiş önc.uymamak",
+  "sayi": 5510
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Şerit izleme ve değiştirme kural.uymamak",
+  "sayi": 2642
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Arkadan Çarpma",
+  "sayi": 2771
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Doğrultu Değiştirme (dönüş) kurallarına uymamak",
+  "sayi": 2568
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Manevraları düzenleyen genel şartlara uymamak",
+  "sayi": 1336
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Kırmızı ışık veya görevlinin dur işaretinde durmamak",
+  "sayi": 519
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Taşıt giremez trafik işareti bulunan yerlere girmek",
+  "sayi": 1012
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Trafik güvenliği ile ilgili diğer kurallara uymamak",
+  "sayi": 666
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Yaya ve okul geçitlerinde yavaşlamamak, yayalara geçiş hakkı vermemek",
+  "sayi": 340
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Alkollü olarak araç kullanmak",
+  "sayi": 159
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Aşırı hızla araç kullanmak",
+  "sayi": 129
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Geçme yasağı olan yerlerden geçmek",
+  "sayi": 458
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Hatalı şekilde veya yasak olan yerlere park etmek",
+  "sayi": 119
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "surucu_kusurlari",
+  "kalem": "DİĞER",
+  "sayi": 1546
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Bisiklet",
+  "sayi": 1129
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "At Arabası",
+  "sayi": 5
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Motorlu Bisiklet",
+  "sayi": 4821
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Motosiklet",
+  "sayi": 11770
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Otomobil",
+  "sayi": 20811
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Minibüs",
+  "sayi": 844
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Kamyonet",
+  "sayi": 5551
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Kamyon",
+  "sayi": 645
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Çekici",
+  "sayi": 769
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Otobüs",
+  "sayi": 621
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Traktör",
+  "sayi": 294
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Arazi Taşıtı",
+  "sayi": 17
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Özel Amaçlı",
+  "sayi": 106
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "İş Makinesi",
+  "sayi": 47
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Ambulans",
+  "sayi": 26
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Tanker",
+  "sayi": 11
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Tren",
+  "sayi": 6
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Tramvay",
+  "sayi": 12
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Diğer",
+  "sayi": 894
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "trafik_cezalari",
+  "kalem": "Yayalara Uygulanan",
+  "sayi": 511
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "trafik_cezalari",
+  "kalem": "Yolculara Uygulanan",
+  "sayi": 11920
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "trafik_cezalari",
+  "kalem": "Sürücülere Uygulanan",
+  "sayi": 439378
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "trafik_cezalari",
+  "kalem": "Araç Plakasına Uygulanan",
+  "sayi": 1864175
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Alkollü Olarak Araç Kullanan",
+  "sayi": 23058
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "100 Ceza Puanını Dolduran",
+  "sayi": 844
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "51. Madde (Hız İhlali)",
+  "sayi": 757
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Diğer İşlemler",
+  "sayi": 10830
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Mülki Amire Sevk Edilen Sür. Sayısı",
+  "sayi": 16
+ },
+ {
+  "donem": "2026-06",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Trafikten Men Edilen Araç Sayısı",
+  "sayi": 200857
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Karşılıklı Çarpışma",
+  "sayi": 1711
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Arkadan Çarpma",
+  "sayi": 3531
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yandan Çarpma",
+  "sayi": 10596
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yan Yana Çarpışma",
+  "sayi": 635
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Duran Araca Çarpma",
+  "sayi": 336
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Zincirleme Çarpışma",
+  "sayi": 183
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Çoklu Çarpışma",
+  "sayi": 180
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Engel/Cisim ile Çarpışma",
+  "sayi": 1195
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yayaya Çarpma",
+  "sayi": 3353
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Hayvana Çarpma",
+  "sayi": 96
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Devrilme/Savrulma/Takla",
+  "sayi": 5107
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yoldan Çıkma",
+  "sayi": 2666
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Araçtan Insan Düşmesi",
+  "sayi": 226
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Araçtan Cisim Düşmesi",
+  "sayi": 12
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Park etmis araca çarpma",
+  "sayi": 357
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "karisan_arac_sayisi",
+  "kalem": "Tek Araçlı",
+  "sayi": 11609
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "karisan_arac_sayisi",
+  "kalem": "İki Araçlı",
+  "sayi": 16785
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "karisan_arac_sayisi",
+  "kalem": "Çok Araçlı",
+  "sayi": 1790
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "kusur_unsurlari",
+  "kalem": "SÜRÜCÜ",
+  "sayi": 32586
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "kusur_unsurlari",
+  "kalem": "YAYA",
+  "sayi": 2308
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "kusur_unsurlari",
+  "kalem": "YOLCU",
+  "sayi": 248
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "kusur_unsurlari",
+  "kalem": "ARAÇ",
+  "sayi": 380
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "kusur_unsurlari",
+  "kalem": "YOL",
+  "sayi": 158
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Araç hızını yol, hava ve trafiğin gerektirdiği şartlara uydurmamak",
+  "sayi": 11906
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Kavşak,geçit ve kaplamanın dar old.yerlerde geçiş önc.uymamak",
+  "sayi": 5669
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Şerit izleme ve değiştirme kural.uymamak",
+  "sayi": 3241
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Arkadan Çarpma",
+  "sayi": 3185
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Doğrultu Değiştirme (dönüş) kurallarına uymamak",
+  "sayi": 2809
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Manevraları düzenleyen genel şartlara uymamak",
+  "sayi": 1447
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Kırmızı ışık veya görevlinin dur işaretinde durmamak",
+  "sayi": 593
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Taşıt giremez trafik işareti bulunan yerlere girmek",
+  "sayi": 1073
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Trafik güvenliği ile ilgili diğer kurallara uymamak",
+  "sayi": 668
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Yaya ve okul geçitlerinde yavaşlamamak, yayalara geçiş hakkı vermemek",
+  "sayi": 293
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Alkollü olarak araç kullanmak",
+  "sayi": 167
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Aşırı hızla araç kullanmak",
+  "sayi": 165
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Geçme yasağı olan yerlerden geçmek",
+  "sayi": 488
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Hatalı şekilde veya yasak olan yerlere park etmek",
+  "sayi": 155
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "surucu_kusurlari",
+  "kalem": "DİĞER",
+  "sayi": 727
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Bisiklet",
+  "sayi": 1208
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "At Arabası",
+  "sayi": 5
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Motorlu Bisiklet",
+  "sayi": 5201
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Motosiklet",
+  "sayi": 11852
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Otomobil",
+  "sayi": 22393
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Minibüs",
+  "sayi": 807
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Kamyonet",
+  "sayi": 5851
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Kamyon",
+  "sayi": 748
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Çekici",
+  "sayi": 859
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Otobüs",
+  "sayi": 602
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Traktör",
+  "sayi": 392
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Arazi Taşıtı",
+  "sayi": 15
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Özel Amaçlı",
+  "sayi": 93
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "İş Makinesi",
+  "sayi": 65
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Ambulans",
+  "sayi": 27
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Tanker",
+  "sayi": 7
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Tren",
+  "sayi": 2
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Tramvay",
+  "sayi": 10
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Diğer",
+  "sayi": 867
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "trafik_cezalari",
+  "kalem": "Yayalara Uygulanan",
+  "sayi": 344
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "trafik_cezalari",
+  "kalem": "Yolculara Uygulanan",
+  "sayi": 11017
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "trafik_cezalari",
+  "kalem": "Sürücülere Uygulanan",
+  "sayi": 413899
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "trafik_cezalari",
+  "kalem": "Araç Plakasına Uygulanan",
+  "sayi": 1991120
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Alkollü Olarak Araç Kullanan",
+  "sayi": 21324
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "100 Ceza Puanını Dolduran",
+  "sayi": 766
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "51. Madde (Hız İhlali)",
+  "sayi": 611
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Diğer İşlemler",
+  "sayi": 10314
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Mülki Amire Sevk Edilen Sür. Sayısı",
+  "sayi": 11
+ },
+ {
+  "donem": "2026-07",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Trafikten Men Edilen Araç Sayısı",
+  "sayi": 210598
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Karşılıklı Çarpışma",
+  "sayi": 1723
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Arkadan Çarpma",
+  "sayi": 3853
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yandan Çarpma",
+  "sayi": 10415
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yan Yana Çarpışma",
+  "sayi": 653
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Duran Araca Çarpma",
+  "sayi": 332
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Zincirleme Çarpışma",
+  "sayi": 199
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Çoklu Çarpışma",
+  "sayi": 188
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Engel/Cisim ile Çarpışma",
+  "sayi": 1231
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yayaya Çarpma",
+  "sayi": 3207
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Hayvana Çarpma",
+  "sayi": 133
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Devrilme/Savrulma/Takla",
+  "sayi": 5198
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Yoldan Çıkma",
+  "sayi": 2740
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Araçtan Insan Düşmesi",
+  "sayi": 237
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Araçtan Cisim Düşmesi",
+  "sayi": 11
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "kaza_olus_sekli",
+  "kalem": "Park etmis araca çarpma",
+  "sayi": 308
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "karisan_arac_sayisi",
+  "kalem": "Tek Araçlı",
+  "sayi": 11703
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "karisan_arac_sayisi",
+  "kalem": "İki Araçlı",
+  "sayi": 16882
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "karisan_arac_sayisi",
+  "kalem": "Çok Araçlı",
+  "sayi": 1843
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "kusur_unsurlari",
+  "kalem": "SÜRÜCÜ",
+  "sayi": 32708
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "kusur_unsurlari",
+  "kalem": "YAYA",
+  "sayi": 2199
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "kusur_unsurlari",
+  "kalem": "YOLCU",
+  "sayi": 262
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "kusur_unsurlari",
+  "kalem": "ARAÇ",
+  "sayi": 465
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "kusur_unsurlari",
+  "kalem": "YOL",
+  "sayi": 184
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Araç hızını yol, hava ve trafiğin gerektirdiği şartlara uydurmamak",
+  "sayi": 11948
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Kavşak,geçit ve kaplamanın dar old.yerlerde geçiş önc.uymamak",
+  "sayi": 5361
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Şerit izleme ve değiştirme kural.uymamak",
+  "sayi": 2896
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Arkadan Çarpma",
+  "sayi": 3368
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Doğrultu Değiştirme (dönüş) kurallarına uymamak",
+  "sayi": 2651
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Manevraları düzenleyen genel şartlara uymamak",
+  "sayi": 1267
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Kırmızı ışık veya görevlinin dur işaretinde durmamak",
+  "sayi": 550
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Taşıt giremez trafik işareti bulunan yerlere girmek",
+  "sayi": 1095
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Trafik güvenliği ile ilgili diğer kurallara uymamak",
+  "sayi": 594
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Yaya ve okul geçitlerinde yavaşlamamak, yayalara geçiş hakkı vermemek",
+  "sayi": 350
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Alkollü olarak araç kullanmak",
+  "sayi": 147
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Aşırı hızla araç kullanmak",
+  "sayi": 167
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Geçme yasağı olan yerlerden geçmek",
+  "sayi": 478
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "surucu_kusurlari",
+  "kalem": "Hatalı şekilde veya yasak olan yerlere park etmek",
+  "sayi": 124
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "surucu_kusurlari",
+  "kalem": "DİĞER",
+  "sayi": 1712
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Bisiklet",
+  "sayi": 1164
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "At Arabası",
+  "sayi": 8
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Motorlu Bisiklet",
+  "sayi": 5252
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Motosiklet",
+  "sayi": 11924
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Otomobil",
+  "sayi": 22791
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Minibüs",
+  "sayi": 806
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Kamyonet",
+  "sayi": 5791
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Kamyon",
+  "sayi": 726
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Çekici",
+  "sayi": 889
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Otobüs",
+  "sayi": 605
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Traktör",
+  "sayi": 415
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Arazi Taşıtı",
+  "sayi": 16
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Özel Amaçlı",
+  "sayi": 93
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "İş Makinesi",
+  "sayi": 52
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Ambulans",
+  "sayi": 24
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Tanker",
+  "sayi": 10
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Tren",
+  "sayi": 1
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Tramvay",
+  "sayi": 10
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "karisan_arac_cinsi",
+  "kalem": "Diğer",
+  "sayi": 931
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "trafik_cezalari",
+  "kalem": "Yayalara Uygulanan",
+  "sayi": 388
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "trafik_cezalari",
+  "kalem": "Yolculara Uygulanan",
+  "sayi": 10991
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "trafik_cezalari",
+  "kalem": "Sürücülere Uygulanan",
+  "sayi": 414191
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "trafik_cezalari",
+  "kalem": "Araç Plakasına Uygulanan",
+  "sayi": 2009865
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Alkollü Olarak Araç Kullanan",
+  "sayi": 22058
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "100 Ceza Puanını Dolduran",
+  "sayi": 710
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "51. Madde (Hız İhlali)",
+  "sayi": 574
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Diğer İşlemler",
+  "sayi": 11034
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Mülki Amire Sevk Edilen Sür. Sayısı",
+  "sayi": 19
+ },
+ {
+  "donem": "2026-08",
+  "tablo": "diger_ekip_faaliyetleri",
+  "kalem": "Trafikten Men Edilen Araç Sayısı",
+  "sayi": 206036
+ }
+]

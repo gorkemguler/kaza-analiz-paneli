@@ -156,6 +156,7 @@ export default function IstanbulPage() {
       <Sources
         items={[
           { name: 'İBB Açık Veri: Ulaşım Yönetim Merkezi Trafik Duyuru Verisi', url: m.source, note: `${m.license}, son güncelleme ${updated}` },
+          { name: 'İşlenmiş kaza kayıtlarını CSV olarak indirin (açık veri)', url: 'https://github.com/gorkemguler/kaza-analiz-paneli/tree/main/acik-veri/ibb', note: 'Sonuç ve yol sınıflandırmasıyla' },
         ]}
       />
       <p className="footnote">Risk puanı = kaza sayısı + 3 × yaralanmalı kaza + 10 × can kaybı olan kaza. Noktalar ~500 m’lik hücrelerde toplanır.</p>

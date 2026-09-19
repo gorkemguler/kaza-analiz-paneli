@@ -1,0 +1,129 @@
+{
+ "ad": "Trafik Kaza Analiz Paneli: açık veri",
+ "aciklama": "Kamu kurumlarının PDF ve açık veri portallarında yayımladığı trafik kazası verilerinin makinece okunabilir, doğrulanmış hâli.",
+ "depo": "https://github.com/gorkemguler/kaza-analiz-paneli",
+ "belgeler": "https://github.com/gorkemguler/kaza-analiz-paneli/tree/main/acik-veri",
+ "lisans": "CC BY 4.0 (derleme); veriler kaynak kurumlara aittir, kullanırken kaynak gösterin",
+ "veriSetleri": [
+  {
+   "kimlik": "egm-aylik-trafik-bultenleri",
+   "ad": "EGM Aylık Trafik İstatistik Bültenleri (işlenmiş)",
+   "aciklama": "Emniyet Genel Müdürlüğü Trafik Başkanlığı aylık PDF bültenlerinden çıkarılmış tablolar: ülke geneli toplamlar, 81 il, kaza oluş şekli, sürücü kusurları, araç cinsleri, cezalar. Her tablonun satır toplamı PDF’teki TOPLAM satırıyla doğrulanmıştır.",
+   "kaynak": "https://trafik.gov.tr/istatistikler37",
+   "kaynakKurum": "Emniyet Genel Müdürlüğü Trafik Başkanlığı",
+   "donemler": {
+    "ilk": "2025-12",
+    "son": "2026-08",
+    "adet": 9
+   },
+   "dosyalar": [
+    {
+     "yol": "egm/bultenler/2025-12.json",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/egm/bultenler/2025-12.json",
+     "boyutKB": 30
+    },
+    {
+     "yol": "egm/bultenler/2026-01.json",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/egm/bultenler/2026-01.json",
+     "boyutKB": 30
+    },
+    {
+     "yol": "egm/bultenler/2026-02.json",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/egm/bultenler/2026-02.json",
+     "boyutKB": 30
+    },
+    {
+     "yol": "egm/bultenler/2026-03.json",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/egm/bultenler/2026-03.json",
+     "boyutKB": 30
+    },
+    {
+     "yol": "egm/bultenler/2026-04.json",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/egm/bultenler/2026-04.json",
+     "boyutKB": 30
+    },
+    {
+     "yol": "egm/bultenler/2026-05.json",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/egm/bultenler/2026-05.json",
+     "boyutKB": 30
+    },
+    {
+     "yol": "egm/bultenler/2026-06.json",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/egm/bultenler/2026-06.json",
+     "boyutKB": 30
+    },
+    {
+     "yol": "egm/bultenler/2026-07.json",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/egm/bultenler/2026-07.json",
+     "boyutKB": 30
+    },
+    {
+     "yol": "egm/bultenler/2026-08.json",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/egm/bultenler/2026-08.json",
+     "boyutKB": 30
+    },
+    {
+     "yol": "egm/iller-aylik.csv",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/egm/iller-aylik.csv",
+     "boyutKB": 25
+    },
+    {
+     "yol": "egm/iller-aylik.json",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/egm/iller-aylik.json",
+     "boyutKB": 129
+    },
+    {
+     "yol": "egm/ulke-aylik.csv",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/egm/ulke-aylik.csv",
+     "boyutKB": 2
+    },
+    {
+     "yol": "egm/ulke-aylik.json",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/egm/ulke-aylik.json",
+     "boyutKB": 6
+    },
+    {
+     "yol": "egm/tablolar-aylik.csv",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/egm/tablolar-aylik.csv",
+     "boyutKB": 33
+    },
+    {
+     "yol": "egm/tablolar-aylik.json",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/egm/tablolar-aylik.json",
+     "boyutKB": 67
+    }
+   ]
+  },
+  {
+   "kimlik": "ibb-istanbul-kaza-duyurulari",
+   "ad": "İstanbul konumlu kaza duyuruları (işlenmiş)",
+   "aciklama": "İBB Ulaşım Yönetim Merkezi trafik duyurularından ayıklanmış “Kaza Bildirimi” kayıtları. Kaza sonucu ve yol adı duyuru metninden çıkarılmıştır; hatalı koordinatlar atılmıştır.",
+   "kaynak": "https://data.ibb.gov.tr/dataset/ulasim-yonetim-merkezi-trafik-duyuru-verisi",
+   "kaynakKurum": "İstanbul Büyükşehir Belediyesi",
+   "kaynakLisans": "İBB Açık Veri Lisansı",
+   "kaynakGuncelleme": "2025-03-07",
+   "kapsam": {
+    "ilk": "2013-04-01",
+    "son": "2025-03-05",
+    "kayit": 106401
+   },
+   "dosyalar": [
+    {
+     "yol": "ibb/istanbul-kaza-duyurulari.csv",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/ibb/istanbul-kaza-duyurulari.csv",
+     "boyutKB": 16508
+    },
+    {
+     "yol": "ibb/yillik-olumlu-yaralanmali-kaza.csv",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/ibb/yillik-olumlu-yaralanmali-kaza.csv",
+     "boyutKB": 1
+    },
+    {
+     "yol": "ibb/yillik-olumlu-yaralanmali-kaza.json",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/ibb/yillik-olumlu-yaralanmali-kaza.json",
+     "boyutKB": 3
+    }
+   ]
+  }
+ ]
+}

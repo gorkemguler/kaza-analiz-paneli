@@ -133,7 +133,6 @@ async function importAnnouncements() {
     source: `https://data.ibb.gov.tr/dataset/${DUYURU_DATASET}`,
     license: 'İBB Açık Veri Lisansı',
     sourceUpdatedAt: resource.last_modified,
-    processedAt: new Date().toISOString(),
     severities: SEVERITIES,
     roads: ROAD_NAMES,
     columns: ['id', 'zaman', 'sureDk', 'lat', 'lng', 'sonuc', 'zincirleme', 'yol', 'kapaliSerit', 'baslik'],

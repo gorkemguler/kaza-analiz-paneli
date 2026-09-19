@@ -1,5 +1,7 @@
 # 🚓 Trafik Kaza Analiz Paneli
 
+[![Test](https://github.com/gorkemguler/kaza-analiz-paneli/actions/workflows/test.yml/badge.svg)](https://github.com/gorkemguler/kaza-analiz-paneli/actions/workflows/test.yml) [![Veri güncelle](https://github.com/gorkemguler/kaza-analiz-paneli/actions/workflows/veri-guncelle.yml/badge.svg)](https://github.com/gorkemguler/kaza-analiz-paneli/actions/workflows/veri-guncelle.yml)
+
 Trafik polisi, kolluk birimleri ve yerel yönetimler için **resmi açık verilerle** çalışan bir trafik kazası analiz paneli. Kazaların nerede, ne zaman ve hangi koşullarda yoğunlaştığını gösterir. Riskli noktaları ve saatleri öne çıkararak devriye ve denetim planlamasına yardımcı olur.
 
 Panelde iki sayfa var:
@@ -31,6 +33,25 @@ Panelde iki sayfa var:
 
 Risk puanı = kaza sayısı + 3 × yaralanmalı kaza + 10 × can kaybı olan kaza
 
+## 📂 Açık veri
+
+EGM'nin PDF bültenlerinden çıkarılan ve doğrulanan tüm tablolar [`acik-veri/`](acik-veri) klasöründe **JSON ve CSV** olarak herkese açık:
+
+| Dosya | İçerik |
+| --- | --- |
+| [`egm/ulke-aylik.csv`](acik-veri/egm/ulke-aylik.csv) | Ülke geneli aylık kaza, ölü, yaralı |
+| [`egm/iller-aylik.csv`](acik-veri/egm/iller-aylik.csv) | 81 ilin aylık verileri |
+| [`egm/tablolar-aylik.csv`](acik-veri/egm/tablolar-aylik.csv) | Oluş şekli, sürücü kusurları, araç cinsleri, cezalar |
+| [`egm/bultenler/`](acik-veri/egm/bultenler) | Her bültenin tamamı (JSON) |
+| [`ibb/istanbul-kaza-duyurulari.csv`](acik-veri/ibb/istanbul-kaza-duyurulari.csv) | İstanbul'da 106 bin konumlu kaza kaydı |
+
+```python
+import pandas as pd
+iller = pd.read_csv("https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/egm/iller-aylik.csv")
+```
+
+Alan açıklamaları, kod örnekleri ve lisans bilgisi için [`acik-veri/README.md`](acik-veri/README.md) dosyasına bakın. Dosya listesi ve adresleri [`acik-veri/index.json`](acik-veri/index.json) içinde. Veriler **her gün otomatik** güncellenir.
+
 ## Veri kaynakları
 
 | Kaynak | Biçim | Güncelleme | Lisans |
@@ -50,9 +71,18 @@ Risk puanı = kaza sayısı + 3 × yaralanmalı kaza + 10 × can kaybı olan kaz
 
 ## Verileri güncelleme
 
-### EGM (her ay)
+### Otomatik (GitHub Actions)
 
-EGM yeni bülteni sitesine koyduğunda tek komut yeterli:
+[`veri-guncelle.yml`](.github/workflows/veri-guncelle.yml) iş akışı elle bir şey yapmaya gerek bırakmaz:
+
+- **EGM:** Her gün 08:00'de (TSİ) trafik.gov.tr'yi kontrol eder. Yeni bülten varsa indirir, doğrular ve testler geçerse `server/data` ile `acik-veri` klasörlerine commit atar.
+- **İBB:** Her pazartesi aynı işi yapar.
+- **Hata olursa:** PDF biçimi değişip toplamlar tutmazsa hiçbir şey yayımlanmaz ve depoda otomatik bir issue açılır.
+- **Elle çalıştırma:** GitHub'da **Actions → Veri güncelle → Run workflow** yolunu izleyin.
+
+### Elle (EGM)
+
+Yerelde güncellemek için tek komut yeterli:
 
 ```bash
 npm run veri:egm
@@ -64,7 +94,7 @@ Betik şunları yapar:
 2. PDF'teki tabloları okur: genel toplamlar, oluş şekli, kusurlar, araç türleri, 81 il, cezalar.
 3. **Her tabloyu doğrular.** Satırların toplamı PDF'teki TOPLAM satırını tutmazsa hata verir ve dosyayı yazmaz.
 4. PDF'te boş bırakılmış tek bir hücre varsa (örneğin Ağustos 2026'da Sinop) değeri TOPLAM satırından hesaplar ve işaretler.
-5. Sonucu `server/data/egm/YYYY-AA.json` olarak kaydeder.
+5. Sonucu `server/data/egm/YYYY-AA.json` olarak kaydeder ve `acik-veri/` dosyalarını yeniden üretir.
 
 Diğer seçenekler:
 
@@ -156,8 +186,7 @@ curl "http://localhost:3001/api/istanbul/hotspots?from=2024-01-01&severity=Yaral
 - [ ] Bir önceki yılın aynı ayıyla karşılaştırma
 - [ ] Canlı olay verisi (TomTom Traffic API / Waze for Cities)
 - [ ] PDF/Excel rapor çıktısı
-- [ ] Yeni EGM bülteni için otomatik aylık güncelleme (GitHub Actions)
 
 ## Lisans
 
-Kod [MIT](LICENSE) lisanslıdır. Veriler ilgili kurumların lisanslarına tabidir (yukarıdaki tabloya bakın).
+Kod [MIT](LICENSE) lisanslıdır. `acik-veri/` derlemesi [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.tr) ile paylaşılır. Veriler ilgili kurumların lisanslarına tabidir (yukarıdaki tabloya bakın).

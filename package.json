@@ -12,8 +12,9 @@
     "build": "npm run build -w client",
     "start": "npm start -w server",
     "test": "npm test -w server",
-    "veri:egm": "node scripts/egm-guncelle.mjs",
-    "veri:ibb": "node scripts/ibb-guncelle.mjs"
+    "veri:egm": "node scripts/egm-guncelle.mjs && node scripts/acik-veri.mjs",
+    "veri:ibb": "node scripts/ibb-guncelle.mjs && node scripts/acik-veri.mjs",
+    "veri:yayinla": "node scripts/acik-veri.mjs"
   },
   "license": "MIT",
   "devDependencies": {
