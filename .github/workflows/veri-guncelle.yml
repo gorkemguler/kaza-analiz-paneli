@@ -59,7 +59,7 @@ jobs:
             echo "Yeni veri yok."
             exit 0
           fi
-          yeni=$(git status --porcelain server/data/egm | grep '^??' | sed -E 's#.*/([0-9]{4}-[0-9]{2})\.json#\1#' | tr '\n' ' ')
+          yeni=$(git status --porcelain server/data/egm | grep '^??' | sed -E 's#.*/([0-9]{4}-[0-9]{2})\.json#\1#' | tr '\n' ' ' | xargs)
           if [ -n "$yeni" ]; then mesaj="Veri: yeni EGM bülteni ($yeni)"; else mesaj="Veri: kaynak güncellemesi"; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
