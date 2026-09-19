@@ -8,13 +8,14 @@
     "client"
   ],
   "scripts": {
-    "dev": "concurrently -n api,web -c blue,green \"npm run dev -w server\" \"npm run dev -w client\"",
-    "build": "npm run build -w client",
-    "start": "npm start -w server",
+    "dev": "node scripts/statik-veri.mjs && npm run dev -w client",
+    "build": "node scripts/statik-veri.mjs && npm run build -w client",
     "test": "npm test -w server",
     "veri:egm": "node scripts/egm-guncelle.mjs && node scripts/acik-veri.mjs",
     "veri:ibb": "node scripts/ibb-guncelle.mjs && node scripts/acik-veri.mjs",
-    "veri:yayinla": "node scripts/acik-veri.mjs"
+    "veri:yayinla": "node scripts/acik-veri.mjs",
+    "preview": "npm run preview -w client",
+    "api": "npm start -w server"
   },
   "license": "MIT",
   "devDependencies": {

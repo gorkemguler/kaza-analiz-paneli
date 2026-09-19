@@ -17,6 +17,7 @@ on:
 permissions:
   contents: write
   issues: write
+  actions: write # yeni veriden sonra site yayınını tetiklemek için
 
 concurrency:
   group: veri-guncelle
@@ -53,7 +54,9 @@ jobs:
       - name: Doğrulama testleri
         run: npm test
 
-      - name: Değişiklik varsa commit at
+      - name: Değişiklik varsa commit at ve siteyi yeniden yayınla
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           if [ -z "$(git status --porcelain server/data acik-veri)" ]; then
             echo "Yeni veri yok."
@@ -67,6 +70,7 @@ jobs:
           git commit -m "$mesaj"
           git push
           echo "### $mesaj" >> "$GITHUB_STEP_SUMMARY"
+          gh workflow run pages.yml --ref main
 
       - name: Hata olursa issue aç
         if: failure()

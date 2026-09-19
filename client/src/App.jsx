@@ -27,7 +27,7 @@ export default function App() {
     <div className="app">
       <header className="header">
         <div className="brand">
-          <img src="/favicon.svg" alt="" width="32" height="32" />
+          <img src="favicon.svg" alt="" width="32" height="32" />
           <div>
             <h1>Trafik Kaza Analiz Paneli</h1>
             <p>Resmi açık verilerle kaza yoğunluğu, risk noktaları ve eğilimler</p>

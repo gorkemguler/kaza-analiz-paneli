@@ -2,6 +2,8 @@
 
 [![Test](https://github.com/gorkemguler/kaza-analiz-paneli/actions/workflows/test.yml/badge.svg)](https://github.com/gorkemguler/kaza-analiz-paneli/actions/workflows/test.yml) [![Veri güncelle](https://github.com/gorkemguler/kaza-analiz-paneli/actions/workflows/veri-guncelle.yml/badge.svg)](https://github.com/gorkemguler/kaza-analiz-paneli/actions/workflows/veri-guncelle.yml)
 
+**🌐 Canlı panel: https://gorkemguler.github.io/kaza-analiz-paneli/**
+
 Trafik polisi, kolluk birimleri ve yerel yönetimler için **resmi açık verilerle** çalışan bir trafik kazası analiz paneli. Kazaların nerede, ne zaman ve hangi koşullarda yoğunlaştığını gösterir. Riskli noktaları ve saatleri öne çıkararak devriye ve denetim planlamasına yardımcı olur.
 
 Panelde iki sayfa var:
@@ -75,7 +77,7 @@ Alan açıklamaları, kod örnekleri ve lisans bilgisi için [`acik-veri/README.
 
 [`veri-guncelle.yml`](.github/workflows/veri-guncelle.yml) iş akışı elle bir şey yapmaya gerek bırakmaz:
 
-- **EGM:** Her gün 08:00'de (TSİ) trafik.gov.tr'yi kontrol eder. Yeni bülten varsa indirir, doğrular ve testler geçerse `server/data` ile `acik-veri` klasörlerine commit atar.
+- **EGM:** Her gün 08:00'de (TSİ) trafik.gov.tr'yi kontrol eder. Yeni bülten varsa indirir, doğrular ve testler geçerse `server/data` ile `acik-veri` klasörlerine commit atar ve siteyi yeniden yayınlar.
 - **İBB:** Her pazartesi aynı işi yapar.
 - **Hata olursa:** PDF biçimi değişip toplamlar tutmazsa hiçbir şey yayımlanmaz ve depoda otomatik bir issue açılır.
 - **Elle çalıştırma:** GitHub'da **Actions → Veri güncelle → Run workflow** yolunu izleyin.
@@ -103,7 +105,7 @@ npm run veri:egm -- --hepsi          # tüm bültenleri yeniden işle
 npm run veri:egm -- ~/Downloads/bulten.pdf   # elle indirilen bir PDF'i işle
 ```
 
-Güncellemeden sonra `npm test` çalıştırıp sunucuyu yeniden başlatın.
+Güncellemeden sonra `npm test` çalıştırın.
 
 ### İBB
 
@@ -113,7 +115,24 @@ npm run veri:ibb
 
 Betik, İBB portalından güncel CSV'yi ve yıllık seriyi indirir, kaza duyurularını ayıklar ve `server/data/ibb/` altına sıkıştırılmış olarak kaydeder.
 
-## Kurulum
+## Nasıl çalışıyor?
+
+Panelin sunucuya ihtiyacı yok, GitHub Pages üzerinde statik site olarak yayınlanıyor. Her şey GitHub'ın kendi sunucularında, otomatik olarak çalışıyor:
+
+```
+Her sabah 08:00  ──▶  Veri güncelle (GitHub Actions)
+                      trafik.gov.tr'de yeni bülten var mı?
+                      ├─ yok  → hiçbir şey yapma
+                      └─ var  → indir → ayrıştır → doğrula → test
+                                  → server/data + acik-veri commit
+                                  → Siteyi yayınla (GitHub Pages)
+```
+
+- Türkiye verileri derleme sırasında hazır JSON dosyalarına dönüştürülür.
+- İstanbul'daki 106 bin kayıt tarayıcıya bir kez indirilir. Filtreler ve risk noktaları doğrudan tarayıcıda hesaplanır (yaklaşık 0,1 saniye).
+- Analiz kodu (`shared/istanbul-analiz.js`) hem tarayıcıda hem isteğe bağlı Node API'sinde aynıdır.
+
+## Kurulum (geliştirme)
 
 Node.js 20 veya üzeri gerekir. İşlenmiş veriler depoda hazır olduğu için kurulumdan hemen sonra çalışır.
 
@@ -121,28 +140,24 @@ Node.js 20 veya üzeri gerekir. İşlenmiş veriler depoda hazır olduğu için 
 git clone https://github.com/gorkemguler/kaza-analiz-paneli.git
 cd kaza-analiz-paneli
 npm install
-npm run dev
+npm run dev        # http://localhost:5173
 ```
 
-- Arayüz: http://localhost:5173
-- API: http://localhost:3001
-
-### Üretim modu
-
 ```bash
-npm run build   # React uygulamasını derler
-npm start       # API + arayüz tek sunucudan: http://localhost:3001
-```
-
-### Testler
-
-```bash
-npm test
+npm run build      # statik siteyi client/dist içine üretir
+npm run preview    # derlenmiş siteyi yerelde açar
+npm test           # veri doğrulama testleri
 ```
 
 Testler, her EGM bülteninde 81 ilin toplamının ülke toplamına eşit olduğunu ve İBB sınıflandırmalarının doğru çalıştığını kontrol eder.
 
-## API
+## İsteğe bağlı REST API
+
+Panel API kullanmaz. Başka uygulamalar için aynı analizleri sunan bir Express sunucusu da var:
+
+```bash
+npm run api        # http://localhost:3001
+```
 
 | Uç nokta | Açıklama |
 | --- | --- |
@@ -158,10 +173,6 @@ Testler, her EGM bülteninde 81 ilin toplamının ülke toplamına eşit olduğu
 
 İstanbul uç noktaları şu filtreleri alır: `from`, `to` (YYYY-AA-GG), `severity` ve `road`. Birden fazla değer virgülle ayrılır.
 
-```bash
-curl "http://localhost:3001/api/istanbul/hotspots?from=2024-01-01&severity=Yaralanmalı,Ölümlü&limit=5"
-```
-
 ## Proje yapısı
 
 ```
@@ -170,13 +181,16 @@ curl "http://localhost:3001/api/istanbul/hotspots?from=2024-01-01&severity=Yaral
 │   └── src/
 │       ├── pages/              TurkiyePage, IstanbulPage
 │       └── components/         İl haritası, il tablosu, kaza haritası, gün×saat matrisi…
+├── shared/istanbul-analiz.js   Filtre, istatistik ve risk noktası hesabı (tarayıcı + Node)
 ├── scripts/
+│   ├── statik-veri.mjs         Panel için statik veri dosyaları (derleme öncesi)
+│   ├── acik-veri.mjs           acik-veri/ JSON ve CSV dosyaları
 │   ├── egm-guncelle.mjs        EGM PDF indirici
 │   ├── ibb-guncelle.mjs        İBB CSV/API indirici
 │   └── lib/egm-parser.mjs      PDF tablo ayrıştırıcı
 └── server/
     ├── data/                   İşlenmiş veriler (egm/*.json, ibb/*.json.gz)
-    ├── src/                    Express API
+    ├── src/                    İsteğe bağlı Express API
     └── test/
 ```
 

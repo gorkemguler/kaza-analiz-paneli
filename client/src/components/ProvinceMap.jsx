@@ -41,7 +41,7 @@ let geoCache = null
 function useGeo() {
   const [geo, setGeo] = useState(geoCache)
   useEffect(() => {
-    if (!geoCache) fetch('/tr-iller.json').then((r) => r.json()).then((g) => setGeo((geoCache = g)))
+    if (!geoCache) fetch('tr-iller.json').then((r) => r.json()).then((g) => setGeo((geoCache = g)))
   }, [])
   return geo
 }
