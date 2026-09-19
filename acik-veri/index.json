@@ -124,6 +124,33 @@
      "boyutKB": 3
     }
    ]
+  },
+  {
+   "kimlik": "izmir-kaza-ariza-olaylari",
+   "ad": "İzmir kaza ve arıza olayları (işlenmiş)",
+   "aciklama": "İzmir Ulaşım Merkezi’nin ana arterlerde kayda aldığı kaza ve arıza olayları. Tür adları tek biçime getirilmiş, müdahale süresi (olay saati → müdahale saati) hesaplanmıştır.",
+   "kaynak": "https://acikveri.bizizmir.com/dataset/izmir-ili-arizali-kazali-arac-verileri",
+   "kaynakKurum": "İzmir Büyükşehir Belediyesi",
+   "kaynakLisans": "İzmir Açık Veri Lisansı",
+   "kaynakGuncelleme": "2026-09-14",
+   "kapsam": {
+    "ilk": "2021-12-01",
+    "son": "2026-09-13",
+    "kayit": 24660,
+    "cadde": 188
+   },
+   "dosyalar": [
+    {
+     "yol": "izmir/izmir-kaza-ariza-olaylari.csv",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/izmir/izmir-kaza-ariza-olaylari.csv",
+     "boyutKB": 2115
+    },
+    {
+     "yol": "izmir/izmir-kaza-ariza-olaylari.json",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/izmir/izmir-kaza-ariza-olaylari.json",
+     "boyutKB": 4740
+    }
+   ]
   }
  ]
 }

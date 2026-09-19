@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { prepareIstanbul, filterAccidents, computeStats, computeHotspots } from '../../shared/istanbul-analiz.js'
+import { prepareIzmir, filterEvents, computeStats as izmirStats, computeStreets } from '../../shared/izmir-analiz.js'
 
 export const SEVERITY_COLORS = {
   'Maddi hasarlı': '#3987e5',
@@ -40,6 +41,19 @@ const ISTANBUL = {
   },
 }
 
+// İzmir verisi de bir kez indirilir, analizler tarayıcıda yapılır
+let izmirPromise = null
+const izmir = () => (izmirPromise ??= fetchJson('izmir/olaylar.json').then(prepareIzmir))
+
+const IZMIR = {
+  meta: async () => (await izmir()).meta,
+  stats: async (q) => {
+    const { events, meta } = await izmir()
+    return izmirStats(filterEvents(events, q), meta)
+  },
+  streets: async (q) => computeStreets(filterEvents((await izmir()).events, q), { limit: 15 }),
+}
+
 const normalize = (params) =>
   Object.fromEntries(Object.entries(params).map(([k, v]) => [k, Array.isArray(v) ? v.join(',') : v]).filter(([, v]) => v))
 
@@ -48,6 +62,7 @@ export function getJson(path, params = {}) {
   if (area === 'turkiye') return fetchJson(`${path}.json`)
   if (area === 'iller') return fetchJson('iller-bbox.json')
   if (area === 'istanbul' && ISTANBUL[rest[0]]) return ISTANBUL[rest[0]](normalize(params))
+  if (area === 'izmir' && IZMIR[rest[0]]) return IZMIR[rest[0]](normalize(params))
   return Promise.reject(new Error(`Bilinmeyen veri yolu: ${path}`))
 }
 

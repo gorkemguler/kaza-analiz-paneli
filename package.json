@@ -2,6 +2,7 @@
   "name": "kaza-analiz-paneli",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "description": "EGM ve İBB açık verileriyle trafik kazası analiz ve risk noktası paneli",
   "workspaces": [
     "server",
@@ -15,11 +16,13 @@
     "veri:ibb": "node scripts/ibb-guncelle.mjs && node scripts/acik-veri.mjs",
     "veri:yayinla": "node scripts/acik-veri.mjs",
     "preview": "npm run preview -w client",
-    "api": "npm start -w server"
+    "api": "npm start -w server",
+    "veri:izmir": "node scripts/izmir-guncelle.mjs && node scripts/acik-veri.mjs"
   },
   "license": "MIT",
   "devDependencies": {
     "concurrently": "^10.0.5",
+    "fflate": "^0.8.3",
     "pdfjs-dist": "^6.3.289"
   }
 }

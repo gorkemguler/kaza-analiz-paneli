@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react'
 import TurkiyePage from './pages/TurkiyePage.jsx'
 import IstanbulPage from './pages/IstanbulPage.jsx'
+import IzmirPage from './pages/IzmirPage.jsx'
 import CanliPage from './pages/CanliPage.jsx'
 
 const PAGES = [
   { hash: '#/', label: 'Türkiye geneli', subtitle: 'EGM aylık bültenleri, 81 il', Component: TurkiyePage },
   { hash: '#/istanbul', label: 'İstanbul kaza haritası', subtitle: 'İBB konumlu kaza duyuruları', Component: IstanbulPage },
+  { hash: '#/izmir', label: 'İzmir kaza ve arıza', subtitle: 'İzmir UM, müdahale süreleriyle', Component: IzmirPage },
   { hash: '#/canli', label: 'Canlı olaylar', subtitle: 'TomTom, anlık', Component: CanliPage },
 ]
 

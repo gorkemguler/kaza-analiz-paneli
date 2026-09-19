@@ -124,23 +124,40 @@ Kaynak: [İBB Açık Veri Portalı](https://data.ibb.gov.tr), İBB Açık Veri L
 | `kapali_serit` | Kapanan şerit sayısı |
 | `duyuru_metni` | Orijinal duyuru metni |
 
+### İzmir (`izmir/`)
+
+Kaynak: [İzmir Açık Veri Portalı](https://acikveri.bizizmir.com/dataset/izmir-ili-arizali-kazali-arac-verileri), İzmir Açık Veri Lisansı
+
+`izmir/izmir-kaza-ariza-olaylari.csv` / `.json` — İzmir Ulaşım Merkezi'nin ana arterlerde kayda aldığı kaza ve arıza olayları (Aralık 2021'den bugüne, ~24.700 kayıt).
+
+| Alan | Açıklama |
+| --- | --- |
+| `tarih` | Olay tarihi (`YYYY-AA-GG`) |
+| `saat` | Olay saati (`SS:DD`) |
+| `tur` | `Ölümlü`, `Yaralanmalı`, `Zincirleme`, `Maddi hasarlı`, `Takla`, `Arızalı araç`, `Patlak lastik`, `Yakıtı biten`, `Araç yangını`, `Diğer`. Kaynaktaki tutarsız yazımlar (örn. "MAddi Hasarlı", "Ölümlü Kaza") tek biçime indirgenmiştir. |
+| `cadde` | Ana arter adı |
+| `istikamet` | Gidiş yönü |
+| `konum` | Cadde üzerindeki mevki (köprü, alt geçit, kavşak…) |
+| `mudahale_dk` | Olay saati ile ekibin müdahale saati arasındaki fark (dakika). Gece yarısını geçen kayıtlar düzeltilmiş, 10 saati aşanlar boş bırakılmıştır. |
+
 ## Verileri kullanırken dikkat
 
 - **Ölü sayıları kaza yerindekilerle sınırlı.** 30 gün içindeki ölümleri de içeren kesin rakamları TÜİK yıllık olarak yayımlar. EGM, aylık bültenleri TÜİK yayınına kadar "geçici" kabul eder.
 - **İBB kayıtları duyurudur, resmi tutanak değildir.** Ağırlıkla ana arterlerdeki ve kamera görüş alanındaki kazaları kapsar. Nadiren aynı kaza iki kez duyurulmuş olabilir.
 - **Kaza sonucu metinden çıkarıldı.** İBB kayıtlarının yaklaşık %20'sinde sonuç belirtilmemiştir.
+- **İzmir kayıtları ana arterlerle sınırlıdır**, il genelindeki tüm kazaları kapsamaz. Koordinat içermez.
 - **Doğrulama:** EGM tablolarının her birinde satırların toplamı PDF'teki TOPLAM satırıyla karşılaştırılır. 81 ilin toplamı ülke toplamıyla, yerleşim yeri içi ve dışı toplamı da genel toplamla kontrol edilir. Tutmayan bülten yayımlanmaz.
 
 ## Nasıl güncelleniyor?
 
 - **EGM:** [GitHub Actions](../.github/workflows/veri-guncelle.yml) her sabah trafik.gov.tr'yi kontrol eder. Yeni bülten varsa indirir, ayrıştırır ve doğrular. Testler geçerse bu klasöre ekleyip commit atar. PDF biçimi değişip ayrıştırma başarısız olursa depoda otomatik bir issue açılır.
-- **İBB:** Her pazartesi kontrol edilir.
+- **İBB ve İzmir:** Her pazartesi kontrol edilir.
 
 Değişikliklerin geçmişi için bu klasörün [commit geçmişine](https://github.com/gorkemguler/kaza-analiz-paneli/commits/main/acik-veri) bakabilirsiniz.
 
 ## Lisans ve atıf
 
-Veriler kaynak kurumlara aittir: EGM Trafik Başkanlığı ve İstanbul Büyükşehir Belediyesi. Bu klasördeki derleme ve dönüştürme [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.tr) ile paylaşılır. Kullanırken hem kaynak kurumu hem bu depoyu belirtin. Örnek:
+Veriler kaynak kurumlara aittir: EGM Trafik Başkanlığı, İstanbul Büyükşehir Belediyesi ve İzmir Büyükşehir Belediyesi. Bu klasördeki derleme ve dönüştürme [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.tr) ile paylaşılır. Kullanırken hem kaynak kurumu hem bu depoyu belirtin. Örnek:
 
 > Kaynak: EGM Trafik Başkanlığı Aylık Trafik İstatistik Bülteni; kaza-analiz-paneli (github.com/gorkemguler/kaza-analiz-paneli) tarafından derlenmiştir.
 

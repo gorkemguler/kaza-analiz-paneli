@@ -11,7 +11,7 @@ on:
       kaynak:
         description: Hangi kaynak güncellensin?
         type: choice
-        options: [egm, ibb, hepsi]
+        options: [egm, ibb, izmir, hepsi]
         default: egm
 
 permissions:
@@ -30,6 +30,7 @@ jobs:
     env:
       EGM: ${{ github.event.schedule == '0 5 * * *' || inputs.kaynak == 'egm' || inputs.kaynak == 'hepsi' }}
       IBB: ${{ github.event.schedule == '30 5 * * 1' || inputs.kaynak == 'ibb' || inputs.kaynak == 'hepsi' }}
+      IZMIR: ${{ github.event.schedule == '30 5 * * 1' || inputs.kaynak == 'izmir' || inputs.kaynak == 'hepsi' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -47,6 +48,10 @@ jobs:
       - name: İBB verisini kontrol et
         if: env.IBB == 'true'
         run: node scripts/ibb-guncelle.mjs
+
+      - name: İzmir verisini kontrol et
+        if: env.IZMIR == 'true'
+        run: node scripts/izmir-guncelle.mjs
 
       - name: Açık veri dosyalarını üret
         run: node scripts/acik-veri.mjs

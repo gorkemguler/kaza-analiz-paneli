@@ -8,6 +8,8 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { loadTurkiye } from '../server/src/turkiye.js'
 import { loadIstanbul } from '../server/src/istanbul.js'
+import zlib from 'node:zlib'
+import { prepareIzmir } from '../shared/izmir-analiz.js'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const DATA = path.join(ROOT, 'server/data')
@@ -173,10 +175,37 @@ async function ibb() {
   }
 }
 
+async function izmir() {
+  const raw = JSON.parse(zlib.gunzipSync(await fs.readFile(path.join(DATA, 'izmir/olaylar.json.gz'))))
+  const { events, meta } = prepareIzmir(raw)
+  const rows = events.map((e) => ({
+    tarih: e.tarih,
+    saat: e.saat,
+    tur: e.tur,
+    cadde: e.cadde,
+    istikamet: e.istikamet,
+    konum: e.konum,
+    mudahale_dk: e.mudahaleDk,
+  }))
+  const files = await table('izmir/izmir-kaza-ariza-olaylari', Object.keys(rows[0]), rows)
+
+  return {
+    kimlik: 'izmir-kaza-ariza-olaylari',
+    ad: 'İzmir kaza ve arıza olayları (işlenmiş)',
+    aciklama: 'İzmir Ulaşım Merkezi’nin ana arterlerde kayda aldığı kaza ve arıza olayları. Tür adları tek biçime getirilmiş, müdahale süresi (olay saati → müdahale saati) hesaplanmıştır.',
+    kaynak: meta.source,
+    kaynakKurum: 'İzmir Büyükşehir Belediyesi',
+    kaynakLisans: meta.license,
+    kaynakGuncelleme: meta.sourceUpdatedAt?.slice(0, 10),
+    kapsam: { ilk: meta.dateRange.from, son: meta.dateRange.to, kayit: rows.length, cadde: meta.streets.length },
+    dosyalar: files,
+  }
+}
+
 async function main() {
   // README.md elle yazılır; üretilen klasörleri sıfırdan oluştur
-  for (const dir of ['egm', 'ibb']) await fs.rm(path.join(OUT, dir), { recursive: true, force: true })
-  const veriSetleri = [await egm(), await ibb()]
+  for (const dir of ['egm', 'ibb', 'izmir']) await fs.rm(path.join(OUT, dir), { recursive: true, force: true })
+  const veriSetleri = [await egm(), await ibb(), await izmir()]
   await write('index.json', json({
     ad: 'Trafik Kaza Analiz Paneli: açık veri',
     aciklama: 'Kamu kurumlarının PDF ve açık veri portallarında yayımladığı trafik kazası verilerinin makinece okunabilir, doğrulanmış hâli.',

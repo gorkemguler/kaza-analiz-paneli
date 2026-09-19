@@ -12,6 +12,7 @@ Panelde iki sayfa var:
 | --- | --- | --- |
 | **Türkiye geneli** (varsayılan) | EGM Trafik Başkanlığı aylık bültenleri | 81 il, aylık ve yılbaşından beri |
 | **İstanbul kaza haritası** | İBB Ulaşım Yönetim Merkezi kaza duyuruları | 106 bin konumlu kayıt, 2013–2025 |
+| **İzmir kaza ve arıza** | İzmir Ulaşım Merkezi kayıtları | 24.660 olay, 2021–2026, müdahale süreleriyle |
 | **Canlı olaylar** | TomTom Traffic API | 81 ilde anlık kaza, arızalı araç ve yol kapanması |
 
 ## Türkiye geneli
@@ -35,6 +36,18 @@ Panelde iki sayfa var:
 - **Filtreler:** Tarih aralığı, kaza sonucu (maddi hasarlı, yaralanmalı, ölümlü) ve yol (D100, TEM, Basın Ekspres…).
 
 Risk puanı = kaza sayısı + 3 × yaralanmalı kaza + 10 × can kaybı olan kaza
+
+## İzmir kaza ve arıza
+
+![İzmir sayfası](docs/izmir.png)
+
+İzmir Büyükşehir'in açık verisi, diğer kaynaklarda olmayan bir alan içeriyor: **gerçek müdahale süreleri**. Olayın kaydı ile ekibin müdahalesi arasındaki fark, ekip performansının tek somut göstergesi.
+
+- **En riskli 15 cadde:** Risk puanına göre sıralı. Her cadde için en yoğun saat, medyan müdahale süresi ve en sık olay noktası. Bir caddeye tıklayınca tüm grafikler o caddeye göre süzülür.
+- **Müdahale süresi eğilimi:** Yıllara göre medyan süre. Veriye göre 2024'te 17 dakika olan medyan süre 2025'te 24 dakikaya çıkmış.
+- **Olay türleri:** Ölümlü, yaralanmalı, zincirleme, maddi hasarlı kazalar ve arıza türleri (arızalı araç, patlak lastik, yakıt bitimi, araç yangını).
+
+Kayıtlarda koordinat yok, olaylar cadde ve mevki adıyla tutuluyor. Bu yüzden bu sayfada harita yerine cadde sıralaması var.
 
 ## Canlı olaylar
 
@@ -67,6 +80,7 @@ EGM'nin PDF bültenlerinden çıkarılan ve doğrulanan tüm tablolar [`acik-ver
 | [`egm/tablolar-aylik.csv`](acik-veri/egm/tablolar-aylik.csv) | Oluş şekli, sürücü kusurları, araç cinsleri, cezalar |
 | [`egm/bultenler/`](acik-veri/egm/bultenler) | Her bültenin tamamı (JSON) |
 | [`ibb/istanbul-kaza-duyurulari.csv`](acik-veri/ibb/istanbul-kaza-duyurulari.csv) | İstanbul'da 106 bin konumlu kaza kaydı |
+| [`izmir/izmir-kaza-ariza-olaylari.csv`](acik-veri/izmir/izmir-kaza-ariza-olaylari.csv) | İzmir'de 24 bin kaza/arıza olayı, müdahale süreleriyle |
 
 ```python
 import pandas as pd
@@ -80,6 +94,7 @@ Alan açıklamaları, kod örnekleri ve lisans bilgisi için [`acik-veri/README.
 | Kaynak | Biçim | Güncelleme | Lisans |
 | --- | --- | --- | --- |
 | [EGM Trafik Başkanlığı: Aylık Trafik İstatistik Bülteni](https://trafik.gov.tr/istatistikler37) | PDF | Her ay, izleyen ayın sonuna kadar | Resmi İstatistik Programı |
+| [İzmir: Arızalı, Kazalı Araç Verileri](https://acikveri.bizizmir.com/dataset/izmir-ili-arizali-kazali-arac-verileri) | XLSX | Düzenli (son: Eylül 2026) | İzmir Açık Veri Lisansı |
 | [İBB: UYM Trafik Duyuru Verisi](https://data.ibb.gov.tr/dataset/ulasim-yonetim-merkezi-trafik-duyuru-verisi) | CSV | Düzensiz (son: Mart 2025) | İBB Açık Veri Lisansı |
 | [İBB: Yıllara Göre Ölümlü Yaralanmalı Trafik Kaza Sayısı](https://data.ibb.gov.tr/dataset/yillara-gore-olumlu-yaralanmali-trafik-kaza-sayisi) | API | Yıllık | İBB Açık Veri Lisansı |
 | [Turkey-Maps-GeoJSON](https://github.com/alpers/Turkey-Maps-GeoJSON) (il sınırları) | GeoJSON | – | [Apache-2.0](docs/LICENSE-tr-iller-geojson.txt) |
@@ -99,7 +114,7 @@ Alan açıklamaları, kod örnekleri ve lisans bilgisi için [`acik-veri/README.
 [`veri-guncelle.yml`](.github/workflows/veri-guncelle.yml) iş akışı elle bir şey yapmaya gerek bırakmaz:
 
 - **EGM:** Her gün 08:00'de (TSİ) trafik.gov.tr'yi kontrol eder. Yeni bülten varsa indirir, doğrular ve testler geçerse `server/data` ile `acik-veri` klasörlerine commit atar ve siteyi yeniden yayınlar.
-- **İBB:** Her pazartesi aynı işi yapar.
+- **İBB ve İzmir:** Her pazartesi aynı işi yapar.
 - **Hata olursa:** PDF biçimi değişip toplamlar tutmazsa hiçbir şey yayımlanmaz ve depoda otomatik bir issue açılır.
 - **Elle çalıştırma:** GitHub'da **Actions → Veri güncelle → Run workflow** yolunu izleyin.
 
@@ -128,10 +143,11 @@ npm run veri:egm -- ~/Downloads/bulten.pdf   # elle indirilen bir PDF'i işle
 
 Güncellemeden sonra `npm test` çalıştırın.
 
-### İBB
+### İBB ve İzmir
 
 ```bash
 npm run veri:ibb
+npm run veri:izmir
 ```
 
 Betik, İBB portalından güncel CSV'yi ve yıllık seriyi indirir, kaza duyurularını ayıklar ve `server/data/ibb/` altına sıkıştırılmış olarak kaydeder.
@@ -202,11 +218,15 @@ npm run api        # http://localhost:3001
 │   └── src/
 │       ├── pages/              TurkiyePage, IstanbulPage
 │       └── components/         İl haritası, il tablosu, kaza haritası, gün×saat matrisi…
-├── shared/istanbul-analiz.js   Filtre, istatistik ve risk noktası hesabı (tarayıcı + Node)
+├── shared/                     Analiz kodu (tarayıcı + Node ortak)
+│   ├── istanbul-analiz.js      Filtre, istatistik, risk noktaları
+│   └── izmir-analiz.js         Filtre, istatistik, cadde riskleri, müdahale süreleri
 ├── scripts/
 │   ├── statik-veri.mjs         Panel için statik veri dosyaları (derleme öncesi)
 │   ├── acik-veri.mjs           acik-veri/ JSON ve CSV dosyaları
 │   ├── egm-guncelle.mjs        EGM PDF indirici
+│   ├── izmir-guncelle.mjs      İzmir XLSX indirici
+│   ├── lib/xlsx.mjs            Küçük XLSX okuyucu
 │   ├── ibb-guncelle.mjs        İBB CSV/API indirici
 │   └── lib/egm-parser.mjs      PDF tablo ayrıştırıcı
 └── server/
