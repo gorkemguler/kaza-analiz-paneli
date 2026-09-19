@@ -53,6 +53,10 @@ jobs:
         if: env.IZMIR == 'true'
         run: node scripts/izmir-guncelle.mjs
 
+      - name: İzmir mevki konumlarını OpenStreetMap ile eşleştir
+        if: env.IZMIR == 'true'
+        run: node scripts/izmir-konum.mjs
+
       - name: Açık veri dosyalarını üret
         run: node scripts/acik-veri.mjs
 

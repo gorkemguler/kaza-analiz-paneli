@@ -4,6 +4,7 @@ import { useApi, fmt, pct } from '../api.js'
 import { Kpis, ChartCard, ChipGroup, Sources } from '../components/ui.jsx'
 import { ANIMATE, AXIS, GRID, TOOLTIP, SERIES } from '../chart-theme.js'
 import WeekHourGrid from '../components/WeekHourGrid.jsx'
+import IzmirMap from '../components/IzmirMap.jsx'
 
 const TYPE_COLORS = {
   Ölümlü: '#e66767',
@@ -67,10 +68,11 @@ export default function IzmirPage() {
   const query = active && { from: active.from, to: active.to, type: active.type, street }
   const stats = useApi(active && 'izmir/stats', query ?? {})
   const streets = useApi(active && 'izmir/streets', { ...(query ?? {}), street: null })
+  const harita = useApi(active && 'izmir/points', query ?? {})
 
-  const error = meta.error || stats.error || streets.error
+  const error = meta.error || stats.error || streets.error || harita.error
   if (error) return <div className="error">Hata: {error.message}</div>
-  if (!meta.data || !stats.data || !streets.data) return <p className="muted loading">Yükleniyor…</p>
+  if (!meta.data || !stats.data || !streets.data || !harita.data) return <p className="muted loading">Yükleniyor…</p>
 
   const m = meta.data
   const t = stats.data.totals
@@ -121,24 +123,37 @@ export default function IzmirPage() {
 
       <section className="grid-main">
         <div className="card">
+          <div className="card-head">
+            <h2>Kaza yoğunluk haritası{street && `: ${street}`}</h2>
+            <span className="subtitle">
+              {pct(harita.data.eslesen, harita.data.toplam)} kayıt haritalandı · konumlar yaklaşıktır
+            </span>
+          </div>
+          <IzmirMap points={harita.data.points} top={harita.data.top} line={harita.data.cizgi} />
+          <p className="attribution">
+            Kayıtlarda koordinat yok. Cadde ve mevki adları{' '}
+            <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">
+              OpenStreetMap
+            </a>{' '}
+            ile eşleştirilip noktalar caddenin üzerine oturtulmuştur; mevkinin hizasını gösterir, kazanın tam yerini değil.
+          </p>
+        </div>
+        <div className="card">
           <h2>En riskli 15 cadde</h2>
           <p className="subtitle">Risk puanı = 10 × ölümlü + 3 × yaralanmalı + 1 × diğer kazalar · Bir caddeye tıklayınca grafikler o caddeye göre süzülür</p>
           <StreetTable streets={streets.data} selected={street} onSelect={setStreet} />
         </div>
-        <div className="card">
-          <h2>Olay türleri{street && `: ${street}`}</h2>
-          <ChartCard title="" height={420}>
-            <BarChart data={stats.data.byType} layout="vertical" margin={{ left: 8, right: 16 }}>
-              <XAxis type="number" {...AXIS} tickFormatter={(v) => v.toLocaleString('tr-TR')} />
-              <YAxis type="category" dataKey="name" {...AXIS} width={110} axisLine={false} interval={0} />
-              <Tooltip {...TOOLTIP} />
-              <Bar isAnimationActive={ANIMATE} dataKey="value" name="Olay" fill="#3987e5" radius={[0, 4, 4, 0]} />
-            </BarChart>
-          </ChartCard>
-        </div>
       </section>
 
       <section className="charts">
+        <ChartCard title={`Olay türleri${street ? `: ${street}` : ''}`} height={260}>
+          <BarChart data={stats.data.byType} layout="vertical" margin={{ left: 8, right: 16 }}>
+            <XAxis type="number" {...AXIS} tickFormatter={(v) => v.toLocaleString('tr-TR')} />
+            <YAxis type="category" dataKey="name" {...AXIS} width={100} axisLine={false} interval={0} />
+            <Tooltip {...TOOLTIP} />
+            <Bar isAnimationActive={ANIMATE} dataKey="value" name="Olay" fill="#3987e5" radius={[0, 4, 4, 0]} />
+          </BarChart>
+        </ChartCard>
         <ChartCard span={2} title={`Saatlere göre olaylar${street ? `: ${street}` : ''}`}>
           <BarChart data={stats.data.byHour}>
             <CartesianGrid {...GRID} />

@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import zlib from 'node:zlib';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { prepareIzmir, filterEvents, computeStats, computeStreets, normalizeType, TYPES } from '../../shared/izmir-analiz.js';
+import { prepareIzmir, attachLocations, computeMapPoints, filterEvents, computeStats, computeStreets, normalizeType, TYPES } from '../../shared/izmir-analiz.js';
 
 const DATA = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../data');
 const { events, meta } = prepareIzmir(JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(DATA, 'izmir/olaylar.json.gz')))));
@@ -36,6 +36,19 @@ test('İzmir: filtre ve istatistik toplamları tutarlı', () => {
   assert.equal(s.totals.olumlu + s.totals.yaralanmali, list.length);
   assert.equal(s.byType.reduce((t, d) => t + d.value, 0), list.length);
   assert.equal(s.weekHourGrid.flat().reduce((t, v) => t + v, 0), list.filter((e) => e.hour != null).length);
+});
+
+test('İzmir: mevki konumları olaylara bağlanır ve İzmir sınırları içindedir', () => {
+  const konumlar = JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(DATA, 'izmir/konumlar.json.gz'))));
+  const { events: located } = attachLocations(events, konumlar);
+  const withGeo = located.filter((e) => e.lat != null);
+  assert.ok(withGeo.length / located.length > 0.5, 'kayıtların yarısından fazlası haritalanmalı');
+  assert.ok(withGeo.every((e) => e.lat > 38.2 && e.lat < 38.7 && e.lng > 26.7 && e.lng < 27.6), 'noktalar İzmir sınırlarında olmalı');
+  const map = computeMapPoints(located);
+  assert.equal(map.toplam, located.length);
+  assert.equal(map.eslesen, withGeo.length);
+  assert.equal(map.points.reduce((t, p) => t + p[2], 0), withGeo.length);
+  for (let i = 1; i < map.top.length; i++) assert.ok(map.top[i - 1].score >= map.top[i].score);
 });
 
 test('İzmir: caddeler risk puanına göre sıralı, boş veride hata yok', () => {

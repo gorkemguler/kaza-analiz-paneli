@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { prepareIstanbul, filterAccidents, computeStats, computeHotspots } from '../../shared/istanbul-analiz.js'
-import { prepareIzmir, filterEvents, computeStats as izmirStats, computeStreets } from '../../shared/izmir-analiz.js'
+import { prepareIzmir, attachLocations, filterEvents, computeStats as izmirStats, computeStreets, computeMapPoints } from '../../shared/izmir-analiz.js'
 
 export const SEVERITY_COLORS = {
   'Maddi hasarlı': '#3987e5',
@@ -43,7 +43,12 @@ const ISTANBUL = {
 
 // İzmir verisi de bir kez indirilir, analizler tarayıcıda yapılır
 let izmirPromise = null
-const izmir = () => (izmirPromise ??= fetchJson('izmir/olaylar.json').then(prepareIzmir))
+const izmir = () =>
+  (izmirPromise ??= Promise.all([fetchJson('izmir/olaylar.json'), fetchJson('izmir/konumlar.json')]).then(([raw, konumlar]) => {
+    const prepared = prepareIzmir(raw)
+    const { streets } = attachLocations(prepared.events, konumlar)
+    return { ...prepared, streets }
+  }))
 
 const IZMIR = {
   meta: async () => (await izmir()).meta,
@@ -52,6 +57,13 @@ const IZMIR = {
     return izmirStats(filterEvents(events, q), meta)
   },
   streets: async (q) => computeStreets(filterEvents((await izmir()).events, q), { limit: 15 }),
+  points: async (q) => {
+    const { events, streets } = await izmir()
+    const filtered = filterEvents(events, q)
+    const map = computeMapPoints(filtered)
+    // Seçili cadde varsa geometrisi de gönderilir (haritada vurgulanır)
+    return { ...map, cizgi: q.street ? streets[q.street]?.segments ?? null : null }
+  },
 }
 
 const normalize = (params) =>

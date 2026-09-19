@@ -139,6 +139,7 @@
     "kayit": 24660,
     "cadde": 188
    },
+   "ekLisans": "mevki-konumlari dosyaları OpenStreetMap türevidir ve ODbL ile paylaşılır (© OpenStreetMap katkıcıları)",
    "dosyalar": [
     {
      "yol": "izmir/izmir-kaza-ariza-olaylari.csv",
@@ -149,6 +150,16 @@
      "yol": "izmir/izmir-kaza-ariza-olaylari.json",
      "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/izmir/izmir-kaza-ariza-olaylari.json",
      "boyutKB": 4740
+    },
+    {
+     "yol": "izmir/mevki-konumlari.csv",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/izmir/mevki-konumlari.csv",
+     "boyutKB": 102
+    },
+    {
+     "yol": "izmir/mevki-konumlari.json",
+     "url": "https://raw.githubusercontent.com/gorkemguler/kaza-analiz-paneli/main/acik-veri/izmir/mevki-konumlari.json",
+     "boyutKB": 239
     }
    ]
   }

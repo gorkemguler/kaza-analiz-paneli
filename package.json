@@ -17,7 +17,8 @@
     "veri:yayinla": "node scripts/acik-veri.mjs",
     "preview": "npm run preview -w client",
     "api": "npm start -w server",
-    "veri:izmir": "node scripts/izmir-guncelle.mjs && node scripts/acik-veri.mjs"
+    "veri:izmir": "node scripts/izmir-guncelle.mjs && node scripts/acik-veri.mjs",
+    "veri:izmir-konum": "node scripts/izmir-konum.mjs"
   },
   "license": "MIT",
   "devDependencies": {

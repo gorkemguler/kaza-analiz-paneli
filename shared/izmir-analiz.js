@@ -62,6 +62,42 @@ export function prepareIzmir(raw) {
   }
 }
 
+// Kayıtlarda koordinat yok; cadde+mevki adları OSM ile eşleştirilip (scripts/izmir-konum.mjs)
+// olaylara YAKLAŞIK konum eklenir. Eşleşmeyen kayıtlar haritada görünmez, istatistiklerde yer alır.
+export function attachLocations(events, konumlar) {
+  const byPair = new Map(konumlar.points.map((p) => [`${p.cadde}\u0000${p.konum}`, p]))
+  for (const e of events) {
+    const hit = byPair.get(`${e.cadde}\u0000${e.konum}`)
+    if (hit) {
+      e.lat = hit.lat
+      e.lng = hit.lng
+    }
+  }
+  return { events, streets: konumlar.streets }
+}
+
+// Filtrelenmiş olaylardan ısı haritası noktaları ve en riskli mevkiler
+export function computeMapPoints(events, { limit = 15 } = {}) {
+  const spots = new Map()
+  for (const e of events) {
+    if (e.lat == null) continue
+    const key = `${e.cadde}\u0000${e.konum}`
+    let s = spots.get(key)
+    if (!s) spots.set(key, (s = { cadde: e.cadde, konum: e.konum, lat: e.lat, lng: e.lng, count: 0, olumlu: 0, yaralanmali: 0, score: 0 }))
+    s.count++
+    if (e.tur === 'Ölümlü') s.olumlu++
+    if (e.tur === 'Yaralanmalı') s.yaralanmali++
+    s.score += riskScore(e)
+  }
+  const all = [...spots.values()]
+  return {
+    points: all.map((s) => [s.lat, s.lng, s.count]),
+    top: all.sort((a, b) => b.score - a.score || b.count - a.count).slice(0, limit),
+    eslesen: all.reduce((t, s) => t + s.count, 0),
+    toplam: events.length,
+  }
+}
+
 const list = (v) => (v ? String(v).split(',').filter(Boolean) : null)
 
 export function filterEvents(events, q = {}) {

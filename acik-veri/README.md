@@ -140,12 +140,23 @@ Kaynak: [İzmir Açık Veri Portalı](https://acikveri.bizizmir.com/dataset/izmi
 | `konum` | Cadde üzerindeki mevki (köprü, alt geçit, kavşak…) |
 | `mudahale_dk` | Olay saati ile ekibin müdahale saati arasındaki fark (dakika). Gece yarısını geçen kayıtlar düzeltilmiş, 10 saati aşanlar boş bırakılmıştır. |
 
+`izmir/mevki-konumlari.csv` / `.json` — kayıtlardaki cadde ve mevki adlarının **yaklaşık** koordinatları. Mevki adı OpenStreetMap'teki yer adıyla eşleştirilip caddenin üzerine izdüşürülmüştür.
+
+| Alan | Açıklama |
+| --- | --- |
+| `cadde`, `konum` | Kayıtlardaki adlarla aynı; olay dosyasına bu iki alandan bağlanır |
+| `enlem`, `boylam` | Yaklaşık konum (mevkinin cadde üzerindeki hizası) |
+| `olay` | Bu cadde+mevki ikilisindeki toplam olay sayısı |
+| `eslesme_uzakligi_km` | Eşleşen OSM yerinin caddeye uzaklığı; büyükse eşleşme zayıf demektir |
+
+> **Lisans farkı:** Bu iki dosya OpenStreetMap türevidir, **ODbL** ile paylaşılır (© OpenStreetMap katkıcıları). Klasördeki diğer dosyalar CC BY 4.0'dır.
+
 ## Verileri kullanırken dikkat
 
 - **Ölü sayıları kaza yerindekilerle sınırlı.** 30 gün içindeki ölümleri de içeren kesin rakamları TÜİK yıllık olarak yayımlar. EGM, aylık bültenleri TÜİK yayınına kadar "geçici" kabul eder.
 - **İBB kayıtları duyurudur, resmi tutanak değildir.** Ağırlıkla ana arterlerdeki ve kamera görüş alanındaki kazaları kapsar. Nadiren aynı kaza iki kez duyurulmuş olabilir.
 - **Kaza sonucu metinden çıkarıldı.** İBB kayıtlarının yaklaşık %20'sinde sonuç belirtilmemiştir.
-- **İzmir kayıtları ana arterlerle sınırlıdır**, il genelindeki tüm kazaları kapsamaz. Koordinat içermez.
+- **İzmir kayıtları ana arterlerle sınırlıdır**, il genelindeki tüm kazaları kapsamaz. Kaynakta koordinat yoktur; `mevki-konumlari` dosyasındaki koordinatlar OpenStreetMap eşleştirmesiyle üretilmiş **yaklaşık** değerlerdir (kayıtların ~%62'si eşleşir).
 - **Doğrulama:** EGM tablolarının her birinde satırların toplamı PDF'teki TOPLAM satırıyla karşılaştırılır. 81 ilin toplamı ülke toplamıyla, yerleşim yeri içi ve dışı toplamı da genel toplamla kontrol edilir. Tutmayan bülten yayımlanmaz.
 
 ## Nasıl güncelleniyor?

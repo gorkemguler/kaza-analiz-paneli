@@ -189,6 +189,11 @@ async function izmir() {
   }))
   const files = await table('izmir/izmir-kaza-ariza-olaylari', Object.keys(rows[0]), rows)
 
+  // Konum eşleştirmesi OpenStreetMap türevi olduğu için ayrı dosyada ve ODbL ile paylaşılır
+  const konum = JSON.parse(zlib.gunzipSync(await fs.readFile(path.join(DATA, 'izmir/konumlar.json.gz'))))
+  const konumRows = konum.points.map((p) => ({ cadde: p.cadde, konum: p.konum, enlem: p.lat, boylam: p.lng, olay: p.olay, eslesme_uzakligi_km: p.uzaklikKm }))
+  files.push(...(await table('izmir/mevki-konumlari', Object.keys(konumRows[0]), konumRows)))
+
   return {
     kimlik: 'izmir-kaza-ariza-olaylari',
     ad: 'İzmir kaza ve arıza olayları (işlenmiş)',
@@ -198,6 +203,7 @@ async function izmir() {
     kaynakLisans: meta.license,
     kaynakGuncelleme: meta.sourceUpdatedAt?.slice(0, 10),
     kapsam: { ilk: meta.dateRange.from, son: meta.dateRange.to, kayit: rows.length, cadde: meta.streets.length },
+    ekLisans: 'mevki-konumlari dosyaları OpenStreetMap türevidir ve ODbL ile paylaşılır (© OpenStreetMap katkıcıları)',
     dosyalar: files,
   }
 }

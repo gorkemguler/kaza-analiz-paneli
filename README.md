@@ -47,7 +47,7 @@ Risk puanı = kaza sayısı + 3 × yaralanmalı kaza + 10 × can kaybı olan kaz
 - **Müdahale süresi eğilimi:** Yıllara göre medyan süre. Veriye göre 2024'te 17 dakika olan medyan süre 2025'te 24 dakikaya çıkmış.
 - **Olay türleri:** Ölümlü, yaralanmalı, zincirleme, maddi hasarlı kazalar ve arıza türleri (arızalı araç, patlak lastik, yakıt bitimi, araç yangını).
 
-Kayıtlarda koordinat yok, olaylar cadde ve mevki adıyla tutuluyor. Bu yüzden bu sayfada harita yerine cadde sıralaması var.
+- **Kaza yoğunluk haritası:** Kayıtlarda koordinat yok; cadde ve mevki adları ([`scripts/izmir-konum.mjs`](scripts/izmir-konum.mjs)) OpenStreetMap ile eşleştirilip noktalar caddenin üzerine oturtuluyor. Kayıtların yaklaşık **%62'si** haritalanabiliyor, cadde seçilince bu oran daha da yükseliyor. Noktalar **yaklaşıktır**: mevkinin cadde üzerindeki hizasını gösterir, kazanın tam yerini değil.
 
 ## Canlı olaylar
 
@@ -81,6 +81,7 @@ EGM'nin PDF bültenlerinden çıkarılan ve doğrulanan tüm tablolar [`acik-ver
 | [`egm/bultenler/`](acik-veri/egm/bultenler) | Her bültenin tamamı (JSON) |
 | [`ibb/istanbul-kaza-duyurulari.csv`](acik-veri/ibb/istanbul-kaza-duyurulari.csv) | İstanbul'da 106 bin konumlu kaza kaydı |
 | [`izmir/izmir-kaza-ariza-olaylari.csv`](acik-veri/izmir/izmir-kaza-ariza-olaylari.csv) | İzmir'de 24 bin kaza/arıza olayı, müdahale süreleriyle |
+| [`izmir/mevki-konumlari.csv`](acik-veri/izmir/mevki-konumlari.csv) | İzmir mevki adlarının koordinatları (OSM eşleştirmesi, ODbL) |
 
 ```python
 import pandas as pd
@@ -98,6 +99,7 @@ Alan açıklamaları, kod örnekleri ve lisans bilgisi için [`acik-veri/README.
 | [İBB: UYM Trafik Duyuru Verisi](https://data.ibb.gov.tr/dataset/ulasim-yonetim-merkezi-trafik-duyuru-verisi) | CSV | Düzensiz (son: Mart 2025) | İBB Açık Veri Lisansı |
 | [İBB: Yıllara Göre Ölümlü Yaralanmalı Trafik Kaza Sayısı](https://data.ibb.gov.tr/dataset/yillara-gore-olumlu-yaralanmali-trafik-kaza-sayisi) | API | Yıllık | İBB Açık Veri Lisansı |
 | [Turkey-Maps-GeoJSON](https://github.com/alpers/Turkey-Maps-GeoJSON) (il sınırları) | GeoJSON | – | [Apache-2.0](docs/LICENSE-tr-iller-geojson.txt) |
+| [OpenStreetMap](https://www.openstreetmap.org/copyright) (İzmir cadde ve mevki konumları) | Overpass API | – | ODbL |
 
 ### Verileri okurken dikkat
 
@@ -147,7 +149,8 @@ Güncellemeden sonra `npm test` çalıştırın.
 
 ```bash
 npm run veri:ibb
-npm run veri:izmir
+npm run veri:izmir         # kayıtlar
+npm run veri:izmir-konum   # cadde/mevki adlarını OSM ile koordinatlama
 ```
 
 Betik, İBB portalından güncel CSV'yi ve yıllık seriyi indirir, kaza duyurularını ayıklar ve `server/data/ibb/` altına sıkıştırılmış olarak kaydeder.
@@ -226,6 +229,7 @@ npm run api        # http://localhost:3001
 │   ├── acik-veri.mjs           acik-veri/ JSON ve CSV dosyaları
 │   ├── egm-guncelle.mjs        EGM PDF indirici
 │   ├── izmir-guncelle.mjs      İzmir XLSX indirici
+│   ├── izmir-konum.mjs         Cadde/mevki adlarını OSM ile koordinatlama
 │   ├── lib/xlsx.mjs            Küçük XLSX okuyucu
 │   ├── ibb-guncelle.mjs        İBB CSV/API indirici
 │   └── lib/egm-parser.mjs      PDF tablo ayrıştırıcı

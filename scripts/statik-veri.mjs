@@ -62,6 +62,7 @@ await write('istanbul/kazalar.json', raw)
 // İzmir: ham satırlar; analizler tarayıcıda shared/izmir-analiz.js ile yapılır
 const izmir = JSON.parse(zlib.gunzipSync(await fs.readFile(path.join(DATA, 'izmir/olaylar.json.gz'))))
 await write('izmir/olaylar.json', izmir)
+await write('izmir/konumlar.json', JSON.parse(zlib.gunzipSync(await fs.readFile(path.join(DATA, 'izmir/konumlar.json.gz')))))
 
 const size = (await fs.stat(path.join(OUT, 'istanbul/kazalar.json'))).size / 1024 / 1024
 console.log(`✔ Statik panel verisi: ${iller.length} il sorgu kutusu (${iller.filter((i) => i.kirpildi).length} kırpıldı), ${tr.periods().length} EGM bülteni, ${raw.rows.length.toLocaleString('tr-TR')} İstanbul + ${izmir.rows.length.toLocaleString('tr-TR')} İzmir kaydı (${size.toFixed(1)} MB)`)
