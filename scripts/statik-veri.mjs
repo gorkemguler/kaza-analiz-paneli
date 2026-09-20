@@ -25,7 +25,6 @@ await write('turkiye/donemler.json', tr.periods())
 await write('turkiye/seri.json', tr.series())
 await write('turkiye/kgm-rapor.json', JSON.parse(await fs.readFile(path.join(DATA, 'kgm/rapor.json'), 'utf8')))
 await write('turkiye/kara-noktalar.json', JSON.parse(await fs.readFile(path.join(DATA, 'kgm/kara-noktalar.json'), 'utf8')))
-await write('turkiye/yillik.json', JSON.parse(await fs.readFile(path.join(DATA, 'ibb/yillik.json'), 'utf8')))
 for (const { period } of tr.periods()) await write(`turkiye/donem/${period}.json`, tr.get(period))
 for (let plaka = 1; plaka <= 81; plaka++) await write(`turkiye/il/${plaka}.json`, tr.provinceSeries(plaka))
 

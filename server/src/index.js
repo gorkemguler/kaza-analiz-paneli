@@ -13,7 +13,6 @@ const DATA = path.resolve(here, '../data');
 
 const turkiye = loadTurkiye(path.join(DATA, 'egm'));
 const istanbul = loadIstanbul(path.join(DATA, 'ibb/kazalar.json.gz'));
-const yillik = JSON.parse(fs.readFileSync(path.join(DATA, 'ibb/yillik.json'), 'utf8'));
 
 const app = express();
 app.use(cors());
@@ -22,7 +21,6 @@ app.use(compression());
 // --- Türkiye geneli (EGM aylık bültenleri) ---
 app.get('/api/turkiye/donemler', (_req, res) => res.json(turkiye.periods()));
 app.get('/api/turkiye/seri', (_req, res) => res.json(turkiye.series()));
-app.get('/api/turkiye/yillik', (_req, res) => res.json(yillik));
 app.get('/api/turkiye/donem/:period', (req, res) => {
   const data = turkiye.get(req.params.period);
   if (!data) return res.status(404).json({ error: 'Bu döneme ait bülten yok' });

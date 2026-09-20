@@ -1,5 +1,5 @@
-import { useMemo, useState } from 'react'
-import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid, LineChart, Line, Legend } from 'recharts'
+import { useState } from 'react'
+import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid, LineChart, Line } from 'recharts'
 import { useApi, fmt, pct } from '../api.js'
 import { Kpis, ChartCard, Segmented, Sources } from '../components/ui.jsx'
 import { ANIMATE, AXIS, GRID, TOOLTIP, SERIES } from '../chart-theme.js'
@@ -60,27 +60,11 @@ export default function TurkiyePage() {
   const donem = useApi(activePeriod && `turkiye/donem/${activePeriod}`)
   const seri = useApi('turkiye/seri')
   const ilSeri = useApi(selected && `turkiye/il/${selected}`)
-  const yillik = useApi('turkiye/yillik')
 
   const d = donem.data
   const rows = d?.iller[scope] ?? []
   const selectedRow = rows.find((r) => r.plaka === selected)
   const scopeText = d ? (scope === 'month' ? d.label : `${d.period.slice(0, 4)} yılbaşından ${d.label} sonuna`) : ''
-
-  // İBB'nin yıllık serisini 2012 = 100 olacak şekilde endeksle (Türkiye ve İstanbul ölçekleri çok farklı)
-  const longTerm = useMemo(() => {
-    const ys = yillik.data?.years
-    if (!ys) return []
-    const tr0 = ys[0].trYerlesim + ys[0].trDisi
-    const ist0 = ys[0].istYerlesim + ys[0].istDisi
-    return ys.map((y) => ({
-      name: String(y.yil),
-      tr: Math.round(((y.trYerlesim + y.trDisi) / tr0) * 100),
-      ist: Math.round(((y.istYerlesim + y.istDisi) / ist0) * 100),
-      trRaw: y.trYerlesim + y.trDisi,
-      istRaw: y.istYerlesim + y.istDisi,
-    }))
-  }, [yillik.data])
 
   if (periods.error || donem.error) return <div className="error">Hata: {(periods.error || donem.error).message}</div>
   if (!d) return <p className="muted loading">Yükleniyor…</p>
@@ -169,30 +153,10 @@ export default function TurkiyePage() {
         ]}
       />
 
-      {longTerm.length > 0 && (
-        <section className="charts">
-          <ChartCard span={3} title="Uzun dönem: ölümlü-yaralanmalı kazalar (2012 = 100)" subtitle="Türkiye ve İstanbul farklı ölçekte olduğu için 2012 değerine göre endekslendi · Kaynak: İBB Açık Veri">
-            <LineChart data={longTerm} margin={{ top: 8, right: 16 }}>
-              <CartesianGrid {...GRID} />
-              <XAxis dataKey="name" {...AXIS} />
-              <YAxis {...AXIS} axisLine={false} width={40} />
-              <Tooltip
-                {...TOOLTIP}
-                formatter={(v, name, p) => [`${v} (${fmt(name === 'Türkiye' ? p.payload.trRaw : p.payload.istRaw)} kaza)`, name]}
-              />
-              <Legend wrapperStyle={{ fontSize: 12 }} />
-              <Line isAnimationActive={ANIMATE} dataKey="tr" name="Türkiye" stroke={SERIES[0]} strokeWidth={2} dot={{ r: 3 }} />
-              <Line isAnimationActive={ANIMATE} dataKey="ist" name="İstanbul" stroke={SERIES[1]} strokeWidth={2} dot={{ r: 3 }} />
-            </LineChart>
-          </ChartCard>
-        </section>
-      )}
-
       <Sources
         items={[
           { name: 'EGM Trafik Başkanlığı: Aylık Trafik İstatistik Bülteni', url: 'https://trafik.gov.tr/istatistikler37', note: `${periods.data.length} bülten, ${periods.data.at(-1).label} – ${periods.data[0].label}` },
           { name: 'Bu sayfadaki verileri JSON/CSV olarak indirin (açık veri)', url: 'https://github.com/gorkemguler/kaza-analiz-paneli/tree/main/acik-veri', note: 'PDF’lerden çıkarılmış, doğrulanmış, her gün otomatik güncellenir' },
-          { name: 'İBB Açık Veri: Yıllara Göre Ölümlü Yaralanmalı Trafik Kaza Sayısı', url: 'https://data.ibb.gov.tr/dataset/yillara-gore-olumlu-yaralanmali-trafik-kaza-sayisi', note: 'İBB Açık Veri Lisansı' },
         ]}
       />
       <p className="footnote">

@@ -27,7 +27,6 @@ Panelde iki sayfa var:
 - **Ülke geneli göstergeler:** Kaza, ölü ve yaralı sayıları; ölümlerin yerleşim yeri dışında olan payı.
 - **Kaza nedenleri:** Kaza oluş şekli, sürücü kusurları ve kazaya karışan araç türleri.
 - **Denetim faaliyetleri:** Alkollü sürücü, trafikten men edilen araç ve uygulanan cezalar.
-- **Uzun dönem eğilim:** 2012–2024 arası Türkiye ve İstanbul, 2012 = 100 olacak şekilde endeksli.
 
 ## İstanbul kaza haritası
 
@@ -219,7 +218,6 @@ npm run api        # http://localhost:3001
 | `GET /api/turkiye/donem/2026-08` | Bir ayın tüm tabloları (81 il dahil) |
 | `GET /api/turkiye/seri` | Ülke geneli aylık seri |
 | `GET /api/turkiye/il/6` | Bir ilin (plaka kodu) aylık serisi |
-| `GET /api/turkiye/yillik` | 2012'den beri Türkiye ve İstanbul yıllık seri |
 | `GET /api/istanbul/meta` | Tarih aralığı, kaza sonucu ve yol listeleri |
 | `GET /api/istanbul/stats` | Toplamlar ve dağılımlar (saat, gün, gün×saat, yıl, ay, yol) |
 | `GET /api/istanbul/hotspots?limit=10` | En riskli noktalar |
