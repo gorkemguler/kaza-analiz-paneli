@@ -5,7 +5,7 @@ name: Veri güncelle
 on:
   schedule:
     - cron: '0 5 * * *' # her gün 08:00 (TSİ): EGM
-    - cron: '30 5 * * 1' # pazartesi 08:30 (TSİ): İBB
+    - cron: '30 5 * * 1' # pazartesi 08:30 (TSİ): İzmir
   workflow_dispatch:
     inputs:
       kaynak:
@@ -29,7 +29,8 @@ jobs:
     timeout-minutes: 15
     env:
       EGM: ${{ github.event.schedule == '0 5 * * *' || inputs.kaynak == 'egm' || inputs.kaynak == 'hepsi' }}
-      IBB: ${{ github.event.schedule == '30 5 * * 1' || inputs.kaynak == 'ibb' || inputs.kaynak == 'hepsi' }}
+      # İBB kaynağı Mart 2025'ten beri güncellenmiyor; zamanlanmış işte yer almaz, yalnızca elle çalıştırılır
+      IBB: ${{ inputs.kaynak == 'ibb' || inputs.kaynak == 'hepsi' }}
       IZMIR: ${{ github.event.schedule == '30 5 * * 1' || inputs.kaynak == 'izmir' || inputs.kaynak == 'hepsi' }}
     steps:
       - uses: actions/checkout@v4
@@ -51,10 +52,6 @@ jobs:
           node scripts/kgm-guncelle.mjs
           node scripts/kgm-rapor.mjs
 
-      - name: İBB verisini kontrol et
-        if: env.IBB == 'true'
-        run: node scripts/ibb-guncelle.mjs
-
       - name: İzmir verisini kontrol et
         if: env.IZMIR == 'true'
         run: node scripts/izmir-guncelle.mjs
@@ -62,6 +59,10 @@ jobs:
       - name: İzmir mevki konumlarını OpenStreetMap ile eşleştir
         if: env.IZMIR == 'true'
         run: node scripts/izmir-konum.mjs
+
+      - name: İBB verisini kontrol et
+        if: env.IBB == 'true'
+        run: node scripts/ibb-guncelle.mjs
 
       - name: Açık veri dosyalarını üret
         run: node scripts/acik-veri.mjs

@@ -74,8 +74,8 @@ Risk puanı = kaza sayısı + 3 × yaralanmalı kaza + 10 × can kaybı olan kaz
 
 **Kurulum:**
 
-1. [developer.tomtom.com](https://developer.tomtom.com) adresinden bir API anahtarı alın. Ücretsiz planda günde 2.500 istek hakkı var; her sayfa açılışı ve her 5 dakikalık yenileme 1 istek harcar.
-2. TomTom panelinde anahtar için **Domain whitelist** özelliğini açın ve `gorkemguler.github.io` ekleyin. Anahtar sitenin JavaScript'inde göründüğü için bu adım zorunlu.
+1. [developer.tomtom.com](https://developer.tomtom.com) adresinden bir API anahtarı alın.
+2. TomTom panelinde anahtar için **Domain whitelist** özelliğini açın ve kendi alan adınızı ekleyin. Bu adım zorunludur: kısıtlama açıkken anahtar yalnızca kendi sitenizden gelen isteklerde geçerlidir, başka bir alan adına kopyalandığında TomTom isteği reddeder.
 3. Anahtarı GitHub'a Actions secret olarak ekleyin (`gh secret set TOMTOM_API_KEY`), ardından siteyi yeniden yayınlayın (`gh workflow run pages.yml`).
 
 Yerelde denemek için `client/.env.local` dosyasına `VITE_TOMTOM_KEY=...` yazın (bu dosya git'e eklenmez) ve whitelist'e `localhost` ekleyin.
@@ -109,8 +109,8 @@ Alan açıklamaları, kod örnekleri ve lisans bilgisi için [`acik-veri/README.
 | [EGM Trafik Başkanlığı: Aylık Trafik İstatistik Bülteni](https://trafik.gov.tr/istatistikler37) | PDF | Her ay, izleyen ayın sonuna kadar | Resmi İstatistik Programı |
 | [KGM: Kaza Kara Nokta Haritası](https://yol.kgm.gov.tr/kazakaranoktaweb/) | JSON servisi | Düzensiz | Kamu kurumu verisi |
 | [İzmir: Arızalı, Kazalı Araç Verileri](https://acikveri.bizizmir.com/dataset/izmir-ili-arizali-kazali-arac-verileri) | XLSX | Düzenli (son: Eylül 2026) | İzmir Açık Veri Lisansı |
-| [İBB: UYM Trafik Duyuru Verisi](https://data.ibb.gov.tr/dataset/ulasim-yonetim-merkezi-trafik-duyuru-verisi) | CSV | Düzensiz (son: Mart 2025) | İBB Açık Veri Lisansı |
-| [İBB: Yıllara Göre Ölümlü Yaralanmalı Trafik Kaza Sayısı](https://data.ibb.gov.tr/dataset/yillara-gore-olumlu-yaralanmali-trafik-kaza-sayisi) | API | Yıllık | İBB Açık Veri Lisansı |
+| [İBB: UYM Trafik Duyuru Verisi](https://data.ibb.gov.tr/dataset/ulasim-yonetim-merkezi-trafik-duyuru-verisi) | CSV | Durmuş (son: Mart 2025) | İBB Açık Veri Lisansı |
+| [İBB: Yıllara Göre Ölümlü Yaralanmalı Trafik Kaza Sayısı](https://data.ibb.gov.tr/dataset/yillara-gore-olumlu-yaralanmali-trafik-kaza-sayisi) | API | Durmuş (son: 2024) | İBB Açık Veri Lisansı |
 | [Turkey-Maps-GeoJSON](https://github.com/alpers/Turkey-Maps-GeoJSON) (il sınırları) | GeoJSON | – | [Apache-2.0](docs/LICENSE-tr-iller-geojson.txt) |
 | [OpenStreetMap](https://www.openstreetmap.org/copyright) (İzmir cadde ve mevki konumları) | Overpass API | – | ODbL |
 
@@ -129,7 +129,8 @@ Alan açıklamaları, kod örnekleri ve lisans bilgisi için [`acik-veri/README.
 [`veri-guncelle.yml`](.github/workflows/veri-guncelle.yml) iş akışı elle bir şey yapmaya gerek bırakmaz:
 
 - **EGM ve KGM:** Her gün 08:00'de (TSİ) trafik.gov.tr ile KGM kara nokta servisini kontrol eder. Yeni bülten varsa indirir, doğrular ve testler geçerse `server/data` ile `acik-veri` klasörlerine commit atar ve siteyi yeniden yayınlar.
-- **İBB ve İzmir:** Her pazartesi aynı işi yapar.
+- **İzmir:** Her pazartesi aynı işi yapar.
+- **İBB:** Kaynak Mart 2025'ten beri güncellenmiyor, bu yüzden otomatik işte yer almaz. Yayına dönerse **Actions → Veri güncelle → Run workflow → ibb** ile elle çekilir.
 - **Hata olursa:** PDF biçimi değişip toplamlar tutmazsa hiçbir şey yayımlanmaz ve depoda otomatik bir issue açılır.
 - **Elle çalıştırma:** GitHub'da **Actions → Veri güncelle → Run workflow** yolunu izleyin.
 

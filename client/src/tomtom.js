@@ -5,7 +5,7 @@
 // tarayıcısında anlık çekilir; hiçbir yere (sunucu, depo, localStorage) kaydedilmez.
 //
 // Anahtar derleme sırasında VITE_TOMTOM_KEY ortam değişkeninden gelir (GitHub Secret: TOMTOM_API_KEY).
-// Tarayıcıda göründüğü için TomTom panelinde alan adı kısıtlaması (domain whitelist) açık olmalıdır.
+// TomTom panelinde alan adı kısıtlaması (domain whitelist) açık olmalıdır; anahtar yalnızca kendi alan adından geçerlidir.
 export const TOMTOM_KEY = import.meta.env.VITE_TOMTOM_KEY
 
 // Sorgu kutuları 81 ilin sınırlarından üretilir (scripts/statik-veri.mjs); kota için il başına tek istek
