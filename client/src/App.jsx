@@ -10,7 +10,7 @@ const PAGES = [
   { hash: '#/kgm', label: 'Karayolları (KGM)', subtitle: 'Yıllık rapor, kara noktalar', Component: KgmPage },
   { hash: '#/istanbul', label: 'İstanbul kaza haritası', subtitle: 'İBB konumlu kaza duyuruları', Component: IstanbulPage },
   { hash: '#/izmir', label: 'İzmir kaza ve arıza', subtitle: 'İzmir UM, müdahale süreleriyle', Component: IzmirPage },
-  { hash: '#/canli', label: 'Canlı olaylar', subtitle: 'TomTom, anlık', Component: CanliPage },
+  { hash: '#/canli', label: 'Canlı olaylar', subtitle: 'TomTom, anlık', beta: true, Component: CanliPage },
 ]
 
 const currentPage = () => PAGES.find((p) => p.hash === window.location.hash) ?? PAGES[0]
@@ -42,7 +42,10 @@ export default function App() {
         <nav className="tabs" aria-label="Sayfalar">
           {PAGES.map((p) => (
             <a key={p.hash} href={p.hash} className={p === page ? 'active' : ''} aria-current={p === page ? 'page' : undefined}>
-              <span>{p.label}</span>
+              <span>
+                {p.label}
+                {p.beta && <em className="beta">beta</em>}
+              </span>
               <small>{p.subtitle}</small>
             </a>
           ))}

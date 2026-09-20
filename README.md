@@ -16,7 +16,7 @@ Panelde iki sayfa var:
 | **Karayolları (KGM)** | KGM yıllık kaza raporu + kara nokta servisi | 10 yıllık seri, 30 günlük ölümler, Avrupa karşılaştırması, 25 kara nokta |
 | **İstanbul kaza haritası** | İBB Ulaşım Yönetim Merkezi kaza duyuruları | 106 bin konumlu kayıt, 2013–2025 |
 | **İzmir kaza ve arıza** | İzmir Ulaşım Merkezi kayıtları | 24.660 olay, 2021–2026, müdahale süreleriyle |
-| **Canlı olaylar** | TomTom Traffic API | 81 ilde anlık kaza, arızalı araç ve yol kapanması |
+| **Canlı olaylar** (beta) | TomTom Traffic API | 81 ilde anlık kaza, arızalı araç ve yol kapanması |
 
 ## Türkiye geneli
 
@@ -60,7 +60,7 @@ Risk puanı = kaza sayısı + 3 × yaralanmalı kaza + 10 × can kaybı olan kaz
 - **Avrupa karşılaştırması:** Bir milyon kişiye düşen can kaybında Türkiye 28 ülke arasında 5. sırada (70 kişi; diğer ülkelerin ortalaması 47). Yalnızca Bulgaristan, Romanya, Letonya ve Hırvatistan'da oran daha yüksek.
 - **Resmi kaza kara noktaları:** KGM'nin belirlediği, iyileştirme çalışması yürütülen yol kesimleri haritada ve listede.
 
-## Canlı olaylar
+## Canlı olaylar (beta)
 
 - **Anlık olaylar:** 81 ilin tamamında kazalar, arızalı araçlar, yol ve şerit kapanmaları, tehlikeli durumlar ve sıkışıklıklar. 5 dakikada bir yenilenir.
 - **Olay listesi:** Önce kazalar, sonra en yeni olay üstte olacak şekilde sıralanır. Bir olaya tıklayınca harita oraya yakınlaşır.
